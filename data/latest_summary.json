@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是Agent开发平台化与低代码化，如dify和langflow提供生产级工作流构建工具；二是Agent与IDE/终端深度集成，如cline、gemini-cli和everything-claude-code实现自主编码与命令行交互；三是Agent个人化与跨平台部署，如zeroclaw和cherry-studio强调轻量、自主与多平台兼容。项目语言以TypeScript和Python为主，Rust开始用于高性能基础设施。",
+  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是Agent与IDE/终端深度集成，如OpenHands、cline和gemini-cli，实现AI驱动的开发流程；二是多Agent协作与角色扮演框架兴起，如crewAI和lobehub，强调智能体间的协同工作；三是Agent工程化平台化，如langchain和langflow，提供从构建到部署的全栈工具。项目语言以Python和TypeScript为主，Stars数普遍较高，反映出社区对自主Agent、工作流编排和开发效率提升的强烈需求。",
   "project_summaries": [
-    {
-      "name": "everything-claude-code",
-      "full_name": "affaan-m/everything-claude-code",
-      "summary": "面向Claude Code、Codex等AI编码助手的Agent性能优化系统，涵盖技能、本能、记忆、安全与研究优先开发，旨在提升Agent在开发环境中的效率与可靠性。"
-    },
     {
       "name": "OpenHands",
       "full_name": "OpenHands/OpenHands",
-      "summary": "AI驱动的开发平台，通过智能Agent自动化软件开发流程，强调人机协作与高效迭代。"
+      "summary": "AI驱动的开发助手，专注于通过智能体自动化编码、调试和项目管理，提升开发效率。"
     },
     {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "summary": "生产级Agent工作流开发平台，支持可视化编排、模型集成与部署，降低AI应用构建门槛。"
+      "name": "everything-claude-code",
+      "full_name": "affaan-m/everything-claude-code",
+      "summary": "Agent性能优化系统，为Claude Code、Codex等工具提供技能、记忆、安全及研究优先的开发能力。"
     },
     {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google推出的开源终端AI Agent，将Gemini模型能力直接注入命令行，支持自然语言交互与任务执行。"
+      "name": "cline",
+      "full_name": "cline/cline",
+      "summary": "IDE内嵌的自主编码Agent，可创建/编辑文件、执行命令、使用浏览器，每一步需用户授权。"
     },
     {
       "name": "langflow",
       "full_name": "langflow-ai/langflow",
-      "summary": "强大的AI Agent与工作流构建工具，提供可视化拖拽界面，支持快速原型设计与生产部署。"
+      "summary": "强大的AI Agent与工作流构建部署平台，提供可视化编排能力。"
     },
     {
-      "name": "cline",
-      "full_name": "cline/cline",
-      "summary": "IDE内嵌的自主编码Agent，可创建/编辑文件、执行命令、使用浏览器等，每一步需用户授权，兼顾效率与安全。"
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "summary": "Google开源终端AI Agent，将Gemini模型能力直接集成到命令行环境。"
     },
     {
-      "name": "cherry-studio",
-      "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，集成智能聊天、自主Agent与300+助手，统一接入前沿大模型，提升个人与团队工作效率。"
+      "name": "crewAI",
+      "full_name": "crewAIInc/crewAI",
+      "summary": "角色扮演多Agent协作框架，通过协同智能让多个Agent无缝合作完成复杂任务。"
     },
     {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "基于Rust构建的快速、轻量、全自主AI个人助手基础设施，支持任意操作系统与平台，强调可移植性与模块化。"
-    },
-    {
-      "name": "lobehub",
-      "full_name": "lobehub/lobehub",
-      "summary": "下一代Agent工作空间，支持多Agent协作、团队设计，以Agent为交互单元，重塑工作与生活场景。"
+      "name": "deer-flow",
+      "full_name": "bytedance/deer-flow",
+      "summary": "字节跳动开源的长周期SuperAgent框架，集成沙箱、记忆、工具、技能和子Agent，处理分钟到小时级任务。"
     },
     {
       "name": "eliza",
       "full_name": "elizaOS/eliza",
-      "summary": "面向所有人的自主Agent框架，旨在简化Agent开发与部署，推动AI Agent民主化。"
+      "summary": "面向所有人的自主Agent框架，旨在简化Agent的创建与部署。"
+    },
+    {
+      "name": "langchain",
+      "full_name": "langchain-ai/langchain",
+      "summary": "Agent工程化平台，提供构建、测试和部署AI Agent的完整工具链。"
+    },
+    {
+      "name": "lobehub",
+      "full_name": "lobehub/lobehub",
+      "summary": "多Agent协作空间，支持Agent团队设计、协作，并以Agent为工作交互单元。"
     }
   ],
   "recommendation": [
     {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "reason": "生产级Agent工作流平台，低代码可视化编排，社区活跃度高（13.9万星），适合企业级AI应用快速落地。"
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "reason": "低代码可视化平台，大幅降低AI Agent与工作流的构建门槛，适合快速原型与生产部署，社区活跃度高。"
     },
     {
-      "name": "cline",
-      "full_name": "cline/cline",
-      "reason": "IDE内嵌自主编码Agent，兼顾自动化与安全授权，代表AI辅助开发的前沿方向，开发者体验优秀。"
+      "name": "crewAI",
+      "full_name": "crewAIInc/crewAI",
+      "reason": "多Agent角色扮演协作框架，代表Agent从单兵作战向团队协作演进的关键方向，适用于复杂任务分解与协同。"
     },
     {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "reason": "Rust实现的高性能轻量级AI个人助手，跨平台全自主运行，技术栈创新，适合边缘与嵌入式场景。"
+      "name": "deer-flow",
+      "full_name": "bytedance/deer-flow",
+      "reason": "字节跳动出品的长周期SuperAgent，集成沙箱、记忆等高级特性，适合需要持久化、多步骤推理的复杂场景，技术前瞻性强。"
     }
   ]
 }
