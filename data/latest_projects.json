@@ -4,89 +4,89 @@
     "full_name": "elizaOS/eliza",
     "url": "https://github.com/elizaOS/eliza",
     "description": "Autonomous agents for everyone",
-    "stars": 18283,
+    "stars": 18285,
     "language": "TypeScript",
-    "updated_at": "2026-05-01T01:48:40Z"
+    "updated_at": "2026-05-02T01:20:54Z"
   },
   {
     "name": "gemini-cli",
     "full_name": "google-gemini/gemini-cli",
     "url": "https://github.com/google-gemini/gemini-cli",
     "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "stars": 102833,
+    "stars": 102905,
     "language": "TypeScript",
-    "updated_at": "2026-05-01T01:44:45Z"
-  },
-  {
-    "name": "crewAI",
-    "full_name": "crewAIInc/crewAI",
-    "url": "https://github.com/crewAIInc/crewAI",
-    "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-    "stars": 50377,
-    "language": "Python",
-    "updated_at": "2026-05-01T01:39:39Z"
-  },
-  {
-    "name": "langflow",
-    "full_name": "langflow-ai/langflow",
-    "url": "https://github.com/langflow-ai/langflow",
-    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 147572,
-    "language": "Python",
-    "updated_at": "2026-05-01T01:39:01Z"
-  },
-  {
-    "name": "Flowise",
-    "full_name": "FlowiseAI/Flowise",
-    "url": "https://github.com/FlowiseAI/Flowise",
-    "description": "Build AI Agents, Visually",
-    "stars": 52436,
-    "language": "TypeScript",
-    "updated_at": "2026-05-01T01:11:43Z"
+    "updated_at": "2026-05-02T01:18:38Z"
   },
   {
     "name": "OpenHands",
     "full_name": "OpenHands/OpenHands",
     "url": "https://github.com/OpenHands/OpenHands",
     "description": "🙌 OpenHands: AI-Driven Development",
-    "stars": 72431,
+    "stars": 72484,
     "language": "Python",
-    "updated_at": "2026-05-01T01:07:39Z"
+    "updated_at": "2026-05-02T00:56:14Z"
   },
   {
     "name": "lobehub",
     "full_name": "lobehub/lobehub",
     "url": "https://github.com/lobehub/lobehub",
     "description": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
-    "stars": 75898,
+    "stars": 75923,
     "language": "TypeScript",
-    "updated_at": "2026-05-01T01:07:30Z"
+    "updated_at": "2026-05-02T00:56:11Z"
   },
   {
-    "name": "JavaGuide",
-    "full_name": "Snailclimb/JavaGuide",
-    "url": "https://github.com/Snailclimb/JavaGuide",
-    "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
-    "stars": 155354,
-    "language": "Java",
-    "updated_at": "2026-05-01T00:55:00Z"
+    "name": "LibreChat",
+    "full_name": "danny-avila/LibreChat",
+    "url": "https://github.com/danny-avila/LibreChat",
+    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.",
+    "stars": 36410,
+    "language": "TypeScript",
+    "updated_at": "2026-05-02T00:55:33Z"
   },
   {
-    "name": "cherry-studio",
-    "full_name": "CherryHQ/cherry-studio",
-    "url": "https://github.com/CherryHQ/cherry-studio",
-    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-    "stars": 44829,
-    "language": "TypeScript",
-    "updated_at": "2026-05-01T00:51:17Z"
+    "name": "langflow",
+    "full_name": "langflow-ai/langflow",
+    "url": "https://github.com/langflow-ai/langflow",
+    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+    "stars": 147600,
+    "language": "Python",
+    "updated_at": "2026-05-02T00:49:50Z"
   },
   {
     "name": "openai-agents-python",
     "full_name": "openai/openai-agents-python",
     "url": "https://github.com/openai/openai-agents-python",
     "description": "A lightweight, powerful framework for multi-agent workflows",
-    "stars": 25614,
+    "stars": 25707,
     "language": "Python",
-    "updated_at": "2026-05-01T00:49:59Z"
+    "updated_at": "2026-05-02T00:31:25Z"
+  },
+  {
+    "name": "Flowise",
+    "full_name": "FlowiseAI/Flowise",
+    "url": "https://github.com/FlowiseAI/Flowise",
+    "description": "Build AI Agents, Visually",
+    "stars": 52470,
+    "language": "TypeScript",
+    "updated_at": "2026-05-02T00:19:08Z"
+  },
+  {
+    "name": "hermes-agent",
+    "full_name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 128331,
+    "language": "Python",
+    "updated_at": "2026-05-02T00:10:50Z"
+  },
+  {
+    "name": "zeroclaw",
+    "full_name": "zeroclaw-labs/zeroclaw",
+    "url": "https://github.com/zeroclaw-labs/zeroclaw",
+    "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything 🦀",
+    "stars": 30896,
+    "language": "Rust",
+    "updated_at": "2026-05-01T23:26:18Z"
   }
 ]
