@@ -1,108 +1,108 @@
 # 今日 GitHub AI Agent 趋势报告
 
-生成时间：2026-05-02 01:27
+生成时间：2026-05-03 01:31
 
 ## 一、今日总体趋势
 
-当前开源AI Agent领域呈现三大趋势：一是多智能体协作与工作流编排成为核心方向，如OpenHands、LobeHub、OpenAI Agents Python等项目均强调多智能体协同；二是低代码/可视化构建工具兴起，Langflow和Flowise通过拖拽式界面降低AI Agent开发门槛；三是终端与个人助理场景深化，Gemini CLI和zeroclaw分别代表云端AI与本地轻量级Agent的探索。技术栈以TypeScript和Python为主，Rust开始用于高性能场景。
+当前开源AI Agent项目呈现三大趋势：一是多智能体协作与编排成为主流，如LobeHub、Ruflo等平台强调团队化、可编排的智能体系统；二是垂直领域专业化加深，金融研究（Dexter）、渗透测试（Pentagi）等专用Agent涌现；三是开发体验与部署便捷性持续优化，Langflow、Flowise等低代码/可视化工具降低门槛，而Claude-mem、Zeroclaw等则聚焦于上下文记忆与跨平台轻量化部署。技术栈以TypeScript和Python为主，Rust和Go在特定场景（性能、安全）中崭露头角。
 
 ## 二、热门项目列表
 
 ### 1. eliza
 
-- Star：18285
+- Star：18284
 - 语言：TypeScript
-- 更新时间：2026-05-02T01:20:54Z
+- 更新时间：2026-05-03T01:31:06Z
 - 地址：https://github.com/elizaOS/eliza
 - 项目描述：Autonomous agents for everyone
-- AI 总结：面向所有人的自主智能体框架，旨在让非技术人员也能创建和运行AI Agent，降低使用门槛。
+- AI 总结：面向所有人的自主智能体框架，旨在让AI Agent的构建和使用变得简单易行。
 
-### 2. gemini-cli
+### 2. lobehub
 
-- Star：102905
+- Star：75964
 - 语言：TypeScript
-- 更新时间：2026-05-02T01:18:38Z
-- 地址：https://github.com/google-gemini/gemini-cli
-- 项目描述：An open-source AI agent that brings the power of Gemini directly into your terminal.
-- AI 总结：Google推出的开源终端AI Agent，将Gemini模型能力集成到命令行，支持自然语言交互和自动化任务。
-
-### 3. OpenHands
-
-- Star：72484
-- 语言：Python
-- 更新时间：2026-05-02T00:56:14Z
-- 地址：https://github.com/OpenHands/OpenHands
-- 项目描述：🙌 OpenHands: AI-Driven Development
-- AI 总结：AI驱动的开发平台，通过多智能体协作自动完成编码、调试、部署等软件开发全流程。
-
-### 4. lobehub
-
-- Star：75923
-- 语言：TypeScript
-- 更新时间：2026-05-02T00:56:11Z
+- 更新时间：2026-05-03T01:01:39Z
 - 地址：https://github.com/lobehub/lobehub
 - 项目描述：The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.
-- AI 总结：下一代智能体协作平台，支持多Agent团队构建、协作与工作流编排，将Agent作为基本工作单元。
+- AI 总结：终极工作与生活空间，支持多智能体协作、团队设计，将Agent作为工作交互的基本单元，推动Agent编排进入新阶段。
 
-### 5. LibreChat
+### 3. dexter
 
-- Star：36410
+- Star：22260
 - 语言：TypeScript
-- 更新时间：2026-05-02T00:55:33Z
-- 地址：https://github.com/danny-avila/LibreChat
-- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.
-- AI 总结：增强版ChatGPT克隆，集成Agent、MCP、多模型切换、代码解释器等丰富功能，支持自托管。
+- 更新时间：2026-05-03T00:57:31Z
+- 地址：https://github.com/virattt/dexter
+- 项目描述：An autonomous agent for deep financial research
+- AI 总结：专为深度金融研究设计的自主智能体，能够自动执行复杂的金融数据分析与研究工作。
 
-### 6. langflow
+### 4. langflow
 
-- Star：147600
+- Star：147634
 - 语言：Python
-- 更新时间：2026-05-02T00:49:50Z
+- 更新时间：2026-05-03T00:52:57Z
 - 地址：https://github.com/langflow-ai/langflow
 - 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
-- AI 总结：强大的AI Agent和工作流可视化构建工具，通过拖拽界面快速搭建复杂AI应用。
+- AI 总结：强大的AI Agent与工作流构建部署工具，提供可视化界面，降低开发门槛，支持快速搭建复杂AI应用。
 
-### 7. openai-agents-python
+### 5. agent-zero
 
-- Star：25707
+- Star：17486
 - 语言：Python
-- 更新时间：2026-05-02T00:31:25Z
-- 地址：https://github.com/openai/openai-agents-python
-- 项目描述：A lightweight, powerful framework for multi-agent workflows
-- AI 总结：OpenAI官方推出的轻量级多智能体工作流框架，专注于简洁高效的Agent编排。
+- 更新时间：2026-05-03T00:16:01Z
+- 地址：https://github.com/agent0ai/agent-zero
+- 项目描述：Agent Zero AI framework
+- AI 总结：Agent Zero AI框架，提供基础性的自主智能体开发能力，注重灵活性与可扩展性。
 
-### 8. Flowise
+### 6. claude-mem
 
-- Star：52470
+- Star：71094
 - 语言：TypeScript
-- 更新时间：2026-05-02T00:19:08Z
+- 更新时间：2026-05-02T23:09:33Z
+- 地址：https://github.com/thedotmack/claude-mem
+- 项目描述：A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.
+- AI 总结：Claude Code插件，自动捕获编码会话中的上下文，通过AI压缩并注入到未来会话中，实现持久化记忆与上下文增强。
+
+### 7. Flowise
+
+- Star：52495
+- 语言：TypeScript
+- 更新时间：2026-05-02T23:03:37Z
 - 地址：https://github.com/FlowiseAI/Flowise
 - 项目描述：Build AI Agents, Visually
-- AI 总结：可视化AI Agent构建工具，无需编程即可设计、测试和部署智能体应用。
+- AI 总结：可视化构建AI Agent的平台，通过拖拽式界面降低AI应用开发复杂度，适合非技术人员使用。
 
-### 9. hermes-agent
+### 8. zeroclaw
 
-- Star：128331
-- 语言：Python
-- 更新时间：2026-05-02T00:10:50Z
-- 地址：https://github.com/NousResearch/hermes-agent
-- 项目描述：The agent that grows with you
-- AI 总结：与用户共同成长的个性化Agent，强调持续学习和自适应能力。
-
-### 10. zeroclaw
-
-- Star：30896
+- Star：30931
 - 语言：Rust
-- 更新时间：2026-05-01T23:26:18Z
+- 更新时间：2026-05-02T23:00:23Z
 - 地址：https://github.com/zeroclaw-labs/zeroclaw
 - 项目描述：Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything 🦀
-- AI 总结：用Rust编写的高性能、轻量级AI个人助理基础设施，支持跨平台部署和模块化组件替换。
+- AI 总结：快速、小巧、完全自主的AI个人助理基础设施，支持跨平台部署（任何OS、任何平台），采用Rust实现高性能。
+
+### 9. ruflo
+
+- Star：36843
+- 语言：TypeScript
+- 更新时间：2026-05-02T21:53:09Z
+- 地址：https://github.com/ruvnet/ruflo
+- 项目描述：🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration
+- AI 总结：领先的Claude Agent编排平台，支持多智能体集群、自主工作流协调、RAG集成及企业级架构，原生集成Claude Code/Codex。
+
+### 10. pentagi
+
+- Star：16345
+- 语言：Go
+- 更新时间：2026-05-02T21:49:03Z
+- 地址：https://github.com/vxcontrol/pentagi
+- 项目描述：Fully autonomous AI Agents system capable of performing complex penetration testing tasks
+- AI 总结：完全自主的AI Agent系统，专为复杂渗透测试任务设计，能够自动化执行安全评估与漏洞挖掘。
 
 ## 三、最值得关注的项目
 
-1. langflow：以147k+星标位居榜首，可视化构建AI Agent和工作流的理念降低了开发门槛，适合快速原型设计和企业级应用。
-2. lobehub：代表多智能体协作的前沿方向，将Agent作为工作单元的理念具有创新性，适合复杂团队协作场景。
-3. gemini-cli：Google官方支持，将强大AI能力带入终端，102k+星标验证了其价值，适合开发者和运维人员提升效率。
+1. lobehub：以多智能体协作与团队设计为核心，代表了Agent从单兵作战向团队化、编排化演进的关键趋势，且社区活跃度极高（75k+ stars），是理解下一代Agent交互范式的标杆项目。
+2. langflow：作为可视化AI Agent构建工具，Langflow以147k stars成为最受关注的项目之一，它极大降低了AI应用开发门槛，推动了Agent技术的民主化，是低代码/无代码趋势的代表。
+3. claude-mem：聚焦于Agent的长期记忆与上下文管理，解决了当前AI Agent普遍缺乏持续记忆的痛点，71k stars表明市场对增强Agent认知能力的强烈需求，是提升Agent实用性的关键创新。
 
 ## 四、项目说明
 
