@@ -1,92 +1,92 @@
 [
   {
-    "name": "eliza",
-    "full_name": "elizaOS/eliza",
-    "url": "https://github.com/elizaOS/eliza",
-    "description": "Autonomous agents for everyone",
-    "stars": 18284,
+    "name": "dify",
+    "full_name": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "description": "Production-ready platform for agentic workflow development.",
+    "stars": 139990,
     "language": "TypeScript",
-    "updated_at": "2026-05-03T01:31:06Z"
+    "updated_at": "2026-05-04T01:28:34Z"
+  },
+  {
+    "name": "LibreChat",
+    "full_name": "danny-avila/LibreChat",
+    "url": "https://github.com/danny-avila/LibreChat",
+    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.",
+    "stars": 36503,
+    "language": "TypeScript",
+    "updated_at": "2026-05-04T01:27:43Z"
+  },
+  {
+    "name": "ruflo",
+    "full_name": "ruvnet/ruflo",
+    "url": "https://github.com/ruvnet/ruflo",
+    "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+    "stars": 39043,
+    "language": "TypeScript",
+    "updated_at": "2026-05-04T01:26:28Z"
+  },
+  {
+    "name": "openai-agents-python",
+    "full_name": "openai/openai-agents-python",
+    "url": "https://github.com/openai/openai-agents-python",
+    "description": "A lightweight, powerful framework for multi-agent workflows",
+    "stars": 25824,
+    "language": "Python",
+    "updated_at": "2026-05-04T01:19:58Z"
+  },
+  {
+    "name": "awesome-llm-apps",
+    "full_name": "Shubhamsaboo/awesome-llm-apps",
+    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+    "stars": 108585,
+    "language": "Python",
+    "updated_at": "2026-05-04T01:12:36Z"
   },
   {
     "name": "lobehub",
     "full_name": "lobehub/lobehub",
     "url": "https://github.com/lobehub/lobehub",
     "description": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
-    "stars": 75964,
+    "stars": 75987,
     "language": "TypeScript",
-    "updated_at": "2026-05-03T01:01:39Z"
-  },
-  {
-    "name": "dexter",
-    "full_name": "virattt/dexter",
-    "url": "https://github.com/virattt/dexter",
-    "description": "An autonomous agent for deep financial research",
-    "stars": 22260,
-    "language": "TypeScript",
-    "updated_at": "2026-05-03T00:57:31Z"
+    "updated_at": "2026-05-04T00:59:23Z"
   },
   {
     "name": "langflow",
     "full_name": "langflow-ai/langflow",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 147634,
+    "stars": 147662,
     "language": "Python",
-    "updated_at": "2026-05-03T00:52:57Z"
+    "updated_at": "2026-05-04T00:51:53Z"
   },
   {
-    "name": "agent-zero",
-    "full_name": "agent0ai/agent-zero",
-    "url": "https://github.com/agent0ai/agent-zero",
-    "description": "Agent Zero AI framework",
-    "stars": 17486,
-    "language": "Python",
-    "updated_at": "2026-05-03T00:16:01Z"
+    "name": "oh-my-claudecode",
+    "full_name": "Yeachan-Heo/oh-my-claudecode",
+    "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+    "description": "Teams-first Multi-agent orchestration for Claude Code",
+    "stars": 32410,
+    "language": "TypeScript",
+    "updated_at": "2026-05-04T00:46:01Z"
   },
   {
     "name": "claude-mem",
     "full_name": "thedotmack/claude-mem",
     "url": "https://github.com/thedotmack/claude-mem",
     "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
-    "stars": 71094,
+    "stars": 71564,
     "language": "TypeScript",
-    "updated_at": "2026-05-02T23:09:33Z"
+    "updated_at": "2026-05-04T00:34:04Z"
   },
   {
-    "name": "Flowise",
-    "full_name": "FlowiseAI/Flowise",
-    "url": "https://github.com/FlowiseAI/Flowise",
-    "description": "Build AI Agents, Visually",
-    "stars": 52495,
+    "name": "gemini-cli",
+    "full_name": "google-gemini/gemini-cli",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+    "stars": 103065,
     "language": "TypeScript",
-    "updated_at": "2026-05-02T23:03:37Z"
-  },
-  {
-    "name": "zeroclaw",
-    "full_name": "zeroclaw-labs/zeroclaw",
-    "url": "https://github.com/zeroclaw-labs/zeroclaw",
-    "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything 🦀",
-    "stars": 30931,
-    "language": "Rust",
-    "updated_at": "2026-05-02T23:00:23Z"
-  },
-  {
-    "name": "ruflo",
-    "full_name": "ruvnet/ruflo",
-    "url": "https://github.com/ruvnet/ruflo",
-    "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
-    "stars": 36843,
-    "language": "TypeScript",
-    "updated_at": "2026-05-02T21:53:09Z"
-  },
-  {
-    "name": "pentagi",
-    "full_name": "vxcontrol/pentagi",
-    "url": "https://github.com/vxcontrol/pentagi",
-    "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-    "stars": 16345,
-    "language": "Go",
-    "updated_at": "2026-05-02T21:49:03Z"
+    "updated_at": "2026-05-04T00:21:27Z"
   }
 ]

@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent项目呈现三大趋势：一是多智能体协作与编排成为主流，如LobeHub、Ruflo等平台强调团队化、可编排的智能体系统；二是垂直领域专业化加深，金融研究（Dexter）、渗透测试（Pentagi）等专用Agent涌现；三是开发体验与部署便捷性持续优化，Langflow、Flowise等低代码/可视化工具降低门槛，而Claude-mem、Zeroclaw等则聚焦于上下文记忆与跨平台轻量化部署。技术栈以TypeScript和Python为主，Rust和Go在特定场景（性能、安全）中崭露头角。",
+  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是多智能体编排与协作成为核心能力，如ruflo、oh-my-claudecode等项目专注于多智能体工作流协调；二是生产级平台化与低代码化，dify、langflow等提供从开发到部署的完整链路；三是终端与开发工具深度融合，gemini-cli、claude-mem等将AI Agent能力嵌入命令行与编码环境，提升开发者体验。整体上，项目以TypeScript和Python为主，强调可扩展性、多模型支持和自托管能力。",
   "project_summaries": [
     {
-      "name": "eliza",
-      "full_name": "elizaOS/eliza",
-      "summary": "面向所有人的自主智能体框架，旨在让AI Agent的构建和使用变得简单易行。"
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "summary": "生产级智能体工作流开发平台，支持可视化编排、多模型集成和快速部署，适合企业级应用构建。"
     },
     {
-      "name": "lobehub",
-      "full_name": "lobehub/lobehub",
-      "summary": "终极工作与生活空间，支持多智能体协作、团队设计，将Agent作为工作交互的基本单元，推动Agent编排进入新阶段。"
-    },
-    {
-      "name": "dexter",
-      "full_name": "virattt/dexter",
-      "summary": "专为深度金融研究设计的自主智能体，能够自动执行复杂的金融数据分析与研究工作。"
-    },
-    {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "summary": "强大的AI Agent与工作流构建部署工具，提供可视化界面，降低开发门槛，支持快速搭建复杂AI应用。"
-    },
-    {
-      "name": "agent-zero",
-      "full_name": "agent0ai/agent-zero",
-      "summary": "Agent Zero AI框架，提供基础性的自主智能体开发能力，注重灵活性与可扩展性。"
-    },
-    {
-      "name": "claude-mem",
-      "full_name": "thedotmack/claude-mem",
-      "summary": "Claude Code插件，自动捕获编码会话中的上下文，通过AI压缩并注入到未来会话中，实现持久化记忆与上下文增强。"
-    },
-    {
-      "name": "Flowise",
-      "full_name": "FlowiseAI/Flowise",
-      "summary": "可视化构建AI Agent的平台，通过拖拽式界面降低AI应用开发复杂度，适合非技术人员使用。"
-    },
-    {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "快速、小巧、完全自主的AI个人助理基础设施，支持跨平台部署（任何OS、任何平台），采用Rust实现高性能。"
+      "name": "LibreChat",
+      "full_name": "danny-avila/LibreChat",
+      "summary": "增强版ChatGPT克隆，集成Agent、MCP、多模型支持（DeepSeek、Anthropic、OpenAI等）、代码解释器、安全多用户认证等丰富功能，开源可自托管。"
     },
     {
       "name": "ruflo",
       "full_name": "ruvnet/ruflo",
-      "summary": "领先的Claude Agent编排平台，支持多智能体集群、自主工作流协调、RAG集成及企业级架构，原生集成Claude Code/Codex。"
+      "summary": "领先的Claude智能体编排平台，支持多智能体群组部署、自主工作流协调、RAG集成及企业级架构，具备自学习群智能能力。"
     },
     {
-      "name": "pentagi",
-      "full_name": "vxcontrol/pentagi",
-      "summary": "完全自主的AI Agent系统，专为复杂渗透测试任务设计，能够自动化执行安全评估与漏洞挖掘。"
-    }
-  ],
-  "recommendation": [
+      "name": "openai-agents-python",
+      "full_name": "openai/openai-agents-python",
+      "summary": "OpenAI官方推出的轻量级多智能体工作流框架，简洁高效，适合快速构建和实验多Agent系统。"
+    },
+    {
+      "name": "awesome-llm-apps",
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "summary": "100+可运行的AI Agent与RAG应用集合，覆盖多种场景，支持克隆、定制和快速部署，是学习和实践的资源宝库。"
+    },
     {
       "name": "lobehub",
       "full_name": "lobehub/lobehub",
-      "reason": "以多智能体协作与团队设计为核心，代表了Agent从单兵作战向团队化、编排化演进的关键趋势，且社区活跃度极高（75k+ stars），是理解下一代Agent交互范式的标杆项目。"
+      "summary": "面向工作和生活的智能体协作空间，支持多Agent协作、团队设计，将Agent作为工作交互单元，提升生产力。"
     },
     {
       "name": "langflow",
       "full_name": "langflow-ai/langflow",
-      "reason": "作为可视化AI Agent构建工具，Langflow以147k stars成为最受关注的项目之一，它极大降低了AI应用开发门槛，推动了Agent技术的民主化，是低代码/无代码趋势的代表。"
+      "summary": "强大的AI Agent和工作流构建与部署工具，提供可视化界面，降低开发门槛，加速AI应用落地。"
+    },
+    {
+      "name": "oh-my-claudecode",
+      "full_name": "Yeachan-Heo/oh-my-claudecode",
+      "summary": "面向团队的多Agent编排工具，专为Claude Code设计，优化协作与工作流管理。"
     },
     {
       "name": "claude-mem",
       "full_name": "thedotmack/claude-mem",
-      "reason": "聚焦于Agent的长期记忆与上下文管理，解决了当前AI Agent普遍缺乏持续记忆的痛点，71k stars表明市场对增强Agent认知能力的强烈需求，是提升Agent实用性的关键创新。"
+      "summary": "Claude Code插件，自动捕获编码会话中的操作，利用AI压缩并注入相关上下文到未来会话，实现持久化记忆。"
+    },
+    {
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "summary": "Google开源终端AI Agent，将Gemini能力直接带入命令行，支持自然语言交互和自动化任务。"
+    }
+  ],
+  "recommendation": [
+    {
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "reason": "生产级平台，高星数（139k+），可视化编排与多模型支持，适合企业快速构建和部署智能体工作流，生态成熟。"
+    },
+    {
+      "name": "ruflo",
+      "full_name": "ruvnet/ruflo",
+      "reason": "专注Claude生态的多Agent编排，自学习群智能和RAG集成代表前沿方向，星数增长迅速（39k+），创新性强。"
+    },
+    {
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "reason": "Google官方开源，将AI Agent深度融入终端，星数超100k，代表AI与开发者工具融合趋势，实用价值高。"
     }
   ]
 }

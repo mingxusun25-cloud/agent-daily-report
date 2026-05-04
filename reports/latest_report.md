@@ -1,108 +1,108 @@
 # 今日 GitHub AI Agent 趋势报告
 
-生成时间：2026-05-03 01:31
+生成时间：2026-05-04 01:29
 
 ## 一、今日总体趋势
 
-当前开源AI Agent项目呈现三大趋势：一是多智能体协作与编排成为主流，如LobeHub、Ruflo等平台强调团队化、可编排的智能体系统；二是垂直领域专业化加深，金融研究（Dexter）、渗透测试（Pentagi）等专用Agent涌现；三是开发体验与部署便捷性持续优化，Langflow、Flowise等低代码/可视化工具降低门槛，而Claude-mem、Zeroclaw等则聚焦于上下文记忆与跨平台轻量化部署。技术栈以TypeScript和Python为主，Rust和Go在特定场景（性能、安全）中崭露头角。
+当前开源AI Agent生态呈现三大趋势：一是多智能体编排与协作成为核心能力，如ruflo、oh-my-claudecode等项目专注于多智能体工作流协调；二是生产级平台化与低代码化，dify、langflow等提供从开发到部署的完整链路；三是终端与开发工具深度融合，gemini-cli、claude-mem等将AI Agent能力嵌入命令行与编码环境，提升开发者体验。整体上，项目以TypeScript和Python为主，强调可扩展性、多模型支持和自托管能力。
 
 ## 二、热门项目列表
 
-### 1. eliza
+### 1. dify
 
-- Star：18284
+- Star：139990
 - 语言：TypeScript
-- 更新时间：2026-05-03T01:31:06Z
-- 地址：https://github.com/elizaOS/eliza
-- 项目描述：Autonomous agents for everyone
-- AI 总结：面向所有人的自主智能体框架，旨在让AI Agent的构建和使用变得简单易行。
+- 更新时间：2026-05-04T01:28:34Z
+- 地址：https://github.com/langgenius/dify
+- 项目描述：Production-ready platform for agentic workflow development.
+- AI 总结：生产级智能体工作流开发平台，支持可视化编排、多模型集成和快速部署，适合企业级应用构建。
 
-### 2. lobehub
+### 2. LibreChat
 
-- Star：75964
+- Star：36503
 - 语言：TypeScript
-- 更新时间：2026-05-03T01:01:39Z
+- 更新时间：2026-05-04T01:27:43Z
+- 地址：https://github.com/danny-avila/LibreChat
+- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.
+- AI 总结：增强版ChatGPT克隆，集成Agent、MCP、多模型支持（DeepSeek、Anthropic、OpenAI等）、代码解释器、安全多用户认证等丰富功能，开源可自托管。
+
+### 3. ruflo
+
+- Star：39043
+- 语言：TypeScript
+- 更新时间：2026-05-04T01:26:28Z
+- 地址：https://github.com/ruvnet/ruflo
+- 项目描述：🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration
+- AI 总结：领先的Claude智能体编排平台，支持多智能体群组部署、自主工作流协调、RAG集成及企业级架构，具备自学习群智能能力。
+
+### 4. openai-agents-python
+
+- Star：25824
+- 语言：Python
+- 更新时间：2026-05-04T01:19:58Z
+- 地址：https://github.com/openai/openai-agents-python
+- 项目描述：A lightweight, powerful framework for multi-agent workflows
+- AI 总结：OpenAI官方推出的轻量级多智能体工作流框架，简洁高效，适合快速构建和实验多Agent系统。
+
+### 5. awesome-llm-apps
+
+- Star：108585
+- 语言：Python
+- 更新时间：2026-05-04T01:12:36Z
+- 地址：https://github.com/Shubhamsaboo/awesome-llm-apps
+- 项目描述：100+ AI Agent & RAG apps you can actually run — clone, customize, ship.
+- AI 总结：100+可运行的AI Agent与RAG应用集合，覆盖多种场景，支持克隆、定制和快速部署，是学习和实践的资源宝库。
+
+### 6. lobehub
+
+- Star：75987
+- 语言：TypeScript
+- 更新时间：2026-05-04T00:59:23Z
 - 地址：https://github.com/lobehub/lobehub
 - 项目描述：The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.
-- AI 总结：终极工作与生活空间，支持多智能体协作、团队设计，将Agent作为工作交互的基本单元，推动Agent编排进入新阶段。
+- AI 总结：面向工作和生活的智能体协作空间，支持多Agent协作、团队设计，将Agent作为工作交互单元，提升生产力。
 
-### 3. dexter
+### 7. langflow
 
-- Star：22260
-- 语言：TypeScript
-- 更新时间：2026-05-03T00:57:31Z
-- 地址：https://github.com/virattt/dexter
-- 项目描述：An autonomous agent for deep financial research
-- AI 总结：专为深度金融研究设计的自主智能体，能够自动执行复杂的金融数据分析与研究工作。
-
-### 4. langflow
-
-- Star：147634
+- Star：147662
 - 语言：Python
-- 更新时间：2026-05-03T00:52:57Z
+- 更新时间：2026-05-04T00:51:53Z
 - 地址：https://github.com/langflow-ai/langflow
 - 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
-- AI 总结：强大的AI Agent与工作流构建部署工具，提供可视化界面，降低开发门槛，支持快速搭建复杂AI应用。
+- AI 总结：强大的AI Agent和工作流构建与部署工具，提供可视化界面，降低开发门槛，加速AI应用落地。
 
-### 5. agent-zero
+### 8. oh-my-claudecode
 
-- Star：17486
-- 语言：Python
-- 更新时间：2026-05-03T00:16:01Z
-- 地址：https://github.com/agent0ai/agent-zero
-- 项目描述：Agent Zero AI framework
-- AI 总结：Agent Zero AI框架，提供基础性的自主智能体开发能力，注重灵活性与可扩展性。
-
-### 6. claude-mem
-
-- Star：71094
+- Star：32410
 - 语言：TypeScript
-- 更新时间：2026-05-02T23:09:33Z
+- 更新时间：2026-05-04T00:46:01Z
+- 地址：https://github.com/Yeachan-Heo/oh-my-claudecode
+- 项目描述：Teams-first Multi-agent orchestration for Claude Code
+- AI 总结：面向团队的多Agent编排工具，专为Claude Code设计，优化协作与工作流管理。
+
+### 9. claude-mem
+
+- Star：71564
+- 语言：TypeScript
+- 更新时间：2026-05-04T00:34:04Z
 - 地址：https://github.com/thedotmack/claude-mem
 - 项目描述：A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.
-- AI 总结：Claude Code插件，自动捕获编码会话中的上下文，通过AI压缩并注入到未来会话中，实现持久化记忆与上下文增强。
+- AI 总结：Claude Code插件，自动捕获编码会话中的操作，利用AI压缩并注入相关上下文到未来会话，实现持久化记忆。
 
-### 7. Flowise
+### 10. gemini-cli
 
-- Star：52495
+- Star：103065
 - 语言：TypeScript
-- 更新时间：2026-05-02T23:03:37Z
-- 地址：https://github.com/FlowiseAI/Flowise
-- 项目描述：Build AI Agents, Visually
-- AI 总结：可视化构建AI Agent的平台，通过拖拽式界面降低AI应用开发复杂度，适合非技术人员使用。
-
-### 8. zeroclaw
-
-- Star：30931
-- 语言：Rust
-- 更新时间：2026-05-02T23:00:23Z
-- 地址：https://github.com/zeroclaw-labs/zeroclaw
-- 项目描述：Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything 🦀
-- AI 总结：快速、小巧、完全自主的AI个人助理基础设施，支持跨平台部署（任何OS、任何平台），采用Rust实现高性能。
-
-### 9. ruflo
-
-- Star：36843
-- 语言：TypeScript
-- 更新时间：2026-05-02T21:53:09Z
-- 地址：https://github.com/ruvnet/ruflo
-- 项目描述：🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration
-- AI 总结：领先的Claude Agent编排平台，支持多智能体集群、自主工作流协调、RAG集成及企业级架构，原生集成Claude Code/Codex。
-
-### 10. pentagi
-
-- Star：16345
-- 语言：Go
-- 更新时间：2026-05-02T21:49:03Z
-- 地址：https://github.com/vxcontrol/pentagi
-- 项目描述：Fully autonomous AI Agents system capable of performing complex penetration testing tasks
-- AI 总结：完全自主的AI Agent系统，专为复杂渗透测试任务设计，能够自动化执行安全评估与漏洞挖掘。
+- 更新时间：2026-05-04T00:21:27Z
+- 地址：https://github.com/google-gemini/gemini-cli
+- 项目描述：An open-source AI agent that brings the power of Gemini directly into your terminal.
+- AI 总结：Google开源终端AI Agent，将Gemini能力直接带入命令行，支持自然语言交互和自动化任务。
 
 ## 三、最值得关注的项目
 
-1. lobehub：以多智能体协作与团队设计为核心，代表了Agent从单兵作战向团队化、编排化演进的关键趋势，且社区活跃度极高（75k+ stars），是理解下一代Agent交互范式的标杆项目。
-2. langflow：作为可视化AI Agent构建工具，Langflow以147k stars成为最受关注的项目之一，它极大降低了AI应用开发门槛，推动了Agent技术的民主化，是低代码/无代码趋势的代表。
-3. claude-mem：聚焦于Agent的长期记忆与上下文管理，解决了当前AI Agent普遍缺乏持续记忆的痛点，71k stars表明市场对增强Agent认知能力的强烈需求，是提升Agent实用性的关键创新。
+1. dify：生产级平台，高星数（139k+），可视化编排与多模型支持，适合企业快速构建和部署智能体工作流，生态成熟。
+2. ruflo：专注Claude生态的多Agent编排，自学习群智能和RAG集成代表前沿方向，星数增长迅速（39k+），创新性强。
+3. gemini-cli：Google官方开源，将AI Agent深度融入终端，星数超100k，代表AI与开发者工具融合趋势，实用价值高。
 
 ## 四、项目说明
 
