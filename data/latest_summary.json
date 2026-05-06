@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent项目呈现三大趋势：一是低代码/可视化构建平台（如Flowise、Langflow）降低开发门槛；二是多智能体协作与编排框架（如crewAI、ruflo）成为主流；三是终端与个人助手场景（如gemini-cli、zeroclaw）快速崛起。技术栈以TypeScript和Python为主，Rust开始用于高性能基础设施。项目普遍强调自主性、可扩展性和多模型支持。",
+  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是从单一对话式Agent向多Agent协作与工作流编排演进，如dify、langflow、openai-agents-python等平台强调生产级、可视化的工作流构建；二是Agent深度嵌入开发环境，如cline、gemini-cli、claude-mem等工具将AI能力直接集成到IDE或终端，实现代码生成、文件操作、上下文记忆等自动化；三是Agent平台化与团队化，如lobehub、multica等致力于将Agent转化为可协作的“数字队友”，支持任务分配、技能积累与多Agent协同。语言上TypeScript占主导，Python紧随其后，反映出前端生态与AI框架的融合趋势。",
   "project_summaries": [
     {
-      "name": "LibreChat",
-      "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，集成Agent、MCP、多模型支持（DeepSeek、Anthropic、OpenAI等）、代码解释器、OpenAPI Actions、安全多用户认证，支持自托管，功能丰富且活跃更新。"
+      "name": "eliza",
+      "full_name": "elizaOS/eliza",
+      "summary": "面向所有人的自主Agent框架，旨在降低AI Agent开发门槛，让非专业用户也能构建和运行自主智能体。"
+    },
+    {
+      "name": "claude-mem",
+      "full_name": "thedotmack/claude-mem",
+      "summary": "Claude Code插件，自动捕获编码会话中的全部操作，利用AI压缩并注入相关上下文到未来会话，实现跨会话的持久记忆与上下文复用。"
+    },
+    {
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "summary": "生产级Agent工作流开发平台，支持可视化编排、多模型集成与部署，强调从原型到生产的全链路能力。"
+    },
+    {
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "summary": "Google推出的开源终端AI Agent，将Gemini模型能力直接引入命令行，支持自然语言交互、代码生成与系统操作。"
+    },
+    {
+      "name": "multica",
+      "full_name": "multica-ai/multica",
+      "summary": "开源托管Agent平台，将编码Agent转化为真正的队友，支持任务分配、进度追踪与技能积累，强调团队协作与持续学习。"
+    },
+    {
+      "name": "cline",
+      "full_name": "cline/cline",
+      "summary": "IDE内自主编码Agent，能够创建/编辑文件、执行命令、使用浏览器等，每一步需用户授权，兼顾自动化与安全性。"
     },
     {
       "name": "Flowise",
       "full_name": "FlowiseAI/Flowise",
-      "summary": "可视化构建AI Agent的低代码平台，通过拖拽界面快速创建和部署智能体工作流，降低开发门槛。"
-    },
-    {
-      "name": "ruflo",
-      "full_name": "ruvnet/ruflo",
-      "summary": "面向Claude的领先Agent编排平台，支持多智能体集群部署、自主工作流协调、RAG集成及原生Claude Code/Codex集成，具备企业级架构和自学习能力。"
-    },
-    {
-      "name": "OpenHands",
-      "full_name": "OpenHands/OpenHands",
-      "summary": "AI驱动的开发助手，通过智能体自动化软件开发流程，提升编码效率。"
-    },
-    {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "快速、小巧、完全自主的AI个人助理基础设施，跨平台支持（任意OS/平台），使用Rust构建，强调可部署性和组件可替换性。"
-    },
-    {
-      "name": "crewAI",
-      "full_name": "crewAIInc/crewAI",
-      "summary": "多智能体角色扮演与协作框架，通过协作智能让AI代理无缝协同处理复杂任务，支持自主决策。"
-    },
-    {
-      "name": "eliza",
-      "full_name": "elizaOS/eliza",
-      "summary": "面向所有人的自主智能体框架，旨在简化AI代理的创建与部署。"
-    },
-    {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google推出的开源AI终端代理，将Gemini能力直接集成到命令行，实现终端内的智能交互。"
+      "summary": "可视化AI Agent构建工具，通过拖拽式界面快速搭建Agent工作流，降低开发门槛，适合快速原型与实验。"
     },
     {
       "name": "lobehub",
       "full_name": "lobehub/lobehub",
-      "summary": "工作与生活的智能空间，支持多智能体协作、团队设计，将Agent作为工作交互单元，提供构建和协作平台。"
+      "summary": "Agent协作与工作空间平台，支持多Agent协作、团队设计，将Agent作为工作交互单元，致力于打造可成长的数字队友生态。"
+    },
+    {
+      "name": "openai-agents-python",
+      "full_name": "openai/openai-agents-python",
+      "summary": "OpenAI官方推出的轻量级多Agent工作流框架，基于Python，强调简洁、强大，适合快速构建多Agent协作系统。"
     },
     {
       "name": "langflow",
       "full_name": "langflow-ai/langflow",
-      "summary": "强大的AI Agent和工作流构建与部署工具，提供可视化界面和Python后端，支持快速原型开发。"
+      "summary": "强大的AI Agent与工作流构建部署工具，提供可视化界面与Python API，支持复杂流程编排与生产级部署。"
     }
   ],
   "recommendation": [
     {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "reason": "拥有最高星数（147k+），可视化构建AI工作流，社区活跃，生态成熟，适合快速原型和低代码部署。"
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "reason": "生产级Agent工作流平台，社区活跃度高（14万+星），覆盖从原型到部署全流程，是当前最成熟的Agent开发基础设施之一。"
     },
     {
-      "name": "crewAI",
-      "full_name": "crewAIInc/crewAI",
-      "reason": "多智能体协作框架的标杆，强调角色扮演和自主协同，代表Agent技术从单机向群体智能演进的核心方向。"
+      "name": "cline",
+      "full_name": "cline/cline",
+      "reason": "IDE内自主编码Agent，代表AI辅助开发的最新范式，兼顾自动化与用户控制，对开发者生产力提升具有直接价值。"
     },
     {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "reason": "Google官方开源项目，星数超100k，将AI Agent直接嵌入终端，开辟了命令行智能交互的新范式，具有广泛的应用前景。"
+      "name": "lobehub",
+      "full_name": "lobehub/lobehub",
+      "reason": "多Agent协作与团队化平台，创新性地将Agent作为工作单元，代表Agent从工具向队友演进的未来方向，社区关注度高（7.6万+星）。"
     }
   ]
 }
