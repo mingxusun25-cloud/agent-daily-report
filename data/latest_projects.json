@@ -1,92 +1,92 @@
 [
   {
-    "name": "eliza",
-    "full_name": "elizaOS/eliza",
-    "url": "https://github.com/elizaOS/eliza",
-    "description": "Autonomous agents for everyone",
-    "stars": 18308,
-    "language": "TypeScript",
-    "updated_at": "2026-05-06T01:27:17Z"
-  },
-  {
-    "name": "claude-mem",
-    "full_name": "thedotmack/claude-mem",
-    "url": "https://github.com/thedotmack/claude-mem",
-    "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
-    "stars": 72503,
-    "language": "TypeScript",
-    "updated_at": "2026-05-06T01:27:11Z"
-  },
-  {
     "name": "dify",
     "full_name": "langgenius/dify",
     "url": "https://github.com/langgenius/dify",
     "description": "Production-ready platform for agentic workflow development.",
-    "stars": 140184,
+    "stars": 140373,
     "language": "TypeScript",
-    "updated_at": "2026-05-06T01:25:12Z"
+    "updated_at": "2026-05-07T01:46:06Z"
   },
   {
-    "name": "gemini-cli",
-    "full_name": "google-gemini/gemini-cli",
-    "url": "https://github.com/google-gemini/gemini-cli",
-    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "stars": 103215,
+    "name": "LibreChat",
+    "full_name": "danny-avila/LibreChat",
+    "url": "https://github.com/danny-avila/LibreChat",
+    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.",
+    "stars": 36660,
     "language": "TypeScript",
-    "updated_at": "2026-05-06T01:10:57Z"
+    "updated_at": "2026-05-07T01:45:55Z"
   },
   {
-    "name": "multica",
-    "full_name": "multica-ai/multica",
-    "url": "https://github.com/multica-ai/multica",
-    "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
-    "stars": 24842,
-    "language": "TypeScript",
-    "updated_at": "2026-05-06T01:00:11Z"
+    "name": "agent-zero",
+    "full_name": "agent0ai/agent-zero",
+    "url": "https://github.com/agent0ai/agent-zero",
+    "description": "Agent Zero AI framework",
+    "stars": 17567,
+    "language": "Python",
+    "updated_at": "2026-05-07T01:41:02Z"
   },
   {
-    "name": "cline",
-    "full_name": "cline/cline",
-    "url": "https://github.com/cline/cline",
-    "description": "Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.",
-    "stars": 61393,
-    "language": "TypeScript",
-    "updated_at": "2026-05-06T00:57:56Z"
-  },
-  {
-    "name": "Flowise",
-    "full_name": "FlowiseAI/Flowise",
-    "url": "https://github.com/FlowiseAI/Flowise",
-    "description": "Build AI Agents, Visually",
-    "stars": 52563,
-    "language": "TypeScript",
-    "updated_at": "2026-05-06T00:56:32Z"
-  },
-  {
-    "name": "lobehub",
-    "full_name": "lobehub/lobehub",
-    "url": "https://github.com/lobehub/lobehub",
-    "description": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
-    "stars": 76074,
-    "language": "TypeScript",
-    "updated_at": "2026-05-06T00:53:57Z"
+    "name": "hermes-agent",
+    "full_name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 135995,
+    "language": "Python",
+    "updated_at": "2026-05-07T01:40:32Z"
   },
   {
     "name": "openai-agents-python",
     "full_name": "openai/openai-agents-python",
     "url": "https://github.com/openai/openai-agents-python",
     "description": "A lightweight, powerful framework for multi-agent workflows",
-    "stars": 25913,
+    "stars": 25948,
     "language": "Python",
-    "updated_at": "2026-05-06T00:53:55Z"
+    "updated_at": "2026-05-07T01:38:06Z"
+  },
+  {
+    "name": "claude-mem",
+    "full_name": "thedotmack/claude-mem",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+    "stars": 72975,
+    "language": "TypeScript",
+    "updated_at": "2026-05-07T01:32:45Z"
   },
   {
     "name": "langflow",
     "full_name": "langflow-ai/langflow",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 147730,
+    "stars": 147783,
     "language": "Python",
-    "updated_at": "2026-05-06T00:47:45Z"
+    "updated_at": "2026-05-07T01:07:13Z"
+  },
+  {
+    "name": "eliza",
+    "full_name": "elizaOS/eliza",
+    "url": "https://github.com/elizaOS/eliza",
+    "description": "Autonomous agents for everyone",
+    "stars": 18320,
+    "language": "TypeScript",
+    "updated_at": "2026-05-07T01:01:59Z"
+  },
+  {
+    "name": "lobehub",
+    "full_name": "lobehub/lobehub",
+    "url": "https://github.com/lobehub/lobehub",
+    "description": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
+    "stars": 76130,
+    "language": "TypeScript",
+    "updated_at": "2026-05-07T01:01:53Z"
+  },
+  {
+    "name": "gemini-cli",
+    "full_name": "google-gemini/gemini-cli",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+    "stars": 103285,
+    "language": "TypeScript",
+    "updated_at": "2026-05-07T00:38:42Z"
   }
 ]

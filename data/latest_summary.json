@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是从单一对话式Agent向多Agent协作与工作流编排演进，如dify、langflow、openai-agents-python等平台强调生产级、可视化的工作流构建；二是Agent深度嵌入开发环境，如cline、gemini-cli、claude-mem等工具将AI能力直接集成到IDE或终端，实现代码生成、文件操作、上下文记忆等自动化；三是Agent平台化与团队化，如lobehub、multica等致力于将Agent转化为可协作的“数字队友”，支持任务分配、技能积累与多Agent协同。语言上TypeScript占主导，Python紧随其后，反映出前端生态与AI框架的融合趋势。",
+  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是生产级平台化，如dify和langflow提供从开发到部署的全流程支持；二是多模态与多模型集成，LibreChat和gemini-cli等工具支持多种AI模型和API；三是自主性与记忆增强，agent-zero和claude-mem等框架强调自主决策和上下文记忆。项目以TypeScript和Python为主，社区活跃度高。",
   "project_summaries": [
-    {
-      "name": "eliza",
-      "full_name": "elizaOS/eliza",
-      "summary": "面向所有人的自主Agent框架，旨在降低AI Agent开发门槛，让非专业用户也能构建和运行自主智能体。"
-    },
-    {
-      "name": "claude-mem",
-      "full_name": "thedotmack/claude-mem",
-      "summary": "Claude Code插件，自动捕获编码会话中的全部操作，利用AI压缩并注入相关上下文到未来会话，实现跨会话的持久记忆与上下文复用。"
-    },
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "summary": "生产级Agent工作流开发平台，支持可视化编排、多模型集成与部署，强调从原型到生产的全链路能力。"
+      "summary": "生产级AI Agent工作流开发平台，支持可视化编排和部署，适合企业级应用。"
     },
     {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google推出的开源终端AI Agent，将Gemini模型能力直接引入命令行，支持自然语言交互、代码生成与系统操作。"
+      "name": "LibreChat",
+      "full_name": "danny-avila/LibreChat",
+      "summary": "增强版ChatGPT克隆，集成多种AI模型和API，支持Agent、MCP、代码解释器等高级功能，注重安全多用户认证。"
     },
     {
-      "name": "multica",
-      "full_name": "multica-ai/multica",
-      "summary": "开源托管Agent平台，将编码Agent转化为真正的队友，支持任务分配、进度追踪与技能积累，强调团队协作与持续学习。"
+      "name": "agent-zero",
+      "full_name": "agent0ai/agent-zero",
+      "summary": "AI Agent零框架，强调自主性和灵活性，适合构建自定义智能体。"
     },
     {
-      "name": "cline",
-      "full_name": "cline/cline",
-      "summary": "IDE内自主编码Agent，能够创建/编辑文件、执行命令、使用浏览器等，每一步需用户授权，兼顾自动化与安全性。"
-    },
-    {
-      "name": "Flowise",
-      "full_name": "FlowiseAI/Flowise",
-      "summary": "可视化AI Agent构建工具，通过拖拽式界面快速搭建Agent工作流，降低开发门槛，适合快速原型与实验。"
-    },
-    {
-      "name": "lobehub",
-      "full_name": "lobehub/lobehub",
-      "summary": "Agent协作与工作空间平台，支持多Agent协作、团队设计，将Agent作为工作交互单元，致力于打造可成长的数字队友生态。"
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "summary": "成长型AI Agent，设计理念是随用户需求进化，注重长期交互与适应。"
     },
     {
       "name": "openai-agents-python",
       "full_name": "openai/openai-agents-python",
-      "summary": "OpenAI官方推出的轻量级多Agent工作流框架，基于Python，强调简洁、强大，适合快速构建多Agent协作系统。"
+      "summary": "OpenAI官方轻量级多Agent工作流框架，专注于高效构建协作式智能体。"
+    },
+    {
+      "name": "claude-mem",
+      "full_name": "thedotmack/claude-mem",
+      "summary": "Claude Code插件，自动捕获并压缩编码会话记忆，注入未来上下文，实现持久化智能辅助。"
     },
     {
       "name": "langflow",
       "full_name": "langflow-ai/langflow",
-      "summary": "强大的AI Agent与工作流构建部署工具，提供可视化界面与Python API，支持复杂流程编排与生产级部署。"
+      "summary": "强大的AI Agent和工作流构建与部署工具，提供可视化界面，降低开发门槛。"
+    },
+    {
+      "name": "eliza",
+      "full_name": "elizaOS/eliza",
+      "summary": "面向所有人的自主Agent框架，旨在简化AI Agent的创建与运行。"
+    },
+    {
+      "name": "lobehub",
+      "full_name": "lobehub/lobehub",
+      "summary": "Agent协作空间，支持多Agent团队设计、协作与交互，将Agent作为工作单元。"
+    },
+    {
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "summary": "Google开源终端AI Agent，将Gemini能力直接带入命令行，实现自然语言交互。"
     }
   ],
   "recommendation": [
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "reason": "生产级Agent工作流平台，社区活跃度高（14万+星），覆盖从原型到部署全流程，是当前最成熟的Agent开发基础设施之一。"
+      "reason": "生产级平台，社区活跃度高（14万+星），适合企业快速部署Agent工作流。"
     },
     {
-      "name": "cline",
-      "full_name": "cline/cline",
-      "reason": "IDE内自主编码Agent，代表AI辅助开发的最新范式，兼顾自动化与用户控制，对开发者生产力提升具有直接价值。"
+      "name": "openai-agents-python",
+      "full_name": "openai/openai-agents-python",
+      "reason": "OpenAI官方框架，轻量且强大，代表多Agent协作的未来方向。"
     },
     {
-      "name": "lobehub",
-      "full_name": "lobehub/lobehub",
-      "reason": "多Agent协作与团队化平台，创新性地将Agent作为工作单元，代表Agent从工具向队友演进的未来方向，社区关注度高（7.6万+星）。"
+      "name": "claude-mem",
+      "full_name": "thedotmack/claude-mem",
+      "reason": "创新性记忆插件，解决AI Agent长期上下文问题，实用价值高。"
     }
   ]
 }
