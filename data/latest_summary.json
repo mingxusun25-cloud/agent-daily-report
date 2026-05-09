@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是生产级平台化，如dify和LobeHub提供完整的Agent工作流开发与协作环境；二是记忆与上下文管理成为核心能力，claude-mem和mem0分别从会话记录和通用记忆层切入；三是多模型、多平台兼容性成为标配，LibreChat和JeecgBoot均支持多种AI模型与集成。此外，终端Agent（gemini-cli、zeroclaw）和低代码Agent开发（JeecgBoot）也展现出强劲增长。",
+  "overall_summary": "当前开源AI Agent项目呈现出三大核心趋势：一是从单一对话助手向多智能体协作与编排平台演进，强调角色扮演、任务分解与自主工作流；二是深度集成开发环境（IDE）与代码执行能力，使Agent能直接参与软件构建与调试；三是注重企业级生产部署，提供RAG、沙箱、记忆、工具调用等模块化组件，并支持多模型、多API的灵活接入。TypeScript和Python成为主流语言，社区活跃度极高，部分项目星数已超14万。",
   "project_summaries": [
+    {
+      "name": "ruflo",
+      "full_name": "ruvnet/ruflo",
+      "summary": "领先的Claude Agent编排平台，支持多智能体群组部署、自主工作流协调与对话式AI系统构建，具备企业级架构、自学习群智能、RAG集成及原生Claude Code/Codex集成能力。"
+    },
+    {
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "summary": "强大的AI Agent与工作流构建与部署工具，提供可视化界面和模块化组件，降低Agent开发门槛，支持快速搭建生产级应用。"
+    },
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "summary": "生产级Agent工作流开发平台，支持可视化编排与部署，适合企业级AI应用构建。"
+      "summary": "面向生产的Agent工作流开发平台，提供完整的编排、监控与部署能力，注重稳定性和可扩展性，适合企业级应用场景。"
     },
     {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "summary": "强调与用户共同成长的Agent框架，基于Python实现，注重个性化与持续学习。"
+      "name": "deer-flow",
+      "full_name": "bytedance/deer-flow",
+      "summary": "字节跳动开源的长期任务SuperAgent框架，集成沙箱、记忆、工具、技能、子Agent和消息网关，可处理从分钟到小时级别的复杂任务。"
+    },
+    {
+      "name": "eliza",
+      "full_name": "elizaOS/eliza",
+      "summary": "面向所有人的自主Agent框架，强调易用性和通用性，支持快速创建和部署自主运行的AI Agent。"
+    },
+    {
+      "name": "cline",
+      "full_name": "cline/cline",
+      "summary": "IDE内自主编码Agent，能在用户许可下创建/编辑文件、执行命令、使用浏览器等，实现深度开发辅助。"
     },
     {
       "name": "LibreChat",
       "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，集成Agent、MCP、多模型支持（DeepSeek、Anthropic、OpenAI等），提供代码解释器、搜索、多用户认证等丰富功能，适合自托管。"
-    },
-    {
-      "name": "claude-mem",
-      "full_name": "thedotmack/claude-mem",
-      "summary": "Claude Code插件，自动捕获编码会话历史，通过AI压缩并注入未来会话上下文，实现持久化记忆。"
+      "summary": "增强版ChatGPT克隆，集成Agent、MCP、多模型支持（DeepSeek、Anthropic、OpenAI等）、代码解释器、LangChain、DALL-E-3等功能，支持自托管。"
     },
     {
       "name": "lobehub",
       "full_name": "lobehub/lobehub",
-      "summary": "Agent协作与工作空间平台，支持多Agent团队设计、协作，将Agent作为工作交互单元，提升生产力。"
+      "summary": "下一代Agent工作空间，支持多Agent协作、团队设计，将Agent作为工作交互单元，提供构建、协作与成长的一体化环境。"
     },
     {
-      "name": "OpenHands",
-      "full_name": "OpenHands/OpenHands",
-      "summary": "AI驱动的开发工具，专注于自动化编码与开发流程，提升开发效率。"
+      "name": "crewAI",
+      "full_name": "crewAIInc/crewAI",
+      "summary": "角色扮演式自主AI Agent编排框架，通过协作智能让Agent无缝协同工作，处理复杂任务。"
     },
     {
-      "name": "JeecgBoot",
-      "full_name": "jeecgboot/JeecgBoot",
-      "summary": "AI低代码平台，支持零代码搭建业务系统与低代码生成前后端代码，内置AI聊天、知识库、流程编排，支持多种模型。"
-    },
-    {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google开源的终端AI Agent，将Gemini能力引入命令行，支持自然语言交互与自动化任务。"
-    },
-    {
-      "name": "mem0",
-      "full_name": "mem0ai/mem0",
-      "summary": "通用AI Agent记忆层，提供持久化、可检索的记忆管理能力，增强Agent的上下文理解与个性化。"
-    },
-    {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "轻量、快速的全自主AI个人助手基础设施，跨平台（任何OS），基于Rust实现，强调部署灵活性与可替换性。"
+      "name": "DocsGPT",
+      "full_name": "arc53/DocsGPT",
+      "summary": "私有AI平台，提供Agent构建器、深度研究、文档分析、多模型支持和API连接能力，专注于企业搜索与智能助手场景。"
     }
   ],
   "recommendation": [
     {
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "reason": "拥有最高星数（147k+），可视化低代码方式降低Agent开发门槛，适合快速原型与生产部署，社区生态成熟。"
+    },
+    {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "reason": "作为生产级Agent工作流平台，dify拥有最高星数（14万+），成熟度高，适合企业级部署与复杂流程编排，是当前Agent工程化的标杆。"
+      "reason": "生产级平台定位，星数超140k，提供完整的工作流开发与运维能力，是企业级Agent落地的首选参考。"
     },
     {
-      "name": "claude-mem",
-      "full_name": "thedotmack/claude-mem",
-      "reason": "记忆管理是Agent智能化的关键瓶颈，claude-mem通过自动捕获与压缩会话上下文，实现了实用的持久化记忆，创新性强且用户增长迅速（7.3万星）。"
-    },
-    {
-      "name": "lobehub",
-      "full_name": "lobehub/lobehub",
-      "reason": "多Agent协作与团队设计理念领先，将Agent作为工作单元，代表未来Agent从单兵作战向团队协作演进的趋势，且社区活跃（7.6万星）。"
+      "name": "crewAI",
+      "full_name": "crewAIInc/crewAI",
+      "reason": "角色扮演式多Agent协作框架，创新性地通过协作智能解决复杂任务，代表了Agent从单兵到团队协作的发展方向。"
     }
   ]
 }
