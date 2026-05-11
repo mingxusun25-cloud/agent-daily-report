@@ -1,108 +1,108 @@
 # 今日 GitHub AI Agent 趋势报告
 
-生成时间：2026-05-10 01:46
+生成时间：2026-05-11 01:53
 
 ## 一、今日总体趋势
 
-当前开源AI Agent项目呈现三大趋势：一是多智能体协作与编排成为核心能力，如ruflo、lobehub等平台强调多智能体协同工作；二是Agent与开发工具深度融合，claude-mem、gemini-cli等项目将AI Agent嵌入编码和终端环境；三是平台化与低门槛化，Langflow、LibreChat等提供可视化构建和统一模型接入。TypeScript和Python是主要开发语言，项目普遍支持RAG、MCP等高级特性，并注重企业级架构和自托管能力。
+当前开源AI Agent领域呈现三大趋势：一是低代码/可视化平台（如Langflow、Dify）降低开发门槛，推动Agent工作流落地生产；二是多智能体协作框架（如TradingAgents、LobeHub）成为热点，聚焦金融交易、教育等垂直场景；三是Agent记忆与上下文管理（如claude-mem）成为关键基础设施，解决长期对话与跨会话一致性难题。TypeScript和Python是主流语言，社区活跃度极高。
 
 ## 二、热门项目列表
 
-### 1. ruflo
+### 1. langflow
 
-- Star：47843
-- 语言：TypeScript
-- 更新时间：2026-05-10T01:45:19Z
-- 地址：https://github.com/ruvnet/ruflo
-- 项目描述：🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration
-- AI 总结：领先的Claude Agent编排平台，支持多智能体群组、自主工作流和对话AI，具备企业级架构、自学习群智能、RAG集成及原生Claude Code/Codex集成。
-
-### 2. hermes-agent
-
-- Star：141025
+- Star：147934
 - 语言：Python
-- 更新时间：2026-05-10T01:45:12Z
-- 地址：https://github.com/NousResearch/hermes-agent
-- 项目描述：The agent that grows with you
-- AI 总结：一个随用户成长而进化的AI Agent，强调持续学习和自适应能力，基于Python实现。
+- 更新时间：2026-05-11T01:52:40Z
+- 地址：https://github.com/langflow-ai/langflow
+- 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
+- AI 总结：可视化低代码平台，用于构建和部署AI Agent及工作流，支持拖拽式编排，降低开发复杂度。
+
+### 2. dify
+
+- Star：140853
+- 语言：TypeScript
+- 更新时间：2026-05-11T01:51:56Z
+- 地址：https://github.com/langgenius/dify
+- 项目描述：Production-ready platform for agentic workflow development.
+- AI 总结：生产级Agent工作流开发平台，提供从原型到部署的全链路支持，强调稳定性和可扩展性。
 
 ### 3. eliza
 
-- Star：18336
+- Star：18342
 - 语言：TypeScript
-- 更新时间：2026-05-10T01:42:37Z
+- 更新时间：2026-05-11T01:45:15Z
 - 地址：https://github.com/elizaOS/eliza
 - 项目描述：Autonomous agents for everyone
-- AI 总结：面向所有人的自主Agent平台，旨在让每个人都能轻松使用和部署自主AI Agent。
+- AI 总结：面向所有人的自主Agent框架，旨在简化Agent创建与运行，降低使用门槛。
 
-### 4. LibreChat
+### 4. TradingAgents
 
-- Star：36791
+- Star：73245
+- 语言：Python
+- 更新时间：2026-05-11T01:34:46Z
+- 地址：https://github.com/TauricResearch/TradingAgents
+- 项目描述：TradingAgents: Multi-Agents LLM Financial Trading Framework
+- AI 总结：基于多智能体LLM的金融交易框架，利用多个Agent协作进行市场分析与决策。
+
+### 5. cherry-studio
+
+- Star：45399
 - 语言：TypeScript
-- 更新时间：2026-05-10T01:30:02Z
-- 地址：https://github.com/danny-avila/LibreChat
-- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.
-- AI 总结：增强版ChatGPT克隆，集成Agent、MCP、多种AI模型（DeepSeek、Anthropic、OpenAI等）、代码解释器、Langchain、DALL-E-3等功能，支持多用户认证和自托管。
-
-### 5. claude-mem
-
-- Star：74154
-- 语言：TypeScript
-- 更新时间：2026-05-10T01:09:12Z
-- 地址：https://github.com/thedotmack/claude-mem
-- 项目描述：A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.
-- AI 总结：Claude Code插件，自动捕获编码会话中的操作，利用AI压缩并注入相关上下文到未来会话，实现持久化记忆。
-
-### 6. lobehub
-
-- Star：76765
-- 语言：TypeScript
-- 更新时间：2026-05-10T01:03:02Z
-- 地址：https://github.com/lobehub/lobehub
-- 项目描述：The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.
-- AI 总结：工作和生活的终极空间，支持发现、构建和协作Agent队友，实现多Agent协作、轻松设计Agent团队，并以Agent作为工作交互单元。
-
-### 7. cherry-studio
-
-- Star：45328
-- 语言：TypeScript
-- 更新时间：2026-05-10T00:59:11Z
+- 更新时间：2026-05-11T01:29:30Z
 - 地址：https://github.com/CherryHQ/cherry-studio
 - 项目描述：AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
-- AI 总结：AI生产力工作室，提供智能聊天、自主Agent和300+助手，统一接入前沿大语言模型。
+- AI 总结：AI生产力工作室，集成智能聊天、自主Agent和300+助手，统一访问前沿大模型。
 
-### 8. langflow
+### 6. LibreChat
 
-- Star：147900
-- 语言：Python
-- 更新时间：2026-05-10T00:54:52Z
-- 地址：https://github.com/langflow-ai/langflow
-- 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
-- AI 总结：强大的AI Agent和工作流构建与部署工具，提供可视化界面，降低开发门槛。
-
-### 9. gemini-cli
-
-- Star：103549
+- Star：36828
 - 语言：TypeScript
-- 更新时间：2026-05-10T00:39:51Z
-- 地址：https://github.com/google-gemini/gemini-cli
-- 项目描述：An open-source AI agent that brings the power of Gemini directly into your terminal.
-- AI 总结：开源AI Agent，将Gemini的能力直接带入终端，支持命令行交互。
+- 更新时间：2026-05-11T01:28:59Z
+- 地址：https://github.com/danny-avila/LibreChat
+- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.
+- AI 总结：增强版ChatGPT克隆，支持Agent、MCP、多模型切换、代码解释器、OpenAPI Actions等，可自托管。
 
-### 10. langchain
+### 7. hermes-agent
 
-- Star：136262
+- Star：142603
 - 语言：Python
-- 更新时间：2026-05-10T00:35:19Z
-- 地址：https://github.com/langchain-ai/langchain
-- 项目描述：The agent engineering platform. Available in TypeScript!
-- AI 总结：Agent工程平台，提供TypeScript和Python版本，支持构建、测试和部署AI Agent应用。
+- 更新时间：2026-05-11T01:24:05Z
+- 地址：https://github.com/NousResearch/hermes-agent
+- 项目描述：The agent that grows with you
+- AI 总结：可成长Agent框架，强调Agent随用户交互持续进化，适应个性化需求。
+
+### 8. lobehub
+
+- Star：76808
+- 语言：TypeScript
+- 更新时间：2026-05-11T01:08:52Z
+- 地址：https://github.com/lobehub/lobehub
+- 项目描述：The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.
+- AI 总结：多Agent协作空间，支持Agent团队设计、协作与交互，将Agent作为工作单元。
+
+### 9. OpenMAIC
+
+- Star：17253
+- 语言：TypeScript
+- 更新时间：2026-05-11T00:44:42Z
+- 地址：https://github.com/THU-MAIC/OpenMAIC
+- 项目描述：Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
+- AI 总结：开源多智能体交互课堂，一键获取沉浸式多Agent学习体验，应用于教育场景。
+
+### 10. claude-mem
+
+- Star：74505
+- 语言：TypeScript
+- 更新时间：2026-05-11T00:38:02Z
+- 地址：https://github.com/thedotmack/claude-mem
+- 项目描述：Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
+- AI 总结：跨会话持久上下文管理工具，自动捕获Agent会话信息并压缩注入，支持多种Agent框架。
 
 ## 三、最值得关注的项目
 
-1. langflow：拥有14.7万星，是构建和部署AI Agent工作流的可视化平台，极大降低了Agent开发门槛，适合快速原型和生产部署。
-2. gemini-cli：由Google推出，10.3万星，将Gemini大模型能力直接集成到终端，代表了AI Agent与开发者工具深度融合的趋势，实用性强。
-3. lobehub：7.6万星，专注于多Agent协作和团队设计，以Agent作为工作交互单元，代表了未来人机协作的新范式。
+1. langflow：可视化低代码平台极大降低了Agent开发门槛，适合快速原型与生产部署，社区活跃度高。
+2. TradingAgents：多智能体在金融交易领域的创新应用，展示了Agent协作解决复杂决策问题的潜力。
+3. claude-mem：解决Agent长期记忆与上下文一致性的关键基础设施，对提升Agent实用性和用户体验至关重要。
 
 ## 四、项目说明
 
