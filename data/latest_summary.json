@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是低代码/可视化平台（如Langflow、Dify）降低开发门槛，推动Agent工作流落地生产；二是多智能体协作框架（如TradingAgents、LobeHub）成为热点，聚焦金融交易、教育等垂直场景；三是Agent记忆与上下文管理（如claude-mem）成为关键基础设施，解决长期对话与跨会话一致性难题。TypeScript和Python是主流语言，社区活跃度极高。",
+  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是Agent开发平台化与生产化，如Dify、Multica等提供从开发到部署的全栈能力；二是Agent记忆与上下文管理成为核心需求，claude-mem等项目通过持久化上下文提升Agent连续性；三是Agent与IDE、RAG、多模型生态深度融合，Cline、RAGFlow等项目分别从编码助手、知识检索等场景切入，推动Agent从单一对话向复杂工作流演进。",
   "project_summaries": [
-    {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "summary": "可视化低代码平台，用于构建和部署AI Agent及工作流，支持拖拽式编排，降低开发复杂度。"
-    },
-    {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "summary": "生产级Agent工作流开发平台，提供从原型到部署的全链路支持，强调稳定性和可扩展性。"
-    },
-    {
-      "name": "eliza",
-      "full_name": "elizaOS/eliza",
-      "summary": "面向所有人的自主Agent框架，旨在简化Agent创建与运行，降低使用门槛。"
-    },
-    {
-      "name": "TradingAgents",
-      "full_name": "TauricResearch/TradingAgents",
-      "summary": "基于多智能体LLM的金融交易框架，利用多个Agent协作进行市场分析与决策。"
-    },
-    {
-      "name": "cherry-studio",
-      "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，集成智能聊天、自主Agent和300+助手，统一访问前沿大模型。"
-    },
     {
       "name": "LibreChat",
       "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，支持Agent、MCP、多模型切换、代码解释器、OpenAPI Actions等，可自托管。"
+      "summary": "增强版ChatGPT克隆，集成Agent、MCP、多模型支持（DeepSeek、Anthropic、AWS等）、代码解释器、LangChain、DALL-E-3、OpenAPI Actions、安全多用户认证等，支持自托管，功能丰富且活跃更新。"
     },
     {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
-      "summary": "可成长Agent框架，强调Agent随用户交互持续进化，适应个性化需求。"
-    },
-    {
-      "name": "lobehub",
-      "full_name": "lobehub/lobehub",
-      "summary": "多Agent协作空间，支持Agent团队设计、协作与交互，将Agent作为工作单元。"
-    },
-    {
-      "name": "OpenMAIC",
-      "full_name": "THU-MAIC/OpenMAIC",
-      "summary": "开源多智能体交互课堂，一键获取沉浸式多Agent学习体验，应用于教育场景。"
+      "summary": "由NousResearch开发的智能体，强调与用户共同成长，具备持续学习和适应能力，基于Python构建。"
     },
     {
       "name": "claude-mem",
       "full_name": "thedotmack/claude-mem",
-      "summary": "跨会话持久上下文管理工具，自动捕获Agent会话信息并压缩注入，支持多种Agent框架。"
+      "summary": "跨会话持久上下文管理工具，自动捕获Agent会话行为，通过AI压缩并注入相关上下文到未来会话，支持Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode等多种Agent。"
+    },
+    {
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "summary": "生产级Agent工作流开发平台，提供可视化编排、RAG集成、模型管理等能力，支持快速构建和部署智能体应用。"
+    },
+    {
+      "name": "everything-claude-code",
+      "full_name": "affaan-m/everything-claude-code",
+      "summary": "Agent性能优化系统，涵盖技能、本能、记忆、安全与研究优先开发，适用于Claude Code、Codex、Opencode、Cursor等编码Agent。"
+    },
+    {
+      "name": "ragflow",
+      "full_name": "infiniflow/ragflow",
+      "summary": "领先的开源RAG引擎，融合前沿检索增强生成与Agent能力，为LLM提供优质上下文层，支持复杂知识问答场景。"
+    },
+    {
+      "name": "cline",
+      "full_name": "cline/cline",
+      "summary": "IDE内自主编码Agent，可创建/编辑文件、执行命令、使用浏览器等，每一步需用户授权，注重安全与可控性。"
+    },
+    {
+      "name": "ruflo",
+      "full_name": "ruvnet/ruflo",
+      "summary": "面向Claude的领先Agent编排平台，支持部署多智能体集群、协调自主工作流、构建对话AI系统，具备企业级架构、自学习集群智能、RAG集成及原生Claude Code/Codex集成。"
+    },
+    {
+      "name": "multica",
+      "full_name": "multica-ai/multica",
+      "summary": "开源托管Agent平台，将编码Agent转化为真实协作者，支持任务分配、进度追踪、技能复合，提升团队协作效率。"
+    },
+    {
+      "name": "OpenHands",
+      "full_name": "OpenHands/OpenHands",
+      "summary": "AI驱动的开发平台，专注于通过智能体自动化软件开发流程，提升开发效率。"
     }
   ],
   "recommendation": [
     {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "reason": "可视化低代码平台极大降低了Agent开发门槛，适合快速原型与生产部署，社区活跃度高。"
-    },
-    {
-      "name": "TradingAgents",
-      "full_name": "TauricResearch/TradingAgents",
-      "reason": "多智能体在金融交易领域的创新应用，展示了Agent协作解决复杂决策问题的潜力。"
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "reason": "作为生产级Agent工作流平台，Dify提供了从开发到部署的完整链路，可视化编排和RAG集成使其成为企业级Agent应用的首选，社区活跃且生态完善。"
     },
     {
       "name": "claude-mem",
       "full_name": "thedotmack/claude-mem",
-      "reason": "解决Agent长期记忆与上下文一致性的关键基础设施，对提升Agent实用性和用户体验至关重要。"
+      "reason": "解决了Agent长期记忆和上下文连续性的核心痛点，跨会话上下文注入能力显著提升Agent的实用性和智能水平，且兼容多种主流Agent框架。"
+    },
+    {
+      "name": "cline",
+      "full_name": "cline/cline",
+      "reason": "IDE内自主编码Agent的代表，通过用户授权机制平衡了自动化与安全性，直接提升开发者编码效率，是AI辅助编程领域的重要实践。"
     }
   ]
 }
