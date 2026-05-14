@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是多模态与多框架融合，如LibreChat集成数十种模型和API；二是Agent从单一工具向全栈平台演进，如dify和langflow提供生产级工作流开发环境；三是Agent与RAG、MCP等基础设施深度结合，如ragflow和everything-claude-code。项目以TypeScript和Python为主，社区活跃度高，star数普遍在数万以上。",
+  "overall_summary": "当前开源AI Agent项目呈现出三大趋势：一是Agent开发平台化与生产化，如Dify和Langflow提供低代码/可视化工作流构建能力；二是Agent与检索增强生成（RAG）深度融合，RAGFlow等项目将RAG作为Agent的核心上下文层；三是Agent形态多样化，从IDE插件（Cline）到CLI工具（Gemini CLI）再到多智能体协作平台（LobeHub、ruflo），覆盖开发、办公、对话等场景。项目普遍采用TypeScript或Python，社区活跃度极高，多个项目星数超10万。",
   "project_summaries": [
     {
-      "name": "cline",
-      "full_name": "cline/cline",
-      "summary": "提供SDK、IDE扩展和CLI三种形态的自主编码Agent，支持多环境集成，适合开发者快速嵌入AI编码能力。"
-    },
-    {
-      "name": "openai-agents-python",
-      "full_name": "openai/openai-agents-python",
-      "summary": "OpenAI官方推出的轻量级多Agent工作流框架，强调简洁与高性能，适合构建复杂协作式AI系统。"
-    },
-    {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "summary": "主打“与你一同成长”的Agent，注重个性化与持续学习能力，社区关注度极高。"
-    },
-    {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google开源终端AI Agent，将Gemini模型能力直接注入命令行，提升开发效率。"
-    },
-    {
-      "name": "LibreChat",
-      "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，集成Agent、MCP、数十种AI模型、代码解释器、多用户认证等，功能全面且支持自托管。"
+      "name": "everything-claude-code",
+      "full_name": "affaan-m/everything-claude-code",
+      "summary": "面向Claude Code、Codex等AI编码助手的Agent性能优化系统，涵盖技能、本能、记忆、安全与研究优先开发，旨在提升Agent在IDE环境中的执行效率与智能水平。"
     },
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "summary": "生产级Agent工作流开发平台，提供可视化编排、RAG、插件系统，适合企业级AI应用落地。"
+      "summary": "生产级Agent工作流开发平台，提供可视化编排、模型管理、工具集成等能力，支持快速构建和部署AI驱动的自动化业务流程，是当前最成熟的Agent平台之一。"
     },
     {
-      "name": "everything-claude-code",
-      "full_name": "affaan-m/everything-claude-code",
-      "summary": "Agent性能优化系统，覆盖技能、记忆、安全等维度，兼容Claude Code、Cursor等主流工具。"
+      "name": "lobehub",
+      "full_name": "lobehub/lobehub",
+      "summary": "以Agent为基本交互单元的多智能体协作空间，支持Agent团队设计、多Agent协同工作，旨在重新定义人机协作模式，适用于工作与生活场景。"
+    },
+    {
+      "name": "ruflo",
+      "full_name": "ruvnet/ruflo",
+      "summary": "面向Claude的领先Agent编排平台，支持部署多智能体集群、协调自主工作流，集成RAG、自学习群体智能与企业级架构，原生支持Claude Code/Codex。"
     },
     {
       "name": "ragflow",
       "full_name": "infiniflow/ragflow",
-      "summary": "领先的开源RAG引擎，融合Agent能力构建LLM上下文层，提升检索增强生成效果。"
+      "summary": "领先的开源RAG引擎，将检索增强生成与Agent能力融合，为LLM提供高质量上下文层，显著提升知识密集型任务的准确性与可靠性。"
     },
     {
       "name": "eliza",
       "full_name": "elizaOS/eliza",
-      "summary": "面向所有人的自主Agent框架，强调易用性与通用性，适合快速原型开发。"
+      "summary": "面向所有人的自主Agent框架，强调易用性与通用性，旨在降低Agent开发门槛，让非专业开发者也能构建和部署智能Agent。"
+    },
+    {
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "summary": "强调与用户共同成长的Agent，注重持续学习与个性化适应，由NousResearch团队开发，在Agent自我进化与用户适配方面具有创新性。"
+    },
+    {
+      "name": "cline",
+      "full_name": "cline/cline",
+      "summary": "自主编码Agent，提供SDK、IDE扩展和CLI助手三种形态，支持在开发环境中自动完成代码编写、调试等任务，是开发者效率工具的代表。"
+    },
+    {
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "summary": "Google推出的开源AI Agent，将Gemini模型能力带入终端，支持命令行交互、任务自动化，是大型科技公司开源Agent的标杆项目。"
     },
     {
       "name": "langflow",
       "full_name": "langflow-ai/langflow",
-      "summary": "可视化AI Agent与工作流构建工具，降低开发门槛，支持拖拽式编排。"
+      "summary": "强大的AI Agent与工作流构建工具，提供可视化拖拽式开发界面，支持快速搭建和部署AI驱动的自动化流程，降低Agent开发复杂度。"
     }
   ],
   "recommendation": [
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "reason": "生产级平台，可视化工作流与RAG深度集成，社区活跃（14万+star），适合企业快速落地Agent应用。"
-    },
-    {
-      "name": "openai-agents-python",
-      "full_name": "openai/openai-agents-python",
-      "reason": "OpenAI官方框架，轻量且强大，代表多Agent协作的未来方向，技术权威性高。"
+      "reason": "作为生产级Agent平台，Dify拥有最完善的生态和社区支持，可视化工作流、模型管理、工具集成等特性使其成为企业级Agent落地的首选，星数超14万验证其市场认可度。"
     },
     {
       "name": "ragflow",
       "full_name": "infiniflow/ragflow",
-      "reason": "RAG与Agent融合的标杆项目，解决LLM上下文痛点，技术路线前沿且实用性强。"
+      "reason": "RAG与Agent的融合是当前AI应用的核心方向，RAGFlow在检索增强生成领域技术领先，为LLM提供高质量上下文，是构建知识密集型Agent应用的关键基础设施。"
+    },
+    {
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "reason": "作为Google官方开源项目，Gemini CLI代表了大型科技公司在Agent领域的最新实践，将前沿模型能力与终端交互结合，对Agent技术发展方向具有重要参考价值。"
     }
   ]
 }

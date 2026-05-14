@@ -1,92 +1,92 @@
 [
   {
-    "name": "cline",
-    "full_name": "cline/cline",
-    "url": "https://github.com/cline/cline",
-    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-    "stars": 61693,
-    "language": "TypeScript",
-    "updated_at": "2026-05-13T01:52:06Z"
-  },
-  {
-    "name": "openai-agents-python",
-    "full_name": "openai/openai-agents-python",
-    "url": "https://github.com/openai/openai-agents-python",
-    "description": "A lightweight, powerful framework for multi-agent workflows",
-    "stars": 26245,
-    "language": "Python",
-    "updated_at": "2026-05-13T01:50:52Z"
-  },
-  {
-    "name": "hermes-agent",
-    "full_name": "NousResearch/hermes-agent",
-    "url": "https://github.com/NousResearch/hermes-agent",
-    "description": "The agent that grows with you",
-    "stars": 146984,
-    "language": "Python",
-    "updated_at": "2026-05-13T01:50:39Z"
-  },
-  {
-    "name": "gemini-cli",
-    "full_name": "google-gemini/gemini-cli",
-    "url": "https://github.com/google-gemini/gemini-cli",
-    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "stars": 103810,
-    "language": "TypeScript",
-    "updated_at": "2026-05-13T01:48:19Z"
-  },
-  {
-    "name": "LibreChat",
-    "full_name": "danny-avila/LibreChat",
-    "url": "https://github.com/danny-avila/LibreChat",
-    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.",
-    "stars": 36937,
-    "language": "TypeScript",
-    "updated_at": "2026-05-13T01:46:36Z"
+    "name": "everything-claude-code",
+    "full_name": "affaan-m/everything-claude-code",
+    "url": "https://github.com/affaan-m/everything-claude-code",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "stars": 181409,
+    "language": "JavaScript",
+    "updated_at": "2026-05-14T01:56:23Z"
   },
   {
     "name": "dify",
     "full_name": "langgenius/dify",
     "url": "https://github.com/langgenius/dify",
     "description": "Production-ready platform for agentic workflow development.",
-    "stars": 141137,
+    "stars": 141276,
     "language": "TypeScript",
-    "updated_at": "2026-05-13T01:46:23Z"
+    "updated_at": "2026-05-14T01:55:38Z"
   },
   {
-    "name": "everything-claude-code",
-    "full_name": "affaan-m/everything-claude-code",
-    "url": "https://github.com/affaan-m/everything-claude-code",
-    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "stars": 180551,
-    "language": "JavaScript",
-    "updated_at": "2026-05-13T01:46:16Z"
+    "name": "lobehub",
+    "full_name": "lobehub/lobehub",
+    "url": "https://github.com/lobehub/lobehub",
+    "description": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
+    "stars": 77016,
+    "language": "TypeScript",
+    "updated_at": "2026-05-14T01:50:58Z"
+  },
+  {
+    "name": "ruflo",
+    "full_name": "ruvnet/ruflo",
+    "url": "https://github.com/ruvnet/ruflo",
+    "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+    "stars": 50393,
+    "language": "TypeScript",
+    "updated_at": "2026-05-14T01:50:26Z"
   },
   {
     "name": "ragflow",
     "full_name": "infiniflow/ragflow",
     "url": "https://github.com/infiniflow/ragflow",
     "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-    "stars": 80367,
+    "stars": 80445,
     "language": "Python",
-    "updated_at": "2026-05-13T01:43:44Z"
+    "updated_at": "2026-05-14T01:49:45Z"
   },
   {
     "name": "eliza",
     "full_name": "elizaOS/eliza",
     "url": "https://github.com/elizaOS/eliza",
     "description": "Autonomous agents for everyone",
-    "stars": 18355,
-    "language": "JavaScript",
-    "updated_at": "2026-05-13T01:43:02Z"
+    "stars": 18364,
+    "language": "TypeScript",
+    "updated_at": "2026-05-14T01:48:17Z"
+  },
+  {
+    "name": "hermes-agent",
+    "full_name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 148761,
+    "language": "Python",
+    "updated_at": "2026-05-14T01:40:16Z"
+  },
+  {
+    "name": "cline",
+    "full_name": "cline/cline",
+    "url": "https://github.com/cline/cline",
+    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+    "stars": 61730,
+    "language": "TypeScript",
+    "updated_at": "2026-05-14T01:37:56Z"
+  },
+  {
+    "name": "gemini-cli",
+    "full_name": "google-gemini/gemini-cli",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+    "stars": 103905,
+    "language": "TypeScript",
+    "updated_at": "2026-05-14T01:37:22Z"
   },
   {
     "name": "langflow",
     "full_name": "langflow-ai/langflow",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 148030,
+    "stars": 148071,
     "language": "Python",
-    "updated_at": "2026-05-13T01:05:36Z"
+    "updated_at": "2026-05-14T01:35:16Z"
   }
 ]
