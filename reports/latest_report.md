@@ -1,108 +1,108 @@
 # 今日 GitHub AI Agent 趋势报告
 
-生成时间：2026-05-14 01:56
+生成时间：2026-05-15 01:54
 
 ## 一、今日总体趋势
 
-当前开源AI Agent项目呈现出三大趋势：一是Agent开发平台化与生产化，如Dify和Langflow提供低代码/可视化工作流构建能力；二是Agent与检索增强生成（RAG）深度融合，RAGFlow等项目将RAG作为Agent的核心上下文层；三是Agent形态多样化，从IDE插件（Cline）到CLI工具（Gemini CLI）再到多智能体协作平台（LobeHub、ruflo），覆盖开发、办公、对话等场景。项目普遍采用TypeScript或Python，社区活跃度极高，多个项目星数超10万。
+当前开源AI Agent领域呈现三大趋势：一是Agent协作与编排成为核心，如lobehub、ruflo等项目聚焦多智能体协同与工作流管理；二是RAG与Agent深度融合，ragflow等项目通过检索增强生成提升LLM上下文质量；三是Agent基础设施向轻量化、跨平台发展，zeroclaw等Rust项目强调高性能与可移植性。此外，平台化与生产级部署（如dify、langflow）以及Agent作为“队友”的协作范式（如multica）也备受关注。
 
 ## 二、热门项目列表
 
-### 1. everything-claude-code
+### 1. eliza
 
-- Star：181409
-- 语言：JavaScript
-- 更新时间：2026-05-14T01:56:23Z
-- 地址：https://github.com/affaan-m/everything-claude-code
-- 项目描述：The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
-- AI 总结：面向Claude Code、Codex等AI编码助手的Agent性能优化系统，涵盖技能、本能、记忆、安全与研究优先开发，旨在提升Agent在IDE环境中的执行效率与智能水平。
-
-### 2. dify
-
-- Star：141276
+- Star：18370
 - 语言：TypeScript
-- 更新时间：2026-05-14T01:55:38Z
-- 地址：https://github.com/langgenius/dify
-- 项目描述：Production-ready platform for agentic workflow development.
-- AI 总结：生产级Agent工作流开发平台，提供可视化编排、模型管理、工具集成等能力，支持快速构建和部署AI驱动的自动化业务流程，是当前最成熟的Agent平台之一。
-
-### 3. lobehub
-
-- Star：77016
-- 语言：TypeScript
-- 更新时间：2026-05-14T01:50:58Z
-- 地址：https://github.com/lobehub/lobehub
-- 项目描述：The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.
-- AI 总结：以Agent为基本交互单元的多智能体协作空间，支持Agent团队设计、多Agent协同工作，旨在重新定义人机协作模式，适用于工作与生活场景。
-
-### 4. ruflo
-
-- Star：50393
-- 语言：TypeScript
-- 更新时间：2026-05-14T01:50:26Z
-- 地址：https://github.com/ruvnet/ruflo
-- 项目描述：🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration
-- AI 总结：面向Claude的领先Agent编排平台，支持部署多智能体集群、协调自主工作流，集成RAG、自学习群体智能与企业级架构，原生支持Claude Code/Codex。
-
-### 5. ragflow
-
-- Star：80445
-- 语言：Python
-- 更新时间：2026-05-14T01:49:45Z
-- 地址：https://github.com/infiniflow/ragflow
-- 项目描述：RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
-- AI 总结：领先的开源RAG引擎，将检索增强生成与Agent能力融合，为LLM提供高质量上下文层，显著提升知识密集型任务的准确性与可靠性。
-
-### 6. eliza
-
-- Star：18364
-- 语言：TypeScript
-- 更新时间：2026-05-14T01:48:17Z
+- 更新时间：2026-05-15T01:54:14Z
 - 地址：https://github.com/elizaOS/eliza
 - 项目描述：Autonomous agents for everyone
-- AI 总结：面向所有人的自主Agent框架，强调易用性与通用性，旨在降低Agent开发门槛，让非专业开发者也能构建和部署智能Agent。
+- AI 总结：面向所有人的自主Agent框架，旨在降低AI Agent开发门槛，提供通用化的自主行为实现。
 
-### 7. hermes-agent
+### 2. lobehub
 
-- Star：148761
-- 语言：Python
-- 更新时间：2026-05-14T01:40:16Z
-- 地址：https://github.com/NousResearch/hermes-agent
-- 项目描述：The agent that grows with you
-- AI 总结：强调与用户共同成长的Agent，注重持续学习与个性化适应，由NousResearch团队开发，在Agent自我进化与用户适配方面具有创新性。
-
-### 8. cline
-
-- Star：61730
+- Star：77083
 - 语言：TypeScript
-- 更新时间：2026-05-14T01:37:56Z
-- 地址：https://github.com/cline/cline
-- 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
-- AI 总结：自主编码Agent，提供SDK、IDE扩展和CLI助手三种形态，支持在开发环境中自动完成代码编写、调试等任务，是开发者效率工具的代表。
+- 更新时间：2026-05-15T01:53:44Z
+- 地址：https://github.com/lobehub/lobehub
+- 项目描述：The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.
+- AI 总结：终极工作与生活空间，支持多Agent协作与团队设计，将Agent作为工作交互的基本单元，推动Agent编排进入新阶段。
 
-### 9. gemini-cli
+### 3. ragflow
 
-- Star：103905
-- 语言：TypeScript
-- 更新时间：2026-05-14T01:37:22Z
-- 地址：https://github.com/google-gemini/gemini-cli
-- 项目描述：An open-source AI agent that brings the power of Gemini directly into your terminal.
-- AI 总结：Google推出的开源AI Agent，将Gemini模型能力带入终端，支持命令行交互、任务自动化，是大型科技公司开源Agent的标杆项目。
-
-### 10. langflow
-
-- Star：148071
+- Star：80518
 - 语言：Python
-- 更新时间：2026-05-14T01:35:16Z
+- 更新时间：2026-05-15T01:53:35Z
+- 地址：https://github.com/infiniflow/ragflow
+- 项目描述：RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
+- AI 总结：领先的开源RAG引擎，融合检索增强生成与Agent能力，为LLM构建优质上下文层，提升知识密集型任务的准确性。
+
+### 4. everything-claude-code
+
+- Star：182281
+- 语言：JavaScript
+- 更新时间：2026-05-15T01:52:45Z
+- 地址：https://github.com/affaan-m/everything-claude-code
+- 项目描述：The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+- AI 总结：Agent性能优化系统，涵盖技能、本能、记忆、安全等模块，专为Claude Code、Codex等工具设计，强调研究优先的开发范式。
+
+### 5. dify
+
+- Star：141396
+- 语言：TypeScript
+- 更新时间：2026-05-15T01:52:03Z
+- 地址：https://github.com/langgenius/dify
+- 项目描述：Production-ready platform for agentic workflow development.
+- AI 总结：生产级Agent工作流开发平台，提供从原型到部署的完整链路，支持可视化编排与可扩展架构。
+
+### 6. langflow
+
+- Star：148095
+- 语言：Python
+- 更新时间：2026-05-15T01:49:51Z
 - 地址：https://github.com/langflow-ai/langflow
 - 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
-- AI 总结：强大的AI Agent与工作流构建工具，提供可视化拖拽式开发界面，支持快速搭建和部署AI驱动的自动化流程，降低Agent开发复杂度。
+- AI 总结：强大的AI Agent与工作流构建工具，通过低代码界面简化复杂Agent系统的搭建与部署。
+
+### 7. ruflo
+
+- Star：51067
+- 语言：TypeScript
+- 更新时间：2026-05-15T01:48:42Z
+- 地址：https://github.com/ruvnet/ruflo
+- 项目描述：🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration
+- AI 总结：领先的Claude Agent编排平台，支持多智能体集群、自主工作流协调与对话AI，集成RAG与自学习群智能力。
+
+### 8. multica
+
+- Star：28449
+- 语言：TypeScript
+- 更新时间：2026-05-15T01:45:45Z
+- 地址：https://github.com/multica-ai/multica
+- 项目描述：The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
+- AI 总结：开源托管Agent平台，将编码Agent转化为真实队友，支持任务分配、进度追踪与技能复合。
+
+### 9. zeroclaw
+
+- Star：31339
+- 语言：Rust
+- 更新时间：2026-05-15T01:44:42Z
+- 地址：https://github.com/zeroclaw-labs/zeroclaw
+- 项目描述：Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything 🦀
+- AI 总结：快速、小巧、全自主的AI个人助理基础设施，基于Rust实现跨平台部署与组件热替换。
+
+### 10. hermes-agent
+
+- Star：150440
+- 语言：Python
+- 更新时间：2026-05-15T01:26:52Z
+- 地址：https://github.com/NousResearch/hermes-agent
+- 项目描述：The agent that grows with you
+- AI 总结：与用户共同成长的Agent框架，强调自适应性与持续学习能力，由知名AI研究机构NousResearch开发。
 
 ## 三、最值得关注的项目
 
-1. dify：作为生产级Agent平台，Dify拥有最完善的生态和社区支持，可视化工作流、模型管理、工具集成等特性使其成为企业级Agent落地的首选，星数超14万验证其市场认可度。
-2. ragflow：RAG与Agent的融合是当前AI应用的核心方向，RAGFlow在检索增强生成领域技术领先，为LLM提供高质量上下文，是构建知识密集型Agent应用的关键基础设施。
-3. gemini-cli：作为Google官方开源项目，Gemini CLI代表了大型科技公司在Agent领域的最新实践，将前沿模型能力与终端交互结合，对Agent技术发展方向具有重要参考价值。
+1. ragflow：RAG与Agent的融合是当前AI应用的关键趋势，ragflow作为该领域的标杆项目，提供了成熟的生产级解决方案，对知识密集型场景具有极高价值。
+2. lobehub：多Agent协作与团队化设计代表了Agent应用的前沿方向，lobehub在Agent编排和交互范式上具有创新性，适合构建复杂协作系统。
+3. zeroclaw：以Rust实现的高性能、跨平台Agent基础设施，体现了轻量化与自主化的技术趋势，适合边缘计算与资源受限场景。
 
 ## 四、项目说明
 
