@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是Agent协作与编排成为核心，如lobehub、ruflo等项目聚焦多智能体协同与工作流管理；二是RAG与Agent深度融合，ragflow等项目通过检索增强生成提升LLM上下文质量；三是Agent基础设施向轻量化、跨平台发展，zeroclaw等Rust项目强调高性能与可移植性。此外，平台化与生产级部署（如dify、langflow）以及Agent作为“队友”的协作范式（如multica）也备受关注。",
+  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是多智能体协作与编排成为核心方向，如ruflo、openai-agents-python等专注于多智能体工作流；二是Agent基础设施向轻量化、跨平台、全自主演进，典型如zeroclaw（Rust实现）和cline（多形态集成）；三是Agent开发平台化与低代码化，langflow、lobehub等降低构建门槛。语言上Python和TypeScript主导，Rust开始用于高性能场景。项目普遍强调自主性、可扩展性和企业级架构。",
   "project_summaries": [
     {
       "name": "eliza",
       "full_name": "elizaOS/eliza",
-      "summary": "面向所有人的自主Agent框架，旨在降低AI Agent开发门槛，提供通用化的自主行为实现。"
-    },
-    {
-      "name": "lobehub",
-      "full_name": "lobehub/lobehub",
-      "summary": "终极工作与生活空间，支持多Agent协作与团队设计，将Agent作为工作交互的基本单元，推动Agent编排进入新阶段。"
-    },
-    {
-      "name": "ragflow",
-      "full_name": "infiniflow/ragflow",
-      "summary": "领先的开源RAG引擎，融合检索增强生成与Agent能力，为LLM构建优质上下文层，提升知识密集型任务的准确性。"
-    },
-    {
-      "name": "everything-claude-code",
-      "full_name": "affaan-m/everything-claude-code",
-      "summary": "Agent性能优化系统，涵盖技能、本能、记忆、安全等模块，专为Claude Code、Codex等工具设计，强调研究优先的开发范式。"
-    },
-    {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "summary": "生产级Agent工作流开发平台，提供从原型到部署的完整链路，支持可视化编排与可扩展架构。"
-    },
-    {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "summary": "强大的AI Agent与工作流构建工具，通过低代码界面简化复杂Agent系统的搭建与部署。"
+      "summary": "面向所有人的自主Agent框架，基于TypeScript，强调易用性和通用性，适合快速构建个人或轻量级Agent应用。"
     },
     {
       "name": "ruflo",
       "full_name": "ruvnet/ruflo",
-      "summary": "领先的Claude Agent编排平台，支持多智能体集群、自主工作流协调与对话AI，集成RAG与自学习群智能力。"
-    },
-    {
-      "name": "multica",
-      "full_name": "multica-ai/multica",
-      "summary": "开源托管Agent平台，将编码Agent转化为真实队友，支持任务分配、进度追踪与技能复合。"
+      "summary": "领先的Claude Agent编排平台，支持多智能体群组、自主工作流、RAG集成及Claude Code/Codex原生集成，具备企业级架构和自学习能力。"
     },
     {
       "name": "zeroclaw",
       "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "快速、小巧、全自主的AI个人助理基础设施，基于Rust实现跨平台部署与组件热替换。"
+      "summary": "基于Rust构建的快速、小巧、全自主AI个人助手基础设施，支持任意操作系统和平台，强调可部署性和组件可替换性。"
+    },
+    {
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "summary": "强大的AI Agent和工作流构建与部署工具，提供可视化界面，降低Agent开发门槛，适合快速原型和复杂流程编排。"
+    },
+    {
+      "name": "cline",
+      "full_name": "cline/cline",
+      "summary": "自主编码Agent，以SDK、IDE扩展或CLI助手形式提供，支持多种集成方式，聚焦开发者效率提升。"
     },
     {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
-      "summary": "与用户共同成长的Agent框架，强调自适应性与持续学习能力，由知名AI研究机构NousResearch开发。"
-    }
-  ],
-  "recommendation": [
+      "summary": "与用户共同成长的Agent，基于Python，强调持续学习和个性化适应，适合长期陪伴型应用。"
+    },
     {
-      "name": "ragflow",
-      "full_name": "infiniflow/ragflow",
-      "reason": "RAG与Agent的融合是当前AI应用的关键趋势，ragflow作为该领域的标杆项目，提供了成熟的生产级解决方案，对知识密集型场景具有极高价值。"
+      "name": "openai-agents-python",
+      "full_name": "openai/openai-agents-python",
+      "summary": "OpenAI官方推出的轻量级多Agent工作流框架，简洁高效，适合构建基于OpenAI模型的多智能体协作系统。"
     },
     {
       "name": "lobehub",
       "full_name": "lobehub/lobehub",
-      "reason": "多Agent协作与团队化设计代表了Agent应用的前沿方向，lobehub在Agent编排和交互范式上具有创新性，适合构建复杂协作系统。"
+      "summary": "Agent协作空间，支持多Agent团队构建、协作和交互，以Agent为工作单元，提供完整的Agent生命周期管理。"
+    },
+    {
+      "name": "OpenHands",
+      "full_name": "OpenHands/OpenHands",
+      "summary": "AI驱动的开发平台，聚焦自动化软件开发流程，通过Agent辅助编码、测试和部署。"
+    },
+    {
+      "name": "langchain",
+      "full_name": "langchain-ai/langchain",
+      "summary": "Agent工程化平台，提供完整的Agent构建、编排和部署能力，是当前最成熟的Agent开发框架之一。"
+    }
+  ],
+  "recommendation": [
+    {
+      "name": "langchain",
+      "full_name": "langchain-ai/langchain",
+      "reason": "作为Agent工程化平台，拥有最成熟的生态和社区支持，覆盖从原型到生产的全流程，是构建复杂Agent系统的首选框架。"
+    },
+    {
+      "name": "ruflo",
+      "full_name": "ruvnet/ruflo",
+      "reason": "专注于Claude生态的多Agent编排，具备自学习群组智能和企业级架构，代表了Agent协作的前沿方向，且星数极高。"
     },
     {
       "name": "zeroclaw",
       "full_name": "zeroclaw-labs/zeroclaw",
-      "reason": "以Rust实现的高性能、跨平台Agent基础设施，体现了轻量化与自主化的技术趋势，适合边缘计算与资源受限场景。"
+      "reason": "采用Rust实现的全自主Agent基础设施，性能优异且跨平台，代表了Agent轻量化、高性能的发展趋势，适合边缘和嵌入式场景。"
     }
   ]
 }
