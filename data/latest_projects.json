@@ -1,92 +1,92 @@
 [
   {
+    "name": "hermes-agent",
+    "full_name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 153481,
+    "language": "Python",
+    "updated_at": "2026-05-17T01:47:39Z"
+  },
+  {
     "name": "eliza",
     "full_name": "elizaOS/eliza",
     "url": "https://github.com/elizaOS/eliza",
     "description": "Autonomous agents for everyone",
-    "stars": 18376,
+    "stars": 18380,
     "language": "TypeScript",
-    "updated_at": "2026-05-16T01:47:49Z"
-  },
-  {
-    "name": "ruflo",
-    "full_name": "ruvnet/ruflo",
-    "url": "https://github.com/ruvnet/ruflo",
-    "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
-    "stars": 51567,
-    "language": "TypeScript",
-    "updated_at": "2026-05-16T01:44:51Z"
+    "updated_at": "2026-05-17T01:44:41Z"
   },
   {
     "name": "zeroclaw",
     "full_name": "zeroclaw-labs/zeroclaw",
     "url": "https://github.com/zeroclaw-labs/zeroclaw",
     "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything 🦀",
-    "stars": 31368,
+    "stars": 31385,
     "language": "Rust",
-    "updated_at": "2026-05-16T01:42:41Z"
+    "updated_at": "2026-05-17T01:27:00Z"
   },
   {
-    "name": "langflow",
-    "full_name": "langflow-ai/langflow",
-    "url": "https://github.com/langflow-ai/langflow",
-    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 148147,
+    "name": "mem0",
+    "full_name": "mem0ai/mem0",
+    "url": "https://github.com/mem0ai/mem0",
+    "description": "Universal memory layer for AI Agents",
+    "stars": 55881,
     "language": "Python",
-    "updated_at": "2026-05-16T01:39:36Z"
-  },
-  {
-    "name": "cline",
-    "full_name": "cline/cline",
-    "url": "https://github.com/cline/cline",
-    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-    "stars": 61851,
-    "language": "TypeScript",
-    "updated_at": "2026-05-16T01:39:02Z"
-  },
-  {
-    "name": "hermes-agent",
-    "full_name": "NousResearch/hermes-agent",
-    "url": "https://github.com/NousResearch/hermes-agent",
-    "description": "The agent that grows with you",
-    "stars": 152073,
-    "language": "Python",
-    "updated_at": "2026-05-16T01:25:58Z"
-  },
-  {
-    "name": "openai-agents-python",
-    "full_name": "openai/openai-agents-python",
-    "url": "https://github.com/openai/openai-agents-python",
-    "description": "A lightweight, powerful framework for multi-agent workflows",
-    "stars": 26338,
-    "language": "Python",
-    "updated_at": "2026-05-16T01:04:23Z"
-  },
-  {
-    "name": "lobehub",
-    "full_name": "lobehub/lobehub",
-    "url": "https://github.com/lobehub/lobehub",
-    "description": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
-    "stars": 77135,
-    "language": "TypeScript",
-    "updated_at": "2026-05-16T00:57:32Z"
-  },
-  {
-    "name": "OpenHands",
-    "full_name": "OpenHands/OpenHands",
-    "url": "https://github.com/OpenHands/OpenHands",
-    "description": "🙌 OpenHands: AI-Driven Development",
-    "stars": 73676,
-    "language": "Python",
-    "updated_at": "2026-05-16T00:54:47Z"
+    "updated_at": "2026-05-17T01:20:25Z"
   },
   {
     "name": "langchain",
     "full_name": "langchain-ai/langchain",
     "url": "https://github.com/langchain-ai/langchain",
     "description": "The agent engineering platform.",
-    "stars": 136828,
+    "stars": 136900,
     "language": "Python",
-    "updated_at": "2026-05-16T00:23:20Z"
+    "updated_at": "2026-05-17T01:10:42Z"
+  },
+  {
+    "name": "lobehub",
+    "full_name": "lobehub/lobehub",
+    "url": "https://github.com/lobehub/lobehub",
+    "description": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
+    "stars": 77163,
+    "language": "TypeScript",
+    "updated_at": "2026-05-17T01:04:19Z"
+  },
+  {
+    "name": "langflow",
+    "full_name": "langflow-ai/langflow",
+    "url": "https://github.com/langflow-ai/langflow",
+    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+    "stars": 148277,
+    "language": "Python",
+    "updated_at": "2026-05-17T00:56:14Z"
+  },
+  {
+    "name": "agents",
+    "full_name": "wshobson/agents",
+    "url": "https://github.com/wshobson/agents",
+    "description": "Intelligent automation and multi-agent orchestration for Claude Code",
+    "stars": 35500,
+    "language": "Python",
+    "updated_at": "2026-05-17T00:46:43Z"
+  },
+  {
+    "name": "OpenHands",
+    "full_name": "OpenHands/OpenHands",
+    "url": "https://github.com/OpenHands/OpenHands",
+    "description": "🙌 OpenHands: AI-Driven Development",
+    "stars": 73770,
+    "language": "Python",
+    "updated_at": "2026-05-17T00:44:37Z"
+  },
+  {
+    "name": "ruflo",
+    "full_name": "ruvnet/ruflo",
+    "url": "https://github.com/ruvnet/ruflo",
+    "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+    "stars": 51929,
+    "language": "TypeScript",
+    "updated_at": "2026-05-16T23:20:34Z"
   }
 ]
