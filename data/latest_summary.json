@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是以Claude Code为核心的多智能体编排与性能优化成为热点，涌现出oh-my-claudecode、ruflo、everything-claude-code等专注Agent协作与效率提升的项目；二是RAG与Agent深度融合，如RAGFlow和dify等平台将检索增强生成与智能体工作流结合，构建企业级上下文层；三是Agent基础设施向轻量化、跨平台和自主化发展，zeroclaw以Rust实现全平台部署，elizaOS提出Agent操作系统概念，hermes-agent强调持续学习能力。此外，低代码平台（如JeecgBoot）和AI生产力工具（如cherry-studio）也在集成Agent能力，降低开发门槛。",
+  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是从单一对话助手向全自主操作系统演进，如elizaOS提出的'代理操作系统'概念；二是强调跨平台、轻量化与高性能，典型代表如基于Rust的zeroclaw；三是Agent开发与部署平台化、低代码化，Langflow和ruflo等工具大幅降低了构建多智能体系统的门槛。此外，浏览器自动化（browser-use）、网页数据清洗（firecrawl）以及IDE内嵌的编码Agent（cline）成为热门方向，而hermes-agent等项目则聚焦于Agent的持续学习与成长能力。整体来看，社区正从'对话式AI'向'可执行、可协作、可成长的智能体'快速演进。",
   "project_summaries": [
     {
-      "name": "oh-my-claudecode",
-      "full_name": "Yeachan-Heo/oh-my-claudecode",
-      "summary": "以团队协作为核心的多智能体编排工具，专为Claude Code设计，支持多Agent协同工作。"
-    },
-    {
-      "name": "ragflow",
-      "full_name": "infiniflow/ragflow",
-      "summary": "领先的开源RAG引擎，融合检索增强生成与Agent能力，为LLM提供优质上下文层，支持企业级应用。"
+      "name": "eliza",
+      "full_name": "elizaOS/eliza",
+      "summary": "开源代理操作系统，旨在为AI Agent提供底层运行环境，支持多任务调度与资源管理，是Agent基础设施层的重要探索。"
     },
     {
       "name": "zeroclaw",
       "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "基于Rust构建的轻量、快速、全自主AI个人助手基础设施，支持任意操作系统和平台部署，组件可灵活替换。"
+      "summary": "基于Rust构建的极速、轻量、全自主AI个人助手基础设施，支持任意操作系统与平台，强调可部署性与模块可替换性。"
+    },
+    {
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "summary": "强大的AI Agent与工作流构建部署平台，提供可视化拖拽界面，降低Agent开发门槛，支持复杂多步骤流程编排。"
     },
     {
       "name": "ruflo",
       "full_name": "ruvnet/ruflo",
-      "summary": "面向Claude的领先Agent编排平台，支持多智能体集群部署、自主工作流协调、对话AI系统构建，集成RAG和自学习能力。"
+      "summary": "面向Claude的领先Agent编排平台，支持多智能体群组部署、自主工作流协调、RAG集成及企业级架构，具备自学习群智能能力。"
     },
     {
-      "name": "eliza",
-      "full_name": "elizaOS/eliza",
-      "summary": "开源Agent操作系统，提供智能体运行的基础环境，强调系统级支持与可扩展性。"
+      "name": "cline",
+      "full_name": "cline/cline",
+      "summary": "自主编码Agent，可作为SDK、IDE扩展或CLI助手使用，专注于提升开发者编码效率与自动化程度。"
     },
     {
-      "name": "everything-claude-code",
-      "full_name": "affaan-m/everything-claude-code",
-      "summary": "Agent性能优化系统，涵盖技能、本能、记忆、安全等模块，支持Claude Code、Codex、Cursor等多种Agent框架。"
+      "name": "browser-use",
+      "full_name": "browser-use/browser-use",
+      "summary": "让网站对AI Agent可访问的工具，实现浏览器任务的自动化执行，是Agent与现实Web交互的关键桥梁。"
     },
     {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "summary": "生产级Agent工作流开发平台，提供可视化编排和部署能力，适用于企业级AI应用构建。"
+      "name": "firecrawl",
+      "full_name": "firecrawl/firecrawl",
+      "summary": "为AI Agent提供搜索、抓取与网页数据清洗服务，是Agent获取外部信息的基础设施组件。"
+    },
+    {
+      "name": "LibreChat",
+      "full_name": "danny-avila/LibreChat",
+      "summary": "增强版ChatGPT克隆，集成Agent、MCP、多模型支持（DeepSeek、Anthropic、OpenAI等）、代码解释器、DALL-E-3等功能，支持自托管与多用户认证。"
+    },
+    {
+      "name": "multica",
+      "full_name": "multica-ai/multica",
+      "summary": "开源托管Agent平台，将编码Agent转化为真正的团队成员，支持任务分配、进度追踪与技能复合，强调团队协作式Agent管理。"
     },
     {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
-      "summary": "强调持续成长能力的Agent框架，支持动态学习和适应，由NousResearch开发。"
-    },
-    {
-      "name": "cherry-studio",
-      "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，集成智能聊天、自主Agent和300+助手，统一访问前沿大语言模型。"
-    },
-    {
-      "name": "JeecgBoot",
-      "full_name": "jeecgboot/JeecgBoot",
-      "summary": "AI低代码平台，融合低代码与零代码模式，支持AI生成流程、表单和系统，内置知识库和MCP插件，兼容主流大模型。"
+      "summary": "具备成长能力的Agent，强调持续学习与自我进化，代表Agent从静态工具向动态智能体的发展方向。"
     }
   ],
   "recommendation": [
     {
-      "name": "ragflow",
-      "full_name": "infiniflow/ragflow",
-      "reason": "RAG与Agent结合的代表性项目，星数高且持续更新，为企业级LLM应用提供关键上下文层，技术成熟度与社区活跃度俱佳。"
-    },
-    {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "reason": "生产级Agent工作流平台，可视化开发降低门槛，广泛应用于企业AI场景，生态完善且文档丰富。"
-    },
-    {
       "name": "zeroclaw",
       "full_name": "zeroclaw-labs/zeroclaw",
-      "reason": "采用Rust实现的高性能、跨平台Agent基础设施，强调自主性与轻量化，代表Agent部署的新方向，技术前瞻性强。"
+      "reason": "基于Rust实现极致的性能与跨平台能力，代表Agent基础设施向轻量化、高性能方向演进，且星数高达3.1万，社区活跃度极高。"
+    },
+    {
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "reason": "以14.8万星成为最受关注的Agent开发平台，低代码/可视化方式极大降低了Agent构建门槛，是Agent民主化的重要推手。"
+    },
+    {
+      "name": "browser-use",
+      "full_name": "browser-use/browser-use",
+      "reason": "解决Agent与真实Web交互的核心痛点，9.4万星验证了其刚需地位，是Agent从'对话'走向'行动'的关键基础设施。"
     }
   ]
 }
