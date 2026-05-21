@@ -1,92 +1,92 @@
 [
   {
-    "name": "LibreChat",
-    "full_name": "danny-avila/LibreChat",
-    "url": "https://github.com/danny-avila/LibreChat",
-    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.",
-    "stars": 37207,
+    "name": "dify",
+    "full_name": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "description": "Production-ready platform for agentic workflow development.",
+    "stars": 142062,
     "language": "TypeScript",
-    "updated_at": "2026-05-20T01:58:45Z"
+    "updated_at": "2026-05-21T01:59:08Z"
   },
   {
-    "name": "hermes-agent",
-    "full_name": "NousResearch/hermes-agent",
-    "url": "https://github.com/NousResearch/hermes-agent",
-    "description": "The agent that grows with you",
-    "stars": 158089,
-    "language": "Python",
-    "updated_at": "2026-05-20T01:57:02Z"
-  },
-  {
-    "name": "langflow",
-    "full_name": "langflow-ai/langflow",
-    "url": "https://github.com/langflow-ai/langflow",
-    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 148534,
-    "language": "Python",
-    "updated_at": "2026-05-20T01:53:21Z"
+    "name": "cherry-studio",
+    "full_name": "CherryHQ/cherry-studio",
+    "url": "https://github.com/CherryHQ/cherry-studio",
+    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+    "stars": 46022,
+    "language": "TypeScript",
+    "updated_at": "2026-05-21T01:58:29Z"
   },
   {
     "name": "eliza",
     "full_name": "elizaOS/eliza",
     "url": "https://github.com/elizaOS/eliza",
     "description": "Open source agentic operating system",
-    "stars": 18401,
+    "stars": 18414,
     "language": "TypeScript",
-    "updated_at": "2026-05-20T01:53:07Z"
+    "updated_at": "2026-05-21T01:50:03Z"
   },
   {
-    "name": "gemini-cli",
-    "full_name": "google-gemini/gemini-cli",
-    "url": "https://github.com/google-gemini/gemini-cli",
-    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "stars": 104330,
-    "language": "TypeScript",
-    "updated_at": "2026-05-20T01:50:28Z"
-  },
-  {
-    "name": "dify",
-    "full_name": "langgenius/dify",
-    "url": "https://github.com/langgenius/dify",
-    "description": "Production-ready platform for agentic workflow development.",
-    "stars": 141929,
-    "language": "TypeScript",
-    "updated_at": "2026-05-20T01:48:45Z"
-  },
-  {
-    "name": "ragflow",
-    "full_name": "infiniflow/ragflow",
-    "url": "https://github.com/infiniflow/ragflow",
-    "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-    "stars": 80836,
+    "name": "openai-agents-python",
+    "full_name": "openai/openai-agents-python",
+    "url": "https://github.com/openai/openai-agents-python",
+    "description": "A lightweight, powerful framework for multi-agent workflows",
+    "stars": 26510,
     "language": "Python",
-    "updated_at": "2026-05-20T01:47:39Z"
+    "updated_at": "2026-05-21T01:47:04Z"
   },
   {
-    "name": "ECC",
-    "full_name": "affaan-m/ECC",
-    "url": "https://github.com/affaan-m/ECC",
-    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "stars": 187217,
-    "language": "JavaScript",
-    "updated_at": "2026-05-20T01:39:05Z"
+    "name": "langchain",
+    "full_name": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "description": "The agent engineering platform.",
+    "stars": 137235,
+    "language": "Python",
+    "updated_at": "2026-05-21T01:40:55Z"
   },
   {
-    "name": "ruflo",
-    "full_name": "ruvnet/ruflo",
-    "url": "https://github.com/ruvnet/ruflo",
-    "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
-    "stars": 53245,
-    "language": "TypeScript",
-    "updated_at": "2026-05-20T01:37:13Z"
+    "name": "hermes-agent",
+    "full_name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 159759,
+    "language": "Python",
+    "updated_at": "2026-05-21T01:40:39Z"
+  },
+  {
+    "name": "zeroclaw",
+    "full_name": "zeroclaw-labs/zeroclaw",
+    "url": "https://github.com/zeroclaw-labs/zeroclaw",
+    "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything 🦀",
+    "stars": 31501,
+    "language": "Rust",
+    "updated_at": "2026-05-21T01:35:59Z"
   },
   {
     "name": "cline",
     "full_name": "cline/cline",
     "url": "https://github.com/cline/cline",
     "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-    "stars": 62042,
+    "stars": 62119,
     "language": "TypeScript",
-    "updated_at": "2026-05-20T01:18:49Z"
+    "updated_at": "2026-05-21T01:31:45Z"
+  },
+  {
+    "name": "langflow",
+    "full_name": "langflow-ai/langflow",
+    "url": "https://github.com/langflow-ai/langflow",
+    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+    "stars": 148570,
+    "language": "Python",
+    "updated_at": "2026-05-21T01:10:59Z"
+  },
+  {
+    "name": "gemini-cli",
+    "full_name": "google-gemini/gemini-cli",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+    "stars": 104395,
+    "language": "TypeScript",
+    "updated_at": "2026-05-21T00:42:04Z"
   }
 ]

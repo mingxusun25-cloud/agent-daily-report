@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是平台化与工具链整合，如Langflow、Dify等提供从开发到部署的全流程支持；二是多模型与多模态融合，LibreChat、Gemini CLI等集成多种AI服务；三是Agent自主化与系统化，Eliza、Cline等致力于构建自主操作系统或编码助手。项目普遍采用TypeScript或Python，关注RAG、MCP、安全性和可扩展性。",
+  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是平台化与工程化，如dify和langchain提供生产级工作流开发平台；二是多模态与多Agent协作，如openai-agents-python和elizaOS推动复杂任务分解与协同；三是轻量化与跨平台部署，如zeroclaw和gemini-cli强调终端集成与资源效率。语言上TypeScript和Python主导，Rust开始用于高性能基础设施。",
   "project_summaries": [
     {
-      "name": "LibreChat",
-      "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，支持Agent、MCP、多种AI模型（如DeepSeek、Anthropic、OpenAI等）、代码解释器、多用户认证和开源自托管，功能丰富且活跃更新。"
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "summary": "生产级Agent工作流开发平台，支持可视化编排与部署，适合企业级AI应用构建。"
     },
     {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "summary": "一个随用户成长的自适应AI Agent，强调持续学习和个性化发展。"
-    },
-    {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "summary": "强大的AI Agent和工作流构建与部署工具，提供可视化界面，简化复杂AI应用的开发流程。"
+      "name": "cherry-studio",
+      "full_name": "CherryHQ/cherry-studio",
+      "summary": "AI生产力工作室，集成智能聊天、自主Agent和300+助手，统一访问前沿大模型。"
     },
     {
       "name": "eliza",
       "full_name": "elizaOS/eliza",
-      "summary": "开源Agent操作系统，旨在为自主Agent提供底层运行环境，支持多Agent协作和系统级管理。"
+      "summary": "开源Agent操作系统，提供底层运行时环境，支持模块化Agent构建与调度。"
     },
     {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google推出的开源AI Agent，将Gemini能力集成到终端中，支持命令行交互和自动化任务。"
+      "name": "openai-agents-python",
+      "full_name": "openai/openai-agents-python",
+      "summary": "轻量级多Agent工作流框架，由OpenAI官方维护，强调简洁与可扩展性。"
     },
     {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "summary": "生产级Agent工作流开发平台，提供可视化编排、RAG集成和模型管理，适合企业级应用。"
+      "name": "langchain",
+      "full_name": "langchain-ai/langchain",
+      "summary": "Agent工程平台，提供丰富的工具链与集成能力，是构建复杂Agent应用的基础框架。"
     },
     {
-      "name": "ragflow",
-      "full_name": "infiniflow/ragflow",
-      "summary": "领先的开源RAG引擎，融合检索增强生成与Agent能力，为LLM构建优质上下文层。"
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "summary": "成长型Agent框架，注重持续学习与自适应能力，适合研究型场景。"
     },
     {
-      "name": "ECC",
-      "full_name": "affaan-m/ECC",
-      "summary": "Agent性能优化系统，专注于技能、本能、记忆、安全性和研究优先开发，兼容Claude Code、Codex等工具。"
-    },
-    {
-      "name": "ruflo",
-      "full_name": "ruvnet/ruflo",
-      "summary": "面向Claude的Agent编排平台，支持多Agent群、自主工作流、RAG集成和自学习群智能，具备企业级架构。"
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "summary": "快速、小巧的全自主AI个人助理基础设施，跨平台部署，使用Rust实现高性能。"
     },
     {
       "name": "cline",
       "full_name": "cline/cline",
-      "summary": "自主编码Agent，可作为SDK、IDE扩展或CLI助手，专注于代码生成和开发辅助。"
+      "summary": "自主编码Agent，支持SDK、IDE扩展和CLI三种形态，聚焦开发者效率。"
+    },
+    {
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "summary": "可视化Agent与工作流构建工具，降低AI应用开发门槛，支持拖拽式编排。"
+    },
+    {
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "summary": "Google官方开源终端AI Agent，将Gemini能力直接集成到命令行，强调交互便捷性。"
     }
   ],
   "recommendation": [
     {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "reason": "作为可视化Agent工作流构建工具，Langflow降低了AI应用开发门槛，适合快速原型和生产部署，社区活跃且文档完善。"
-    },
-    {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "reason": "生产级平台，提供完整的Agent工作流开发、RAG集成和模型管理，适合企业级应用，且支持自托管。"
+      "reason": "生产级平台，高星数（142k）验证其成熟度，适合企业快速落地Agent工作流。"
     },
     {
-      "name": "ragflow",
-      "full_name": "infiniflow/ragflow",
-      "reason": "专注于RAG与Agent融合，为LLM提供高质量上下文，是构建知识密集型Agent应用的核心基础设施。"
+      "name": "openai-agents-python",
+      "full_name": "openai/openai-agents-python",
+      "reason": "OpenAI官方出品，轻量多Agent框架，代表行业标准方向，社区活跃度高。"
+    },
+    {
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "reason": "Rust实现的高性能跨平台Agent基础设施，创新性强，适合边缘与资源受限场景。"
     }
   ]
 }
