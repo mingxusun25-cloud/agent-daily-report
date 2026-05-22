@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是平台化与工程化，如dify和langchain提供生产级工作流开发平台；二是多模态与多Agent协作，如openai-agents-python和elizaOS推动复杂任务分解与协同；三是轻量化与跨平台部署，如zeroclaw和gemini-cli强调终端集成与资源效率。语言上TypeScript和Python主导，Rust开始用于高性能基础设施。",
+  "overall_summary": "当前开源AI Agent领域呈现爆发式增长，项目覆盖个人助手、开发工具、多智能体协作平台等方向。技术栈以TypeScript和Python为主，Rust和Go开始用于高性能基础设施。核心趋势包括：1）从单一聊天机器人向可编程、可扩展的Agent操作系统演进；2）强调生产级部署和自主性，如Dify、ElizaOS；3）终端和IDE集成成为主流交互方式，如Gemini CLI、Cline；4）多智能体协作框架（如OpenAI Agents Python）和托管平台（如Multica）加速企业级应用。",
   "project_summaries": [
+    {
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "summary": "一个与用户共同成长的个性化AI Agent，基于Python实现，拥有极高关注度（16万+星标），强调持续学习和适应能力。"
+    },
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "summary": "生产级Agent工作流开发平台，支持可视化编排与部署，适合企业级AI应用构建。"
-    },
-    {
-      "name": "cherry-studio",
-      "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，集成智能聊天、自主Agent和300+助手，统一访问前沿大模型。"
+      "summary": "生产级Agent工作流开发平台，使用TypeScript构建，支持可视化编排和部署，适合企业级AI应用开发。"
     },
     {
       "name": "eliza",
       "full_name": "elizaOS/eliza",
-      "summary": "开源Agent操作系统，提供底层运行时环境，支持模块化Agent构建与调度。"
+      "summary": "开源Agent操作系统，提供底层运行时环境，支持模块化扩展，旨在成为AI Agent的基础设施层。"
     },
     {
-      "name": "openai-agents-python",
-      "full_name": "openai/openai-agents-python",
-      "summary": "轻量级多Agent工作流框架，由OpenAI官方维护，强调简洁与可扩展性。"
-    },
-    {
-      "name": "langchain",
-      "full_name": "langchain-ai/langchain",
-      "summary": "Agent工程平台，提供丰富的工具链与集成能力，是构建复杂Agent应用的基础框架。"
-    },
-    {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "summary": "成长型Agent框架，注重持续学习与自适应能力，适合研究型场景。"
-    },
-    {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "快速、小巧的全自主AI个人助理基础设施，跨平台部署，使用Rust实现高性能。"
-    },
-    {
-      "name": "cline",
-      "full_name": "cline/cline",
-      "summary": "自主编码Agent，支持SDK、IDE扩展和CLI三种形态，聚焦开发者效率。"
-    },
-    {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "summary": "可视化Agent与工作流构建工具，降低AI应用开发门槛，支持拖拽式编排。"
+      "name": "LibreChat",
+      "full_name": "danny-avila/LibreChat",
+      "summary": "增强版ChatGPT克隆，集成多种AI模型（如DeepSeek、Anthropic、OpenAI等）和Agent功能，支持自托管，功能丰富。"
     },
     {
       "name": "gemini-cli",
       "full_name": "google-gemini/gemini-cli",
-      "summary": "Google官方开源终端AI Agent，将Gemini能力直接集成到命令行，强调交互便捷性。"
+      "summary": "Google推出的终端AI Agent，将Gemini能力带入命令行，支持自然语言交互和自动化任务，星标超10万。"
+    },
+    {
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "summary": "用Rust构建的轻量级、全自主AI个人助手基础设施，跨平台部署，强调速度和可替换性。"
+    },
+    {
+      "name": "cline",
+      "full_name": "cline/cline",
+      "summary": "自主编码Agent，提供SDK、IDE扩展和CLI三种形态，专注于开发者工具链集成，星标超6万。"
+    },
+    {
+      "name": "OpenHands",
+      "full_name": "OpenHands/OpenHands",
+      "summary": "AI驱动的开发平台，通过Agent自动化软件开发流程，支持代码生成、调试和项目管理。"
+    },
+    {
+      "name": "multica",
+      "full_name": "multica-ai/multica",
+      "summary": "开源托管Agent平台，用Go实现，将编码Agent转化为团队协作者，支持任务分配、进度追踪和技能复用。"
+    },
+    {
+      "name": "openai-agents-python",
+      "full_name": "openai/openai-agents-python",
+      "summary": "OpenAI官方推出的轻量级多Agent工作流框架，基于Python，简化复杂协作场景的构建。"
     }
   ],
   "recommendation": [
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "reason": "生产级平台，高星数（142k）验证其成熟度，适合企业快速落地Agent工作流。"
+      "reason": "作为生产级Agent工作流平台，Dify提供了从开发到部署的完整解决方案，适合企业快速落地AI Agent应用，且社区活跃度高。"
+    },
+    {
+      "name": "eliza",
+      "full_name": "elizaOS/eliza",
+      "reason": "ElizaOS定位为Agent操作系统，代表了AI Agent基础设施化的趋势，其模块化设计为未来复杂Agent生态奠定基础。"
     },
     {
       "name": "openai-agents-python",
       "full_name": "openai/openai-agents-python",
-      "reason": "OpenAI官方出品，轻量多Agent框架，代表行业标准方向，社区活跃度高。"
-    },
-    {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "reason": "Rust实现的高性能跨平台Agent基础设施，创新性强，适合边缘与资源受限场景。"
+      "reason": "OpenAI官方出品，轻量且强大，是多Agent协作的标准参考实现，对理解行业最佳实践和未来发展方向具有重要指导意义。"
     }
   ]
 }

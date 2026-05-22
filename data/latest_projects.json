@@ -1,92 +1,92 @@
 [
   {
+    "name": "hermes-agent",
+    "full_name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 161596,
+    "language": "Python",
+    "updated_at": "2026-05-22T02:01:06Z"
+  },
+  {
     "name": "dify",
     "full_name": "langgenius/dify",
     "url": "https://github.com/langgenius/dify",
     "description": "Production-ready platform for agentic workflow development.",
-    "stars": 142062,
+    "stars": 142182,
     "language": "TypeScript",
-    "updated_at": "2026-05-21T01:59:08Z"
-  },
-  {
-    "name": "cherry-studio",
-    "full_name": "CherryHQ/cherry-studio",
-    "url": "https://github.com/CherryHQ/cherry-studio",
-    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-    "stars": 46022,
-    "language": "TypeScript",
-    "updated_at": "2026-05-21T01:58:29Z"
+    "updated_at": "2026-05-22T01:59:18Z"
   },
   {
     "name": "eliza",
     "full_name": "elizaOS/eliza",
     "url": "https://github.com/elizaOS/eliza",
     "description": "Open source agentic operating system",
-    "stars": 18414,
+    "stars": 18423,
     "language": "TypeScript",
-    "updated_at": "2026-05-21T01:50:03Z"
+    "updated_at": "2026-05-22T01:55:05Z"
   },
   {
-    "name": "openai-agents-python",
-    "full_name": "openai/openai-agents-python",
-    "url": "https://github.com/openai/openai-agents-python",
-    "description": "A lightweight, powerful framework for multi-agent workflows",
-    "stars": 26510,
-    "language": "Python",
-    "updated_at": "2026-05-21T01:47:04Z"
-  },
-  {
-    "name": "langchain",
-    "full_name": "langchain-ai/langchain",
-    "url": "https://github.com/langchain-ai/langchain",
-    "description": "The agent engineering platform.",
-    "stars": 137235,
-    "language": "Python",
-    "updated_at": "2026-05-21T01:40:55Z"
-  },
-  {
-    "name": "hermes-agent",
-    "full_name": "NousResearch/hermes-agent",
-    "url": "https://github.com/NousResearch/hermes-agent",
-    "description": "The agent that grows with you",
-    "stars": 159759,
-    "language": "Python",
-    "updated_at": "2026-05-21T01:40:39Z"
-  },
-  {
-    "name": "zeroclaw",
-    "full_name": "zeroclaw-labs/zeroclaw",
-    "url": "https://github.com/zeroclaw-labs/zeroclaw",
-    "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything 🦀",
-    "stars": 31501,
-    "language": "Rust",
-    "updated_at": "2026-05-21T01:35:59Z"
-  },
-  {
-    "name": "cline",
-    "full_name": "cline/cline",
-    "url": "https://github.com/cline/cline",
-    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-    "stars": 62119,
+    "name": "LibreChat",
+    "full_name": "danny-avila/LibreChat",
+    "url": "https://github.com/danny-avila/LibreChat",
+    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.",
+    "stars": 37300,
     "language": "TypeScript",
-    "updated_at": "2026-05-21T01:31:45Z"
-  },
-  {
-    "name": "langflow",
-    "full_name": "langflow-ai/langflow",
-    "url": "https://github.com/langflow-ai/langflow",
-    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 148570,
-    "language": "Python",
-    "updated_at": "2026-05-21T01:10:59Z"
+    "updated_at": "2026-05-22T01:48:43Z"
   },
   {
     "name": "gemini-cli",
     "full_name": "google-gemini/gemini-cli",
     "url": "https://github.com/google-gemini/gemini-cli",
     "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "stars": 104395,
+    "stars": 104454,
     "language": "TypeScript",
-    "updated_at": "2026-05-21T00:42:04Z"
+    "updated_at": "2026-05-22T01:46:06Z"
+  },
+  {
+    "name": "zeroclaw",
+    "full_name": "zeroclaw-labs/zeroclaw",
+    "url": "https://github.com/zeroclaw-labs/zeroclaw",
+    "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything 🦀",
+    "stars": 31510,
+    "language": "Rust",
+    "updated_at": "2026-05-22T01:45:55Z"
+  },
+  {
+    "name": "cline",
+    "full_name": "cline/cline",
+    "url": "https://github.com/cline/cline",
+    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+    "stars": 62157,
+    "language": "TypeScript",
+    "updated_at": "2026-05-22T01:44:19Z"
+  },
+  {
+    "name": "OpenHands",
+    "full_name": "OpenHands/OpenHands",
+    "url": "https://github.com/OpenHands/OpenHands",
+    "description": "🙌 OpenHands: AI-Driven Development",
+    "stars": 74439,
+    "language": "Python",
+    "updated_at": "2026-05-22T01:39:54Z"
+  },
+  {
+    "name": "multica",
+    "full_name": "multica-ai/multica",
+    "url": "https://github.com/multica-ai/multica",
+    "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+    "stars": 30777,
+    "language": "Go",
+    "updated_at": "2026-05-22T01:19:41Z"
+  },
+  {
+    "name": "openai-agents-python",
+    "full_name": "openai/openai-agents-python",
+    "url": "https://github.com/openai/openai-agents-python",
+    "description": "A lightweight, powerful framework for multi-agent workflows",
+    "stars": 26555,
+    "language": "Python",
+    "updated_at": "2026-05-22T01:08:07Z"
   }
 ]
