@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现爆发式增长，项目覆盖个人助手、开发工具、多智能体协作平台等方向。技术栈以TypeScript和Python为主，Rust和Go开始用于高性能基础设施。核心趋势包括：1）从单一聊天机器人向可编程、可扩展的Agent操作系统演进；2）强调生产级部署和自主性，如Dify、ElizaOS；3）终端和IDE集成成为主流交互方式，如Gemini CLI、Cline；4）多智能体协作框架（如OpenAI Agents Python）和托管平台（如Multica）加速企业级应用。",
+  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是框架与平台化，如LangChain、Dify、LangFlow等提供从开发到部署的全链路支持；二是专业化与场景化，如Browser-use聚焦浏览器自动化、Cline专注编码辅助、DocsGPT面向企业知识管理；三是自主化与协作化，如CrewAI强调多角色协作、Hermes-Agent追求持续成长。Rust语言项目（如Zeroclaw）开始崭露头角，体现对性能和跨平台部署的追求。",
   "project_summaries": [
     {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "summary": "一个与用户共同成长的个性化AI Agent，基于Python实现，拥有极高关注度（16万+星标），强调持续学习和适应能力。"
-    },
-    {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "summary": "生产级Agent工作流开发平台，使用TypeScript构建，支持可视化编排和部署，适合企业级AI应用开发。"
-    },
-    {
-      "name": "eliza",
-      "full_name": "elizaOS/eliza",
-      "summary": "开源Agent操作系统，提供底层运行时环境，支持模块化扩展，旨在成为AI Agent的基础设施层。"
-    },
-    {
-      "name": "LibreChat",
-      "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，集成多种AI模型（如DeepSeek、Anthropic、OpenAI等）和Agent功能，支持自托管，功能丰富。"
-    },
-    {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google推出的终端AI Agent，将Gemini能力带入命令行，支持自然语言交互和自动化任务，星标超10万。"
+      "name": "browser-use",
+      "full_name": "browser-use/browser-use",
+      "summary": "让AI代理能够轻松访问网站并在线自动化执行任务，专注于浏览器交互场景。"
     },
     {
       "name": "zeroclaw",
       "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "用Rust构建的轻量级、全自主AI个人助手基础设施，跨平台部署，强调速度和可替换性。"
+      "summary": "用Rust构建的快速、小巧、完全自主的AI个人助理基础设施，支持任何操作系统和平台，可随处部署、灵活替换组件。"
+    },
+    {
+      "name": "langchain",
+      "full_name": "langchain-ai/langchain",
+      "summary": "AI代理工程平台，提供构建、部署和管理智能代理的完整工具链。"
+    },
+    {
+      "name": "DocsGPT",
+      "full_name": "arc53/DocsGPT",
+      "summary": "面向代理、助手和企业搜索的私有AI平台，内置代理构建器、深度研究、文档分析、多模型支持和API连接能力。"
+    },
+    {
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "summary": "生产就绪的代理工作流开发平台，支持快速构建和部署AI应用。"
+    },
+    {
+      "name": "LibreChat",
+      "full_name": "danny-avila/LibreChat",
+      "summary": "增强版ChatGPT克隆，集成代理、MCP、多种AI模型、代码解释器、OpenAPI动作等功能，支持自托管。"
+    },
+    {
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "summary": "一个能够随着用户成长而不断进化的AI代理，强调自适应和持续学习。"
+    },
+    {
+      "name": "crewAI",
+      "full_name": "crewAIInc/crewAI",
+      "summary": "编排角色扮演、自主AI代理的框架，通过促进协作智能让代理无缝协同处理复杂任务。"
+    },
+    {
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "summary": "用于构建和部署AI驱动代理及工作流的强大可视化工具。"
     },
     {
       "name": "cline",
       "full_name": "cline/cline",
-      "summary": "自主编码Agent，提供SDK、IDE扩展和CLI三种形态，专注于开发者工具链集成，星标超6万。"
-    },
-    {
-      "name": "OpenHands",
-      "full_name": "OpenHands/OpenHands",
-      "summary": "AI驱动的开发平台，通过Agent自动化软件开发流程，支持代码生成、调试和项目管理。"
-    },
-    {
-      "name": "multica",
-      "full_name": "multica-ai/multica",
-      "summary": "开源托管Agent平台，用Go实现，将编码Agent转化为团队协作者，支持任务分配、进度追踪和技能复用。"
-    },
-    {
-      "name": "openai-agents-python",
-      "full_name": "openai/openai-agents-python",
-      "summary": "OpenAI官方推出的轻量级多Agent工作流框架，基于Python，简化复杂协作场景的构建。"
+      "summary": "作为SDK、IDE扩展或CLI助手的自主编码代理，专注于代码生成和辅助。"
     }
   ],
   "recommendation": [
     {
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "reason": "拥有最高星标（163k），强调代理的持续成长和自适应能力，代表AI Agent从工具向伙伴演进的前沿方向。"
+    },
+    {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "reason": "作为生产级Agent工作流平台，Dify提供了从开发到部署的完整解决方案，适合企业快速落地AI Agent应用，且社区活跃度高。"
+      "reason": "生产级平台，星标超142k，TypeScript实现，适合企业级代理工作流开发，生态成熟。"
     },
     {
-      "name": "eliza",
-      "full_name": "elizaOS/eliza",
-      "reason": "ElizaOS定位为Agent操作系统，代表了AI Agent基础设施化的趋势，其模块化设计为未来复杂Agent生态奠定基础。"
-    },
-    {
-      "name": "openai-agents-python",
-      "full_name": "openai/openai-agents-python",
-      "reason": "OpenAI官方出品，轻量且强大，是多Agent协作的标准参考实现，对理解行业最佳实践和未来发展方向具有重要指导意义。"
+      "name": "crewAI",
+      "full_name": "crewAIInc/crewAI",
+      "reason": "多代理协作框架的标杆，星标超51k，通过角色扮演和协作智能解决复杂任务，体现Agent协作趋势。"
     }
   ]
 }
