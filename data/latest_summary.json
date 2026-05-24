@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是框架与平台化，如LangChain、Dify、LangFlow等提供从开发到部署的全链路支持；二是专业化与场景化，如Browser-use聚焦浏览器自动化、Cline专注编码辅助、DocsGPT面向企业知识管理；三是自主化与协作化，如CrewAI强调多角色协作、Hermes-Agent追求持续成长。Rust语言项目（如Zeroclaw）开始崭露头角，体现对性能和跨平台部署的追求。",
+  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是生产级平台化，如dify和langflow提供完整的Agent工作流开发与部署能力；二是Agent自主化与操作系统化，如eliza和zeroclaw致力于打造跨平台、全自主的AI个人助手基础设施；三是Agent能力向开发工具深度渗透，如cline和OpenHands将AI Agent嵌入IDE或CLI，实现自主编码。此外，数据获取（firecrawl）、多模型集成（LibreChat）以及教育教程（GenAI_Agents）也是重要方向。技术栈以TypeScript和Python为主，Rust开始出现（zeroclaw），表明对性能和轻量化的追求。",
   "project_summaries": [
-    {
-      "name": "browser-use",
-      "full_name": "browser-use/browser-use",
-      "summary": "让AI代理能够轻松访问网站并在线自动化执行任务，专注于浏览器交互场景。"
-    },
-    {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "用Rust构建的快速、小巧、完全自主的AI个人助理基础设施，支持任何操作系统和平台，可随处部署、灵活替换组件。"
-    },
-    {
-      "name": "langchain",
-      "full_name": "langchain-ai/langchain",
-      "summary": "AI代理工程平台，提供构建、部署和管理智能代理的完整工具链。"
-    },
-    {
-      "name": "DocsGPT",
-      "full_name": "arc53/DocsGPT",
-      "summary": "面向代理、助手和企业搜索的私有AI平台，内置代理构建器、深度研究、文档分析、多模型支持和API连接能力。"
-    },
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "summary": "生产就绪的代理工作流开发平台，支持快速构建和部署AI应用。"
+      "summary": "生产级Agent工作流开发平台，支持可视化编排、RAG、插件等，适合快速构建和部署AI应用。"
     },
     {
-      "name": "LibreChat",
-      "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，集成代理、MCP、多种AI模型、代码解释器、OpenAPI动作等功能，支持自托管。"
+      "name": "eliza",
+      "full_name": "elizaOS/eliza",
+      "summary": "开源Agent操作系统，旨在为AI Agent提供底层运行环境，支持多Agent协作与长期记忆。"
+    },
+    {
+      "name": "firecrawl",
+      "full_name": "firecrawl/firecrawl",
+      "summary": "专为AI Agent设计的网络搜索、抓取与数据清洗工具，帮助Agent高效获取外部信息。"
     },
     {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
-      "summary": "一个能够随着用户成长而不断进化的AI代理，强调自适应和持续学习。"
-    },
-    {
-      "name": "crewAI",
-      "full_name": "crewAIInc/crewAI",
-      "summary": "编排角色扮演、自主AI代理的框架，通过促进协作智能让代理无缝协同处理复杂任务。"
-    },
-    {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "summary": "用于构建和部署AI驱动代理及工作流的强大可视化工具。"
+      "summary": "可成长的Agent框架，强调与用户共同进化，可能具备持续学习和个性化适应能力。"
     },
     {
       "name": "cline",
       "full_name": "cline/cline",
-      "summary": "作为SDK、IDE扩展或CLI助手的自主编码代理，专注于代码生成和辅助。"
+      "summary": "自主编码Agent，以SDK、IDE扩展或CLI形式存在，能独立完成软件开发任务。"
+    },
+    {
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "summary": "强大的AI Agent与工作流构建部署工具，提供可视化界面，降低开发门槛。"
+    },
+    {
+      "name": "OpenHands",
+      "full_name": "OpenHands/OpenHands",
+      "summary": "AI驱动的开发助手，专注于通过Agent自动化软件开发流程，提升效率。"
+    },
+    {
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "summary": "快速、小巧、全自主的AI个人助手基础设施，用Rust编写，支持跨平台部署和组件热替换。"
+    },
+    {
+      "name": "GenAI_Agents",
+      "full_name": "NirDiamant/GenAI_Agents",
+      "summary": "50+教程与实现，覆盖从基础对话机器人到复杂多Agent系统的生成式AI Agent技术。"
+    },
+    {
+      "name": "LibreChat",
+      "full_name": "danny-avila/LibreChat",
+      "summary": "增强版ChatGPT克隆，集成多种AI模型、Agent、MCP、代码解释器等，支持自托管。"
     }
   ],
   "recommendation": [
     {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "reason": "拥有最高星标（163k），强调代理的持续成长和自适应能力，代表AI Agent从工具向伙伴演进的前沿方向。"
-    },
-    {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "reason": "生产级平台，星标超142k，TypeScript实现，适合企业级代理工作流开发，生态成熟。"
+      "reason": "生产级平台，高星数（142k），生态成熟，适合企业快速落地Agent工作流。"
     },
     {
-      "name": "crewAI",
-      "full_name": "crewAIInc/crewAI",
-      "reason": "多代理协作框架的标杆，星标超51k，通过角色扮演和协作智能解决复杂任务，体现Agent协作趋势。"
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "reason": "星数最高（164k），代表Agent个性化与持续学习的前沿方向，潜力巨大。"
+    },
+    {
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "reason": "采用Rust实现，追求极致性能与轻量化，代表Agent基础设施的新技术路线。"
     }
   ]
 }
