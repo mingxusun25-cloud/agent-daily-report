@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是生产级平台化，如dify和langflow提供完整的Agent工作流开发与部署能力；二是Agent自主化与操作系统化，如eliza和zeroclaw致力于打造跨平台、全自主的AI个人助手基础设施；三是Agent能力向开发工具深度渗透，如cline和OpenHands将AI Agent嵌入IDE或CLI，实现自主编码。此外，数据获取（firecrawl）、多模型集成（LibreChat）以及教育教程（GenAI_Agents）也是重要方向。技术栈以TypeScript和Python为主，Rust开始出现（zeroclaw），表明对性能和轻量化的追求。",
+  "overall_summary": "当前开源 AI Agent 生态呈现三大趋势：一是平台化与生产级部署，如 dify、langflow 等提供从开发到上线的完整工作流；二是多智能体协作与编排，ruflo、multica 等专注于智能体集群的协调与任务管理；三是上下文持久化与工具链集成，claude-mem、agents 等项目解决跨会话记忆和插件市场问题。TypeScript 和 Python 是主要开发语言，项目普遍强调与 Claude、Gemini 等主流模型的深度集成。",
   "project_summaries": [
+    {
+      "name": "multica",
+      "full_name": "multica-ai/multica",
+      "summary": "开源托管智能体平台，将编码智能体转化为真正的队友，支持任务分配、进度追踪和技能复合。"
+    },
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "summary": "生产级Agent工作流开发平台，支持可视化编排、RAG、插件等，适合快速构建和部署AI应用。"
+      "summary": "生产级智能体工作流开发平台，提供从原型到上线的完整工具链。"
+    },
+    {
+      "name": "ruflo",
+      "full_name": "ruvnet/ruflo",
+      "summary": "面向 Claude 的领先智能体编排平台，支持多智能体集群、自主工作流、RAG 集成及企业级架构。"
+    },
+    {
+      "name": "cherry-studio",
+      "full_name": "CherryHQ/cherry-studio",
+      "summary": "AI 生产力工作室，集成智能聊天、自主智能体和 300+ 助手，统一访问前沿 LLM。"
     },
     {
       "name": "eliza",
       "full_name": "elizaOS/eliza",
-      "summary": "开源Agent操作系统，旨在为AI Agent提供底层运行环境，支持多Agent协作与长期记忆。"
-    },
-    {
-      "name": "firecrawl",
-      "full_name": "firecrawl/firecrawl",
-      "summary": "专为AI Agent设计的网络搜索、抓取与数据清洗工具，帮助Agent高效获取外部信息。"
+      "summary": "开源智能体操作系统，提供底层运行时环境。"
     },
     {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
-      "summary": "可成长的Agent框架，强调与用户共同进化，可能具备持续学习和个性化适应能力。"
+      "summary": "与用户共同成长的智能体，强调自适应和持续学习能力。"
+    },
+    {
+      "name": "agents",
+      "full_name": "wshobson/agents",
+      "summary": "多工具智能体插件市场，支持 Claude Code、Codex CLI、Cursor、OpenCode、Gemini CLI 等。"
     },
     {
       "name": "cline",
       "full_name": "cline/cline",
-      "summary": "自主编码Agent，以SDK、IDE扩展或CLI形式存在，能独立完成软件开发任务。"
+      "summary": "自主编码智能体，以 SDK、IDE 扩展或 CLI 助手形式提供。"
+    },
+    {
+      "name": "claude-mem",
+      "full_name": "thedotmack/claude-mem",
+      "summary": "跨会话持久上下文工具，捕获智能体会话行为，AI 压缩后注入未来会话，支持多种 CLI 工具。"
     },
     {
       "name": "langflow",
       "full_name": "langflow-ai/langflow",
-      "summary": "强大的AI Agent与工作流构建部署工具，提供可视化界面，降低开发门槛。"
-    },
-    {
-      "name": "OpenHands",
-      "full_name": "OpenHands/OpenHands",
-      "summary": "AI驱动的开发助手，专注于通过Agent自动化软件开发流程，提升效率。"
-    },
-    {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "快速、小巧、全自主的AI个人助手基础设施，用Rust编写，支持跨平台部署和组件热替换。"
-    },
-    {
-      "name": "GenAI_Agents",
-      "full_name": "NirDiamant/GenAI_Agents",
-      "summary": "50+教程与实现，覆盖从基础对话机器人到复杂多Agent系统的生成式AI Agent技术。"
-    },
-    {
-      "name": "LibreChat",
-      "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，集成多种AI模型、Agent、MCP、代码解释器等，支持自托管。"
+      "summary": "构建和部署 AI 智能体及工作流的强大可视化工具。"
     }
   ],
   "recommendation": [
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "reason": "生产级平台，高星数（142k），生态成熟，适合企业快速落地Agent工作流。"
+      "reason": "14 万+ Stars 的生产级平台，覆盖智能体工作流全生命周期，是当前最成熟的端到端解决方案。"
     },
     {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "reason": "星数最高（164k），代表Agent个性化与持续学习的前沿方向，潜力巨大。"
+      "name": "ruflo",
+      "full_name": "ruvnet/ruflo",
+      "reason": "专注 Claude 生态的多智能体编排，融合 RAG 和企业级架构，代表智能体协作的前沿方向。"
     },
     {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "reason": "采用Rust实现，追求极致性能与轻量化，代表Agent基础设施的新技术路线。"
+      "name": "claude-mem",
+      "full_name": "thedotmack/claude-mem",
+      "reason": "解决智能体跨会话记忆这一核心痛点，支持主流 CLI 工具，是提升智能体实用性的关键基础设施。"
     }
   ]
 }
