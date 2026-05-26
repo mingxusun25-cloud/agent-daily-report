@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源 AI Agent 生态呈现三大趋势：一是平台化与生产级部署，如 dify、langflow 等提供从开发到上线的完整工作流；二是多智能体协作与编排，ruflo、multica 等专注于智能体集群的协调与任务管理；三是上下文持久化与工具链集成，claude-mem、agents 等项目解决跨会话记忆和插件市场问题。TypeScript 和 Python 是主要开发语言，项目普遍强调与 Claude、Gemini 等主流模型的深度集成。",
+  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是平台化与工程化，如dify、langflow、multica等提供生产级工作流编排与团队协作能力；二是多智能体编排与插件生态，如oh-my-claudecode、ruflo、agents等项目聚焦于Claude Code、Cursor等工具的互联互通；三是基础框架持续演进，langchain、OpenHands等作为底层引擎推动Agent开发标准化。项目语言以Python和TypeScript为主，社区活跃度极高。",
   "project_summaries": [
+    {
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "summary": "一个与用户共同成长的智能体项目，采用Python开发，拥有极高的社区关注度（16.7万星），强调个性化与持续进化能力。"
+    },
     {
       "name": "multica",
       "full_name": "multica-ai/multica",
-      "summary": "开源托管智能体平台，将编码智能体转化为真正的队友，支持任务分配、进度追踪和技能复合。"
+      "summary": "开源托管智能体平台，将编码智能体转化为真正的团队成员，支持任务分配、进度追踪和技能复合，采用TypeScript构建。"
     },
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "summary": "生产级智能体工作流开发平台，提供从原型到上线的完整工具链。"
+      "summary": "面向生产的智能体工作流开发平台，提供可视化编排与部署能力，TypeScript实现，星数达14.2万，适合企业级应用。"
     },
     {
-      "name": "ruflo",
-      "full_name": "ruvnet/ruflo",
-      "summary": "面向 Claude 的领先智能体编排平台，支持多智能体集群、自主工作流、RAG 集成及企业级架构。"
-    },
-    {
-      "name": "cherry-studio",
-      "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI 生产力工作室，集成智能聊天、自主智能体和 300+ 助手，统一访问前沿 LLM。"
-    },
-    {
-      "name": "eliza",
-      "full_name": "elizaOS/eliza",
-      "summary": "开源智能体操作系统，提供底层运行时环境。"
-    },
-    {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "summary": "与用户共同成长的智能体，强调自适应和持续学习能力。"
-    },
-    {
-      "name": "agents",
-      "full_name": "wshobson/agents",
-      "summary": "多工具智能体插件市场，支持 Claude Code、Codex CLI、Cursor、OpenCode、Gemini CLI 等。"
-    },
-    {
-      "name": "cline",
-      "full_name": "cline/cline",
-      "summary": "自主编码智能体，以 SDK、IDE 扩展或 CLI 助手形式提供。"
-    },
-    {
-      "name": "claude-mem",
-      "full_name": "thedotmack/claude-mem",
-      "summary": "跨会话持久上下文工具，捕获智能体会话行为，AI 压缩后注入未来会话，支持多种 CLI 工具。"
+      "name": "oh-my-claudecode",
+      "full_name": "Yeachan-Heo/oh-my-claudecode",
+      "summary": "面向团队的多智能体编排工具，专为Claude Code设计，支持协作式任务调度，TypeScript开发，星数3.4万。"
     },
     {
       "name": "langflow",
       "full_name": "langflow-ai/langflow",
-      "summary": "构建和部署 AI 智能体及工作流的强大可视化工具。"
+      "summary": "强大的AI智能体与工作流构建部署工具，Python实现，星数14.8万，以低代码方式降低Agent开发门槛。"
+    },
+    {
+      "name": "OpenHands",
+      "full_name": "OpenHands/OpenHands",
+      "summary": "AI驱动的开发平台，聚焦于自动化编码与开发流程，Python实现，星数7.4万，强调“AI驱动开发”理念。"
+    },
+    {
+      "name": "ruflo",
+      "full_name": "ruvnet/ruflo",
+      "summary": "领先的Claude智能体编排平台，支持多智能体集群、自主工作流、RAG集成及Claude Code/Codex原生集成，TypeScript实现，星数5.5万。"
+    },
+    {
+      "name": "langchain",
+      "full_name": "langchain-ai/langchain",
+      "summary": "智能体工程平台，Python实现，星数13.7万，作为基础框架提供链式调用、工具集成等核心能力，是Agent生态的基石。"
+    },
+    {
+      "name": "agents",
+      "full_name": "wshobson/agents",
+      "summary": "多工具智能体插件市场，兼容Claude Code、Codex CLI、Cursor、OpenCode、Gemini CLI等，Python实现，星数3.5万，推动跨平台Agent复用。"
+    },
+    {
+      "name": "eliza",
+      "full_name": "elizaOS/eliza",
+      "summary": "开源智能体操作系统，TypeScript实现，星数1.8万，旨在构建Agent运行时的底层系统抽象。"
     }
   ],
   "recommendation": [
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "reason": "14 万+ Stars 的生产级平台，覆盖智能体工作流全生命周期，是当前最成熟的端到端解决方案。"
+      "reason": "生产级平台，星数高（14.2万），可视化工作流降低开发门槛，适合企业快速落地Agent应用。"
+    },
+    {
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "reason": "低代码Agent构建工具，星数14.8万，与LangChain生态深度集成，是快速原型与部署的首选。"
     },
     {
       "name": "ruflo",
       "full_name": "ruvnet/ruflo",
-      "reason": "专注 Claude 生态的多智能体编排，融合 RAG 和企业级架构，代表智能体协作的前沿方向。"
-    },
-    {
-      "name": "claude-mem",
-      "full_name": "thedotmack/claude-mem",
-      "reason": "解决智能体跨会话记忆这一核心痛点，支持主流 CLI 工具，是提升智能体实用性的关键基础设施。"
+      "reason": "专为Claude生态设计的编排平台，支持多智能体集群与RAG，星数5.5万且增长迅速，代表Agent协作新方向。"
     }
   ]
 }
