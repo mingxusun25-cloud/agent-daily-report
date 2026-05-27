@@ -1,108 +1,108 @@
 # 今日 GitHub AI Agent 趋势报告
 
-生成时间：2026-05-26 01:56
+生成时间：2026-05-27 02:05
 
 ## 一、今日总体趋势
 
-当前开源AI Agent领域呈现三大趋势：一是平台化与工程化，如dify、langflow、multica等提供生产级工作流编排与团队协作能力；二是多智能体编排与插件生态，如oh-my-claudecode、ruflo、agents等项目聚焦于Claude Code、Cursor等工具的互联互通；三是基础框架持续演进，langchain、OpenHands等作为底层引擎推动Agent开发标准化。项目语言以Python和TypeScript为主，社区活跃度极高。
+该列表展示了当前开源AI Agent生态系统的核心趋势：从底层框架（如LangChain）到生产级平台（如Dify、Langflow），再到垂直领域的专业工具（如Firecrawl用于数据采集、RAGFlow用于知识检索增强），以及面向开发者的自主编码代理（如Cline、OpenHands）。项目普遍采用TypeScript或Python，强调模块化、可扩展性和企业级部署能力。
 
 ## 二、热门项目列表
 
-### 1. hermes-agent
+### 1. dify
 
-- Star：167338
-- 语言：Python
-- 更新时间：2026-05-26T01:55:09Z
-- 地址：https://github.com/NousResearch/hermes-agent
-- 项目描述：The agent that grows with you
-- AI 总结：一个与用户共同成长的智能体项目，采用Python开发，拥有极高的社区关注度（16.7万星），强调个性化与持续进化能力。
+- Star：142757
+- 语言：TypeScript
+- 更新时间：2026-05-27T02:04:07Z
+- 地址：https://github.com/langgenius/dify
+- 项目描述：Production-ready platform for agentic workflow development.
+- AI 总结：面向生产的AI Agent工作流开发平台，提供可视化编排和部署能力，适合构建复杂业务场景。
 
 ### 2. multica
 
-- Star：33048
+- Star：33358
 - 语言：TypeScript
-- 更新时间：2026-05-26T01:54:43Z
+- 更新时间：2026-05-27T01:59:37Z
 - 地址：https://github.com/multica-ai/multica
 - 项目描述：The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
-- AI 总结：开源托管智能体平台，将编码智能体转化为真正的团队成员，支持任务分配、进度追踪和技能复合，采用TypeScript构建。
+- AI 总结：开源托管代理平台，将编码代理转化为团队协作工具，支持任务分配、进度追踪和技能组合。
 
-### 3. dify
+### 3. LibreChat
 
-- Star：142624
+- Star：37536
 - 语言：TypeScript
-- 更新时间：2026-05-26T01:53:04Z
-- 地址：https://github.com/langgenius/dify
-- 项目描述：Production-ready platform for agentic workflow development.
-- AI 总结：面向生产的智能体工作流开发平台，提供可视化编排与部署能力，TypeScript实现，星数达14.2万，适合企业级应用。
+- 更新时间：2026-05-27T01:58:22Z
+- 地址：https://github.com/danny-avila/LibreChat
+- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.
+- AI 总结：增强版ChatGPT克隆，集成多种AI模型、代理、MCP协议、代码解释器等，支持自托管和多用户认证。
 
-### 4. oh-my-claudecode
+### 4. cline
 
-- Star：34834
+- Star：62372
 - 语言：TypeScript
-- 更新时间：2026-05-26T01:52:41Z
-- 地址：https://github.com/Yeachan-Heo/oh-my-claudecode
-- 项目描述：Teams-first Multi-agent orchestration for Claude Code
-- AI 总结：面向团队的多智能体编排工具，专为Claude Code设计，支持协作式任务调度，TypeScript开发，星数3.4万。
+- 更新时间：2026-05-27T01:55:42Z
+- 地址：https://github.com/cline/cline
+- 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
+- AI 总结：自主编码代理，可作为SDK、IDE扩展或CLI助手使用，专注于开发者效率提升。
 
-### 5. langflow
+### 5. firecrawl
 
-- Star：148746
+- Star：124797
+- 语言：TypeScript
+- 更新时间：2026-05-27T01:54:13Z
+- 地址：https://github.com/firecrawl/firecrawl
+- 项目描述：🔥 Search, scrape, and clean the web for AI agents.
+- AI 总结：专为AI代理设计的网络数据采集与清洗工具，提供搜索、抓取和内容净化功能。
+
+### 6. langflow
+
+- Star：148789
 - 语言：Python
-- 更新时间：2026-05-26T01:52:18Z
+- 更新时间：2026-05-27T01:50:45Z
 - 地址：https://github.com/langflow-ai/langflow
 - 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
-- AI 总结：强大的AI智能体与工作流构建部署工具，Python实现，星数14.8万，以低代码方式降低Agent开发门槛。
+- AI 总结：强大的AI代理和工作流构建与部署工具，提供可视化界面和低代码开发体验。
 
-### 6. OpenHands
+### 7. ragflow
 
-- Star：74854
+- Star：81312
 - 语言：Python
-- 更新时间：2026-05-26T01:51:46Z
+- 更新时间：2026-05-27T01:36:51Z
+- 地址：https://github.com/infiniflow/ragflow
+- 项目描述：RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
+- AI 总结：领先的开源RAG引擎，融合检索增强生成与代理能力，为LLM提供优质上下文层。
+
+### 8. OpenHands
+
+- Star：74989
+- 语言：Python
+- 更新时间：2026-05-27T01:05:31Z
 - 地址：https://github.com/OpenHands/OpenHands
 - 项目描述：🙌 OpenHands: AI-Driven Development
-- AI 总结：AI驱动的开发平台，聚焦于自动化编码与开发流程，Python实现，星数7.4万，强调“AI驱动开发”理念。
+- AI 总结：AI驱动的开发平台，旨在通过自主代理简化软件开发流程。
 
-### 7. ruflo
+### 9. eliza
 
-- Star：55100
+- Star：18460
 - 语言：TypeScript
-- 更新时间：2026-05-26T01:41:27Z
-- 地址：https://github.com/ruvnet/ruflo
-- 项目描述：🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration
-- AI 总结：领先的Claude智能体编排平台，支持多智能体集群、自主工作流、RAG集成及Claude Code/Codex原生集成，TypeScript实现，星数5.5万。
-
-### 8. langchain
-
-- Star：137643
-- 语言：Python
-- 更新时间：2026-05-26T01:40:00Z
-- 地址：https://github.com/langchain-ai/langchain
-- 项目描述：The agent engineering platform.
-- AI 总结：智能体工程平台，Python实现，星数13.7万，作为基础框架提供链式调用、工具集成等核心能力，是Agent生态的基石。
-
-### 9. agents
-
-- Star：35944
-- 语言：Python
-- 更新时间：2026-05-26T01:14:52Z
-- 地址：https://github.com/wshobson/agents
-- 项目描述：Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI
-- AI 总结：多工具智能体插件市场，兼容Claude Code、Codex CLI、Cursor、OpenCode、Gemini CLI等，Python实现，星数3.5万，推动跨平台Agent复用。
-
-### 10. eliza
-
-- Star：18456
-- 语言：TypeScript
-- 更新时间：2026-05-26T01:12:59Z
+- 更新时间：2026-05-27T01:03:07Z
 - 地址：https://github.com/elizaOS/eliza
 - 项目描述：Open source agentic operating system
-- AI 总结：开源智能体操作系统，TypeScript实现，星数1.8万，旨在构建Agent运行时的底层系统抽象。
+- AI 总结：开源代理操作系统，提供底层基础设施以支持多代理协作和系统级管理。
+
+### 10. langchain
+
+- Star：137712
+- 语言：Python
+- 更新时间：2026-05-27T00:22:23Z
+- 地址：https://github.com/langchain-ai/langchain
+- 项目描述：The agent engineering platform.
+- AI 总结：代理工程平台，提供构建、测试和部署AI代理的核心框架与工具链。
 
 ## 三、最值得关注的项目
 
-1. dify：生产级平台，星数高（14.2万），可视化工作流降低开发门槛，适合企业快速落地Agent应用。
-2. langflow：低代码Agent构建工具，星数14.8万，与LangChain生态深度集成，是快速原型与部署的首选。
-3. ruflo：专为Claude生态设计的编排平台，支持多智能体集群与RAG，星数5.5万且增长迅速，代表Agent协作新方向。
+1. langflow：拥有最高星数（148k），提供强大的可视化工作流构建能力，适合快速原型设计和生产部署，是当前最受欢迎的AI代理开发平台。
+2. dify：星数第二高（142k），专注于生产级代理工作流，提供企业级功能如版本管理、监控和API集成，是构建复杂业务场景的首选。
+3. firecrawl：星数124k，填补了AI代理数据获取的关键空白，提供高效、可靠的网络数据采集与清洗能力，是构建知识密集型代理的必备工具。
 
 ## 四、项目说明
 

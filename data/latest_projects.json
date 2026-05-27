@@ -1,92 +1,92 @@
 [
   {
-    "name": "hermes-agent",
-    "full_name": "NousResearch/hermes-agent",
-    "url": "https://github.com/NousResearch/hermes-agent",
-    "description": "The agent that grows with you",
-    "stars": 167338,
-    "language": "Python",
-    "updated_at": "2026-05-26T01:55:09Z"
+    "name": "dify",
+    "full_name": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "description": "Production-ready platform for agentic workflow development.",
+    "stars": 142757,
+    "language": "TypeScript",
+    "updated_at": "2026-05-27T02:04:07Z"
   },
   {
     "name": "multica",
     "full_name": "multica-ai/multica",
     "url": "https://github.com/multica-ai/multica",
     "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
-    "stars": 33048,
+    "stars": 33358,
     "language": "TypeScript",
-    "updated_at": "2026-05-26T01:54:43Z"
+    "updated_at": "2026-05-27T01:59:37Z"
   },
   {
-    "name": "dify",
-    "full_name": "langgenius/dify",
-    "url": "https://github.com/langgenius/dify",
-    "description": "Production-ready platform for agentic workflow development.",
-    "stars": 142624,
+    "name": "LibreChat",
+    "full_name": "danny-avila/LibreChat",
+    "url": "https://github.com/danny-avila/LibreChat",
+    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.",
+    "stars": 37536,
     "language": "TypeScript",
-    "updated_at": "2026-05-26T01:53:04Z"
+    "updated_at": "2026-05-27T01:58:22Z"
   },
   {
-    "name": "oh-my-claudecode",
-    "full_name": "Yeachan-Heo/oh-my-claudecode",
-    "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
-    "description": "Teams-first Multi-agent orchestration for Claude Code",
-    "stars": 34834,
+    "name": "cline",
+    "full_name": "cline/cline",
+    "url": "https://github.com/cline/cline",
+    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+    "stars": 62372,
     "language": "TypeScript",
-    "updated_at": "2026-05-26T01:52:41Z"
+    "updated_at": "2026-05-27T01:55:42Z"
+  },
+  {
+    "name": "firecrawl",
+    "full_name": "firecrawl/firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "description": "🔥 Search, scrape, and clean the web for AI agents.",
+    "stars": 124797,
+    "language": "TypeScript",
+    "updated_at": "2026-05-27T01:54:13Z"
   },
   {
     "name": "langflow",
     "full_name": "langflow-ai/langflow",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 148746,
+    "stars": 148789,
     "language": "Python",
-    "updated_at": "2026-05-26T01:52:18Z"
+    "updated_at": "2026-05-27T01:50:45Z"
+  },
+  {
+    "name": "ragflow",
+    "full_name": "infiniflow/ragflow",
+    "url": "https://github.com/infiniflow/ragflow",
+    "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+    "stars": 81312,
+    "language": "Python",
+    "updated_at": "2026-05-27T01:36:51Z"
   },
   {
     "name": "OpenHands",
     "full_name": "OpenHands/OpenHands",
     "url": "https://github.com/OpenHands/OpenHands",
     "description": "🙌 OpenHands: AI-Driven Development",
-    "stars": 74854,
+    "stars": 74989,
     "language": "Python",
-    "updated_at": "2026-05-26T01:51:46Z"
-  },
-  {
-    "name": "ruflo",
-    "full_name": "ruvnet/ruflo",
-    "url": "https://github.com/ruvnet/ruflo",
-    "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
-    "stars": 55100,
-    "language": "TypeScript",
-    "updated_at": "2026-05-26T01:41:27Z"
-  },
-  {
-    "name": "langchain",
-    "full_name": "langchain-ai/langchain",
-    "url": "https://github.com/langchain-ai/langchain",
-    "description": "The agent engineering platform.",
-    "stars": 137643,
-    "language": "Python",
-    "updated_at": "2026-05-26T01:40:00Z"
-  },
-  {
-    "name": "agents",
-    "full_name": "wshobson/agents",
-    "url": "https://github.com/wshobson/agents",
-    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, and Gemini CLI",
-    "stars": 35944,
-    "language": "Python",
-    "updated_at": "2026-05-26T01:14:52Z"
+    "updated_at": "2026-05-27T01:05:31Z"
   },
   {
     "name": "eliza",
     "full_name": "elizaOS/eliza",
     "url": "https://github.com/elizaOS/eliza",
     "description": "Open source agentic operating system",
-    "stars": 18456,
+    "stars": 18460,
     "language": "TypeScript",
-    "updated_at": "2026-05-26T01:12:59Z"
+    "updated_at": "2026-05-27T01:03:07Z"
+  },
+  {
+    "name": "langchain",
+    "full_name": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "description": "The agent engineering platform.",
+    "stars": 137712,
+    "language": "Python",
+    "updated_at": "2026-05-27T00:22:23Z"
   }
 ]
