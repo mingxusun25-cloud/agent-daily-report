@@ -1,108 +1,108 @@
 # 今日 GitHub AI Agent 趋势报告
 
-生成时间：2026-05-27 02:05
+生成时间：2026-05-28 01:49
 
 ## 一、今日总体趋势
 
-该列表展示了当前开源AI Agent生态系统的核心趋势：从底层框架（如LangChain）到生产级平台（如Dify、Langflow），再到垂直领域的专业工具（如Firecrawl用于数据采集、RAGFlow用于知识检索增强），以及面向开发者的自主编码代理（如Cline、OpenHands）。项目普遍采用TypeScript或Python，强调模块化、可扩展性和企业级部署能力。
+当前开源AI Agent项目呈现三大趋势：一是从单一对话向多智能体协作与工作流编排演进，如dify、langflow、crewAI等平台提供生产级编排能力；二是Agent能力向自主编程、数据获取、记忆管理等垂直领域深化，如cline、firecrawl、mem0；三是基础设施层向轻量化、跨平台、可插拔方向发展，如zeroclaw、ruflo。TypeScript和Python是主流语言，Rust开始用于高性能基础设施。
 
 ## 二、热门项目列表
 
 ### 1. dify
 
-- Star：142757
+- Star：142909
 - 语言：TypeScript
-- 更新时间：2026-05-27T02:04:07Z
+- 更新时间：2026-05-28T01:48:18Z
 - 地址：https://github.com/langgenius/dify
 - 项目描述：Production-ready platform for agentic workflow development.
-- AI 总结：面向生产的AI Agent工作流开发平台，提供可视化编排和部署能力，适合构建复杂业务场景。
+- AI 总结：生产级Agent工作流开发平台，提供可视化编排、RAG、工具调用等能力，适合构建复杂AI应用。
 
-### 2. multica
+### 2. cline
 
-- Star：33358
+- Star：62419
 - 语言：TypeScript
-- 更新时间：2026-05-27T01:59:37Z
-- 地址：https://github.com/multica-ai/multica
-- 项目描述：The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
-- AI 总结：开源托管代理平台，将编码代理转化为团队协作工具，支持任务分配、进度追踪和技能组合。
-
-### 3. LibreChat
-
-- Star：37536
-- 语言：TypeScript
-- 更新时间：2026-05-27T01:58:22Z
-- 地址：https://github.com/danny-avila/LibreChat
-- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.
-- AI 总结：增强版ChatGPT克隆，集成多种AI模型、代理、MCP协议、代码解释器等，支持自托管和多用户认证。
-
-### 4. cline
-
-- Star：62372
-- 语言：TypeScript
-- 更新时间：2026-05-27T01:55:42Z
+- 更新时间：2026-05-28T01:47:20Z
 - 地址：https://github.com/cline/cline
 - 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
-- AI 总结：自主编码代理，可作为SDK、IDE扩展或CLI助手使用，专注于开发者效率提升。
+- AI 总结：自主编程Agent，支持作为SDK、IDE扩展或CLI助手，专注于代码生成与开发辅助。
 
-### 5. firecrawl
+### 3. hermes-agent
 
-- Star：124797
+- Star：170319
+- 语言：Python
+- 更新时间：2026-05-28T01:43:58Z
+- 地址：https://github.com/NousResearch/hermes-agent
+- 项目描述：The agent that grows with you
+- AI 总结：强调成长性的通用Agent，基于Python，注重持续学习与适应能力。
+
+### 4. firecrawl
+
+- Star：125308
 - 语言：TypeScript
-- 更新时间：2026-05-27T01:54:13Z
+- 更新时间：2026-05-28T01:42:01Z
 - 地址：https://github.com/firecrawl/firecrawl
 - 项目描述：🔥 Search, scrape, and clean the web for AI agents.
-- AI 总结：专为AI代理设计的网络数据采集与清洗工具，提供搜索、抓取和内容净化功能。
+- AI 总结：专为AI Agent设计的网络数据获取工具，提供搜索、抓取、清洗一站式服务。
 
-### 6. langflow
+### 5. zeroclaw
 
-- Star：148789
+- Star：31610
+- 语言：Rust
+- 更新时间：2026-05-28T01:35:32Z
+- 地址：https://github.com/zeroclaw-labs/zeroclaw
+- 项目描述：Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀
+- AI 总结：用Rust构建的轻量级、跨平台AI个人助理基础设施，强调自主性与可插拔架构。
+
+### 6. mem0
+
+- Star：56910
 - 语言：Python
-- 更新时间：2026-05-27T01:50:45Z
+- 更新时间：2026-05-28T01:26:41Z
+- 地址：https://github.com/mem0ai/mem0
+- 项目描述：Universal memory layer for AI Agents
+- AI 总结：AI Agent的通用记忆层，提供持久化、可检索的记忆管理能力。
+
+### 7. ruflo
+
+- Star：55827
+- 语言：TypeScript
+- 更新时间：2026-05-28T01:23:27Z
+- 地址：https://github.com/ruvnet/ruflo
+- 项目描述：🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration
+- AI 总结：Claude专属Agent编排平台，支持多智能体群组、自主工作流、RAG集成及企业级架构。
+
+### 8. langflow
+
+- Star：148823
+- 语言：Python
+- 更新时间：2026-05-28T01:07:30Z
 - 地址：https://github.com/langflow-ai/langflow
 - 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
-- AI 总结：强大的AI代理和工作流构建与部署工具，提供可视化界面和低代码开发体验。
+- AI 总结：低代码AI Agent与工作流构建工具，提供拖拽式界面，降低开发门槛。
 
-### 7. ragflow
+### 9. crewAI
 
-- Star：81312
+- Star：52324
 - 语言：Python
-- 更新时间：2026-05-27T01:36:51Z
-- 地址：https://github.com/infiniflow/ragflow
-- 项目描述：RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
-- AI 总结：领先的开源RAG引擎，融合检索增强生成与代理能力，为LLM提供优质上下文层。
+- 更新时间：2026-05-28T01:01:32Z
+- 地址：https://github.com/crewAIInc/crewAI
+- 项目描述：Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
+- AI 总结：角色扮演式多Agent协作框架，通过分工与协同完成复杂任务。
 
-### 8. OpenHands
+### 10. LibreChat
 
-- Star：74989
-- 语言：Python
-- 更新时间：2026-05-27T01:05:31Z
-- 地址：https://github.com/OpenHands/OpenHands
-- 项目描述：🙌 OpenHands: AI-Driven Development
-- AI 总结：AI驱动的开发平台，旨在通过自主代理简化软件开发流程。
-
-### 9. eliza
-
-- Star：18460
+- Star：37577
 - 语言：TypeScript
-- 更新时间：2026-05-27T01:03:07Z
-- 地址：https://github.com/elizaOS/eliza
-- 项目描述：Open source agentic operating system
-- AI 总结：开源代理操作系统，提供底层基础设施以支持多代理协作和系统级管理。
-
-### 10. langchain
-
-- Star：137712
-- 语言：Python
-- 更新时间：2026-05-27T00:22:23Z
-- 地址：https://github.com/langchain-ai/langchain
-- 项目描述：The agent engineering platform.
-- AI 总结：代理工程平台，提供构建、测试和部署AI代理的核心框架与工具链。
+- 更新时间：2026-05-28T00:44:03Z
+- 地址：https://github.com/danny-avila/LibreChat
+- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.
+- AI 总结：增强版ChatGPT克隆，集成多种AI模型、Agent、MCP、代码解释器等，支持自托管。
 
 ## 三、最值得关注的项目
 
-1. langflow：拥有最高星数（148k），提供强大的可视化工作流构建能力，适合快速原型设计和生产部署，是当前最受欢迎的AI代理开发平台。
-2. dify：星数第二高（142k），专注于生产级代理工作流，提供企业级功能如版本管理、监控和API集成，是构建复杂业务场景的首选。
-3. firecrawl：星数124k，填补了AI代理数据获取的关键空白，提供高效、可靠的网络数据采集与清洗能力，是构建知识密集型代理的必备工具。
+1. dify：生产级平台，覆盖Agent开发全流程，社区活跃度高，适合企业级部署。
+2. crewAI：多Agent协作框架的标杆，角色扮演与任务分解机制创新，代表Agent协作方向。
+3. zeroclaw：Rust实现的高性能、跨平台Agent基础设施，轻量化与可插拔设计具有前瞻性。
 
 ## 四、项目说明
 

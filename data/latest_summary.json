@@ -1,72 +1,72 @@
 {
-  "overall_summary": "该列表展示了当前开源AI Agent生态系统的核心趋势：从底层框架（如LangChain）到生产级平台（如Dify、Langflow），再到垂直领域的专业工具（如Firecrawl用于数据采集、RAGFlow用于知识检索增强），以及面向开发者的自主编码代理（如Cline、OpenHands）。项目普遍采用TypeScript或Python，强调模块化、可扩展性和企业级部署能力。",
+  "overall_summary": "当前开源AI Agent项目呈现三大趋势：一是从单一对话向多智能体协作与工作流编排演进，如dify、langflow、crewAI等平台提供生产级编排能力；二是Agent能力向自主编程、数据获取、记忆管理等垂直领域深化，如cline、firecrawl、mem0；三是基础设施层向轻量化、跨平台、可插拔方向发展，如zeroclaw、ruflo。TypeScript和Python是主流语言，Rust开始用于高性能基础设施。",
   "project_summaries": [
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "summary": "面向生产的AI Agent工作流开发平台，提供可视化编排和部署能力，适合构建复杂业务场景。"
-    },
-    {
-      "name": "multica",
-      "full_name": "multica-ai/multica",
-      "summary": "开源托管代理平台，将编码代理转化为团队协作工具，支持任务分配、进度追踪和技能组合。"
-    },
-    {
-      "name": "LibreChat",
-      "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，集成多种AI模型、代理、MCP协议、代码解释器等，支持自托管和多用户认证。"
+      "summary": "生产级Agent工作流开发平台，提供可视化编排、RAG、工具调用等能力，适合构建复杂AI应用。"
     },
     {
       "name": "cline",
       "full_name": "cline/cline",
-      "summary": "自主编码代理，可作为SDK、IDE扩展或CLI助手使用，专注于开发者效率提升。"
+      "summary": "自主编程Agent，支持作为SDK、IDE扩展或CLI助手，专注于代码生成与开发辅助。"
+    },
+    {
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "summary": "强调成长性的通用Agent，基于Python，注重持续学习与适应能力。"
     },
     {
       "name": "firecrawl",
       "full_name": "firecrawl/firecrawl",
-      "summary": "专为AI代理设计的网络数据采集与清洗工具，提供搜索、抓取和内容净化功能。"
+      "summary": "专为AI Agent设计的网络数据获取工具，提供搜索、抓取、清洗一站式服务。"
+    },
+    {
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "summary": "用Rust构建的轻量级、跨平台AI个人助理基础设施，强调自主性与可插拔架构。"
+    },
+    {
+      "name": "mem0",
+      "full_name": "mem0ai/mem0",
+      "summary": "AI Agent的通用记忆层，提供持久化、可检索的记忆管理能力。"
+    },
+    {
+      "name": "ruflo",
+      "full_name": "ruvnet/ruflo",
+      "summary": "Claude专属Agent编排平台，支持多智能体群组、自主工作流、RAG集成及企业级架构。"
     },
     {
       "name": "langflow",
       "full_name": "langflow-ai/langflow",
-      "summary": "强大的AI代理和工作流构建与部署工具，提供可视化界面和低代码开发体验。"
+      "summary": "低代码AI Agent与工作流构建工具，提供拖拽式界面，降低开发门槛。"
     },
     {
-      "name": "ragflow",
-      "full_name": "infiniflow/ragflow",
-      "summary": "领先的开源RAG引擎，融合检索增强生成与代理能力，为LLM提供优质上下文层。"
+      "name": "crewAI",
+      "full_name": "crewAIInc/crewAI",
+      "summary": "角色扮演式多Agent协作框架，通过分工与协同完成复杂任务。"
     },
     {
-      "name": "OpenHands",
-      "full_name": "OpenHands/OpenHands",
-      "summary": "AI驱动的开发平台，旨在通过自主代理简化软件开发流程。"
-    },
-    {
-      "name": "eliza",
-      "full_name": "elizaOS/eliza",
-      "summary": "开源代理操作系统，提供底层基础设施以支持多代理协作和系统级管理。"
-    },
-    {
-      "name": "langchain",
-      "full_name": "langchain-ai/langchain",
-      "summary": "代理工程平台，提供构建、测试和部署AI代理的核心框架与工具链。"
+      "name": "LibreChat",
+      "full_name": "danny-avila/LibreChat",
+      "summary": "增强版ChatGPT克隆，集成多种AI模型、Agent、MCP、代码解释器等，支持自托管。"
     }
   ],
   "recommendation": [
     {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "reason": "拥有最高星数（148k），提供强大的可视化工作流构建能力，适合快速原型设计和生产部署，是当前最受欢迎的AI代理开发平台。"
-    },
-    {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "reason": "星数第二高（142k），专注于生产级代理工作流，提供企业级功能如版本管理、监控和API集成，是构建复杂业务场景的首选。"
+      "reason": "生产级平台，覆盖Agent开发全流程，社区活跃度高，适合企业级部署。"
     },
     {
-      "name": "firecrawl",
-      "full_name": "firecrawl/firecrawl",
-      "reason": "星数124k，填补了AI代理数据获取的关键空白，提供高效、可靠的网络数据采集与清洗能力，是构建知识密集型代理的必备工具。"
+      "name": "crewAI",
+      "full_name": "crewAIInc/crewAI",
+      "reason": "多Agent协作框架的标杆，角色扮演与任务分解机制创新，代表Agent协作方向。"
+    },
+    {
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "reason": "Rust实现的高性能、跨平台Agent基础设施，轻量化与可插拔设计具有前瞻性。"
     }
   ]
 }
