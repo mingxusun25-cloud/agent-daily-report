@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是Agent开发平台化与生产化，如dify、langflow等提供从构建到部署的全链路支持；二是Agent记忆与上下文持久化成为关键能力，claude-mem等项目通过跨会话上下文压缩与注入提升Agent连续性；三是多Agent协作与编排框架兴起，crewAI、ruflo等专注于角色扮演、任务分解与智能体协同。此外，终端原生Agent（如gemini-cli、cline）和长周期任务Agent（如deer-flow）也备受关注，反映出Agent从简单对话向复杂自主工作流演进的趋势。",
+  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是基础设施层快速成熟，涌现出面向多平台、多OS的轻量级个人助手框架（如zeroclaw）和通用Agent操作系统（如elizaOS）；二是开发工具链日趋完善，低代码/可视化平台（如Langflow、Flowise）与生产级编排框架（如dify、openai-agents-python）并存，降低Agent构建门槛；三是应用场景向终端渗透，CLI助手（如gemini-cli）和IDE内嵌Agent（如cline）成为热点，同时多智能体协作与自学习能力（如ruflo）成为差异化方向。项目语言以TypeScript和Python为主，Rust在性能敏感场景崭露头角。",
   "project_summaries": [
     {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
-      "summary": "一个与用户共同成长的智能体项目，强调持续学习和个性化适应能力，采用Python实现，拥有极高关注度。"
+      "summary": "一个与用户共同成长的通用AI Agent，基于Python实现，拥有极高的社区关注度（17.2万星），定位为陪伴式智能体。"
     },
     {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "summary": "面向生产环境的Agent工作流开发平台，基于TypeScript构建，提供可视化编排、模型集成和部署能力，适合企业级应用。"
-    },
-    {
-      "name": "claude-mem",
-      "full_name": "thedotmack/claude-mem",
-      "summary": "跨会话持久化上下文工具，自动捕获Agent会话行为，通过AI压缩并注入相关上下文到未来会话，支持Claude Code、OpenClaw、Gemini等多种Agent。"
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "summary": "用Rust编写的快速、小巧、完全自主的AI个人助手基础设施，支持任意OS和平台，强调可部署性和组件可替换性。"
     },
     {
       "name": "eliza",
       "full_name": "elizaOS/eliza",
-      "summary": "开源Agent操作系统，旨在为智能体提供底层运行环境与资源管理，采用TypeScript开发，关注Agent生态基础设施。"
+      "summary": "开源Agent操作系统，基于TypeScript构建，旨在为智能体提供底层运行环境与编排能力。"
     },
     {
       "name": "langflow",
       "full_name": "langflow-ai/langflow",
-      "summary": "强大的AI Agent与工作流构建与部署工具，基于Python，提供可视化拖拽界面，降低Agent开发门槛。"
-    },
-    {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google推出的开源终端AI Agent，将Gemini模型能力直接集成到命令行，支持自然语言交互与自动化任务。"
-    },
-    {
-      "name": "deer-flow",
-      "full_name": "bytedance/deer-flow",
-      "summary": "字节跳动开源的长周期超级Agent框架，集成沙箱、记忆、工具、技能、子Agent和消息网关，可处理分钟到小时级的复杂任务。"
-    },
-    {
-      "name": "ruflo",
-      "full_name": "ruvnet/ruflo",
-      "summary": "领先的Claude Agent编排平台，支持多智能体群组部署、自主工作流协调、自学习群智能、RAG集成及原生Claude Code/Codex集成。"
+      "summary": "强大的AI Agent和工作流构建与部署工具，Python实现，提供可视化拖拽式开发体验，社区活跃（14.8万星）。"
     },
     {
       "name": "cline",
       "full_name": "cline/cline",
-      "summary": "自主编码Agent，以SDK、IDE扩展或CLI助手形式提供，专注于代码生成与开发辅助，采用TypeScript实现。"
+      "summary": "自主编码Agent，支持SDK、IDE扩展和CLI三种形态，TypeScript编写，聚焦开发者生产力提升。"
     },
     {
-      "name": "crewAI",
-      "full_name": "crewAIInc/crewAI",
-      "summary": "多角色自主AI Agent编排框架，通过角色扮演与协作智能，使Agent无缝协同处理复杂任务，基于Python开发。"
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "summary": "生产级Agent工作流开发平台，TypeScript实现，提供从原型到上线的完整链路支持。"
+    },
+    {
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "summary": "Google推出的开源终端AI Agent，将Gemini模型能力集成到命令行，支持自然语言交互。"
+    },
+    {
+      "name": "Flowise",
+      "full_name": "FlowiseAI/Flowise",
+      "summary": "可视化构建AI Agent的低代码平台，TypeScript实现，强调无需编码即可创建复杂Agent。"
+    },
+    {
+      "name": "ruflo",
+      "full_name": "ruvnet/ruflo",
+      "summary": "面向Claude的Agent编排平台，支持多智能体集群、自主工作流、RAG集成及自学习能力，企业级架构。"
+    },
+    {
+      "name": "openai-agents-python",
+      "full_name": "openai/openai-agents-python",
+      "summary": "OpenAI官方推出的轻量级多Agent工作流框架，Python实现，强调简洁与高性能。"
     }
   ],
   "recommendation": [
     {
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "reason": "采用Rust实现，在性能与资源占用上具备显著优势，且定位为跨平台、全自主的个人助手基础设施，代表了Agent从云端向边缘端下沉的技术趋势。"
+    },
+    {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "reason": "作为生产级Agent工作流平台，dify提供了从可视化编排到模型集成、部署的完整链路，是当前最成熟的Agent开发基础设施之一，适合快速构建企业级应用。"
+      "reason": "生产级Agent工作流平台，社区规模大（14.3万星），提供从开发到部署的完整工具链，是当前最成熟的商业化开源Agent框架之一。"
     },
     {
-      "name": "claude-mem",
-      "full_name": "thedotmack/claude-mem",
-      "reason": "解决了Agent领域的关键痛点——跨会话记忆与上下文连续性，通过AI压缩与注入机制显著提升Agent的长期任务能力，且兼容多种主流Agent框架。"
-    },
-    {
-      "name": "crewAI",
-      "full_name": "crewAIInc/crewAI",
-      "reason": "多Agent协作是Agent发展的核心方向，crewAI通过角色扮演与任务分解实现了高效的智能体协同，框架设计灵活，社区活跃，是探索复杂多Agent系统的首选。"
+      "name": "ruflo",
+      "full_name": "ruvnet/ruflo",
+      "reason": "专注于多智能体编排与自学习能力，集成RAG和Claude原生能力，代表了Agent从单机智能体向协作式智能体集群演进的前沿方向。"
     }
   ]
 }
