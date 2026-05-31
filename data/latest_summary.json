@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是基础设施层快速成熟，涌现出面向多平台、多OS的轻量级个人助手框架（如zeroclaw）和通用Agent操作系统（如elizaOS）；二是开发工具链日趋完善，低代码/可视化平台（如Langflow、Flowise）与生产级编排框架（如dify、openai-agents-python）并存，降低Agent构建门槛；三是应用场景向终端渗透，CLI助手（如gemini-cli）和IDE内嵌Agent（如cline）成为热点，同时多智能体协作与自学习能力（如ruflo）成为差异化方向。项目语言以TypeScript和Python为主，Rust在性能敏感场景崭露头角。",
+  "overall_summary": "当前开源AI Agent领域呈现爆发式增长，项目覆盖操作系统级、金融交易、个人助理、开发工具、记忆层、编排平台等多元方向。技术栈以TypeScript和Python为主，Rust开始崭露头角。核心趋势包括：多智能体协作、自主化与自动化、记忆与上下文管理、跨平台与轻量化、以及金融等垂直场景的深度应用。项目普遍获得高关注度，反映出社区对Agent基础设施、工具链和实际应用场景的强烈需求。",
   "project_summaries": [
+    {
+      "name": "eliza",
+      "full_name": "elizaOS/eliza",
+      "summary": "一个开源的智能体操作系统，旨在为AI Agent提供底层运行环境和管理能力，强调系统级集成与自主性。"
+    },
     {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
-      "summary": "一个与用户共同成长的通用AI Agent，基于Python实现，拥有极高的社区关注度（17.2万星），定位为陪伴式智能体。"
+      "summary": "一个与用户共同成长的智能体，强调个性化与持续进化，基于Python构建，拥有极高的社区关注度。"
+    },
+    {
+      "name": "TradingAgents",
+      "full_name": "TauricResearch/TradingAgents",
+      "summary": "专注于金融交易的多智能体LLM框架，利用多个AI Agent协同进行市场分析、决策与执行，是Agent在垂直金融领域的重要实践。"
+    },
+    {
+      "name": "lobehub",
+      "full_name": "lobehub/lobehub",
+      "summary": "一个智能体运营平台，通过招聘、调度和报告机制，将多个Agent组织成7×24小时不间断工作的AI团队，强调Agent的团队化管理与协作。"
     },
     {
       "name": "zeroclaw",
       "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "用Rust编写的快速、小巧、完全自主的AI个人助手基础设施，支持任意OS和平台，强调可部署性和组件可替换性。"
+      "summary": "一个快速、小巧、完全自主的AI个人助理基础设施，基于Rust构建，支持任何操作系统和平台，强调轻量、可移植与高度可替换性。"
     },
     {
-      "name": "eliza",
-      "full_name": "elizaOS/eliza",
-      "summary": "开源Agent操作系统，基于TypeScript构建，旨在为智能体提供底层运行环境与编排能力。"
+      "name": "LibreChat",
+      "full_name": "danny-avila/LibreChat",
+      "summary": "增强版ChatGPT克隆，集成了Agent、MCP、多种AI模型（如DeepSeek、Anthropic、OpenAI等）、代码解释器、DALL-E-3等功能，是一个功能丰富的开源多模型聊天与Agent平台。"
     },
     {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "summary": "强大的AI Agent和工作流构建与部署工具，Python实现，提供可视化拖拽式开发体验，社区活跃（14.8万星）。"
+      "name": "langchain",
+      "full_name": "langchain-ai/langchain",
+      "summary": "业界领先的Agent工程平台，提供构建、部署和管理AI Agent的完整工具链与框架，是Agent开发的基础设施级项目。"
+    },
+    {
+      "name": "mem0",
+      "full_name": "mem0ai/mem0",
+      "summary": "为AI Agent提供通用记忆层，解决Agent的长期记忆与上下文管理问题，是提升Agent智能与持续性的关键组件。"
     },
     {
       "name": "cline",
       "full_name": "cline/cline",
-      "summary": "自主编码Agent，支持SDK、IDE扩展和CLI三种形态，TypeScript编写，聚焦开发者生产力提升。"
-    },
-    {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "summary": "生产级Agent工作流开发平台，TypeScript实现，提供从原型到上线的完整链路支持。"
-    },
-    {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google推出的开源终端AI Agent，将Gemini模型能力集成到命令行，支持自然语言交互。"
-    },
-    {
-      "name": "Flowise",
-      "full_name": "FlowiseAI/Flowise",
-      "summary": "可视化构建AI Agent的低代码平台，TypeScript实现，强调无需编码即可创建复杂Agent。"
+      "summary": "一个自主编码Agent，可作为SDK、IDE扩展或CLI助手使用，专注于辅助开发者进行代码生成、调试与自动化任务。"
     },
     {
       "name": "ruflo",
       "full_name": "ruvnet/ruflo",
-      "summary": "面向Claude的Agent编排平台，支持多智能体集群、自主工作流、RAG集成及自学习能力，企业级架构。"
-    },
-    {
-      "name": "openai-agents-python",
-      "full_name": "openai/openai-agents-python",
-      "summary": "OpenAI官方推出的轻量级多Agent工作流框架，Python实现，强调简洁与高性能。"
+      "summary": "领先的Agent编排平台，专为Claude设计，支持部署多智能体群、协调自主工作流、构建对话系统，并集成了RAG、自学习群智能和企业级架构。"
     }
   ],
   "recommendation": [
     {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "reason": "采用Rust实现，在性能与资源占用上具备显著优势，且定位为跨平台、全自主的个人助手基础设施，代表了Agent从云端向边缘端下沉的技术趋势。"
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "reason": "拥有最高的社区关注度（17万+星标），代表了个性化、持续进化型Agent的潮流，是Agent与用户深度交互的标杆项目。"
     },
     {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "reason": "生产级Agent工作流平台，社区规模大（14.3万星），提供从开发到部署的完整工具链，是当前最成熟的商业化开源Agent框架之一。"
+      "name": "langchain",
+      "full_name": "langchain-ai/langchain",
+      "reason": "作为Agent工程平台的事实标准，拥有13.8万星标，是构建复杂Agent应用的基础设施，对行业生态影响深远。"
     },
     {
-      "name": "ruflo",
-      "full_name": "ruvnet/ruflo",
-      "reason": "专注于多智能体编排与自学习能力，集成RAG和Claude原生能力，代表了Agent从单机智能体向协作式智能体集群演进的前沿方向。"
+      "name": "TradingAgents",
+      "full_name": "TauricResearch/TradingAgents",
+      "reason": "聚焦金融交易这一高价值垂直场景，多Agent协作框架具有明确的商业应用前景，代表了Agent在专业领域的落地方向。"
     }
   ]
 }

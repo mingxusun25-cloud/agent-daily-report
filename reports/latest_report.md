@@ -1,108 +1,108 @@
 # 今日 GitHub AI Agent 趋势报告
 
-生成时间：2026-05-30 01:53
+生成时间：2026-05-31 02:06
 
 ## 一、今日总体趋势
 
-当前开源AI Agent领域呈现三大趋势：一是基础设施层快速成熟，涌现出面向多平台、多OS的轻量级个人助手框架（如zeroclaw）和通用Agent操作系统（如elizaOS）；二是开发工具链日趋完善，低代码/可视化平台（如Langflow、Flowise）与生产级编排框架（如dify、openai-agents-python）并存，降低Agent构建门槛；三是应用场景向终端渗透，CLI助手（如gemini-cli）和IDE内嵌Agent（如cline）成为热点，同时多智能体协作与自学习能力（如ruflo）成为差异化方向。项目语言以TypeScript和Python为主，Rust在性能敏感场景崭露头角。
+当前开源AI Agent领域呈现爆发式增长，项目覆盖操作系统级、金融交易、个人助理、开发工具、记忆层、编排平台等多元方向。技术栈以TypeScript和Python为主，Rust开始崭露头角。核心趋势包括：多智能体协作、自主化与自动化、记忆与上下文管理、跨平台与轻量化、以及金融等垂直场景的深度应用。项目普遍获得高关注度，反映出社区对Agent基础设施、工具链和实际应用场景的强烈需求。
 
 ## 二、热门项目列表
 
-### 1. hermes-agent
+### 1. eliza
 
-- Star：172874
-- 语言：Python
-- 更新时间：2026-05-30T01:51:31Z
-- 地址：https://github.com/NousResearch/hermes-agent
-- 项目描述：The agent that grows with you
-- AI 总结：一个与用户共同成长的通用AI Agent，基于Python实现，拥有极高的社区关注度（17.2万星），定位为陪伴式智能体。
-
-### 2. zeroclaw
-
-- Star：31636
-- 语言：Rust
-- 更新时间：2026-05-30T01:48:02Z
-- 地址：https://github.com/zeroclaw-labs/zeroclaw
-- 项目描述：Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀
-- AI 总结：用Rust编写的快速、小巧、完全自主的AI个人助手基础设施，支持任意OS和平台，强调可部署性和组件可替换性。
-
-### 3. eliza
-
-- Star：18474
+- Star：18484
 - 语言：TypeScript
-- 更新时间：2026-05-30T01:37:46Z
+- 更新时间：2026-05-31T02:04:05Z
 - 地址：https://github.com/elizaOS/eliza
 - 项目描述：Open source agentic operating system
-- AI 总结：开源Agent操作系统，基于TypeScript构建，旨在为智能体提供底层运行环境与编排能力。
+- AI 总结：一个开源的智能体操作系统，旨在为AI Agent提供底层运行环境和管理能力，强调系统级集成与自主性。
 
-### 4. langflow
+### 2. hermes-agent
 
-- Star：148887
+- Star：173759
 - 语言：Python
-- 更新时间：2026-05-30T01:17:27Z
-- 地址：https://github.com/langflow-ai/langflow
-- 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
-- AI 总结：强大的AI Agent和工作流构建与部署工具，Python实现，提供可视化拖拽式开发体验，社区活跃（14.8万星）。
+- 更新时间：2026-05-31T01:59:08Z
+- 地址：https://github.com/NousResearch/hermes-agent
+- 项目描述：The agent that grows with you
+- AI 总结：一个与用户共同成长的智能体，强调个性化与持续进化，基于Python构建，拥有极高的社区关注度。
 
-### 5. cline
+### 3. TradingAgents
 
-- Star：62526
+- Star：81012
+- 语言：Python
+- 更新时间：2026-05-31T01:58:33Z
+- 地址：https://github.com/TauricResearch/TradingAgents
+- 项目描述：TradingAgents: Multi-Agents LLM Financial Trading Framework
+- AI 总结：专注于金融交易的多智能体LLM框架，利用多个AI Agent协同进行市场分析、决策与执行，是Agent在垂直金融领域的重要实践。
+
+### 4. lobehub
+
+- Star：77992
 - 语言：TypeScript
-- 更新时间：2026-05-30T00:56:05Z
+- 更新时间：2026-05-31T01:11:21Z
+- 地址：https://github.com/lobehub/lobehub
+- 项目描述：🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.
+- AI 总结：一个智能体运营平台，通过招聘、调度和报告机制，将多个Agent组织成7×24小时不间断工作的AI团队，强调Agent的团队化管理与协作。
+
+### 5. zeroclaw
+
+- Star：31649
+- 语言：Rust
+- 更新时间：2026-05-31T00:20:41Z
+- 地址：https://github.com/zeroclaw-labs/zeroclaw
+- 项目描述：Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀
+- AI 总结：一个快速、小巧、完全自主的AI个人助理基础设施，基于Rust构建，支持任何操作系统和平台，强调轻量、可移植与高度可替换性。
+
+### 6. LibreChat
+
+- Star：37699
+- 语言：TypeScript
+- 更新时间：2026-05-31T00:19:23Z
+- 地址：https://github.com/danny-avila/LibreChat
+- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.
+- AI 总结：增强版ChatGPT克隆，集成了Agent、MCP、多种AI模型（如DeepSeek、Anthropic、OpenAI等）、代码解释器、DALL-E-3等功能，是一个功能丰富的开源多模型聊天与Agent平台。
+
+### 7. langchain
+
+- Star：138060
+- 语言：Python
+- 更新时间：2026-05-31T00:17:11Z
+- 地址：https://github.com/langchain-ai/langchain
+- 项目描述：The agent engineering platform.
+- AI 总结：业界领先的Agent工程平台，提供构建、部署和管理AI Agent的完整工具链与框架，是Agent开发的基础设施级项目。
+
+### 8. mem0
+
+- Star：57160
+- 语言：Python
+- 更新时间：2026-05-31T00:05:16Z
+- 地址：https://github.com/mem0ai/mem0
+- 项目描述：Universal memory layer for AI Agents
+- AI 总结：为AI Agent提供通用记忆层，解决Agent的长期记忆与上下文管理问题，是提升Agent智能与持续性的关键组件。
+
+### 9. cline
+
+- Star：62559
+- 语言：TypeScript
+- 更新时间：2026-05-31T00:00:24Z
 - 地址：https://github.com/cline/cline
 - 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
-- AI 总结：自主编码Agent，支持SDK、IDE扩展和CLI三种形态，TypeScript编写，聚焦开发者生产力提升。
+- AI 总结：一个自主编码Agent，可作为SDK、IDE扩展或CLI助手使用，专注于辅助开发者进行代码生成、调试与自动化任务。
 
-### 6. dify
+### 10. ruflo
 
-- Star：143121
+- Star：56690
 - 语言：TypeScript
-- 更新时间：2026-05-30T00:37:56Z
-- 地址：https://github.com/langgenius/dify
-- 项目描述：Production-ready platform for agentic workflow development.
-- AI 总结：生产级Agent工作流开发平台，TypeScript实现，提供从原型到上线的完整链路支持。
-
-### 7. gemini-cli
-
-- Star：104726
-- 语言：TypeScript
-- 更新时间：2026-05-30T00:16:12Z
-- 地址：https://github.com/google-gemini/gemini-cli
-- 项目描述：An open-source AI agent that brings the power of Gemini directly into your terminal.
-- AI 总结：Google推出的开源终端AI Agent，将Gemini模型能力集成到命令行，支持自然语言交互。
-
-### 8. Flowise
-
-- Star：53208
-- 语言：TypeScript
-- 更新时间：2026-05-30T00:15:51Z
-- 地址：https://github.com/FlowiseAI/Flowise
-- 项目描述：Build AI Agents, Visually
-- AI 总结：可视化构建AI Agent的低代码平台，TypeScript实现，强调无需编码即可创建复杂Agent。
-
-### 9. ruflo
-
-- Star：56421
-- 语言：TypeScript
-- 更新时间：2026-05-30T00:15:30Z
+- 更新时间：2026-05-30T23:24:24Z
 - 地址：https://github.com/ruvnet/ruflo
 - 项目描述：🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration
-- AI 总结：面向Claude的Agent编排平台，支持多智能体集群、自主工作流、RAG集成及自学习能力，企业级架构。
-
-### 10. openai-agents-python
-
-- Star：26752
-- 语言：Python
-- 更新时间：2026-05-29T23:13:23Z
-- 地址：https://github.com/openai/openai-agents-python
-- 项目描述：A lightweight, powerful framework for multi-agent workflows
-- AI 总结：OpenAI官方推出的轻量级多Agent工作流框架，Python实现，强调简洁与高性能。
+- AI 总结：领先的Agent编排平台，专为Claude设计，支持部署多智能体群、协调自主工作流、构建对话系统，并集成了RAG、自学习群智能和企业级架构。
 
 ## 三、最值得关注的项目
 
-1. zeroclaw：采用Rust实现，在性能与资源占用上具备显著优势，且定位为跨平台、全自主的个人助手基础设施，代表了Agent从云端向边缘端下沉的技术趋势。
-2. dify：生产级Agent工作流平台，社区规模大（14.3万星），提供从开发到部署的完整工具链，是当前最成熟的商业化开源Agent框架之一。
-3. ruflo：专注于多智能体编排与自学习能力，集成RAG和Claude原生能力，代表了Agent从单机智能体向协作式智能体集群演进的前沿方向。
+1. hermes-agent：拥有最高的社区关注度（17万+星标），代表了个性化、持续进化型Agent的潮流，是Agent与用户深度交互的标杆项目。
+2. langchain：作为Agent工程平台的事实标准，拥有13.8万星标，是构建复杂Agent应用的基础设施，对行业生态影响深远。
+3. TradingAgents：聚焦金融交易这一高价值垂直场景，多Agent协作框架具有明确的商业应用前景，代表了Agent在专业领域的落地方向。
 
 ## 四、项目说明
 
