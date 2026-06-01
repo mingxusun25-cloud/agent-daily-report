@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现爆发式增长，项目覆盖操作系统级、金融交易、个人助理、开发工具、记忆层、编排平台等多元方向。技术栈以TypeScript和Python为主，Rust开始崭露头角。核心趋势包括：多智能体协作、自主化与自动化、记忆与上下文管理、跨平台与轻量化、以及金融等垂直场景的深度应用。项目普遍获得高关注度，反映出社区对Agent基础设施、工具链和实际应用场景的强烈需求。",
+  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是从单一对话助手向多智能体协作平台演进，如Cherry Studio、LobeHub等产品强调团队化、7x24小时运营；二是Agent开发框架与生产级部署工具成熟，Dify、Langflow等平台降低了构建复杂工作流的门槛；三是垂直领域专业化Agent涌现，如金融交易框架TradingAgents和长周期任务管理工具Deer Flow。技术栈以TypeScript和Python为主，Rust语言开始用于高性能基础设施。",
   "project_summaries": [
     {
-      "name": "eliza",
-      "full_name": "elizaOS/eliza",
-      "summary": "一个开源的智能体操作系统，旨在为AI Agent提供底层运行环境和管理能力，强调系统级集成与自主性。"
+      "name": "cherry-studio",
+      "full_name": "CherryHQ/cherry-studio",
+      "summary": "AI生产力工作室，集成智能对话、自主Agent和300+预设助手，提供统一的前沿大模型访问接口。"
     },
     {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
-      "summary": "一个与用户共同成长的智能体，强调个性化与持续进化，基于Python构建，拥有极高的社区关注度。"
+      "summary": "一个伴随用户成长的Agent框架，强调持续学习和适应性，拥有极高关注度。"
     },
     {
-      "name": "TradingAgents",
-      "full_name": "TauricResearch/TradingAgents",
-      "summary": "专注于金融交易的多智能体LLM框架，利用多个AI Agent协同进行市场分析、决策与执行，是Agent在垂直金融领域的重要实践。"
+      "name": "multica",
+      "full_name": "multica-ai/multica",
+      "summary": "开源托管Agent平台，将编码Agent转化为真正的团队成员，支持任务分配、进度追踪和技能积累。"
+    },
+    {
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "summary": "生产级Agent工作流开发平台，专注于构建可部署的智能体应用。"
     },
     {
       "name": "lobehub",
       "full_name": "lobehub/lobehub",
-      "summary": "一个智能体运营平台，通过招聘、调度和报告机制，将多个Agent组织成7×24小时不间断工作的AI团队，强调Agent的团队化管理与协作。"
-    },
-    {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "一个快速、小巧、完全自主的AI个人助理基础设施，基于Rust构建，支持任何操作系统和平台，强调轻量、可移植与高度可替换性。"
-    },
-    {
-      "name": "LibreChat",
-      "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，集成了Agent、MCP、多种AI模型（如DeepSeek、Anthropic、OpenAI等）、代码解释器、DALL-E-3等功能，是一个功能丰富的开源多模型聊天与Agent平台。"
-    },
-    {
-      "name": "langchain",
-      "full_name": "langchain-ai/langchain",
-      "summary": "业界领先的Agent工程平台，提供构建、部署和管理AI Agent的完整工具链与框架，是Agent开发的基础设施级项目。"
-    },
-    {
-      "name": "mem0",
-      "full_name": "mem0ai/mem0",
-      "summary": "为AI Agent提供通用记忆层，解决Agent的长期记忆与上下文管理问题，是提升Agent智能与持续性的关键组件。"
-    },
-    {
-      "name": "cline",
-      "full_name": "cline/cline",
-      "summary": "一个自主编码Agent，可作为SDK、IDE扩展或CLI助手使用，专注于辅助开发者进行代码生成、调试与自动化任务。"
-    },
-    {
-      "name": "ruflo",
-      "full_name": "ruvnet/ruflo",
-      "summary": "领先的Agent编排平台，专为Claude设计，支持部署多智能体群、协调自主工作流、构建对话系统，并集成了RAG、自学习群智能和企业级架构。"
-    }
-  ],
-  "recommendation": [
-    {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "reason": "拥有最高的社区关注度（17万+星标），代表了个性化、持续进化型Agent的潮流，是Agent与用户深度交互的标杆项目。"
-    },
-    {
-      "name": "langchain",
-      "full_name": "langchain-ai/langchain",
-      "reason": "作为Agent工程平台的事实标准，拥有13.8万星标，是构建复杂Agent应用的基础设施，对行业生态影响深远。"
+      "summary": "首席Agent运营平台，通过招聘、调度和报告机制，将多个Agent组织成7x24小时自动化团队。"
     },
     {
       "name": "TradingAgents",
       "full_name": "TauricResearch/TradingAgents",
-      "reason": "聚焦金融交易这一高价值垂直场景，多Agent协作框架具有明确的商业应用前景，代表了Agent在专业领域的落地方向。"
+      "summary": "基于多Agent的LLM金融交易框架，专为量化交易场景设计。"
+    },
+    {
+      "name": "eliza",
+      "full_name": "elizaOS/eliza",
+      "summary": "开源Agent操作系统，提供底层运行环境支持Agent的持久化与调度。"
+    },
+    {
+      "name": "deer-flow",
+      "full_name": "bytedance/deer-flow",
+      "summary": "字节跳动开源的超长周期SuperAgent框架，集成沙箱、记忆、工具、技能、子Agent和消息网关，可处理分钟到小时级的复杂任务。"
+    },
+    {
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "summary": "快速、小巧、完全自主的AI个人助手基础设施，基于Rust实现跨平台部署和组件热替换。"
+    },
+    {
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "summary": "强大的AI Agent与工作流构建与部署工具，提供可视化开发体验。"
+    }
+  ],
+  "recommendation": [
+    {
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "reason": "生产级Agent工作流平台，社区活跃度高（14万+星标），适合企业级应用快速落地。"
+    },
+    {
+      "name": "deer-flow",
+      "full_name": "bytedance/deer-flow",
+      "reason": "字节跳动出品的长周期任务Agent框架，技术架构先进（沙箱、记忆、子Agent等），代表复杂任务自动化的前沿方向。"
+    },
+    {
+      "name": "TradingAgents",
+      "full_name": "TauricResearch/TradingAgents",
+      "reason": "垂直领域多Agent金融交易框架，精准切入量化交易痛点，具有明确的商业应用价值。"
     }
   ]
 }

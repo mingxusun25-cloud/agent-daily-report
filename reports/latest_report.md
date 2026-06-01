@@ -1,108 +1,108 @@
 # 今日 GitHub AI Agent 趋势报告
 
-生成时间：2026-05-31 02:06
+生成时间：2026-06-01 02:15
 
 ## 一、今日总体趋势
 
-当前开源AI Agent领域呈现爆发式增长，项目覆盖操作系统级、金融交易、个人助理、开发工具、记忆层、编排平台等多元方向。技术栈以TypeScript和Python为主，Rust开始崭露头角。核心趋势包括：多智能体协作、自主化与自动化、记忆与上下文管理、跨平台与轻量化、以及金融等垂直场景的深度应用。项目普遍获得高关注度，反映出社区对Agent基础设施、工具链和实际应用场景的强烈需求。
+当前开源AI Agent领域呈现三大趋势：一是从单一对话助手向多智能体协作平台演进，如Cherry Studio、LobeHub等产品强调团队化、7x24小时运营；二是Agent开发框架与生产级部署工具成熟，Dify、Langflow等平台降低了构建复杂工作流的门槛；三是垂直领域专业化Agent涌现，如金融交易框架TradingAgents和长周期任务管理工具Deer Flow。技术栈以TypeScript和Python为主，Rust语言开始用于高性能基础设施。
 
 ## 二、热门项目列表
 
-### 1. eliza
+### 1. cherry-studio
 
-- Star：18484
+- Star：46668
 - 语言：TypeScript
-- 更新时间：2026-05-31T02:04:05Z
-- 地址：https://github.com/elizaOS/eliza
-- 项目描述：Open source agentic operating system
-- AI 总结：一个开源的智能体操作系统，旨在为AI Agent提供底层运行环境和管理能力，强调系统级集成与自主性。
+- 更新时间：2026-06-01T02:14:48Z
+- 地址：https://github.com/CherryHQ/cherry-studio
+- 项目描述：AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
+- AI 总结：AI生产力工作室，集成智能对话、自主Agent和300+预设助手，提供统一的前沿大模型访问接口。
 
 ### 2. hermes-agent
 
-- Star：173759
+- Star：174785
 - 语言：Python
-- 更新时间：2026-05-31T01:59:08Z
+- 更新时间：2026-06-01T02:10:52Z
 - 地址：https://github.com/NousResearch/hermes-agent
 - 项目描述：The agent that grows with you
-- AI 总结：一个与用户共同成长的智能体，强调个性化与持续进化，基于Python构建，拥有极高的社区关注度。
+- AI 总结：一个伴随用户成长的Agent框架，强调持续学习和适应性，拥有极高关注度。
 
-### 3. TradingAgents
+### 3. multica
 
-- Star：81012
-- 语言：Python
-- 更新时间：2026-05-31T01:58:33Z
-- 地址：https://github.com/TauricResearch/TradingAgents
-- 项目描述：TradingAgents: Multi-Agents LLM Financial Trading Framework
-- AI 总结：专注于金融交易的多智能体LLM框架，利用多个AI Agent协同进行市场分析、决策与执行，是Agent在垂直金融领域的重要实践。
-
-### 4. lobehub
-
-- Star：77992
+- Star：34399
 - 语言：TypeScript
-- 更新时间：2026-05-31T01:11:21Z
+- 更新时间：2026-06-01T02:10:01Z
+- 地址：https://github.com/multica-ai/multica
+- 项目描述：The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
+- AI 总结：开源托管Agent平台，将编码Agent转化为真正的团队成员，支持任务分配、进度追踪和技能积累。
+
+### 4. dify
+
+- Star：143314
+- 语言：TypeScript
+- 更新时间：2026-06-01T02:09:00Z
+- 地址：https://github.com/langgenius/dify
+- 项目描述：Production-ready platform for agentic workflow development.
+- AI 总结：生产级Agent工作流开发平台，专注于构建可部署的智能体应用。
+
+### 5. lobehub
+
+- Star：78033
+- 语言：TypeScript
+- 更新时间：2026-06-01T02:03:44Z
 - 地址：https://github.com/lobehub/lobehub
 - 项目描述：🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.
-- AI 总结：一个智能体运营平台，通过招聘、调度和报告机制，将多个Agent组织成7×24小时不间断工作的AI团队，强调Agent的团队化管理与协作。
+- AI 总结：首席Agent运营平台，通过招聘、调度和报告机制，将多个Agent组织成7x24小时自动化团队。
 
-### 5. zeroclaw
+### 6. TradingAgents
 
-- Star：31649
+- Star：81291
+- 语言：Python
+- 更新时间：2026-06-01T02:02:48Z
+- 地址：https://github.com/TauricResearch/TradingAgents
+- 项目描述：TradingAgents: Multi-Agents LLM Financial Trading Framework
+- AI 总结：基于多Agent的LLM金融交易框架，专为量化交易场景设计。
+
+### 7. eliza
+
+- Star：18491
+- 语言：TypeScript
+- 更新时间：2026-06-01T01:40:28Z
+- 地址：https://github.com/elizaOS/eliza
+- 项目描述：Open source agentic operating system
+- AI 总结：开源Agent操作系统，提供底层运行环境支持Agent的持久化与调度。
+
+### 8. deer-flow
+
+- Star：70113
+- 语言：Python
+- 更新时间：2026-06-01T01:25:58Z
+- 地址：https://github.com/bytedance/deer-flow
+- 项目描述：An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.
+- AI 总结：字节跳动开源的超长周期SuperAgent框架，集成沙箱、记忆、工具、技能、子Agent和消息网关，可处理分钟到小时级的复杂任务。
+
+### 9. zeroclaw
+
+- Star：31666
 - 语言：Rust
-- 更新时间：2026-05-31T00:20:41Z
+- 更新时间：2026-06-01T01:15:41Z
 - 地址：https://github.com/zeroclaw-labs/zeroclaw
 - 项目描述：Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀
-- AI 总结：一个快速、小巧、完全自主的AI个人助理基础设施，基于Rust构建，支持任何操作系统和平台，强调轻量、可移植与高度可替换性。
+- AI 总结：快速、小巧、完全自主的AI个人助手基础设施，基于Rust实现跨平台部署和组件热替换。
 
-### 6. LibreChat
+### 10. langflow
 
-- Star：37699
-- 语言：TypeScript
-- 更新时间：2026-05-31T00:19:23Z
-- 地址：https://github.com/danny-avila/LibreChat
-- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.
-- AI 总结：增强版ChatGPT克隆，集成了Agent、MCP、多种AI模型（如DeepSeek、Anthropic、OpenAI等）、代码解释器、DALL-E-3等功能，是一个功能丰富的开源多模型聊天与Agent平台。
-
-### 7. langchain
-
-- Star：138060
+- Star：148948
 - 语言：Python
-- 更新时间：2026-05-31T00:17:11Z
-- 地址：https://github.com/langchain-ai/langchain
-- 项目描述：The agent engineering platform.
-- AI 总结：业界领先的Agent工程平台，提供构建、部署和管理AI Agent的完整工具链与框架，是Agent开发的基础设施级项目。
-
-### 8. mem0
-
-- Star：57160
-- 语言：Python
-- 更新时间：2026-05-31T00:05:16Z
-- 地址：https://github.com/mem0ai/mem0
-- 项目描述：Universal memory layer for AI Agents
-- AI 总结：为AI Agent提供通用记忆层，解决Agent的长期记忆与上下文管理问题，是提升Agent智能与持续性的关键组件。
-
-### 9. cline
-
-- Star：62559
-- 语言：TypeScript
-- 更新时间：2026-05-31T00:00:24Z
-- 地址：https://github.com/cline/cline
-- 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
-- AI 总结：一个自主编码Agent，可作为SDK、IDE扩展或CLI助手使用，专注于辅助开发者进行代码生成、调试与自动化任务。
-
-### 10. ruflo
-
-- Star：56690
-- 语言：TypeScript
-- 更新时间：2026-05-30T23:24:24Z
-- 地址：https://github.com/ruvnet/ruflo
-- 项目描述：🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration
-- AI 总结：领先的Agent编排平台，专为Claude设计，支持部署多智能体群、协调自主工作流、构建对话系统，并集成了RAG、自学习群智能和企业级架构。
+- 更新时间：2026-06-01T01:05:32Z
+- 地址：https://github.com/langflow-ai/langflow
+- 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
+- AI 总结：强大的AI Agent与工作流构建与部署工具，提供可视化开发体验。
 
 ## 三、最值得关注的项目
 
-1. hermes-agent：拥有最高的社区关注度（17万+星标），代表了个性化、持续进化型Agent的潮流，是Agent与用户深度交互的标杆项目。
-2. langchain：作为Agent工程平台的事实标准，拥有13.8万星标，是构建复杂Agent应用的基础设施，对行业生态影响深远。
-3. TradingAgents：聚焦金融交易这一高价值垂直场景，多Agent协作框架具有明确的商业应用前景，代表了Agent在专业领域的落地方向。
+1. dify：生产级Agent工作流平台，社区活跃度高（14万+星标），适合企业级应用快速落地。
+2. deer-flow：字节跳动出品的长周期任务Agent框架，技术架构先进（沙箱、记忆、子Agent等），代表复杂任务自动化的前沿方向。
+3. TradingAgents：垂直领域多Agent金融交易框架，精准切入量化交易痛点，具有明确的商业应用价值。
 
 ## 四、项目说明
 
