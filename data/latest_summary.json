@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是终端与IDE深度融合，如gemini-cli和cline将AI能力嵌入开发环境；二是可视化与低代码平台崛起，Flowise和dify降低Agent构建门槛；三是向操作系统级和全平台基础设施演进，eliza和zeroclaw分别代表Agent OS和轻量级个人助手方向。项目普遍采用TypeScript/Python，注重多模型支持、RAG增强和自主任务执行能力。",
+  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是平台化与生产级部署成为主流，如dify和langflow提供完整的Agent工作流开发环境；二是Agent能力向多模态、自主协作和记忆进化方向演进，hermes-agent和multica强调Agent的成长性与团队协作；三是RAG与Agent深度融合，ragflow等项目通过检索增强生成提升LLM的上下文理解能力。技术栈以TypeScript和Python为主，社区活跃度高，项目迭代迅速。",
   "project_summaries": [
-    {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google推出的开源终端AI代理，将Gemini模型能力直接集成到命令行，支持自然语言交互、代码生成和任务自动化，适合开发者日常终端操作。"
-    },
-    {
-      "name": "Flowise",
-      "full_name": "FlowiseAI/Flowise",
-      "summary": "可视化AI代理构建平台，通过拖拽式界面设计Agent工作流，无需编码即可集成LLM、工具和API，降低AI应用开发门槛。"
-    },
-    {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "summary": "一个持续进化的AI代理，强调与用户共同成长，具备自适应学习能力，基于Python实现，关注个性化交互体验。"
-    },
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "summary": "生产级Agent工作流开发平台，支持可视化编排、RAG管道、模型管理和监控，面向企业级AI应用部署。"
-    },
-    {
-      "name": "multica",
-      "full_name": "multica-ai/multica",
-      "summary": "开源托管代理平台，将编码代理转化为团队协作者，支持任务分配、进度追踪和技能组合，强调多代理协作管理。"
-    },
-    {
-      "name": "LibreChat",
-      "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，集成Agent、MCP协议、多模型切换、代码解释器和OpenAPI，支持自托管，功能丰富的全栈AI聊天平台。"
+      "summary": "生产级Agent工作流开发平台，支持可视化编排和部署，适合企业级应用。"
     },
     {
       "name": "eliza",
       "full_name": "elizaOS/eliza",
-      "summary": "开源代理操作系统，提供Agent运行时的底层基础设施，支持多Agent调度、资源管理和跨平台部署，定位为AI时代的操作系统层。"
+      "summary": "开源Agent操作系统，提供底层框架支持多Agent协同与资源管理。"
     },
     {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "基于Rust的轻量级全自主AI个人助手基础设施，支持任意OS和平台部署，强调快速、小巧和模块化可替换性。"
+      "name": "cherry-studio",
+      "full_name": "CherryHQ/cherry-studio",
+      "summary": "AI生产力工作室，集成智能聊天、自主Agent和300+助手，统一接入前沿LLM。"
     },
     {
-      "name": "ragflow",
-      "full_name": "infiniflow/ragflow",
-      "summary": "领先的开源RAG引擎，融合检索增强生成与Agent能力，为LLM提供高质量上下文层，支持知识库问答和复杂推理。"
+      "name": "multica",
+      "full_name": "multica-ai/multica",
+      "summary": "开源托管Agent平台，将编码Agent转化为可分配任务、追踪进度和积累技能的团队成员。"
     },
     {
       "name": "cline",
       "full_name": "cline/cline",
-      "summary": "自主编码代理，以SDK、IDE扩展和CLI助手三种形态提供，支持代码生成、调试和自动化任务，深度集成开发环境。"
+      "summary": "自主编码Agent，支持SDK、IDE扩展和CLI多种形态，提升开发效率。"
+    },
+    {
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "summary": "强调持续进化的Agent，具备成长性学习能力，适应复杂任务。"
+    },
+    {
+      "name": "ragflow",
+      "full_name": "infiniflow/ragflow",
+      "summary": "领先的开源RAG引擎，融合检索增强生成与Agent能力，为LLM提供优质上下文层。"
+    },
+    {
+      "name": "OpenHands",
+      "full_name": "OpenHands/OpenHands",
+      "summary": "AI驱动开发工具，通过Agent自动化代码生成与调试流程。"
+    },
+    {
+      "name": "LibreChat",
+      "full_name": "danny-avila/LibreChat",
+      "summary": "增强版ChatGPT克隆，集成Agent、MCP、多模型切换、代码解释器等丰富功能，支持自托管。"
+    },
+    {
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "summary": "强大的AI Agent和工作流构建与部署工具，提供可视化编程界面。"
     }
   ],
   "recommendation": [
     {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
-      "reason": "拥有最高星数（177k），代表Agent个性化与自适应学习的前沿方向，社区关注度极高。"
+      "reason": "拥有最高星数（179k），强调Agent的持续进化能力，代表未来Agent自主学习和成长的方向。"
     },
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "reason": "生产级平台定位明确，结合可视化工作流与RAG，适合企业快速落地AI Agent应用，生态成熟。"
+      "reason": "生产级平台，星数143k，提供完整的Agent工作流开发、部署和管理能力，是企业级应用的首选。"
     },
     {
-      "name": "eliza",
-      "full_name": "elizaOS/eliza",
-      "reason": "提出Agent OS概念，从底层架构重新定义Agent运行方式，具有前瞻性和基础设施价值。"
+      "name": "ragflow",
+      "full_name": "infiniflow/ragflow",
+      "reason": "RAG与Agent深度融合的标杆项目，星数81k，解决了LLM上下文增强的关键问题，技术路线极具前瞻性。"
     }
   ]
 }

@@ -1,108 +1,108 @@
 # 今日 GitHub AI Agent 趋势报告
 
-生成时间：2026-06-03 02:34
+生成时间：2026-06-04 02:30
 
 ## 一、今日总体趋势
 
-当前开源AI Agent生态呈现三大趋势：一是终端与IDE深度融合，如gemini-cli和cline将AI能力嵌入开发环境；二是可视化与低代码平台崛起，Flowise和dify降低Agent构建门槛；三是向操作系统级和全平台基础设施演进，eliza和zeroclaw分别代表Agent OS和轻量级个人助手方向。项目普遍采用TypeScript/Python，注重多模型支持、RAG增强和自主任务执行能力。
+当前开源AI Agent领域呈现三大趋势：一是平台化与生产级部署成为主流，如dify和langflow提供完整的Agent工作流开发环境；二是Agent能力向多模态、自主协作和记忆进化方向演进，hermes-agent和multica强调Agent的成长性与团队协作；三是RAG与Agent深度融合，ragflow等项目通过检索增强生成提升LLM的上下文理解能力。技术栈以TypeScript和Python为主，社区活跃度高，项目迭代迅速。
 
 ## 二、热门项目列表
 
-### 1. gemini-cli
+### 1. dify
 
-- Star：104866
+- Star：143752
 - 语言：TypeScript
-- 更新时间：2026-06-03T02:33:21Z
-- 地址：https://github.com/google-gemini/gemini-cli
-- 项目描述：An open-source AI agent that brings the power of Gemini directly into your terminal.
-- AI 总结：Google推出的开源终端AI代理，将Gemini模型能力直接集成到命令行，支持自然语言交互、代码生成和任务自动化，适合开发者日常终端操作。
-
-### 2. Flowise
-
-- Star：53289
-- 语言：TypeScript
-- 更新时间：2026-06-03T02:32:23Z
-- 地址：https://github.com/FlowiseAI/Flowise
-- 项目描述：Build AI Agents, Visually
-- AI 总结：可视化AI代理构建平台，通过拖拽式界面设计Agent工作流，无需编码即可集成LLM、工具和API，降低AI应用开发门槛。
-
-### 3. hermes-agent
-
-- Star：177501
-- 语言：Python
-- 更新时间：2026-06-03T02:31:45Z
-- 地址：https://github.com/NousResearch/hermes-agent
-- 项目描述：The agent that grows with you
-- AI 总结：一个持续进化的AI代理，强调与用户共同成长，具备自适应学习能力，基于Python实现，关注个性化交互体验。
-
-### 4. dify
-
-- Star：143582
-- 语言：TypeScript
-- 更新时间：2026-06-03T02:31:22Z
+- 更新时间：2026-06-04T02:29:06Z
 - 地址：https://github.com/langgenius/dify
 - 项目描述：Production-ready platform for agentic workflow development.
-- AI 总结：生产级Agent工作流开发平台，支持可视化编排、RAG管道、模型管理和监控，面向企业级AI应用部署。
+- AI 总结：生产级Agent工作流开发平台，支持可视化编排和部署，适合企业级应用。
 
-### 5. multica
+### 2. eliza
 
-- Star：34831
+- Star：18504
 - 语言：TypeScript
-- 更新时间：2026-06-03T02:31:02Z
-- 地址：https://github.com/multica-ai/multica
-- 项目描述：The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
-- AI 总结：开源托管代理平台，将编码代理转化为团队协作者，支持任务分配、进度追踪和技能组合，强调多代理协作管理。
-
-### 6. LibreChat
-
-- Star：37959
-- 语言：TypeScript
-- 更新时间：2026-06-03T02:28:03Z
-- 地址：https://github.com/danny-avila/LibreChat
-- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.
-- AI 总结：增强版ChatGPT克隆，集成Agent、MCP协议、多模型切换、代码解释器和OpenAPI，支持自托管，功能丰富的全栈AI聊天平台。
-
-### 7. eliza
-
-- Star：18503
-- 语言：TypeScript
-- 更新时间：2026-06-03T02:22:44Z
+- 更新时间：2026-06-04T02:25:16Z
 - 地址：https://github.com/elizaOS/eliza
 - 项目描述：Open source agentic operating system
-- AI 总结：开源代理操作系统，提供Agent运行时的底层基础设施，支持多Agent调度、资源管理和跨平台部署，定位为AI时代的操作系统层。
+- AI 总结：开源Agent操作系统，提供底层框架支持多Agent协同与资源管理。
 
-### 8. zeroclaw
+### 3. cherry-studio
 
-- Star：31706
-- 语言：Rust
-- 更新时间：2026-06-03T02:22:04Z
-- 地址：https://github.com/zeroclaw-labs/zeroclaw
-- 项目描述：Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀
-- AI 总结：基于Rust的轻量级全自主AI个人助手基础设施，支持任意OS和平台部署，强调快速、小巧和模块化可替换性。
-
-### 9. ragflow
-
-- Star：81773
-- 语言：Python
-- 更新时间：2026-06-03T02:17:12Z
-- 地址：https://github.com/infiniflow/ragflow
-- 项目描述：RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
-- AI 总结：领先的开源RAG引擎，融合检索增强生成与Agent能力，为LLM提供高质量上下文层，支持知识库问答和复杂推理。
-
-### 10. cline
-
-- Star：62672
+- Star：46827
 - 语言：TypeScript
-- 更新时间：2026-06-03T02:15:05Z
+- 更新时间：2026-06-04T02:23:23Z
+- 地址：https://github.com/CherryHQ/cherry-studio
+- 项目描述：AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
+- AI 总结：AI生产力工作室，集成智能聊天、自主Agent和300+助手，统一接入前沿LLM。
+
+### 4. multica
+
+- Star：35036
+- 语言：Go
+- 更新时间：2026-06-04T02:22:31Z
+- 地址：https://github.com/multica-ai/multica
+- 项目描述：The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
+- AI 总结：开源托管Agent平台，将编码Agent转化为可分配任务、追踪进度和积累技能的团队成员。
+
+### 5. cline
+
+- Star：62721
+- 语言：TypeScript
+- 更新时间：2026-06-04T02:12:23Z
 - 地址：https://github.com/cline/cline
 - 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
-- AI 总结：自主编码代理，以SDK、IDE扩展和CLI助手三种形态提供，支持代码生成、调试和自动化任务，深度集成开发环境。
+- AI 总结：自主编码Agent，支持SDK、IDE扩展和CLI多种形态，提升开发效率。
+
+### 6. hermes-agent
+
+- Star：179271
+- 语言：Python
+- 更新时间：2026-06-04T02:08:37Z
+- 地址：https://github.com/NousResearch/hermes-agent
+- 项目描述：The agent that grows with you
+- AI 总结：强调持续进化的Agent，具备成长性学习能力，适应复杂任务。
+
+### 7. ragflow
+
+- Star：81857
+- 语言：Python
+- 更新时间：2026-06-04T02:04:35Z
+- 地址：https://github.com/infiniflow/ragflow
+- 项目描述：RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
+- AI 总结：领先的开源RAG引擎，融合检索增强生成与Agent能力，为LLM提供优质上下文层。
+
+### 8. OpenHands
+
+- Star：75768
+- 语言：Python
+- 更新时间：2026-06-04T01:57:11Z
+- 地址：https://github.com/OpenHands/OpenHands
+- 项目描述：🙌 OpenHands: AI-Driven Development
+- AI 总结：AI驱动开发工具，通过Agent自动化代码生成与调试流程。
+
+### 9. LibreChat
+
+- Star：38060
+- 语言：TypeScript
+- 更新时间：2026-06-04T01:56:03Z
+- 地址：https://github.com/danny-avila/LibreChat
+- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.
+- AI 总结：增强版ChatGPT克隆，集成Agent、MCP、多模型切换、代码解释器等丰富功能，支持自托管。
+
+### 10. langflow
+
+- Star：149195
+- 语言：Python
+- 更新时间：2026-06-04T01:10:58Z
+- 地址：https://github.com/langflow-ai/langflow
+- 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
+- AI 总结：强大的AI Agent和工作流构建与部署工具，提供可视化编程界面。
 
 ## 三、最值得关注的项目
 
-1. hermes-agent：拥有最高星数（177k），代表Agent个性化与自适应学习的前沿方向，社区关注度极高。
-2. dify：生产级平台定位明确，结合可视化工作流与RAG，适合企业快速落地AI Agent应用，生态成熟。
-3. eliza：提出Agent OS概念，从底层架构重新定义Agent运行方式，具有前瞻性和基础设施价值。
+1. hermes-agent：拥有最高星数（179k），强调Agent的持续进化能力，代表未来Agent自主学习和成长的方向。
+2. dify：生产级平台，星数143k，提供完整的Agent工作流开发、部署和管理能力，是企业级应用的首选。
+3. ragflow：RAG与Agent深度融合的标杆项目，星数81k，解决了LLM上下文增强的关键问题，技术路线极具前瞻性。
 
 ## 四、项目说明
 
