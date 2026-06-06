@@ -1,92 +1,92 @@
 [
   {
-    "name": "cherry-studio",
-    "full_name": "CherryHQ/cherry-studio",
-    "url": "https://github.com/CherryHQ/cherry-studio",
-    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-    "stars": 46879,
-    "language": "TypeScript",
-    "updated_at": "2026-06-05T02:04:05Z"
-  },
-  {
-    "name": "hermes-agent",
-    "full_name": "NousResearch/hermes-agent",
-    "url": "https://github.com/NousResearch/hermes-agent",
-    "description": "The agent that grows with you",
-    "stars": 181087,
+    "name": "langflow",
+    "full_name": "langflow-ai/langflow",
+    "url": "https://github.com/langflow-ai/langflow",
+    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+    "stars": 149272,
     "language": "Python",
-    "updated_at": "2026-06-05T02:04:01Z"
+    "updated_at": "2026-06-06T01:52:14Z"
   },
   {
     "name": "LibreChat",
     "full_name": "danny-avila/LibreChat",
     "url": "https://github.com/danny-avila/LibreChat",
     "description": "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.",
-    "stars": 38137,
+    "stars": 38216,
     "language": "TypeScript",
-    "updated_at": "2026-06-05T02:03:25Z"
+    "updated_at": "2026-06-06T01:51:39Z"
   },
   {
-    "name": "multica",
-    "full_name": "multica-ai/multica",
-    "url": "https://github.com/multica-ai/multica",
-    "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
-    "stars": 35277,
-    "language": "Go",
-    "updated_at": "2026-06-05T02:03:18Z"
-  },
-  {
-    "name": "eliza",
-    "full_name": "elizaOS/eliza",
-    "url": "https://github.com/elizaOS/eliza",
-    "description": "Open source agentic operating system",
-    "stars": 18512,
-    "language": "TypeScript",
-    "updated_at": "2026-06-05T02:02:32Z"
+    "name": "hermes-agent",
+    "full_name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 183193,
+    "language": "Python",
+    "updated_at": "2026-06-06T01:50:36Z"
   },
   {
     "name": "dify",
     "full_name": "langgenius/dify",
     "url": "https://github.com/langgenius/dify",
     "description": "Production-ready platform for agentic workflow development.",
-    "stars": 143897,
+    "stars": 144065,
     "language": "TypeScript",
-    "updated_at": "2026-06-05T02:00:27Z"
+    "updated_at": "2026-06-06T01:44:48Z"
   },
   {
-    "name": "ragflow",
-    "full_name": "infiniflow/ragflow",
-    "url": "https://github.com/infiniflow/ragflow",
-    "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-    "stars": 81927,
-    "language": "Python",
-    "updated_at": "2026-06-05T01:45:44Z"
+    "name": "cherry-studio",
+    "full_name": "CherryHQ/cherry-studio",
+    "url": "https://github.com/CherryHQ/cherry-studio",
+    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+    "stars": 46933,
+    "language": "TypeScript",
+    "updated_at": "2026-06-06T01:39:21Z"
+  },
+  {
+    "name": "cline",
+    "full_name": "cline/cline",
+    "url": "https://github.com/cline/cline",
+    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+    "stars": 62810,
+    "language": "TypeScript",
+    "updated_at": "2026-06-06T01:14:15Z"
+  },
+  {
+    "name": "eliza",
+    "full_name": "elizaOS/eliza",
+    "url": "https://github.com/elizaOS/eliza",
+    "description": "Open source agentic operating system",
+    "stars": 18515,
+    "language": "TypeScript",
+    "updated_at": "2026-06-06T01:11:45Z"
+  },
+  {
+    "name": "symphony",
+    "full_name": "openai/symphony",
+    "url": "https://github.com/openai/symphony",
+    "description": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.",
+    "stars": 25074,
+    "language": "Elixir",
+    "updated_at": "2026-06-06T01:05:00Z"
+  },
+  {
+    "name": "anything-llm",
+    "full_name": "Mintplex-Labs/anything-llm",
+    "url": "https://github.com/Mintplex-Labs/anything-llm",
+    "description": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
+    "stars": 61120,
+    "language": "JavaScript",
+    "updated_at": "2026-06-06T00:16:52Z"
   },
   {
     "name": "crewAI",
     "full_name": "crewAIInc/crewAI",
     "url": "https://github.com/crewAIInc/crewAI",
     "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-    "stars": 52849,
+    "stars": 52905,
     "language": "Python",
-    "updated_at": "2026-06-05T01:38:54Z"
-  },
-  {
-    "name": "langflow",
-    "full_name": "langflow-ai/langflow",
-    "url": "https://github.com/langflow-ai/langflow",
-    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 149228,
-    "language": "Python",
-    "updated_at": "2026-06-05T01:31:15Z"
-  },
-  {
-    "name": "openai-agents-python",
-    "full_name": "openai/openai-agents-python",
-    "url": "https://github.com/openai/openai-agents-python",
-    "description": "A lightweight, powerful framework for multi-agent workflows",
-    "stars": 26920,
-    "language": "Python",
-    "updated_at": "2026-06-05T01:11:08Z"
+    "updated_at": "2026-06-06T00:05:29Z"
   }
 ]
