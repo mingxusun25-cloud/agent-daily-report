@@ -1,108 +1,108 @@
 # 今日 GitHub AI Agent 趋势报告
 
-生成时间：2026-06-06 01:56
+生成时间：2026-06-07 02:11
 
 ## 一、今日总体趋势
 
-当前开源AI Agent领域呈现三大趋势：一是平台化与低代码化，如Langflow和Dify提供可视化工作流构建工具，降低开发门槛；二是多模型集成与生态扩展，项目普遍支持DeepSeek、OpenAI、Anthropic等多家模型，并通过MCP、OpenAPI等协议连接外部工具；三是自主化与协作化，从单Agent（如cline）到多Agent协作框架（如crewAI），再到操作系统级Agent（如eliza），Agent能力向复杂任务分解与协同执行演进。此外，本地优先（如anything-llm）和开源替代（如LibreChat）成为重要方向。
+当前开源AI Agent项目呈现三大趋势：一是向全栈化、平台化发展，集成多模型、工具链与用户管理；二是强调自主性与协作性，涌现出自主编码、多角色协作等框架；三是注重本地化部署与跨平台支持，降低使用门槛。项目类型涵盖个人助手、开发工具、企业级平台等，技术栈以TypeScript和Python为主，Rust等高性能语言也开始出现。
 
 ## 二、热门项目列表
 
-### 1. langflow
+### 1. hermes-agent
 
-- Star：149272
+- Star：184806
 - 语言：Python
-- 更新时间：2026-06-06T01:52:14Z
-- 地址：https://github.com/langflow-ai/langflow
-- 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
-- AI 总结：低代码AI Agent与工作流构建工具，通过可视化拖拽界面简化Agent和流程的搭建与部署，适合快速原型开发。
+- 更新时间：2026-06-07T02:00:09Z
+- 地址：https://github.com/NousResearch/hermes-agent
+- 项目描述：The agent that grows with you
+- AI 总结：一个与用户共同成长的AI Agent项目，强调持续学习和适应性，但描述较为抽象，具体功能需进一步探索。
 
 ### 2. LibreChat
 
-- Star：38216
+- Star：38410
 - 语言：TypeScript
-- 更新时间：2026-06-06T01:51:39Z
+- 更新时间：2026-06-07T01:58:00Z
 - 地址：https://github.com/danny-avila/LibreChat
-- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.
-- AI 总结：增强版ChatGPT开源克隆，集成Agent、MCP、多模型（DeepSeek、Anthropic、OpenAI等）、Code Interpreter、DALL-E-3等功能，支持自托管，功能全面。
+- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active
+- AI 总结：增强版ChatGPT克隆，集成Agent、MCP、多种AI模型（如DeepSeek、Anthropic、OpenAI等）、代码解释器、LangChain、OpenAPI Actions等功能，支持多用户认证和自托管，是一个功能丰富的AI聊天平台。
 
-### 3. hermes-agent
+### 3. cline
 
-- Star：183193
-- 语言：Python
-- 更新时间：2026-06-06T01:50:36Z
-- 地址：https://github.com/NousResearch/hermes-agent
-- 项目描述：The agent that grows with you
-- AI 总结：由NousResearch开发的成长型Agent，强调与用户共同进化，具备持续学习和适应能力。
-
-### 4. dify
-
-- Star：144065
+- Star：62860
 - 语言：TypeScript
-- 更新时间：2026-06-06T01:44:48Z
-- 地址：https://github.com/langgenius/dify
-- 项目描述：Production-ready platform for agentic workflow development.
-- AI 总结：生产级Agent工作流开发平台，提供从原型到部署的全流程支持，注重稳定性和可扩展性。
+- 更新时间：2026-06-07T01:42:52Z
+- 地址：https://github.com/cline/cline
+- 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
+- AI 总结：自主编码Agent，可作为SDK、IDE扩展或CLI助手使用，专注于为开发者提供自动化编码辅助，提升开发效率。
+
+### 4. eliza
+
+- Star：18517
+- 语言：TypeScript
+- 更新时间：2026-06-07T01:40:00Z
+- 地址：https://github.com/elizaOS/eliza
+- 项目描述：Open source agentic operating system
+- AI 总结：开源Agent操作系统，旨在构建一个通用的Agent运行环境，支持多种Agent应用场景，强调系统级集成。
 
 ### 5. cherry-studio
 
-- Star：46933
+- Star：46983
 - 语言：TypeScript
-- 更新时间：2026-06-06T01:39:21Z
+- 更新时间：2026-06-07T01:14:12Z
 - 地址：https://github.com/CherryHQ/cherry-studio
 - 项目描述：AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
-- AI 总结：AI生产力工作室，集成智能聊天、自主Agent和300+预设助手，统一接入前沿LLM，提升工作效率。
+- AI 总结：AI生产力工作室，提供智能聊天、自主Agent和300+助手，统一访问前沿大语言模型，注重用户体验和多功能集成。
 
-### 6. cline
+### 6. langflow
 
-- Star：62810
-- 语言：TypeScript
-- 更新时间：2026-06-06T01:14:15Z
-- 地址：https://github.com/cline/cline
-- 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
-- AI 总结：自主编码Agent，以SDK、IDE插件或CLI形式运行，专注于代码生成与开发辅助，支持多种集成方式。
-
-### 7. eliza
-
-- Star：18515
-- 语言：TypeScript
-- 更新时间：2026-06-06T01:11:45Z
-- 地址：https://github.com/elizaOS/eliza
-- 项目描述：Open source agentic operating system
-- AI 总结：开源Agent操作系统，提供底层架构支持Agent的部署、管理和协作，目标是成为Agent生态的基础设施。
-
-### 8. symphony
-
-- Star：25074
-- 语言：Elixir
-- 更新时间：2026-06-06T01:05:00Z
-- 地址：https://github.com/openai/symphony
-- 项目描述：Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.
-- AI 总结：OpenAI推出的项目管理工具，将项目工作转化为隔离的自主执行单元，使团队管理任务而非直接监督编码Agent。
-
-### 9. anything-llm
-
-- Star：61120
-- 语言：JavaScript
-- 更新时间：2026-06-06T00:16:52Z
-- 地址：https://github.com/Mintplex-Labs/anything-llm
-- 项目描述：Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience 
-- AI 总结：本地优先的Agent体验平台，强调数据主权，提供完整的本地LLM运行与Agent交互能力，无需依赖云服务。
-
-### 10. crewAI
-
-- Star：52905
+- Star：149310
 - 语言：Python
-- 更新时间：2026-06-06T00:05:29Z
+- 更新时间：2026-06-07T01:04:29Z
+- 地址：https://github.com/langflow-ai/langflow
+- 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
+- AI 总结：强大的AI Agent和工作流构建与部署工具，提供可视化界面，降低AI应用开发门槛，支持快速原型设计。
+
+### 7. zeroclaw
+
+- Star：31800
+- 语言：Rust
+- 更新时间：2026-06-07T00:22:02Z
+- 地址：https://github.com/zeroclaw-labs/zeroclaw
+- 项目描述：Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀
+- AI 总结：快速、小巧、完全自主的AI个人助手基础设施，支持任何操作系统和平台，可随处部署并灵活替换组件，采用Rust语言实现高性能。
+
+### 8. agency-agents
+
+- Star：107940
+- 语言：Shell
+- 更新时间：2026-06-06T22:34:21Z
+- 地址：https://github.com/msitarzewski/agency-agents
+- 项目描述：A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
+- AI 总结：完整的AI代理机构，包含前端专家、Reddit社区运营、创意注入者等多种专业化Agent，每个Agent具有独特个性和流程，提供可交付成果。
+
+### 9. crewAI
+
+- Star：52947
+- 语言：Python
+- 更新时间：2026-06-06T22:12:37Z
 - 地址：https://github.com/crewAIInc/crewAI
 - 项目描述：Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
-- AI 总结：多Agent协作框架，通过角色扮演和任务分配实现Agent间的协同工作，擅长处理复杂多步骤任务。
+- AI 总结：编排角色扮演、自主AI Agent的框架，通过促进协作智能，使Agent无缝协作处理复杂任务，强调多Agent协同。
+
+### 10. anything-llm
+
+- Star：61163
+- 语言：JavaScript
+- 更新时间：2026-06-06T20:10:04Z
+- 地址：https://github.com/Mintplex-Labs/anything-llm
+- 项目描述：Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience 
+- AI 总结：本地优先的Agent体验平台，提供强大的本地化AI能力，强调数据所有权和隐私保护，支持多种LLM集成。
 
 ## 三、最值得关注的项目
 
-1. dify：生产级平台，适合企业级Agent工作流开发，社区活跃且文档完善，是构建复杂Agent应用的首选。
-2. crewAI：多Agent协作框架的代表，创新性地引入角色扮演机制，在复杂任务分解与协同执行方面具有独特优势。
-3. cline：自主编码Agent的标杆，支持多种集成方式（SDK/IDE/CLI），在开发者工具领域影响力大，实用性强。
+1. langflow：拥有最高星数（149k+），提供可视化的AI Agent和工作流构建工具，降低开发门槛，适合快速原型设计和部署，生态成熟。
+2. crewAI：专注于多Agent协作框架，支持角色扮演和自主任务编排，代表Agent技术从单智能体向多智能体协同演进的重要方向。
+3. anything-llm：强调本地优先和隐私保护，提供完整的Agent体验，契合当前数据主权和离线部署需求，用户基数大（61k+星）。
 
 ## 四、项目说明
 

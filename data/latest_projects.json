@@ -1,92 +1,92 @@
 [
   {
-    "name": "langflow",
-    "full_name": "langflow-ai/langflow",
-    "url": "https://github.com/langflow-ai/langflow",
-    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 149272,
+    "name": "hermes-agent",
+    "full_name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 184806,
     "language": "Python",
-    "updated_at": "2026-06-06T01:52:14Z"
+    "updated_at": "2026-06-07T02:00:09Z"
   },
   {
     "name": "LibreChat",
     "full_name": "danny-avila/LibreChat",
     "url": "https://github.com/danny-avila/LibreChat",
-    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active.",
-    "stars": 38216,
+    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+    "stars": 38410,
     "language": "TypeScript",
-    "updated_at": "2026-06-06T01:51:39Z"
-  },
-  {
-    "name": "hermes-agent",
-    "full_name": "NousResearch/hermes-agent",
-    "url": "https://github.com/NousResearch/hermes-agent",
-    "description": "The agent that grows with you",
-    "stars": 183193,
-    "language": "Python",
-    "updated_at": "2026-06-06T01:50:36Z"
-  },
-  {
-    "name": "dify",
-    "full_name": "langgenius/dify",
-    "url": "https://github.com/langgenius/dify",
-    "description": "Production-ready platform for agentic workflow development.",
-    "stars": 144065,
-    "language": "TypeScript",
-    "updated_at": "2026-06-06T01:44:48Z"
-  },
-  {
-    "name": "cherry-studio",
-    "full_name": "CherryHQ/cherry-studio",
-    "url": "https://github.com/CherryHQ/cherry-studio",
-    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-    "stars": 46933,
-    "language": "TypeScript",
-    "updated_at": "2026-06-06T01:39:21Z"
+    "updated_at": "2026-06-07T01:58:00Z"
   },
   {
     "name": "cline",
     "full_name": "cline/cline",
     "url": "https://github.com/cline/cline",
     "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-    "stars": 62810,
+    "stars": 62860,
     "language": "TypeScript",
-    "updated_at": "2026-06-06T01:14:15Z"
+    "updated_at": "2026-06-07T01:42:52Z"
   },
   {
     "name": "eliza",
     "full_name": "elizaOS/eliza",
     "url": "https://github.com/elizaOS/eliza",
     "description": "Open source agentic operating system",
-    "stars": 18515,
+    "stars": 18517,
     "language": "TypeScript",
-    "updated_at": "2026-06-06T01:11:45Z"
+    "updated_at": "2026-06-07T01:40:00Z"
   },
   {
-    "name": "symphony",
-    "full_name": "openai/symphony",
-    "url": "https://github.com/openai/symphony",
-    "description": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.",
-    "stars": 25074,
-    "language": "Elixir",
-    "updated_at": "2026-06-06T01:05:00Z"
+    "name": "cherry-studio",
+    "full_name": "CherryHQ/cherry-studio",
+    "url": "https://github.com/CherryHQ/cherry-studio",
+    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+    "stars": 46983,
+    "language": "TypeScript",
+    "updated_at": "2026-06-07T01:14:12Z"
   },
   {
-    "name": "anything-llm",
-    "full_name": "Mintplex-Labs/anything-llm",
-    "url": "https://github.com/Mintplex-Labs/anything-llm",
-    "description": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
-    "stars": 61120,
-    "language": "JavaScript",
-    "updated_at": "2026-06-06T00:16:52Z"
+    "name": "langflow",
+    "full_name": "langflow-ai/langflow",
+    "url": "https://github.com/langflow-ai/langflow",
+    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+    "stars": 149310,
+    "language": "Python",
+    "updated_at": "2026-06-07T01:04:29Z"
+  },
+  {
+    "name": "zeroclaw",
+    "full_name": "zeroclaw-labs/zeroclaw",
+    "url": "https://github.com/zeroclaw-labs/zeroclaw",
+    "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
+    "stars": 31800,
+    "language": "Rust",
+    "updated_at": "2026-06-07T00:22:02Z"
+  },
+  {
+    "name": "agency-agents",
+    "full_name": "msitarzewski/agency-agents",
+    "url": "https://github.com/msitarzewski/agency-agents",
+    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+    "stars": 107940,
+    "language": "Shell",
+    "updated_at": "2026-06-06T22:34:21Z"
   },
   {
     "name": "crewAI",
     "full_name": "crewAIInc/crewAI",
     "url": "https://github.com/crewAIInc/crewAI",
     "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-    "stars": 52905,
+    "stars": 52947,
     "language": "Python",
-    "updated_at": "2026-06-06T00:05:29Z"
+    "updated_at": "2026-06-06T22:12:37Z"
+  },
+  {
+    "name": "anything-llm",
+    "full_name": "Mintplex-Labs/anything-llm",
+    "url": "https://github.com/Mintplex-Labs/anything-llm",
+    "description": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
+    "stars": 61163,
+    "language": "JavaScript",
+    "updated_at": "2026-06-06T20:10:04Z"
   }
 ]
