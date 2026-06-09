@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是从单一对话向生产级工作流平台演进，如dify、LibreChat等提供多模型集成、技能编排和团队协作能力；二是强调本地优先与自主性，anything-llm、zeroclaw等项目聚焦隐私、跨平台部署和全自主个人助手；三是记忆与上下文管理成为关键差异化点，claude-mem等工具通过跨会话压缩与注入实现持久化上下文。项目生态覆盖Python、TypeScript、Rust、Go等多种语言，Stars数从3万到18万不等，反映出社区对Agent基础设施、可扩展性和易用性的强烈需求。",
+  "overall_summary": "当前开源AI Agent项目呈现出多元化、平台化与专业化并进的趋势。项目覆盖从生产级工作流编排（如dify）、多智能体协作框架（如crewAI）、终端交互（如gemini-cli）、编码助手（如cline）、个人助理（如zeroclaw）到记忆层（如mem0）和RAG增强（如ragflow）等关键领域。技术栈以Python和TypeScript为主，Rust和Go开始用于高性能基础设施。社区活跃度极高，多个项目获得数万至数十万星标，反映出开发者对自主智能体、工具集成和长期记忆等能力的强烈需求。",
   "project_summaries": [
-    {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "summary": "一个与用户共同成长的智能代理，基于Python开发，拥有极高的社区关注度（18.6万星），但描述较为抽象，可能侧重于个性化学习与自适应能力。"
-    },
-    {
-      "name": "LibreChat",
-      "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，集成Agent、MCP、技能、多模型（DeepSeek、Anthropic、AWS、OpenAI等）、代码解释器、LangChain、DALL-E-3、OpenAPI Actions等功能，支持安全多用户认证和自托管，是一个功能全面的AI聊天平台。"
-    },
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "summary": "面向生产环境的代理工作流开发平台，基于TypeScript构建，支持可视化编排、多模型接入和可扩展架构，适合构建复杂的AI应用。"
+      "summary": "生产级智能体工作流开发平台，支持可视化编排和部署，适合构建复杂Agent应用。"
+    },
+    {
+      "name": "crewAI",
+      "full_name": "crewAIInc/crewAI",
+      "summary": "多智能体协作框架，通过角色扮演和任务分配实现自主AI团队协作，解决复杂任务。"
+    },
+    {
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "summary": "Google推出的开源终端AI助手，将Gemini模型能力直接集成到命令行环境。"
     },
     {
       "name": "multica",
       "full_name": "multica-ai/multica",
-      "summary": "开源托管代理平台，将编码代理转化为真正的团队成员，支持任务分配、进度追踪和技能复合，采用Go语言开发，强调协作与可管理性。"
-    },
-    {
-      "name": "anything-llm",
-      "full_name": "Mintplex-Labs/anything-llm",
-      "summary": "本地优先的AI代理体验平台，强调数据主权和隐私，提供完整的本地运行能力，支持多种LLM后端，适合个人和企业自部署。"
-    },
-    {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "快速、小巧且完全自主的AI个人助手基础设施，使用Rust开发，支持任意操作系统和平台，可随处部署并灵活替换组件，强调轻量化和自主性。"
-    },
-    {
-      "name": "ragflow",
-      "full_name": "infiniflow/ragflow",
-      "summary": "领先的开源检索增强生成（RAG）引擎，融合前沿RAG与Agent能力，为LLM创建优质上下文层，适用于知识密集型应用。"
-    },
-    {
-      "name": "cherry-studio",
-      "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，提供智能聊天、自主代理和300+助手，统一接入前沿LLM，旨在提升个人和团队的工作效率。"
-    },
-    {
-      "name": "claude-mem",
-      "full_name": "thedotmack/claude-mem",
-      "summary": "跨会话持久化上下文工具，捕获代理会话行为，通过AI压缩并注入相关上下文到未来会话，兼容Claude Code、OpenClaw、Codex、Gemini等多种代理。"
+      "summary": "开源托管智能体平台，将编码Agent转化为可分配任务、追踪进度、积累技能的团队成员。"
     },
     {
       "name": "cline",
       "full_name": "cline/cline",
-      "summary": "自主编码代理，以SDK、IDE扩展或CLI助手形式提供，专注于开发者工具链集成，提升编码自动化水平。"
+      "summary": "自主编码Agent，以SDK、IDE扩展或CLI助手形式提供，支持代码生成与自动化。"
+    },
+    {
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "summary": "由Nous Research开发的持续成长型智能体，强调自适应学习和长期发展能力。"
+    },
+    {
+      "name": "ragflow",
+      "full_name": "infiniflow/ragflow",
+      "summary": "领先的开源RAG引擎，融合检索增强生成与Agent能力，为LLM构建优质上下文层。"
+    },
+    {
+      "name": "CowAgent",
+      "full_name": "zhayujie/CowAgent",
+      "summary": "开源超级AI助手框架，支持任务规划、工具调用、记忆与知识自主增长，多模型多平台，轻量可扩展。"
+    },
+    {
+      "name": "mem0",
+      "full_name": "mem0ai/mem0",
+      "summary": "为AI Agent提供通用记忆层，实现长期上下文保持和个性化交互。"
+    },
+    {
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "summary": "快速、小巧、完全自主的AI个人助理基础设施，跨平台部署，组件可替换，基于Rust实现高性能。"
     }
   ],
   "recommendation": [
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "reason": "作为生产级工作流平台，dify在可视化编排、多模型支持和可扩展性方面表现突出，适合构建复杂AI应用，社区活跃且文档完善，是Agent工程化的标杆项目。"
+      "reason": "生产级平台，星标数极高（144k+），代表Agent工作流编排的主流方向，适合企业级应用。"
+    },
+    {
+      "name": "mem0",
+      "full_name": "mem0ai/mem0",
+      "reason": "专注Agent记忆层，解决长期交互中的上下文保持难题，是Agent智能化的关键基础设施。"
     },
     {
       "name": "ragflow",
       "full_name": "infiniflow/ragflow",
-      "reason": "融合RAG与Agent能力，提供强大的上下文层，是知识密集型场景（如企业搜索、问答系统）的核心基础设施，Stars数高且技术路线清晰。"
-    },
-    {
-      "name": "claude-mem",
-      "full_name": "thedotmack/claude-mem",
-      "reason": "解决Agent长期记忆这一关键痛点，通过跨会话上下文压缩与注入显著提升代理的连续性和智能水平，兼容多种主流代理，具有广泛的应用前景。"
+      "reason": "将RAG与Agent能力深度融合，为LLM提供高质量上下文，是知识密集型Agent应用的基石。"
     }
   ]
 }
