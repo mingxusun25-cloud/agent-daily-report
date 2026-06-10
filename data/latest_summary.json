@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent项目呈现出多元化、平台化与专业化并进的趋势。项目覆盖从生产级工作流编排（如dify）、多智能体协作框架（如crewAI）、终端交互（如gemini-cli）、编码助手（如cline）、个人助理（如zeroclaw）到记忆层（如mem0）和RAG增强（如ragflow）等关键领域。技术栈以Python和TypeScript为主，Rust和Go开始用于高性能基础设施。社区活跃度极高，多个项目获得数万至数十万星标，反映出开发者对自主智能体、工具集成和长期记忆等能力的强烈需求。",
+  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是从单一对话向生产级工作流平台演进，如dify和langchain提供完整的工程化框架；二是Agent记忆与上下文管理成为核心痛点，claude-mem和ECC等项目专注于跨会话持久化与性能优化；三是多模型集成与工具链融合加速，LibreChat和cherry-studio等产品聚合了数百种模型与插件，降低开发门槛。整体上，项目语言以TypeScript和Python为主，Stars数普遍较高，反映出社区对Agent基础设施的强烈需求。",
   "project_summaries": [
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "summary": "生产级智能体工作流开发平台，支持可视化编排和部署，适合构建复杂Agent应用。"
-    },
-    {
-      "name": "crewAI",
-      "full_name": "crewAIInc/crewAI",
-      "summary": "多智能体协作框架，通过角色扮演和任务分配实现自主AI团队协作，解决复杂任务。"
-    },
-    {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google推出的开源终端AI助手，将Gemini模型能力直接集成到命令行环境。"
-    },
-    {
-      "name": "multica",
-      "full_name": "multica-ai/multica",
-      "summary": "开源托管智能体平台，将编码Agent转化为可分配任务、追踪进度、积累技能的团队成员。"
-    },
-    {
-      "name": "cline",
-      "full_name": "cline/cline",
-      "summary": "自主编码Agent，以SDK、IDE扩展或CLI助手形式提供，支持代码生成与自动化。"
+      "summary": "生产级Agent工作流开发平台，支持可视化编排、RAG、工具调用等，适合快速构建可部署的AI应用。"
     },
     {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
-      "summary": "由Nous Research开发的持续成长型智能体，强调自适应学习和长期发展能力。"
+      "summary": "强调与用户共同成长的Agent框架，基于Python，注重持续学习与适应能力。"
+    },
+    {
+      "name": "claude-mem",
+      "full_name": "thedotmack/claude-mem",
+      "summary": "跨会话持久化上下文管理工具，自动压缩Agent会话历史并注入相关上下文，兼容Claude Code、OpenClaw、Gemini等多种Agent。"
     },
     {
       "name": "ragflow",
       "full_name": "infiniflow/ragflow",
-      "summary": "领先的开源RAG引擎，融合检索增强生成与Agent能力，为LLM构建优质上下文层。"
+      "summary": "领先的开源RAG引擎，融合检索增强生成与Agent能力，为LLM提供高质量上下文层。"
     },
     {
-      "name": "CowAgent",
-      "full_name": "zhayujie/CowAgent",
-      "summary": "开源超级AI助手框架，支持任务规划、工具调用、记忆与知识自主增长，多模型多平台，轻量可扩展。"
+      "name": "eliza",
+      "full_name": "elizaOS/eliza",
+      "summary": "开源Agent操作系统，提供底层运行时环境，支持多Agent协作与资源管理。"
     },
     {
-      "name": "mem0",
-      "full_name": "mem0ai/mem0",
-      "summary": "为AI Agent提供通用记忆层，实现长期上下文保持和个性化交互。"
+      "name": "cline",
+      "full_name": "cline/cline",
+      "summary": "自主编码Agent，可嵌入SDK、IDE扩展或CLI，专注于代码生成与开发辅助。"
     },
     {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "快速、小巧、完全自主的AI个人助理基础设施，跨平台部署，组件可替换，基于Rust实现高性能。"
+      "name": "LibreChat",
+      "full_name": "danny-avila/LibreChat",
+      "summary": "增强版ChatGPT克隆，集成Agents、MCP、Skills、多种AI模型（DeepSeek、Anthropic、AWS等），支持代码解释器、OpenAPI Actions，可自托管。"
+    },
+    {
+      "name": "cherry-studio",
+      "full_name": "CherryHQ/cherry-studio",
+      "summary": "AI生产力工作室，提供智能聊天、自主Agent和300+助手，统一访问前沿LLM。"
+    },
+    {
+      "name": "ECC",
+      "full_name": "affaan-m/ECC",
+      "summary": "Agent性能优化系统，涵盖技能、本能、记忆、安全与研究优先开发，适配Claude Code、Codex、Opencode、Cursor等。"
+    },
+    {
+      "name": "langchain",
+      "full_name": "langchain-ai/langchain",
+      "summary": "Agent工程化平台，提供链式调用、工具集成、记忆管理等模块，是构建复杂Agent应用的基础框架。"
     }
   ],
   "recommendation": [
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "reason": "生产级平台，星标数极高（144k+），代表Agent工作流编排的主流方向，适合企业级应用。"
+      "reason": "生产级平台，可视化工作流降低开发门槛，适合企业级Agent应用落地，社区活跃度高。"
     },
     {
-      "name": "mem0",
-      "full_name": "mem0ai/mem0",
-      "reason": "专注Agent记忆层，解决长期交互中的上下文保持难题，是Agent智能化的关键基础设施。"
+      "name": "claude-mem",
+      "full_name": "thedotmack/claude-mem",
+      "reason": "解决Agent记忆持久化核心痛点，跨会话上下文注入提升连续性，兼容主流Agent工具，创新性强。"
     },
     {
-      "name": "ragflow",
-      "full_name": "infiniflow/ragflow",
-      "reason": "将RAG与Agent能力深度融合，为LLM提供高质量上下文，是知识密集型Agent应用的基石。"
+      "name": "langchain",
+      "full_name": "langchain-ai/langchain",
+      "reason": "Agent工程化基石，模块化设计支持灵活扩展，生态丰富，是构建复杂Agent系统的首选框架。"
     }
   ]
 }
