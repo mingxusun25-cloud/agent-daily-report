@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现出三大趋势：一是平台化与工程化，如LangChain、Dify、Langflow等项目致力于提供从开发到部署的全链路支持，降低Agent构建门槛；二是多智能体协作与角色扮演，CrewAI等框架推动自主Agent间的协同工作；三是RAG与Agent深度融合，RAGFlow等项目通过检索增强生成技术提升Agent的上下文理解与知识调用能力。此外，Agent应用形态日趋丰富，从IDE扩展（如Cline）到全能聊天客户端（如LibreChat、Cherry Studio），覆盖开发者与终端用户的不同场景。项目语言以Python和TypeScript为主，社区活跃度极高。",
+  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是从单一对话向多智能体协作与长周期任务执行演进，如CrewAI、Deer Flow等框架强调角色扮演、子代理分工与沙盒执行；二是Agent工程化与平台化加速，Dify、LangChain等提供生产级编排、插件市场与模型统一接入；三是Agent与开发工具深度融合，如Agents项目打造跨IDE的插件市场，Oh-My-ClaudeCode聚焦团队级多Agent编排。语言上Python与TypeScript并重，前者主导框架层，后者主导应用层。",
   "project_summaries": [
     {
-      "name": "langchain",
-      "full_name": "langchain-ai/langchain",
-      "summary": "LangChain是一个Agent工程平台，提供构建、测试和部署基于LLM的Agent应用的完整工具链，支持多种模型集成、链式调用和记忆管理，是当前最流行的Agent开发框架之一。"
-    },
-    {
-      "name": "agent-zero",
-      "full_name": "agent0ai/agent-zero",
-      "summary": "Agent Zero是一个AI框架，专注于构建自主Agent，提供灵活的任务执行和环境交互能力，适合需要高度自定义Agent行为的开发者。"
+      "name": "cherry-studio",
+      "full_name": "CherryHQ/cherry-studio",
+      "summary": "AI生产力工作室，集成智能对话、自主Agent与300+预设助手，提供对前沿大语言模型的统一访问，适合个人与团队高效使用AI工具。"
     },
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "summary": "Dify是一个面向生产的Agent工作流开发平台，提供可视化编排、RAG管道、模型管理等能力，支持快速构建可落地的AI应用，适合企业级场景。"
-    },
-    {
-      "name": "cline",
-      "full_name": "cline/cline",
-      "summary": "Cline是一个自主编码Agent，可作为SDK、IDE扩展或CLI助手使用，专注于辅助开发者完成代码生成、调试和自动化任务，提升开发效率。"
+      "summary": "生产级Agent工作流开发平台，支持可视化编排、模型管理、RAG等，已获超14万星，是企业级AI应用落地的热门选择。"
     },
     {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
-      "summary": "Hermes Agent是一个持续进化的Agent框架，强调与用户共同成长，提供可扩展的智能体能力，适合需要长期迭代和个性化定制的场景。"
+      "summary": "强调与用户共同成长的Agent框架，基于Python开发，注重个性化与持续学习能力，星数高达19万，社区关注度极高。"
     },
     {
-      "name": "LibreChat",
-      "full_name": "danny-avila/LibreChat",
-      "summary": "LibreChat是一个增强版ChatGPT克隆，集成Agent、MCP、多模型支持（包括DeepSeek、Anthropic、OpenAI等）、代码解释器、DALL-E-3等功能，提供丰富的AI交互体验，支持自托管。"
+      "name": "agents",
+      "full_name": "wshobson/agents",
+      "summary": "多工具Agent插件市场，支持Claude Code、Codex CLI、Cursor、GitHub Copilot等主流开发环境，实现跨IDE的Agent能力共享。"
     },
     {
       "name": "crewAI",
       "full_name": "crewAIInc/crewAI",
-      "summary": "CrewAI是一个多Agent协作框架，通过角色扮演和任务分配实现自主Agent间的协同工作，擅长处理复杂任务，强调智能体间的协作智能。"
+      "summary": "角色扮演式多Agent协作框架，通过定义不同角色与任务，让Agent协同解决复杂问题，强调协作智能与任务分解。"
     },
     {
-      "name": "ragflow",
-      "full_name": "infiniflow/ragflow",
-      "summary": "RAGFlow是一个领先的开源RAG引擎，融合检索增强生成与Agent能力，为LLM提供高质量的上下文层，提升知识密集型任务的准确性和可靠性。"
+      "name": "deer-flow",
+      "full_name": "bytedance/deer-flow",
+      "summary": "字节跳动开源的长期任务SuperAgent框架，集成沙盒、记忆、工具、技能与子Agent，可处理分钟至小时级的复杂任务。"
     },
     {
-      "name": "cherry-studio",
-      "full_name": "CherryHQ/cherry-studio",
-      "summary": "Cherry Studio是一个AI生产力工作室，提供智能聊天、自主Agent和300+预设助手，统一访问前沿LLM，适合个人和团队提升工作效率。"
+      "name": "langchain",
+      "full_name": "langchain-ai/langchain",
+      "summary": "Agent工程化平台，提供链式调用、工具集成、记忆管理等核心组件，是构建自定义Agent应用的基础框架，星数近14万。"
     },
     {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "summary": "Langflow是一个强大的AI Agent和工作流构建工具，提供可视化界面，支持拖拽式编排Agent流程，降低开发门槛，适合快速原型设计和部署。"
+      "name": "oh-my-claudecode",
+      "full_name": "Yeachan-Heo/oh-my-claudecode",
+      "summary": "面向团队的多Agent编排工具，专为Claude Code设计，支持团队协作场景下的Agent任务分配与协调。"
+    },
+    {
+      "name": "agent-zero",
+      "full_name": "agent0ai/agent-zero",
+      "summary": "轻量级AI Agent框架，提供基础Agent能力，适合快速原型开发与学习，社区活跃度良好。"
+    },
+    {
+      "name": "LibreChat",
+      "full_name": "danny-avila/LibreChat",
+      "summary": "增强版ChatGPT克隆，集成Agent、MCP、技能、多模型切换、代码解释器等功能，支持自托管，是功能全面的开源AI聊天平台。"
     }
   ],
   "recommendation": [
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "reason": "Dify作为生产级Agent工作流平台，兼具可视化易用性和企业级部署能力，社区活跃度高（14.4万+星），是当前从原型到落地的最佳选择之一。"
+      "reason": "生产级平台，可视化工作流与模型管理，适合企业快速落地Agent应用，社区与生态成熟。"
     },
     {
       "name": "crewAI",
       "full_name": "crewAIInc/crewAI",
-      "reason": "CrewAI在多Agent协作领域独树一帜，通过角色扮演机制实现复杂任务分解与协同，代表了Agent从单兵作战到团队协作的发展方向，具有前瞻性。"
+      "reason": "多Agent协作框架的代表，角色扮演与任务分解机制创新，适合复杂任务自动化。"
     },
     {
-      "name": "ragflow",
-      "full_name": "infiniflow/ragflow",
-      "reason": "RAGFlow将RAG与Agent深度融合，解决了LLM知识时效性和准确性问题，8.2万+星的高关注度印证了其在知识增强Agent领域的核心价值。"
+      "name": "deer-flow",
+      "full_name": "bytedance/deer-flow",
+      "reason": "长期任务Agent的标杆，沙盒、记忆与子Agent设计先进，代表Agent从对话向自主执行演进的方向。"
     }
   ]
 }
