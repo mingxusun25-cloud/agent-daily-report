@@ -1,92 +1,92 @@
 [
   {
-    "name": "dify",
-    "full_name": "langgenius/dify",
-    "url": "https://github.com/langgenius/dify",
-    "description": "Production-ready platform for agentic workflow development.",
-    "stars": 145001,
+    "name": "eliza",
+    "full_name": "elizaOS/eliza",
+    "url": "https://github.com/elizaOS/eliza",
+    "description": "Open source agentic operating system",
+    "stars": 18578,
     "language": "TypeScript",
-    "updated_at": "2026-06-13T02:03:28Z"
+    "updated_at": "2026-06-14T02:07:27Z"
   },
   {
-    "name": "langchain",
-    "full_name": "langchain-ai/langchain",
-    "url": "https://github.com/langchain-ai/langchain",
-    "description": "The agent engineering platform.",
-    "stars": 139146,
-    "language": "Python",
-    "updated_at": "2026-06-13T02:01:55Z"
+    "name": "zeroclaw",
+    "full_name": "zeroclaw-labs/zeroclaw",
+    "url": "https://github.com/zeroclaw-labs/zeroclaw",
+    "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
+    "stars": 31901,
+    "language": "Rust",
+    "updated_at": "2026-06-14T02:03:46Z"
   },
   {
     "name": "hermes-agent",
     "full_name": "NousResearch/hermes-agent",
     "url": "https://github.com/NousResearch/hermes-agent",
     "description": "The agent that grows with you",
-    "stars": 192023,
+    "stars": 192803,
     "language": "Python",
-    "updated_at": "2026-06-13T01:58:31Z"
+    "updated_at": "2026-06-14T02:01:37Z"
   },
   {
-    "name": "cline",
-    "full_name": "cline/cline",
-    "url": "https://github.com/cline/cline",
-    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-    "stars": 63142,
-    "language": "TypeScript",
-    "updated_at": "2026-06-13T01:57:59Z"
-  },
-  {
-    "name": "eliza",
-    "full_name": "elizaOS/eliza",
-    "url": "https://github.com/elizaOS/eliza",
-    "description": "Open source agentic operating system",
-    "stars": 18566,
-    "language": "TypeScript",
-    "updated_at": "2026-06-13T01:51:55Z"
-  },
-  {
-    "name": "anything-llm",
-    "full_name": "Mintplex-Labs/anything-llm",
-    "url": "https://github.com/Mintplex-Labs/anything-llm",
-    "description": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
-    "stars": 61504,
-    "language": "JavaScript",
-    "updated_at": "2026-06-13T01:37:16Z"
-  },
-  {
-    "name": "deer-flow",
-    "full_name": "bytedance/deer-flow",
-    "url": "https://github.com/bytedance/deer-flow",
-    "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-    "stars": 71060,
+    "name": "crewAI",
+    "full_name": "crewAIInc/crewAI",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+    "stars": 53482,
     "language": "Python",
-    "updated_at": "2026-06-13T01:16:08Z"
+    "updated_at": "2026-06-14T01:54:58Z"
+  },
+  {
+    "name": "LibreChat",
+    "full_name": "danny-avila/LibreChat",
+    "url": "https://github.com/danny-avila/LibreChat",
+    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+    "stars": 39063,
+    "language": "TypeScript",
+    "updated_at": "2026-06-14T01:53:41Z"
   },
   {
     "name": "cherry-studio",
     "full_name": "CherryHQ/cherry-studio",
     "url": "https://github.com/CherryHQ/cherry-studio",
     "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-    "stars": 47251,
+    "stars": 47281,
     "language": "TypeScript",
-    "updated_at": "2026-06-13T01:14:49Z"
-  },
-  {
-    "name": "claude-mem",
-    "full_name": "thedotmack/claude-mem",
-    "url": "https://github.com/thedotmack/claude-mem",
-    "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-    "stars": 82009,
-    "language": "JavaScript",
-    "updated_at": "2026-06-13T01:13:33Z"
+    "updated_at": "2026-06-14T01:15:23Z"
   },
   {
     "name": "langflow",
     "full_name": "langflow-ai/langflow",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 149606,
+    "stars": 149630,
     "language": "Python",
-    "updated_at": "2026-06-13T01:06:05Z"
+    "updated_at": "2026-06-14T01:06:51Z"
+  },
+  {
+    "name": "oh-my-claudecode",
+    "full_name": "Yeachan-Heo/oh-my-claudecode",
+    "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+    "description": "Teams-first Multi-agent orchestration for Claude Code",
+    "stars": 36344,
+    "language": "TypeScript",
+    "updated_at": "2026-06-14T01:05:55Z"
+  },
+  {
+    "name": "cline",
+    "full_name": "cline/cline",
+    "url": "https://github.com/cline/cline",
+    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+    "stars": 63225,
+    "language": "TypeScript",
+    "updated_at": "2026-06-13T22:10:22Z"
+  },
+  {
+    "name": "TradingAgents",
+    "full_name": "TauricResearch/TradingAgents",
+    "url": "https://github.com/TauricResearch/TradingAgents",
+    "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+    "stars": 85849,
+    "language": "Python",
+    "updated_at": "2026-06-13T21:54:08Z"
   }
 ]
