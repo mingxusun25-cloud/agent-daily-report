@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是多智能体协作框架成熟，如crewAI、TradingAgents等通过角色扮演或专业分工实现复杂任务；二是基础设施向轻量、跨平台、全自主演进，典型代表为zeroclaw（Rust实现）和eliza（操作系统级）；三是应用层爆发，覆盖编程助手（cline）、金融交易（TradingAgents）、通用生产力（cherry-studio、LibreChat）等场景。语言上Python和TypeScript主导，Rust开始用于高性能基础设施。",
+  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是生产级平台化，如dify、cherry-studio等提供从开发到部署的全链路支持；二是多智能体协作与团队化，如oh-my-claudecode、multica强调多Agent协同与任务管理；三是终端与轻量化部署，如gemini-cli、zeroclaw将Agent能力嵌入命令行或边缘设备。技术栈以TypeScript和Python为主，Rust和Go开始用于高性能基础设施。RAG与Agent的融合（如ragflow）成为提升LLM上下文能力的关键方向。",
   "project_summaries": [
     {
-      "name": "eliza",
-      "full_name": "elizaOS/eliza",
-      "summary": "开源智能体操作系统，提供Agent运行的基础环境与编排能力，采用TypeScript构建，适合作为多Agent系统的底层平台。"
-    },
-    {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "基于Rust的高性能、轻量级AI个人助手基础设施，支持全自主运行，可部署于任何操作系统和平台，强调速度与可移植性。"
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "summary": "生产级Agent工作流开发平台，支持可视化编排、插件生态和模型管理，适合企业级AI应用快速构建。"
     },
     {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
-      "summary": "强调与用户共同成长的Agent，采用Python开发，关注长期学习和个性化适应能力，拥有极高关注度（19万+星）。"
-    },
-    {
-      "name": "crewAI",
-      "full_name": "crewAIInc/crewAI",
-      "summary": "多智能体协作框架，通过角色扮演和分工协作实现复杂任务，强调智能体间的协同智能，Python实现，社区活跃。"
-    },
-    {
-      "name": "LibreChat",
-      "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，集成Agent、MCP、多模型支持（DeepSeek、Anthropic、OpenAI等）、代码解释器、安全多用户认证等，功能全面的开源聊天平台。"
+      "summary": "强调持续进化的个人Agent，基于Python实现，注重与用户共同成长的能力。"
     },
     {
       "name": "cherry-studio",
       "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，提供智能聊天、自主Agent和300+助手，统一接入前沿大模型，面向个人和企业用户。"
-    },
-    {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "summary": "强大的AI Agent和工作流构建与部署工具，可视化编排，Python生态，适合快速原型和复杂流程管理。"
-    },
-    {
-      "name": "oh-my-claudecode",
-      "full_name": "Yeachan-Heo/oh-my-claudecode",
-      "summary": "面向Claude Code的团队优先多智能体编排工具，TypeScript实现，专注于提升团队协作开发效率。"
+      "summary": "AI生产力工作室，集成智能聊天、自主Agent和300+助手，统一接入前沿LLM，提供一站式AI工作环境。"
     },
     {
       "name": "cline",
       "full_name": "cline/cline",
-      "summary": "自主编码Agent，以SDK、IDE扩展或CLI形式提供，支持多种集成方式，旨在提升开发自动化水平。"
+      "summary": "自主编码Agent，支持SDK、IDE扩展和CLI三种形态，专注于开发者效率提升。"
     },
     {
-      "name": "TradingAgents",
-      "full_name": "TauricResearch/TradingAgents",
-      "summary": "多智能体金融交易框架，利用LLM驱动多个Agent进行市场分析、决策和交易，Python实现，专注于量化金融领域。"
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "summary": "Google开源的终端AI Agent，将Gemini能力直接带入命令行，实现自然语言驱动的终端操作。"
+    },
+    {
+      "name": "ragflow",
+      "full_name": "infiniflow/ragflow",
+      "summary": "领先的开源RAG引擎，融合检索增强生成与Agent能力，为LLM构建高质量上下文层。"
+    },
+    {
+      "name": "multica",
+      "full_name": "multica-ai/multica",
+      "summary": "开源托管Agent平台，将编码Agent转化为团队协作者，支持任务分配、进度追踪和技能积累。"
+    },
+    {
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "summary": "快速、小巧的全自主AI个人助理基础设施，跨平台部署，用Rust实现高性能与低资源占用。"
+    },
+    {
+      "name": "OpenHands",
+      "full_name": "OpenHands/OpenHands",
+      "summary": "AI驱动的开发平台，专注于通过Agent自动化软件开发流程，提升开发效率。"
+    },
+    {
+      "name": "oh-my-claudecode",
+      "full_name": "Yeachan-Heo/oh-my-claudecode",
+      "summary": "面向团队的Claude Code多Agent编排框架，实现多Agent协同工作与任务协调。"
     }
   ],
   "recommendation": [
     {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "reason": "采用Rust实现，性能卓越且跨平台，代表Agent基础设施向轻量、全自主方向演进，技术前瞻性强。"
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "reason": "作为生产级平台，dify提供了最完整的Agent工作流开发体验，社区活跃度高（14.5万星），是企业级AI应用落地的首选参考。"
     },
     {
-      "name": "crewAI",
-      "full_name": "crewAIInc/crewAI",
-      "reason": "多智能体协作框架的标杆项目，角色扮演机制成熟，社区活跃，适合构建复杂协作任务，应用场景广泛。"
+      "name": "ragflow",
+      "full_name": "infiniflow/ragflow",
+      "reason": "RAG与Agent的融合是当前LLM应用的核心趋势，ragflow以8.2万星证明了其技术价值，为构建高质量上下文层提供了关键基础设施。"
     },
     {
-      "name": "TradingAgents",
-      "full_name": "TauricResearch/TradingAgents",
-      "reason": "聚焦金融交易这一高价值垂直领域，多Agent协作决策框架设计精巧，展示了LLM Agent在专业领域的落地潜力。"
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "reason": "Google官方开源的终端Agent，10.5万星彰显其影响力，代表了Agent轻量化、终端化的重要方向，且背靠Gemini模型生态。"
     }
   ]
 }
