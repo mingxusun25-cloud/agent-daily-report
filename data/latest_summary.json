@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是生产级平台化，如dify、cherry-studio等提供从开发到部署的全链路支持；二是多智能体协作与团队化，如oh-my-claudecode、multica强调多Agent协同与任务管理；三是终端与轻量化部署，如gemini-cli、zeroclaw将Agent能力嵌入命令行或边缘设备。技术栈以TypeScript和Python为主，Rust和Go开始用于高性能基础设施。RAG与Agent的融合（如ragflow）成为提升LLM上下文能力的关键方向。",
+  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是Agent与RAG（检索增强生成）深度融合，如RAGFlow；二是Agent平台化与生产化，如Dify、Multica；三是Agent形态多样化，覆盖IDE插件（Cline）、终端（Gemini CLI）、聊天增强（LibreChat）及操作系统（Eliza）。项目普遍采用TypeScript或Python，注重多模型接入、自主任务执行和可扩展性。",
   "project_summaries": [
+    {
+      "name": "ragflow",
+      "full_name": "infiniflow/ragflow",
+      "summary": "领先的开源RAG引擎，将RAG与Agent能力融合，为LLM提供优质上下文层。"
+    },
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "summary": "生产级Agent工作流开发平台，支持可视化编排、插件生态和模型管理，适合企业级AI应用快速构建。"
-    },
-    {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "summary": "强调持续进化的个人Agent，基于Python实现，注重与用户共同成长的能力。"
+      "summary": "生产级Agent工作流开发平台，支持可视化编排与多模型集成。"
     },
     {
       "name": "cherry-studio",
       "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，集成智能聊天、自主Agent和300+助手，统一接入前沿LLM，提供一站式AI工作环境。"
+      "summary": "AI生产力工作室，提供智能聊天、自主Agent及300+助手，统一访问前沿LLM。"
     },
     {
       "name": "cline",
       "full_name": "cline/cline",
-      "summary": "自主编码Agent，支持SDK、IDE扩展和CLI三种形态，专注于开发者效率提升。"
+      "summary": "自主编码Agent，以SDK、IDE扩展或CLI助手形式运行。"
     },
     {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google开源的终端AI Agent，将Gemini能力直接带入命令行，实现自然语言驱动的终端操作。"
-    },
-    {
-      "name": "ragflow",
-      "full_name": "infiniflow/ragflow",
-      "summary": "领先的开源RAG引擎，融合检索增强生成与Agent能力，为LLM构建高质量上下文层。"
-    },
-    {
-      "name": "multica",
-      "full_name": "multica-ai/multica",
-      "summary": "开源托管Agent平台，将编码Agent转化为团队协作者，支持任务分配、进度追踪和技能积累。"
-    },
-    {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "快速、小巧的全自主AI个人助理基础设施，跨平台部署，用Rust实现高性能与低资源占用。"
+      "name": "eliza",
+      "full_name": "elizaOS/eliza",
+      "summary": "开源Agent操作系统，旨在构建自主Agent运行环境。"
     },
     {
       "name": "OpenHands",
       "full_name": "OpenHands/OpenHands",
-      "summary": "AI驱动的开发平台，专注于通过Agent自动化软件开发流程，提升开发效率。"
+      "summary": "AI驱动开发平台，专注于通过Agent辅助软件工程。"
     },
     {
-      "name": "oh-my-claudecode",
-      "full_name": "Yeachan-Heo/oh-my-claudecode",
-      "summary": "面向团队的Claude Code多Agent编排框架，实现多Agent协同工作与任务协调。"
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "summary": "可伴随用户成长的Agent框架，强调个性化与持续学习。"
+    },
+    {
+      "name": "LibreChat",
+      "full_name": "danny-avila/LibreChat",
+      "summary": "增强版ChatGPT克隆，集成Agent、MCP、多模型切换、代码解释器等丰富功能。"
+    },
+    {
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "summary": "Google推出的开源AI Agent，将Gemini能力带入终端。"
+    },
+    {
+      "name": "multica",
+      "full_name": "multica-ai/multica",
+      "summary": "开源托管Agent平台，将编码Agent转化为真实协作者，支持任务分配与技能积累。"
     }
   ],
   "recommendation": [
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "reason": "作为生产级平台，dify提供了最完整的Agent工作流开发体验，社区活跃度高（14.5万星），是企业级AI应用落地的首选参考。"
+      "reason": "生产级Agent工作流平台，社区活跃度高（14.5万星），适合企业级Agent应用开发。"
     },
     {
-      "name": "ragflow",
-      "full_name": "infiniflow/ragflow",
-      "reason": "RAG与Agent的融合是当前LLM应用的核心趋势，ragflow以8.2万星证明了其技术价值，为构建高质量上下文层提供了关键基础设施。"
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "reason": "星数最高（19.4万），强调Agent的个性化成长，代表Agent从工具向伙伴演进的趋势。"
     },
     {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "reason": "Google官方开源的终端Agent，10.5万星彰显其影响力，代表了Agent轻量化、终端化的重要方向，且背靠Gemini模型生态。"
+      "name": "multica",
+      "full_name": "multica-ai/multica",
+      "reason": "创新性托管Agent平台，将Agent视为团队协作者，支持任务追踪与技能复合，代表Agent管理新范式。"
     }
   ]
 }
