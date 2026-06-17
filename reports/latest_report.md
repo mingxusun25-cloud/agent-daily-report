@@ -1,108 +1,108 @@
 # 今日 GitHub AI Agent 趋势报告
 
-生成时间：2026-06-16 02:34
+生成时间：2026-06-17 02:30
 
 ## 一、今日总体趋势
 
-当前开源AI Agent生态呈现三大趋势：一是Agent与RAG（检索增强生成）深度融合，如RAGFlow；二是Agent平台化与生产化，如Dify、Multica；三是Agent形态多样化，覆盖IDE插件（Cline）、终端（Gemini CLI）、聊天增强（LibreChat）及操作系统（Eliza）。项目普遍采用TypeScript或Python，注重多模型接入、自主任务执行和可扩展性。
+当前开源AI Agent领域呈现三大趋势：一是从单一工具向全栈平台演进，如dify、langflow等提供从开发到部署的完整链路；二是多智能体协作与自主化成为核心，ruflo、oh-my-claudecode等聚焦于多Agent编排与自适应工作流；三是跨平台、轻量化与高性能需求凸显，zeroclaw以Rust实现极简部署，cline则覆盖IDE、CLI等多种形态。语言上TypeScript与Python主导，Rust开始崭露头角。
 
 ## 二、热门项目列表
 
-### 1. ragflow
+### 1. zeroclaw
 
-- Star：82841
-- 语言：Python
-- 更新时间：2026-06-16T02:31:27Z
-- 地址：https://github.com/infiniflow/ragflow
-- 项目描述：RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
-- AI 总结：领先的开源RAG引擎，将RAG与Agent能力融合，为LLM提供优质上下文层。
+- Star：31927
+- 语言：Rust
+- 更新时间：2026-06-17T02:30:12Z
+- 地址：https://github.com/zeroclaw-labs/zeroclaw
+- 项目描述：Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀
+- AI 总结：基于Rust构建的轻量、快速、全自主AI个人助手基础设施，支持任意操作系统与平台，强调可部署性与组件可替换性。
 
-### 2. dify
+### 2. cline
 
-- Star：145365
+- Star：63399
 - 语言：TypeScript
-- 更新时间：2026-06-16T02:26:31Z
-- 地址：https://github.com/langgenius/dify
-- 项目描述：Production-ready platform for agentic workflow development.
-- AI 总结：生产级Agent工作流开发平台，支持可视化编排与多模型集成。
-
-### 3. cherry-studio
-
-- Star：47387
-- 语言：TypeScript
-- 更新时间：2026-06-16T02:25:21Z
-- 地址：https://github.com/CherryHQ/cherry-studio
-- 项目描述：AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
-- AI 总结：AI生产力工作室，提供智能聊天、自主Agent及300+助手，统一访问前沿LLM。
-
-### 4. cline
-
-- Star：63353
-- 语言：TypeScript
-- 更新时间：2026-06-16T02:25:02Z
+- 更新时间：2026-06-17T02:27:21Z
 - 地址：https://github.com/cline/cline
 - 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
-- AI 总结：自主编码Agent，以SDK、IDE扩展或CLI助手形式运行。
+- AI 总结：自主编码Agent，以SDK、IDE扩展或CLI助手形式提供，聚焦于开发者工作流中的自动化编码能力。
 
-### 5. eliza
+### 3. eliza
 
-- Star：18591
+- Star：18597
 - 语言：TypeScript
-- 更新时间：2026-06-16T02:24:08Z
+- 更新时间：2026-06-17T02:27:21Z
 - 地址：https://github.com/elizaOS/eliza
 - 项目描述：Open source agentic operating system
-- AI 总结：开源Agent操作系统，旨在构建自主Agent运行环境。
+- AI 总结：开源Agent操作系统，旨在为智能体提供底层运行环境与系统级支持，推动Agent生态标准化。
 
-### 6. OpenHands
+### 4. ruflo
 
-- Star：77251
+- Star：59846
+- 语言：TypeScript
+- 更新时间：2026-06-17T02:23:46Z
+- 地址：https://github.com/ruvnet/ruflo
+- 项目描述：🌊 The leading agent meta-harness for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration
+- AI 总结：领先的Claude Agent元框架，支持多智能体集群部署、自适应记忆、自学习群体智能与RAG集成，原生兼容Claude Code/Codex。
+
+### 5. dify
+
+- Star：145517
+- 语言：TypeScript
+- 更新时间：2026-06-17T02:22:55Z
+- 地址：https://github.com/langgenius/dify
+- 项目描述：Production-ready platform for agentic workflow development.
+- AI 总结：生产级Agent工作流开发平台，提供可视化编排与全生命周期管理，适合企业级AI应用构建。
+
+### 6. oh-my-claudecode
+
+- Star：36524
+- 语言：TypeScript
+- 更新时间：2026-06-17T02:21:42Z
+- 地址：https://github.com/Yeachan-Heo/oh-my-claudecode
+- 项目描述：Teams-first Multi-agent orchestration for Claude Code
+- AI 总结：面向团队的多Agent编排工具，专为Claude Code设计，强化协作与任务分配能力。
+
+### 7. cherry-studio
+
+- Star：47436
+- 语言：TypeScript
+- 更新时间：2026-06-17T02:20:33Z
+- 地址：https://github.com/CherryHQ/cherry-studio
+- 项目描述：AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
+- AI 总结：AI生产力工作室，集成智能聊天、自主Agent与300+助手，统一接入前沿大语言模型。
+
+### 8. langflow
+
+- Star：149765
 - 语言：Python
-- 更新时间：2026-06-16T02:23:15Z
-- 地址：https://github.com/OpenHands/OpenHands
-- 项目描述：🙌 OpenHands: AI-Driven Development
-- AI 总结：AI驱动开发平台，专注于通过Agent辅助软件工程。
+- 更新时间：2026-06-17T02:19:51Z
+- 地址：https://github.com/langflow-ai/langflow
+- 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
+- AI 总结：强大的AI Agent与工作流构建工具，提供可视化拖拽式开发体验，降低Agent应用门槛。
 
-### 7. hermes-agent
+### 9. langchain
 
-- Star：194529
+- Star：139502
 - 语言：Python
-- 更新时间：2026-06-16T02:06:00Z
+- 更新时间：2026-06-17T02:15:03Z
+- 地址：https://github.com/langchain-ai/langchain
+- 项目描述：The agent engineering platform.
+- AI 总结：Agent工程平台，作为行业标杆提供模块化框架，支持复杂推理链与工具调用。
+
+### 10. hermes-agent
+
+- Star：195428
+- 语言：Python
+- 更新时间：2026-06-17T02:11:32Z
 - 地址：https://github.com/NousResearch/hermes-agent
 - 项目描述：The agent that grows with you
-- AI 总结：可伴随用户成长的Agent框架，强调个性化与持续学习。
-
-### 8. LibreChat
-
-- Star：39241
-- 语言：TypeScript
-- 更新时间：2026-06-16T02:01:33Z
-- 地址：https://github.com/danny-avila/LibreChat
-- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active
-- AI 总结：增强版ChatGPT克隆，集成Agent、MCP、多模型切换、代码解释器等丰富功能。
-
-### 9. gemini-cli
-
-- Star：105308
-- 语言：TypeScript
-- 更新时间：2026-06-16T01:49:50Z
-- 地址：https://github.com/google-gemini/gemini-cli
-- 项目描述：An open-source AI agent that brings the power of Gemini directly into your terminal.
-- AI 总结：Google推出的开源AI Agent，将Gemini能力带入终端。
-
-### 10. multica
-
-- Star：36759
-- 语言：Go
-- 更新时间：2026-06-16T01:44:05Z
-- 地址：https://github.com/multica-ai/multica
-- 项目描述：The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
-- AI 总结：开源托管Agent平台，将编码Agent转化为真实协作者，支持任务分配与技能积累。
+- AI 总结：强调持续成长与自适应能力的Agent框架，注重长期学习与用户个性化适配。
 
 ## 三、最值得关注的项目
 
-1. dify：生产级Agent工作流平台，社区活跃度高（14.5万星），适合企业级Agent应用开发。
-2. hermes-agent：星数最高（19.4万），强调Agent的个性化成长，代表Agent从工具向伙伴演进的趋势。
-3. multica：创新性托管Agent平台，将Agent视为团队协作者，支持任务追踪与技能复合，代表Agent管理新范式。
+1. dify：拥有最高星数（145k+），作为生产级平台覆盖从开发到部署全流程，生态成熟，适合企业快速落地Agent应用。
+2. ruflo：聚焦多智能体集群与自适应学习，代表前沿的群体智能方向，且与Claude深度集成，技术前瞻性强。
+3. zeroclaw：以Rust实现极致轻量与跨平台，突破传统Python/TypeScript生态，为边缘设备与高性能场景提供新可能。
 
 ## 四、项目说明
 
