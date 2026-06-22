@@ -1,92 +1,92 @@
 [
   {
+    "name": "dify",
+    "full_name": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "description": "Production-ready platform for agentic workflow development.",
+    "stars": 146076,
+    "language": "TypeScript",
+    "updated_at": "2026-06-22T02:31:53Z"
+  },
+  {
+    "name": "openai-agents-python",
+    "full_name": "openai/openai-agents-python",
+    "url": "https://github.com/openai/openai-agents-python",
+    "description": "A lightweight, powerful framework for multi-agent workflows",
+    "stars": 27307,
+    "language": "Python",
+    "updated_at": "2026-06-22T02:30:48Z"
+  },
+  {
     "name": "eliza",
     "full_name": "elizaOS/eliza",
     "url": "https://github.com/elizaOS/eliza",
     "description": "Open source agentic operating system",
-    "stars": 18609,
+    "stars": 18612,
     "language": "TypeScript",
-    "updated_at": "2026-06-21T02:26:32Z"
-  },
-  {
-    "name": "cherry-studio",
-    "full_name": "CherryHQ/cherry-studio",
-    "url": "https://github.com/CherryHQ/cherry-studio",
-    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-    "stars": 47596,
-    "language": "TypeScript",
-    "updated_at": "2026-06-21T02:21:20Z"
-  },
-  {
-    "name": "hermes-agent",
-    "full_name": "NousResearch/hermes-agent",
-    "url": "https://github.com/NousResearch/hermes-agent",
-    "description": "The agent that grows with you",
-    "stars": 198353,
-    "language": "Python",
-    "updated_at": "2026-06-21T02:14:00Z"
+    "updated_at": "2026-06-22T02:30:35Z"
   },
   {
     "name": "zeroclaw",
     "full_name": "zeroclaw-labs/zeroclaw",
     "url": "https://github.com/zeroclaw-labs/zeroclaw",
     "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
-    "stars": 31967,
+    "stars": 31983,
     "language": "Rust",
-    "updated_at": "2026-06-21T02:04:53Z"
+    "updated_at": "2026-06-22T02:25:33Z"
   },
   {
-    "name": "gemini-cli",
-    "full_name": "google-gemini/gemini-cli",
-    "url": "https://github.com/google-gemini/gemini-cli",
-    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "stars": 105451,
+    "name": "multica",
+    "full_name": "multica-ai/multica",
+    "url": "https://github.com/multica-ai/multica",
+    "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+    "stars": 37388,
+    "language": "Go",
+    "updated_at": "2026-06-22T02:21:08Z"
+  },
+  {
+    "name": "cherry-studio",
+    "full_name": "CherryHQ/cherry-studio",
+    "url": "https://github.com/CherryHQ/cherry-studio",
+    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+    "stars": 47629,
     "language": "TypeScript",
-    "updated_at": "2026-06-21T01:43:40Z"
+    "updated_at": "2026-06-22T02:20:43Z"
   },
   {
-    "name": "dify",
-    "full_name": "langgenius/dify",
-    "url": "https://github.com/langgenius/dify",
-    "description": "Production-ready platform for agentic workflow development.",
-    "stars": 145979,
+    "name": "cline",
+    "full_name": "cline/cline",
+    "url": "https://github.com/cline/cline",
+    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+    "stars": 63621,
     "language": "TypeScript",
-    "updated_at": "2026-06-21T01:08:41Z"
+    "updated_at": "2026-06-22T02:20:14Z"
   },
   {
-    "name": "langflow",
-    "full_name": "langflow-ai/langflow",
-    "url": "https://github.com/langflow-ai/langflow",
-    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 149885,
+    "name": "hermes-agent",
+    "full_name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 199066,
     "language": "Python",
-    "updated_at": "2026-06-21T01:08:05Z"
+    "updated_at": "2026-06-22T02:18:41Z"
   },
   {
-    "name": "LibreChat",
-    "full_name": "danny-avila/LibreChat",
-    "url": "https://github.com/danny-avila/LibreChat",
-    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
-    "stars": 39536,
-    "language": "TypeScript",
-    "updated_at": "2026-06-21T01:05:02Z"
-  },
-  {
-    "name": "ECC",
-    "full_name": "affaan-m/ECC",
-    "url": "https://github.com/affaan-m/ECC",
-    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "stars": 218892,
-    "language": "JavaScript",
-    "updated_at": "2026-06-21T00:49:17Z"
-  },
-  {
-    "name": "langchain",
-    "full_name": "langchain-ai/langchain",
-    "url": "https://github.com/langchain-ai/langchain",
-    "description": "The agent engineering platform.",
-    "stars": 139775,
+    "name": "ragflow",
+    "full_name": "infiniflow/ragflow",
+    "url": "https://github.com/infiniflow/ragflow",
+    "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+    "stars": 83300,
     "language": "Python",
-    "updated_at": "2026-06-21T00:22:53Z"
+    "updated_at": "2026-06-22T02:17:41Z"
+  },
+  {
+    "name": "TradingAgents",
+    "full_name": "TauricResearch/TradingAgents",
+    "url": "https://github.com/TauricResearch/TradingAgents",
+    "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+    "stars": 87841,
+    "language": "Python",
+    "updated_at": "2026-06-22T02:05:09Z"
   }
 ]

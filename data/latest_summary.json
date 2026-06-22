@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是平台化与工程化，如LangChain、Dify、Langflow等提供从开发到部署的全链路支持；二是终端与个人化，如Cherry Studio、ZeroClaw、Gemini CLI等将Agent能力嵌入日常工具；三是高性能与自主化，如ECC、Hermes Agent等追求极致的自主决策与系统优化。TypeScript和Python是主流语言，Rust开始用于高性能基础设施。",
+  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是从单一对话助手向多智能体协作平台演进，如dify、openai-agents-python和multica均强调工作流编排与团队化任务管理；二是Agent能力向垂直领域深化，TradingAgents专注金融交易、RAGFlow强化检索增强生成，体现了行业专用化；三是基础设施轻量化与跨平台化，zeroclaw以Rust构建高性能个人助手、cline作为编码Agent SDK/插件，展示了Agent在开发工具和边缘设备上的渗透。语言上TypeScript和Python主导，但Rust和Go的加入表明性能与并发成为新考量。",
   "project_summaries": [
+    {
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "summary": "生产级Agent工作流开发平台，支持可视化编排与多模型集成，适合构建复杂业务自动化流程。"
+    },
+    {
+      "name": "openai-agents-python",
+      "full_name": "openai/openai-agents-python",
+      "summary": "OpenAI官方轻量级多Agent框架，强调简洁性与可扩展性，适合快速搭建多智能体协作应用。"
+    },
     {
       "name": "eliza",
       "full_name": "elizaOS/eliza",
-      "summary": "开源智能体操作系统，提供Agent运行的基础环境与调度能力。"
-    },
-    {
-      "name": "cherry-studio",
-      "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，集成智能聊天、自主Agent和300+助手，统一访问前沿大模型。"
-    },
-    {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "summary": "可成长的自主Agent，强调持续学习与适应能力。"
+      "summary": "开源Agent操作系统，提供底层运行时环境，旨在成为智能体运行的基础设施层。"
     },
     {
       "name": "zeroclaw",
       "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "快速、小巧、全自主的AI个人助手基础设施，跨平台部署，使用Rust实现高性能。"
+      "summary": "基于Rust的高性能全自主AI个人助手基础设施，跨平台部署，强调轻量、快速与自主性。"
     },
     {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google推出的开源终端AI Agent，将Gemini能力直接带入命令行。"
+      "name": "multica",
+      "full_name": "multica-ai/multica",
+      "summary": "开源托管Agent平台，将编码Agent转化为可协作的团队成员，支持任务分配与技能积累。"
     },
     {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "summary": "生产级Agent工作流开发平台，支持可视化编排与部署。"
+      "name": "cherry-studio",
+      "full_name": "CherryHQ/cherry-studio",
+      "summary": "AI生产力工作室，集成智能聊天、自主Agent与300+助手，统一接入前沿大模型。"
     },
     {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "summary": "强大的AI Agent与工作流构建和部署工具，提供可视化界面。"
-    },
-    {
-      "name": "LibreChat",
-      "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，支持Agent、MCP、多模型切换、代码解释器等丰富功能，可自托管。"
-    },
-    {
-      "name": "ECC",
-      "full_name": "affaan-m/ECC",
-      "summary": "Agent性能优化系统，聚焦技能、本能、记忆、安全，支持Claude Code、Codex等多种开发环境。"
-    },
-    {
-      "name": "langchain",
-      "full_name": "langchain-ai/langchain",
-      "summary": "Agent工程化平台，提供构建、测试、部署Agent的全套工具链。"
-    }
-  ],
-  "recommendation": [
-    {
-      "name": "ECC",
-      "full_name": "affaan-m/ECC",
-      "reason": "拥有最高星数（218k+），聚焦Agent性能优化与系统级能力，代表Agent工程化的前沿方向。"
+      "name": "cline",
+      "full_name": "cline/cline",
+      "summary": "自主编码Agent，以SDK、IDE扩展或CLI形式提供，赋能开发者自动化编码任务。"
     },
     {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
-      "reason": "高星数（198k+）且强调Agent的持续成长与自适应能力，体现自主Agent的发展趋势。"
+      "summary": "成长型Agent框架，强调与用户共同进化，具备持续学习与适应能力。"
     },
+    {
+      "name": "ragflow",
+      "full_name": "infiniflow/ragflow",
+      "summary": "领先的开源RAG引擎，融合检索增强生成与Agent能力，为LLM提供优质上下文层。"
+    },
+    {
+      "name": "TradingAgents",
+      "full_name": "TauricResearch/TradingAgents",
+      "summary": "多Agent金融交易框架，利用LLM驱动智能体进行量化分析与交易决策。"
+    }
+  ],
+  "recommendation": [
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "reason": "生产级Agent工作流平台，星数高（145k+），代表Agent从原型到落地的关键基础设施。"
+      "reason": "生产级平台，社区活跃（14.6万星），覆盖从原型到部署全流程，是Agent工作流落地的标杆项目。"
+    },
+    {
+      "name": "TradingAgents",
+      "full_name": "TauricResearch/TradingAgents",
+      "reason": "垂直领域创新代表，将多Agent协作应用于金融交易，展现Agent在专业场景的巨大潜力，且星数高达8.7万。"
+    },
+    {
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "reason": "采用Rust实现高性能与跨平台，代表Agent基础设施轻量化趋势，适合边缘计算与个人助手场景。"
     }
   ]
 }
