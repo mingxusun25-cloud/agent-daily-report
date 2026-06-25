@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent项目呈现三大趋势：一是生产级平台化，如dify和cherry-studio提供从开发到部署的全栈能力；二是多智能体协作与长周期任务处理成为焦点，如deer-flow和openai-agents-python；三是Agent与开发工具深度融合，如cline和oh-my-claudecode将Agent嵌入IDE或CLI。语言上TypeScript和Python主导，社区活跃度极高。",
+  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是Agent与RAG（检索增强生成）深度融合，如RAGFlow和Dify，构建企业级上下文层；二是Agent形态多样化，从终端CLI（如Gemini CLI）到IDE插件（如Cline）再到个人助手（如zeroclaw），覆盖开发、办公、生活场景；三是框架化与协作化，CrewAI等框架推动多Agent协同工作，而Cherry Studio和LibreChat则提供集成化生产力平台。语言上TypeScript和Python主导，Rust开始用于高性能基础设施。",
   "project_summaries": [
-    {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "summary": "生产级Agent工作流开发平台，支持可视化编排、模型管理、RAG等，适合快速构建和部署AI应用。"
-    },
     {
       "name": "cherry-studio",
       "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，集成智能聊天、自主Agent和300+助手，统一访问前沿大模型，强调易用性和多功能性。"
+      "summary": "AI生产力工作室，集成智能聊天、自主Agent和300+助手，提供统一的前沿LLM访问入口，适合个人和团队高效使用AI工具。"
     },
     {
-      "name": "eliza",
-      "full_name": "elizaOS/eliza",
-      "summary": "开源Agent操作系统，提供底层运行时环境，支持模块化Agent构建与部署，面向系统级应用。"
+      "name": "ragflow",
+      "full_name": "infiniflow/ragflow",
+      "summary": "领先的开源RAG引擎，融合RAG与Agent能力，为LLM构建优质上下文层，支持企业级知识检索与生成应用。"
     },
     {
-      "name": "multica",
-      "full_name": "multica-ai/multica",
-      "summary": "开源托管Agent平台，将编码Agent转化为团队协作者，支持任务分配、进度追踪和技能复合。"
-    },
-    {
-      "name": "deer-flow",
-      "full_name": "bytedance/deer-flow",
-      "summary": "字节跳动开源的长期任务SuperAgent，集成沙箱、记忆、工具、子Agent等，可处理分钟到小时级复杂任务。"
-    },
-    {
-      "name": "cline",
-      "full_name": "cline/cline",
-      "summary": "自主编码Agent，提供SDK、IDE扩展和CLI三种形态，深度融入开发者工作流。"
-    },
-    {
-      "name": "LibreChat",
-      "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，支持Agent、MCP、多模型切换、代码解释器等，功能丰富且可自托管。"
-    },
-    {
-      "name": "openai-agents-python",
-      "full_name": "openai/openai-agents-python",
-      "summary": "OpenAI官方轻量多Agent框架，专注于简洁高效的多Agent工作流编排。"
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "summary": "生产级Agent工作流开发平台，提供可视化编排和部署能力，支持构建复杂AI应用，适合企业快速落地。"
     },
     {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
-      "summary": "可成长Agent框架，强调持续学习和自适应能力，社区关注度极高。"
+      "summary": "可成长型Agent，强调与用户共同进化，基于Python开发，注重个性化与持续学习能力。"
     },
     {
-      "name": "oh-my-claudecode",
-      "full_name": "Yeachan-Heo/oh-my-claudecode",
-      "summary": "面向Claude Code的团队优先多Agent编排工具，提升协作开发效率。"
+      "name": "eliza",
+      "full_name": "elizaOS/eliza",
+      "summary": "开源Agent操作系统，提供底层运行时环境，支持多种Agent应用运行和管理，类似AI时代的操作系统。"
+    },
+    {
+      "name": "crewAI",
+      "full_name": "crewAIInc/crewAI",
+      "summary": "多Agent协作框架，通过角色扮演和自主智能体协同，解决复杂任务，强调团队智能与分工协作。"
+    },
+    {
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "summary": "Google推出的开源终端Agent，将Gemini能力带入命令行，支持自然语言交互和自动化操作，适合开发者。"
+    },
+    {
+      "name": "cline",
+      "full_name": "cline/cline",
+      "summary": "自主编码Agent，可作为SDK、IDE扩展或CLI助手，直接辅助代码编写和开发流程，提升编程效率。"
+    },
+    {
+      "name": "LibreChat",
+      "full_name": "danny-avila/LibreChat",
+      "summary": "增强版ChatGPT克隆，集成Agent、MCP、多模型支持、代码解释器等功能，开源可自托管，功能全面。"
+    },
+    {
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "summary": "快速、小巧的全自主AI个人助手基础设施，基于Rust开发，支持跨平台部署和组件替换，强调轻量和自主性。"
     }
   ],
   "recommendation": [
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "reason": "生产级平台，社区最活跃（14.6万星），覆盖Agent工作流全生命周期，适合企业级应用。"
+      "reason": "生产级Agent工作流平台，星数最高（146k），生态成熟，适合企业快速构建和部署AI应用，代表Agent工程化方向。"
     },
     {
-      "name": "deer-flow",
-      "full_name": "bytedance/deer-flow",
-      "reason": "代表长期任务Agent前沿方向，集成多种高级组件，由字节跳动开源，技术实力强。"
+      "name": "crewAI",
+      "full_name": "crewAIInc/crewAI",
+      "reason": "多Agent协作框架的标杆，星数54k，通过角色扮演和协同智能解决复杂任务，代表Agent协作化趋势。"
     },
     {
-      "name": "openai-agents-python",
-      "full_name": "openai/openai-agents-python",
-      "reason": "官方出品，轻量但强大，是多Agent工作流的标准参考实现，生态潜力巨大。"
+      "name": "ragflow",
+      "full_name": "infiniflow/ragflow",
+      "reason": "RAG与Agent融合的典范，星数83k，为企业提供高质量上下文层，是知识密集型AI应用的核心基础设施。"
     }
   ]
 }
