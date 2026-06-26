@@ -1,92 +1,92 @@
 [
   {
-    "name": "cherry-studio",
-    "full_name": "CherryHQ/cherry-studio",
-    "url": "https://github.com/CherryHQ/cherry-studio",
-    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-    "stars": 47756,
+    "name": "eliza",
+    "full_name": "elizaOS/eliza",
+    "url": "https://github.com/elizaOS/eliza",
+    "description": "Open source agentic operating system",
+    "stars": 18646,
     "language": "TypeScript",
-    "updated_at": "2026-06-25T02:01:26Z"
-  },
-  {
-    "name": "ragflow",
-    "full_name": "infiniflow/ragflow",
-    "url": "https://github.com/infiniflow/ragflow",
-    "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-    "stars": 83558,
-    "language": "Go",
-    "updated_at": "2026-06-25T02:01:21Z"
-  },
-  {
-    "name": "dify",
-    "full_name": "langgenius/dify",
-    "url": "https://github.com/langgenius/dify",
-    "description": "Production-ready platform for agentic workflow development.",
-    "stars": 146480,
-    "language": "TypeScript",
-    "updated_at": "2026-06-25T01:59:36Z"
+    "updated_at": "2026-06-26T02:02:55Z"
   },
   {
     "name": "hermes-agent",
     "full_name": "NousResearch/hermes-agent",
     "url": "https://github.com/NousResearch/hermes-agent",
     "description": "The agent that grows with you",
-    "stars": 202112,
+    "stars": 203108,
     "language": "Python",
-    "updated_at": "2026-06-25T01:56:29Z"
+    "updated_at": "2026-06-26T02:00:51Z"
   },
   {
-    "name": "eliza",
-    "full_name": "elizaOS/eliza",
-    "url": "https://github.com/elizaOS/eliza",
-    "description": "Open source agentic operating system",
-    "stars": 18641,
+    "name": "dify",
+    "full_name": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "description": "Production-ready platform for agentic workflow development.",
+    "stars": 146579,
     "language": "TypeScript",
-    "updated_at": "2026-06-25T01:54:04Z"
+    "updated_at": "2026-06-26T02:00:02Z"
+  },
+  {
+    "name": "multica",
+    "full_name": "multica-ai/multica",
+    "url": "https://github.com/multica-ai/multica",
+    "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+    "stars": 38041,
+    "language": "Go",
+    "updated_at": "2026-06-26T01:56:59Z"
+  },
+  {
+    "name": "OpenHands",
+    "full_name": "OpenHands/OpenHands",
+    "url": "https://github.com/OpenHands/OpenHands",
+    "description": "🙌 OpenHands: AI-Driven Development",
+    "stars": 78349,
+    "language": "Python",
+    "updated_at": "2026-06-26T01:53:02Z"
   },
   {
     "name": "crewAI",
     "full_name": "crewAIInc/crewAI",
     "url": "https://github.com/crewAIInc/crewAI",
     "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-    "stars": 54317,
+    "stars": 54376,
     "language": "Python",
-    "updated_at": "2026-06-25T01:49:21Z"
+    "updated_at": "2026-06-26T01:46:38Z"
   },
   {
     "name": "gemini-cli",
     "full_name": "google-gemini/gemini-cli",
     "url": "https://github.com/google-gemini/gemini-cli",
     "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "stars": 105538,
+    "stars": 105552,
     "language": "TypeScript",
-    "updated_at": "2026-06-25T01:45:32Z"
+    "updated_at": "2026-06-26T01:46:37Z"
   },
   {
     "name": "cline",
     "full_name": "cline/cline",
     "url": "https://github.com/cline/cline",
     "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-    "stars": 63858,
+    "stars": 63905,
     "language": "TypeScript",
-    "updated_at": "2026-06-25T01:45:17Z"
+    "updated_at": "2026-06-26T01:42:57Z"
   },
   {
-    "name": "LibreChat",
-    "full_name": "danny-avila/LibreChat",
-    "url": "https://github.com/danny-avila/LibreChat",
-    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
-    "stars": 39752,
-    "language": "TypeScript",
-    "updated_at": "2026-06-25T01:33:50Z"
+    "name": "gpt-researcher",
+    "full_name": "assafelovic/gpt-researcher",
+    "url": "https://github.com/assafelovic/gpt-researcher",
+    "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
+    "stars": 27922,
+    "language": "Python",
+    "updated_at": "2026-06-26T01:35:08Z"
   },
   {
-    "name": "zeroclaw",
-    "full_name": "zeroclaw-labs/zeroclaw",
-    "url": "https://github.com/zeroclaw-labs/zeroclaw",
-    "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
-    "stars": 32022,
-    "language": "Rust",
-    "updated_at": "2026-06-25T01:01:59Z"
+    "name": "ragflow",
+    "full_name": "infiniflow/ragflow",
+    "url": "https://github.com/infiniflow/ragflow",
+    "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+    "stars": 83639,
+    "language": "Go",
+    "updated_at": "2026-06-26T01:30:09Z"
   }
 ]

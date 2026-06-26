@@ -1,108 +1,108 @@
 # 今日 GitHub AI Agent 趋势报告
 
-生成时间：2026-06-25 02:01
+生成时间：2026-06-26 02:03
 
 ## 一、今日总体趋势
 
-当前开源AI Agent领域呈现三大趋势：一是Agent与RAG（检索增强生成）深度融合，如RAGFlow和Dify，构建企业级上下文层；二是Agent形态多样化，从终端CLI（如Gemini CLI）到IDE插件（如Cline）再到个人助手（如zeroclaw），覆盖开发、办公、生活场景；三是框架化与协作化，CrewAI等框架推动多Agent协同工作，而Cherry Studio和LibreChat则提供集成化生产力平台。语言上TypeScript和Python主导，Rust开始用于高性能基础设施。
+当前开源AI Agent领域呈现三大趋势：一是从单一对话式Agent向多Agent协作系统演进，如CrewAI和OpenHands；二是Agent与开发工具深度融合，涌现出大量面向代码生成、终端操作和IDE集成的项目，如cline和gemini-cli；三是Agent平台化与生产化趋势明显，dify和multica等平台致力于将Agent转化为可管理、可扩展的团队协作工具。此外，RAG与Agent的结合（如ragflow）成为提升LLM上下文质量的关键方向。
 
 ## 二、热门项目列表
 
-### 1. cherry-studio
+### 1. eliza
 
-- Star：47756
+- Star：18646
 - 语言：TypeScript
-- 更新时间：2026-06-25T02:01:26Z
-- 地址：https://github.com/CherryHQ/cherry-studio
-- 项目描述：AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
-- AI 总结：AI生产力工作室，集成智能聊天、自主Agent和300+助手，提供统一的前沿LLM访问入口，适合个人和团队高效使用AI工具。
+- 更新时间：2026-06-26T02:02:55Z
+- 地址：https://github.com/elizaOS/eliza
+- 项目描述：Open source agentic operating system
+- AI 总结：开源智能体操作系统，旨在为AI Agent提供底层运行环境与系统级支持，强调Agent的自主性与可扩展性。
 
-### 2. ragflow
+### 2. hermes-agent
 
-- Star：83558
-- 语言：Go
-- 更新时间：2026-06-25T02:01:21Z
-- 地址：https://github.com/infiniflow/ragflow
-- 项目描述：RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
-- AI 总结：领先的开源RAG引擎，融合RAG与Agent能力，为LLM构建优质上下文层，支持企业级知识检索与生成应用。
+- Star：203108
+- 语言：Python
+- 更新时间：2026-06-26T02:00:51Z
+- 地址：https://github.com/NousResearch/hermes-agent
+- 项目描述：The agent that grows with you
+- AI 总结：一个随用户成长而进化的AI Agent，注重个性化与持续学习能力，采用Python开发，拥有极高关注度。
 
 ### 3. dify
 
-- Star：146480
+- Star：146579
 - 语言：TypeScript
-- 更新时间：2026-06-25T01:59:36Z
+- 更新时间：2026-06-26T02:00:02Z
 - 地址：https://github.com/langgenius/dify
 - 项目描述：Production-ready platform for agentic workflow development.
-- AI 总结：生产级Agent工作流开发平台，提供可视化编排和部署能力，支持构建复杂AI应用，适合企业快速落地。
+- AI 总结：生产级Agent工作流开发平台，支持可视化编排与多模型集成，致力于降低Agent应用开发门槛。
 
-### 4. hermes-agent
+### 4. multica
 
-- Star：202112
+- Star：38041
+- 语言：Go
+- 更新时间：2026-06-26T01:56:59Z
+- 地址：https://github.com/multica-ai/multica
+- 项目描述：The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
+- AI 总结：开源托管Agent平台，将编码Agent转化为真正的团队成员，支持任务分配、进度追踪与技能组合。
+
+### 5. OpenHands
+
+- Star：78349
 - 语言：Python
-- 更新时间：2026-06-25T01:56:29Z
-- 地址：https://github.com/NousResearch/hermes-agent
-- 项目描述：The agent that grows with you
-- AI 总结：可成长型Agent，强调与用户共同进化，基于Python开发，注重个性化与持续学习能力。
-
-### 5. eliza
-
-- Star：18641
-- 语言：TypeScript
-- 更新时间：2026-06-25T01:54:04Z
-- 地址：https://github.com/elizaOS/eliza
-- 项目描述：Open source agentic operating system
-- AI 总结：开源Agent操作系统，提供底层运行时环境，支持多种Agent应用运行和管理，类似AI时代的操作系统。
+- 更新时间：2026-06-26T01:53:02Z
+- 地址：https://github.com/OpenHands/OpenHands
+- 项目描述：🙌 OpenHands: AI-Driven Development
+- AI 总结：AI驱动的开发助手，专注于通过Agent自动化软件开发流程，提升开发效率。
 
 ### 6. crewAI
 
-- Star：54317
+- Star：54376
 - 语言：Python
-- 更新时间：2026-06-25T01:49:21Z
+- 更新时间：2026-06-26T01:46:38Z
 - 地址：https://github.com/crewAIInc/crewAI
 - 项目描述：Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
-- AI 总结：多Agent协作框架，通过角色扮演和自主智能体协同，解决复杂任务，强调团队智能与分工协作。
+- AI 总结：多Agent协作框架，通过角色扮演与自主协作，让多个AI Agent共同完成复杂任务。
 
 ### 7. gemini-cli
 
-- Star：105538
+- Star：105552
 - 语言：TypeScript
-- 更新时间：2026-06-25T01:45:32Z
+- 更新时间：2026-06-26T01:46:37Z
 - 地址：https://github.com/google-gemini/gemini-cli
 - 项目描述：An open-source AI agent that brings the power of Gemini directly into your terminal.
-- AI 总结：Google推出的开源终端Agent，将Gemini能力带入命令行，支持自然语言交互和自动化操作，适合开发者。
+- AI 总结：Google推出的开源终端Agent，将Gemini模型能力直接集成到命令行，实现自然语言驱动的终端操作。
 
 ### 8. cline
 
-- Star：63858
+- Star：63905
 - 语言：TypeScript
-- 更新时间：2026-06-25T01:45:17Z
+- 更新时间：2026-06-26T01:42:57Z
 - 地址：https://github.com/cline/cline
 - 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
-- AI 总结：自主编码Agent，可作为SDK、IDE扩展或CLI助手，直接辅助代码编写和开发流程，提升编程效率。
+- AI 总结：自主编码Agent，支持以SDK、IDE扩展或CLI助手形式运行，提供灵活的代码生成与辅助能力。
 
-### 9. LibreChat
+### 9. gpt-researcher
 
-- Star：39752
-- 语言：TypeScript
-- 更新时间：2026-06-25T01:33:50Z
-- 地址：https://github.com/danny-avila/LibreChat
-- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active
-- AI 总结：增强版ChatGPT克隆，集成Agent、MCP、多模型支持、代码解释器等功能，开源可自托管，功能全面。
+- Star：27922
+- 语言：Python
+- 更新时间：2026-06-26T01:35:08Z
+- 地址：https://github.com/assafelovic/gpt-researcher
+- 项目描述：An autonomous agent that conducts deep research on any data using any LLM providers
+- AI 总结：自主研究Agent，能够利用任意LLM提供者进行深度数据调研，适用于知识获取与分析场景。
 
-### 10. zeroclaw
+### 10. ragflow
 
-- Star：32022
-- 语言：Rust
-- 更新时间：2026-06-25T01:01:59Z
-- 地址：https://github.com/zeroclaw-labs/zeroclaw
-- 项目描述：Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀
-- AI 总结：快速、小巧的全自主AI个人助手基础设施，基于Rust开发，支持跨平台部署和组件替换，强调轻量和自主性。
+- Star：83639
+- 语言：Go
+- 更新时间：2026-06-26T01:30:09Z
+- 地址：https://github.com/infiniflow/ragflow
+- 项目描述：RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
+- AI 总结：领先的开源RAG引擎，融合检索增强生成与Agent能力，为LLM构建高质量上下文层。
 
 ## 三、最值得关注的项目
 
-1. dify：生产级Agent工作流平台，星数最高（146k），生态成熟，适合企业快速构建和部署AI应用，代表Agent工程化方向。
-2. crewAI：多Agent协作框架的标杆，星数54k，通过角色扮演和协同智能解决复杂任务，代表Agent协作化趋势。
-3. ragflow：RAG与Agent融合的典范，星数83k，为企业提供高质量上下文层，是知识密集型AI应用的核心基础设施。
+1. hermes-agent：拥有超过20万星标，是列表中关注度最高的项目，其“随用户成长”的理念代表了Agent个性化与持续学习的前沿方向，具有极高的社区影响力和技术探索价值。
+2. crewAI：多Agent协作框架的典型代表，通过角色扮演实现复杂任务分解与协同，是当前Agent从单兵作战向团队协作演进的关键技术路径，实用性与创新性兼备。
+3. ragflow：将RAG与Agent深度融合，解决了LLM在事实性、时效性方面的核心痛点，是构建可靠Agent应用的基础设施级项目，技术价值与商业潜力巨大。
 
 ## 四、项目说明
 

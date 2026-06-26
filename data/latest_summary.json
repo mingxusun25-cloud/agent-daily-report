@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是Agent与RAG（检索增强生成）深度融合，如RAGFlow和Dify，构建企业级上下文层；二是Agent形态多样化，从终端CLI（如Gemini CLI）到IDE插件（如Cline）再到个人助手（如zeroclaw），覆盖开发、办公、生活场景；三是框架化与协作化，CrewAI等框架推动多Agent协同工作，而Cherry Studio和LibreChat则提供集成化生产力平台。语言上TypeScript和Python主导，Rust开始用于高性能基础设施。",
+  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是从单一对话式Agent向多Agent协作系统演进，如CrewAI和OpenHands；二是Agent与开发工具深度融合，涌现出大量面向代码生成、终端操作和IDE集成的项目，如cline和gemini-cli；三是Agent平台化与生产化趋势明显，dify和multica等平台致力于将Agent转化为可管理、可扩展的团队协作工具。此外，RAG与Agent的结合（如ragflow）成为提升LLM上下文质量的关键方向。",
   "project_summaries": [
     {
-      "name": "cherry-studio",
-      "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，集成智能聊天、自主Agent和300+助手，提供统一的前沿LLM访问入口，适合个人和团队高效使用AI工具。"
-    },
-    {
-      "name": "ragflow",
-      "full_name": "infiniflow/ragflow",
-      "summary": "领先的开源RAG引擎，融合RAG与Agent能力，为LLM构建优质上下文层，支持企业级知识检索与生成应用。"
-    },
-    {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "summary": "生产级Agent工作流开发平台，提供可视化编排和部署能力，支持构建复杂AI应用，适合企业快速落地。"
+      "name": "eliza",
+      "full_name": "elizaOS/eliza",
+      "summary": "开源智能体操作系统，旨在为AI Agent提供底层运行环境与系统级支持，强调Agent的自主性与可扩展性。"
     },
     {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
-      "summary": "可成长型Agent，强调与用户共同进化，基于Python开发，注重个性化与持续学习能力。"
+      "summary": "一个随用户成长而进化的AI Agent，注重个性化与持续学习能力，采用Python开发，拥有极高关注度。"
     },
     {
-      "name": "eliza",
-      "full_name": "elizaOS/eliza",
-      "summary": "开源Agent操作系统，提供底层运行时环境，支持多种Agent应用运行和管理，类似AI时代的操作系统。"
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "summary": "生产级Agent工作流开发平台，支持可视化编排与多模型集成，致力于降低Agent应用开发门槛。"
+    },
+    {
+      "name": "multica",
+      "full_name": "multica-ai/multica",
+      "summary": "开源托管Agent平台，将编码Agent转化为真正的团队成员，支持任务分配、进度追踪与技能组合。"
+    },
+    {
+      "name": "OpenHands",
+      "full_name": "OpenHands/OpenHands",
+      "summary": "AI驱动的开发助手，专注于通过Agent自动化软件开发流程，提升开发效率。"
     },
     {
       "name": "crewAI",
       "full_name": "crewAIInc/crewAI",
-      "summary": "多Agent协作框架，通过角色扮演和自主智能体协同，解决复杂任务，强调团队智能与分工协作。"
+      "summary": "多Agent协作框架，通过角色扮演与自主协作，让多个AI Agent共同完成复杂任务。"
     },
     {
       "name": "gemini-cli",
       "full_name": "google-gemini/gemini-cli",
-      "summary": "Google推出的开源终端Agent，将Gemini能力带入命令行，支持自然语言交互和自动化操作，适合开发者。"
+      "summary": "Google推出的开源终端Agent，将Gemini模型能力直接集成到命令行，实现自然语言驱动的终端操作。"
     },
     {
       "name": "cline",
       "full_name": "cline/cline",
-      "summary": "自主编码Agent，可作为SDK、IDE扩展或CLI助手，直接辅助代码编写和开发流程，提升编程效率。"
+      "summary": "自主编码Agent，支持以SDK、IDE扩展或CLI助手形式运行，提供灵活的代码生成与辅助能力。"
     },
     {
-      "name": "LibreChat",
-      "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，集成Agent、MCP、多模型支持、代码解释器等功能，开源可自托管，功能全面。"
-    },
-    {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "快速、小巧的全自主AI个人助手基础设施，基于Rust开发，支持跨平台部署和组件替换，强调轻量和自主性。"
-    }
-  ],
-  "recommendation": [
-    {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "reason": "生产级Agent工作流平台，星数最高（146k），生态成熟，适合企业快速构建和部署AI应用，代表Agent工程化方向。"
-    },
-    {
-      "name": "crewAI",
-      "full_name": "crewAIInc/crewAI",
-      "reason": "多Agent协作框架的标杆，星数54k，通过角色扮演和协同智能解决复杂任务，代表Agent协作化趋势。"
+      "name": "gpt-researcher",
+      "full_name": "assafelovic/gpt-researcher",
+      "summary": "自主研究Agent，能够利用任意LLM提供者进行深度数据调研，适用于知识获取与分析场景。"
     },
     {
       "name": "ragflow",
       "full_name": "infiniflow/ragflow",
-      "reason": "RAG与Agent融合的典范，星数83k，为企业提供高质量上下文层，是知识密集型AI应用的核心基础设施。"
+      "summary": "领先的开源RAG引擎，融合检索增强生成与Agent能力，为LLM构建高质量上下文层。"
+    }
+  ],
+  "recommendation": [
+    {
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "reason": "拥有超过20万星标，是列表中关注度最高的项目，其“随用户成长”的理念代表了Agent个性化与持续学习的前沿方向，具有极高的社区影响力和技术探索价值。"
+    },
+    {
+      "name": "crewAI",
+      "full_name": "crewAIInc/crewAI",
+      "reason": "多Agent协作框架的典型代表，通过角色扮演实现复杂任务分解与协同，是当前Agent从单兵作战向团队协作演进的关键技术路径，实用性与创新性兼备。"
+    },
+    {
+      "name": "ragflow",
+      "full_name": "infiniflow/ragflow",
+      "reason": "将RAG与Agent深度融合，解决了LLM在事实性、时效性方面的核心痛点，是构建可靠Agent应用的基础设施级项目，技术价值与商业潜力巨大。"
     }
   ]
 }
