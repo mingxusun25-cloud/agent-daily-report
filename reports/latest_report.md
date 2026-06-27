@@ -1,108 +1,108 @@
 # 今日 GitHub AI Agent 趋势报告
 
-生成时间：2026-06-26 02:03
+生成时间：2026-06-27 01:57
 
 ## 一、今日总体趋势
 
-当前开源AI Agent领域呈现三大趋势：一是从单一对话式Agent向多Agent协作系统演进，如CrewAI和OpenHands；二是Agent与开发工具深度融合，涌现出大量面向代码生成、终端操作和IDE集成的项目，如cline和gemini-cli；三是Agent平台化与生产化趋势明显，dify和multica等平台致力于将Agent转化为可管理、可扩展的团队协作工具。此外，RAG与Agent的结合（如ragflow）成为提升LLM上下文质量的关键方向。
+当前开源AI Agent生态呈现三大趋势：一是从单一对话助手向多智能体协作系统演进，如ruflo和elizaOS强调的‘元框架’与‘操作系统’概念；二是生产级平台化与低代码化，dify和langflow提供可视化工作流编排，降低Agent开发门槛；三是本地优先与效率优化，anything-llm和headroom分别聚焦本地化部署与Token压缩，解决成本与隐私痛点。项目语言以TypeScript和Python为主，覆盖IDE插件、CLI工具、全栈平台等多种形态。
 
 ## 二、热门项目列表
 
 ### 1. eliza
 
-- Star：18646
+- Star：18644
 - 语言：TypeScript
-- 更新时间：2026-06-26T02:02:55Z
+- 更新时间：2026-06-27T01:56:34Z
 - 地址：https://github.com/elizaOS/eliza
 - 项目描述：Open source agentic operating system
-- AI 总结：开源智能体操作系统，旨在为AI Agent提供底层运行环境与系统级支持，强调Agent的自主性与可扩展性。
+- AI 总结：开源智能体操作系统，提供Agent运行的基础设施与编排能力，强调模块化与可扩展性。
 
-### 2. hermes-agent
+### 2. dify
 
-- Star：203108
-- 语言：Python
-- 更新时间：2026-06-26T02:00:51Z
-- 地址：https://github.com/NousResearch/hermes-agent
-- 项目描述：The agent that grows with you
-- AI 总结：一个随用户成长而进化的AI Agent，注重个性化与持续学习能力，采用Python开发，拥有极高关注度。
-
-### 3. dify
-
-- Star：146579
+- Star：146684
 - 语言：TypeScript
-- 更新时间：2026-06-26T02:00:02Z
+- 更新时间：2026-06-27T01:54:44Z
 - 地址：https://github.com/langgenius/dify
 - 项目描述：Production-ready platform for agentic workflow development.
-- AI 总结：生产级Agent工作流开发平台，支持可视化编排与多模型集成，致力于降低Agent应用开发门槛。
+- AI 总结：生产级Agent工作流开发平台，支持可视化编排、RAG、插件系统，适合企业级应用快速落地。
 
-### 4. multica
+### 3. hermes-agent
 
-- Star：38041
-- 语言：Go
-- 更新时间：2026-06-26T01:56:59Z
-- 地址：https://github.com/multica-ai/multica
-- 项目描述：The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
-- AI 总结：开源托管Agent平台，将编码Agent转化为真正的团队成员，支持任务分配、进度追踪与技能组合。
-
-### 5. OpenHands
-
-- Star：78349
+- Star：203801
 - 语言：Python
-- 更新时间：2026-06-26T01:53:02Z
-- 地址：https://github.com/OpenHands/OpenHands
-- 项目描述：🙌 OpenHands: AI-Driven Development
-- AI 总结：AI驱动的开发助手，专注于通过Agent自动化软件开发流程，提升开发效率。
+- 更新时间：2026-06-27T01:52:47Z
+- 地址：https://github.com/NousResearch/hermes-agent
+- 项目描述：The agent that grows with you
+- AI 总结：强调‘与你共同成长’的智能体，可能具备持续学习与个性化适应能力，基于Python实现。
 
-### 6. crewAI
+### 4. langflow
 
-- Star：54376
+- Star：150115
 - 语言：Python
-- 更新时间：2026-06-26T01:46:38Z
-- 地址：https://github.com/crewAIInc/crewAI
-- 项目描述：Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
-- AI 总结：多Agent协作框架，通过角色扮演与自主协作，让多个AI Agent共同完成复杂任务。
+- 更新时间：2026-06-27T01:43:24Z
+- 地址：https://github.com/langflow-ai/langflow
+- 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
+- AI 总结：强大的AI Agent与工作流构建工具，提供拖拽式界面，支持复杂流程编排与部署。
 
-### 7. gemini-cli
+### 5. cline
 
-- Star：105552
+- Star：63935
 - 语言：TypeScript
-- 更新时间：2026-06-26T01:46:37Z
-- 地址：https://github.com/google-gemini/gemini-cli
-- 项目描述：An open-source AI agent that brings the power of Gemini directly into your terminal.
-- AI 总结：Google推出的开源终端Agent，将Gemini模型能力直接集成到命令行，实现自然语言驱动的终端操作。
-
-### 8. cline
-
-- Star：63905
-- 语言：TypeScript
-- 更新时间：2026-06-26T01:42:57Z
+- 更新时间：2026-06-27T01:23:57Z
 - 地址：https://github.com/cline/cline
 - 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
-- AI 总结：自主编码Agent，支持以SDK、IDE扩展或CLI助手形式运行，提供灵活的代码生成与辅助能力。
+- AI 总结：自主编码Agent，以SDK、IDE扩展和CLI助手形式存在，专注于开发者效率提升。
 
-### 9. gpt-researcher
+### 6. cherry-studio
 
-- Star：27922
+- Star：47845
+- 语言：TypeScript
+- 更新时间：2026-06-27T01:06:23Z
+- 地址：https://github.com/CherryHQ/cherry-studio
+- 项目描述：AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
+- AI 总结：AI生产力工作室，集成智能对话、自主Agent与300+助手，统一接入前沿大模型。
+
+### 7. ruflo
+
+- Star：61632
+- 语言：TypeScript
+- 更新时间：2026-06-27T00:34:48Z
+- 地址：https://github.com/ruvnet/ruflo
+- 项目描述：🌊 The leading agent meta-harness for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration
+- AI 总结：领先的Agent元框架，专为Claude设计，支持多智能体群组、自适应记忆、RAG及Claude Code集成。
+
+### 8. headroom
+
+- Star：52001
 - 语言：Python
-- 更新时间：2026-06-26T01:35:08Z
-- 地址：https://github.com/assafelovic/gpt-researcher
-- 项目描述：An autonomous agent that conducts deep research on any data using any LLM providers
-- AI 总结：自主研究Agent，能够利用任意LLM提供者进行深度数据调研，适用于知识获取与分析场景。
+- 更新时间：2026-06-27T00:06:52Z
+- 地址：https://github.com/headroomlabs-ai/headroom
+- 项目描述：Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.
+- AI 总结：Token压缩工具，可减少60-95%的LLM输入Token，支持工具输出、日志、文件及RAG块压缩，提供库、代理和MCP服务器三种形态。
 
-### 10. ragflow
+### 9. anything-llm
 
-- Star：83639
-- 语言：Go
-- 更新时间：2026-06-26T01:30:09Z
-- 地址：https://github.com/infiniflow/ragflow
-- 项目描述：RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
-- AI 总结：领先的开源RAG引擎，融合检索增强生成与Agent能力，为LLM构建高质量上下文层。
+- Star：62153
+- 语言：JavaScript
+- 更新时间：2026-06-27T00:06:17Z
+- 地址：https://github.com/Mintplex-Labs/anything-llm
+- 项目描述：Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience 
+- AI 总结：本地优先的Agent体验平台，强调数据主权，提供完整的本地化智能体运行环境。
+
+### 10. OpenHands
+
+- Star：78439
+- 语言：Python
+- 更新时间：2026-06-27T00:03:58Z
+- 地址：https://github.com/OpenHands/OpenHands
+- 项目描述：🙌 OpenHands: AI-Driven Development
+- AI 总结：AI驱动的开发平台，聚焦于自动化编码与开发流程，提升软件工程效率。
 
 ## 三、最值得关注的项目
 
-1. hermes-agent：拥有超过20万星标，是列表中关注度最高的项目，其“随用户成长”的理念代表了Agent个性化与持续学习的前沿方向，具有极高的社区影响力和技术探索价值。
-2. crewAI：多Agent协作框架的典型代表，通过角色扮演实现复杂任务分解与协同，是当前Agent从单兵作战向团队协作演进的关键技术路径，实用性与创新性兼备。
-3. ragflow：将RAG与Agent深度融合，解决了LLM在事实性、时效性方面的核心痛点，是构建可靠Agent应用的基础设施级项目，技术价值与商业潜力巨大。
+1. dify：生产级平台，可视化工作流与插件生态成熟，适合企业快速构建Agent应用，社区活跃度高。
+2. ruflo：代表多智能体协作与元框架趋势，深度集成Claude生态，具备自适应记忆与群组智能，技术前瞻性强。
+3. headroom：解决Agent落地中的Token成本与效率痛点，压缩效果显著且提供多种集成方式，实用价值高。
 
 ## 四、项目说明
 

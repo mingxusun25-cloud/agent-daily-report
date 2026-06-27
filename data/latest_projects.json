@@ -4,89 +4,89 @@
     "full_name": "elizaOS/eliza",
     "url": "https://github.com/elizaOS/eliza",
     "description": "Open source agentic operating system",
-    "stars": 18646,
+    "stars": 18644,
     "language": "TypeScript",
-    "updated_at": "2026-06-26T02:02:55Z"
-  },
-  {
-    "name": "hermes-agent",
-    "full_name": "NousResearch/hermes-agent",
-    "url": "https://github.com/NousResearch/hermes-agent",
-    "description": "The agent that grows with you",
-    "stars": 203108,
-    "language": "Python",
-    "updated_at": "2026-06-26T02:00:51Z"
+    "updated_at": "2026-06-27T01:56:34Z"
   },
   {
     "name": "dify",
     "full_name": "langgenius/dify",
     "url": "https://github.com/langgenius/dify",
     "description": "Production-ready platform for agentic workflow development.",
-    "stars": 146579,
+    "stars": 146684,
     "language": "TypeScript",
-    "updated_at": "2026-06-26T02:00:02Z"
+    "updated_at": "2026-06-27T01:54:44Z"
   },
   {
-    "name": "multica",
-    "full_name": "multica-ai/multica",
-    "url": "https://github.com/multica-ai/multica",
-    "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
-    "stars": 38041,
-    "language": "Go",
-    "updated_at": "2026-06-26T01:56:59Z"
-  },
-  {
-    "name": "OpenHands",
-    "full_name": "OpenHands/OpenHands",
-    "url": "https://github.com/OpenHands/OpenHands",
-    "description": "🙌 OpenHands: AI-Driven Development",
-    "stars": 78349,
+    "name": "hermes-agent",
+    "full_name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 203801,
     "language": "Python",
-    "updated_at": "2026-06-26T01:53:02Z"
+    "updated_at": "2026-06-27T01:52:47Z"
   },
   {
-    "name": "crewAI",
-    "full_name": "crewAIInc/crewAI",
-    "url": "https://github.com/crewAIInc/crewAI",
-    "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-    "stars": 54376,
+    "name": "langflow",
+    "full_name": "langflow-ai/langflow",
+    "url": "https://github.com/langflow-ai/langflow",
+    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+    "stars": 150115,
     "language": "Python",
-    "updated_at": "2026-06-26T01:46:38Z"
-  },
-  {
-    "name": "gemini-cli",
-    "full_name": "google-gemini/gemini-cli",
-    "url": "https://github.com/google-gemini/gemini-cli",
-    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "stars": 105552,
-    "language": "TypeScript",
-    "updated_at": "2026-06-26T01:46:37Z"
+    "updated_at": "2026-06-27T01:43:24Z"
   },
   {
     "name": "cline",
     "full_name": "cline/cline",
     "url": "https://github.com/cline/cline",
     "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-    "stars": 63905,
+    "stars": 63935,
     "language": "TypeScript",
-    "updated_at": "2026-06-26T01:42:57Z"
+    "updated_at": "2026-06-27T01:23:57Z"
   },
   {
-    "name": "gpt-researcher",
-    "full_name": "assafelovic/gpt-researcher",
-    "url": "https://github.com/assafelovic/gpt-researcher",
-    "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
-    "stars": 27922,
+    "name": "cherry-studio",
+    "full_name": "CherryHQ/cherry-studio",
+    "url": "https://github.com/CherryHQ/cherry-studio",
+    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+    "stars": 47845,
+    "language": "TypeScript",
+    "updated_at": "2026-06-27T01:06:23Z"
+  },
+  {
+    "name": "ruflo",
+    "full_name": "ruvnet/ruflo",
+    "url": "https://github.com/ruvnet/ruflo",
+    "description": "🌊 The leading agent meta-harness for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+    "stars": 61632,
+    "language": "TypeScript",
+    "updated_at": "2026-06-27T00:34:48Z"
+  },
+  {
+    "name": "headroom",
+    "full_name": "headroomlabs-ai/headroom",
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+    "stars": 52001,
     "language": "Python",
-    "updated_at": "2026-06-26T01:35:08Z"
+    "updated_at": "2026-06-27T00:06:52Z"
   },
   {
-    "name": "ragflow",
-    "full_name": "infiniflow/ragflow",
-    "url": "https://github.com/infiniflow/ragflow",
-    "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-    "stars": 83639,
-    "language": "Go",
-    "updated_at": "2026-06-26T01:30:09Z"
+    "name": "anything-llm",
+    "full_name": "Mintplex-Labs/anything-llm",
+    "url": "https://github.com/Mintplex-Labs/anything-llm",
+    "description": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
+    "stars": 62153,
+    "language": "JavaScript",
+    "updated_at": "2026-06-27T00:06:17Z"
+  },
+  {
+    "name": "OpenHands",
+    "full_name": "OpenHands/OpenHands",
+    "url": "https://github.com/OpenHands/OpenHands",
+    "description": "🙌 OpenHands: AI-Driven Development",
+    "stars": 78439,
+    "language": "Python",
+    "updated_at": "2026-06-27T00:03:58Z"
   }
 ]
