@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是从单一对话助手向多智能体协作系统演进，如ruflo和elizaOS强调的‘元框架’与‘操作系统’概念；二是生产级平台化与低代码化，dify和langflow提供可视化工作流编排，降低Agent开发门槛；三是本地优先与效率优化，anything-llm和headroom分别聚焦本地化部署与Token压缩，解决成本与隐私痛点。项目语言以TypeScript和Python为主，覆盖IDE插件、CLI工具、全栈平台等多种形态。",
+  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是工具链从单一Agent向多Agent协作与操作系统级平台演进（如elizaOS、oh-my-claudecode）；二是Agent能力向终端渗透，CLI工具（如gemini-cli、cline）和IDE集成成为热点；三是效率优化成为关键，通过压缩上下文（如headroom）和RAG增强（如ragflow）降低LLM使用成本。项目以TypeScript和Python为主，头部项目（如dify、langflow）聚焦生产级工作流编排，而hermes-agent等新兴项目则强调个性化成长。",
   "project_summaries": [
-    {
-      "name": "eliza",
-      "full_name": "elizaOS/eliza",
-      "summary": "开源智能体操作系统，提供Agent运行的基础设施与编排能力，强调模块化与可扩展性。"
-    },
-    {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "summary": "生产级Agent工作流开发平台，支持可视化编排、RAG、插件系统，适合企业级应用快速落地。"
-    },
     {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
-      "summary": "强调‘与你共同成长’的智能体，可能具备持续学习与个性化适应能力，基于Python实现。"
-    },
-    {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "summary": "强大的AI Agent与工作流构建工具，提供拖拽式界面，支持复杂流程编排与部署。"
-    },
-    {
-      "name": "cline",
-      "full_name": "cline/cline",
-      "summary": "自主编码Agent，以SDK、IDE扩展和CLI助手形式存在，专注于开发者效率提升。"
+      "summary": "一个强调与用户共同成长的个性化AI Agent，采用Python开发，拥有超过20万星标，体现了社区对自适应、可进化Agent的强烈兴趣。"
     },
     {
       "name": "cherry-studio",
       "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，集成智能对话、自主Agent与300+助手，统一接入前沿大模型。"
+      "summary": "AI生产力工作室，集成智能聊天、自主Agent和300+助手，统一访问前沿LLM，TypeScript开发，星标4.7万+，定位为全能型AI工作平台。"
     },
     {
-      "name": "ruflo",
-      "full_name": "ruvnet/ruflo",
-      "summary": "领先的Agent元框架，专为Claude设计，支持多智能体群组、自适应记忆、RAG及Claude Code集成。"
+      "name": "eliza",
+      "full_name": "elizaOS/eliza",
+      "summary": "开源Agent操作系统，TypeScript开发，星标1.8万+，旨在提供Agent化的底层运行环境，推动Agent从工具向系统级基础设施演进。"
+    },
+    {
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "summary": "生产级Agent工作流开发平台，TypeScript开发，星标14.6万+，专注于企业级Agent应用的快速构建与部署，是当前最成熟的Agent编排工具之一。"
+    },
+    {
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "summary": "Google推出的开源终端AI Agent，将Gemini模型能力直接带入命令行，TypeScript开发，星标10.5万+，代表了Agent向开发者工具深度渗透的趋势。"
+    },
+    {
+      "name": "oh-my-claudecode",
+      "full_name": "Yeachan-Heo/oh-my-claudecode",
+      "summary": "面向团队的多Agent编排工具，专为Claude Code设计，TypeScript开发，星标3.7万+，强调协作式Agent工作流，是团队级Agent应用的代表。"
+    },
+    {
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "summary": "强大的AI Agent和工作流构建与部署工具，Python开发，星标15万+，以可视化方式降低Agent开发门槛，是低代码Agent平台的标杆。"
     },
     {
       "name": "headroom",
       "full_name": "headroomlabs-ai/headroom",
-      "summary": "Token压缩工具，可减少60-95%的LLM输入Token，支持工具输出、日志、文件及RAG块压缩，提供库、代理和MCP服务器三种形态。"
+      "summary": "专注Agent效率优化，通过压缩工具输出、日志、文件和RAG块，减少60-95%的Token消耗，Python开发，星标5.2万+，是Agent成本控制的关键组件。"
     },
     {
-      "name": "anything-llm",
-      "full_name": "Mintplex-Labs/anything-llm",
-      "summary": "本地优先的Agent体验平台，强调数据主权，提供完整的本地化智能体运行环境。"
+      "name": "cline",
+      "full_name": "cline/cline",
+      "summary": "自主编码Agent，支持SDK、IDE扩展和CLI三种形态，TypeScript开发，星标6.3万+，体现了Agent在软件开发全流程中的深度集成趋势。"
     },
     {
-      "name": "OpenHands",
-      "full_name": "OpenHands/OpenHands",
-      "summary": "AI驱动的开发平台，聚焦于自动化编码与开发流程，提升软件工程效率。"
+      "name": "ragflow",
+      "full_name": "infiniflow/ragflow",
+      "summary": "领先的开源RAG引擎，融合前沿RAG与Agent能力，为LLM构建优质上下文层，Go语言开发，星标8.3万+，是知识增强型Agent的核心基础设施。"
     }
   ],
   "recommendation": [
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "reason": "生产级平台，可视化工作流与插件生态成熟，适合企业快速构建Agent应用，社区活跃度高。"
+      "reason": "作为生产级Agent工作流平台，星标14.6万+，成熟度最高，适合企业快速落地Agent应用，是当前Agent工程化的最佳实践。"
     },
     {
-      "name": "ruflo",
-      "full_name": "ruvnet/ruflo",
-      "reason": "代表多智能体协作与元框架趋势，深度集成Claude生态，具备自适应记忆与群组智能，技术前瞻性强。"
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "reason": "Google官方出品，星标10.5万+，将顶级LLM能力直接融入终端，代表了Agent与开发者工具深度融合的未来方向，具有标杆意义。"
     },
     {
       "name": "headroom",
       "full_name": "headroomlabs-ai/headroom",
-      "reason": "解决Agent落地中的Token成本与效率痛点，压缩效果显著且提供多种集成方式，实用价值高。"
+      "reason": "解决Agent实际部署中的Token成本痛点，压缩效率高达60-95%，星标5.2万+，是Agent规模化落地的关键优化组件，技术价值突出。"
     }
   ]
 }
