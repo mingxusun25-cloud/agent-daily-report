@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是Agent操作系统与元框架兴起，如elizaOS和ruflo，旨在统一管理多智能体协作；二是开发工具链向全栈化、生产级演进，典型代表包括dify（工作流平台）、OpenHands（AI驱动开发）和cline（多形态编码助手）；三是RAG与Agent深度融合，ragflow等引擎通过检索增强提升LLM上下文质量。此外，多模型支持（如LibreChat）、终端集成（gemini-cli）和性能优化（ECC）成为重要方向。项目语言以TypeScript和Python为主，社区活跃度极高。",
+  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是从单一聊天工具向操作系统级平台演进，如elizaOS提出'代理操作系统'概念；二是开发工具链日趋成熟，涌现出大量支持可视化编排、RAG增强、多模型集成的生产级框架；三是Agent能力向终端渗透，CLI工具和IDE插件成为重要载体。TypeScript和Python是主流开发语言，项目平均星数超10万，社区活跃度极高。",
   "project_summaries": [
     {
       "name": "eliza",
       "full_name": "elizaOS/eliza",
-      "summary": "开源智能体操作系统，提供底层框架支持多Agent协同与资源管理，定位为Agent生态的基础设施层。"
+      "summary": "开源代理操作系统，旨在构建自主智能体运行的基础设施层，提供环境管理与调度能力。"
     },
     {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
-      "summary": "强调与用户共同成长的智能体，采用Python实现，注重个性化适应与持续学习能力。"
+      "summary": "强调'随用户成长'的个性化代理，采用Python开发，注重长期学习与适应能力。"
     },
     {
       "name": "cline",
       "full_name": "cline/cline",
-      "summary": "自主编码Agent，支持SDK、IDE扩展和CLI三种形态，为开发者提供灵活的代码生成与辅助能力。"
+      "summary": "多形态自主编码代理，支持SDK、IDE扩展和CLI三种使用方式，降低AI辅助开发门槛。"
     },
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "summary": "生产级Agent工作流开发平台，提供可视化编排与部署能力，降低企业级AI应用构建门槛。"
-    },
-    {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google推出的开源终端AI Agent，将Gemini模型能力直接集成到命令行，实现自然语言交互式操作。"
+      "summary": "面向生产的代理工作流开发平台，提供可视化编排与部署能力，适合企业级应用。"
     },
     {
       "name": "LibreChat",
       "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，集成多模型（DeepSeek、Anthropic、AWS等）、Agent、MCP、代码解释器等功能，支持自托管。"
+      "summary": "增强版ChatGPT克隆，集成Agent、MCP、多模型切换、代码解释器等丰富功能，支持自托管。"
     },
     {
-      "name": "OpenHands",
-      "full_name": "OpenHands/OpenHands",
-      "summary": "AI驱动的开发平台，通过智能体自动化软件开发流程，提升编码、测试与部署效率。"
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "summary": "Google官方开源终端AI代理，将Gemini模型能力直接注入命令行环境。"
     },
     {
-      "name": "ruflo",
-      "full_name": "ruvnet/ruflo",
-      "summary": "领先的Agent元框架，支持多智能体群组部署、自适应记忆、自学习群体智能及RAG集成，兼容Claude Code/Codex。"
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "summary": "低代码AI代理与工作流构建工具，通过拖拽界面降低开发复杂度。"
     },
     {
       "name": "ragflow",
       "full_name": "infiniflow/ragflow",
-      "summary": "开源RAG引擎，融合检索增强生成与Agent能力，为LLM构建高质量上下文层，采用Go语言实现高性能。"
+      "summary": "领先的开源RAG引擎，融合检索增强生成与代理能力，为LLM提供优质上下文层。"
     },
     {
-      "name": "ECC",
-      "full_name": "affaan-m/ECC",
-      "summary": "Agent性能优化系统，聚焦技能、本能、记忆、安全与研究优先开发，兼容Claude Code、Codex、Cursor等主流工具。"
+      "name": "cherry-studio",
+      "full_name": "CherryHQ/cherry-studio",
+      "summary": "AI生产力工作室，集成智能聊天、自主代理和300+助手，统一访问前沿大模型。"
+    },
+    {
+      "name": "superpowers",
+      "full_name": "obra/superpowers",
+      "summary": "提出'代理技能框架'与软件开发方法论，强调可复用的技能组件和工程实践。"
     }
   ],
   "recommendation": [
     {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "reason": "作为生产级Agent工作流平台，dify提供可视化编排与部署能力，是当前最接近企业级落地的开源方案，社区活跃且生态完善。"
+      "name": "superpowers",
+      "full_name": "obra/superpowers",
+      "reason": "星数最高（24.2万），提出创新的代理技能框架和开发方法论，代表Agent工程化方向。"
     },
     {
-      "name": "ruflo",
-      "full_name": "ruvnet/ruflo",
-      "reason": "代表Agent元框架趋势，支持多智能体群组、自适应记忆与RAG，且原生集成主流AI工具，是构建复杂Agent系统的理想底座。"
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "reason": "生产级平台定位明确，可视化工作流编排能力成熟，是企业级Agent落地的标杆项目。"
     },
     {
       "name": "ragflow",
       "full_name": "infiniflow/ragflow",
-      "reason": "RAG与Agent融合的标杆项目，通过检索增强显著提升LLM输出质量，Go语言实现高性能，是知识密集型Agent应用的核心组件。"
+      "reason": "将RAG与Agent深度结合，解决LLM上下文质量问题，技术路线具有前瞻性。"
     }
   ]
 }

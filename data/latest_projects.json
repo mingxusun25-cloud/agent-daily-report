@@ -4,89 +4,89 @@
     "full_name": "elizaOS/eliza",
     "url": "https://github.com/elizaOS/eliza",
     "description": "Open source agentic operating system",
-    "stars": 18653,
+    "stars": 18658,
     "language": "TypeScript",
-    "updated_at": "2026-06-30T02:02:36Z"
+    "updated_at": "2026-07-01T02:07:44Z"
   },
   {
     "name": "hermes-agent",
     "full_name": "NousResearch/hermes-agent",
     "url": "https://github.com/NousResearch/hermes-agent",
     "description": "The agent that grows with you",
-    "stars": 205769,
+    "stars": 206522,
     "language": "Python",
-    "updated_at": "2026-06-30T02:01:23Z"
+    "updated_at": "2026-07-01T01:59:48Z"
   },
   {
     "name": "cline",
     "full_name": "cline/cline",
     "url": "https://github.com/cline/cline",
     "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-    "stars": 64053,
+    "stars": 64142,
     "language": "TypeScript",
-    "updated_at": "2026-06-30T02:00:15Z"
+    "updated_at": "2026-07-01T01:59:42Z"
   },
   {
     "name": "dify",
     "full_name": "langgenius/dify",
     "url": "https://github.com/langgenius/dify",
     "description": "Production-ready platform for agentic workflow development.",
-    "stars": 147016,
+    "stars": 147154,
     "language": "TypeScript",
-    "updated_at": "2026-06-30T01:54:38Z"
-  },
-  {
-    "name": "gemini-cli",
-    "full_name": "google-gemini/gemini-cli",
-    "url": "https://github.com/google-gemini/gemini-cli",
-    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "stars": 105666,
-    "language": "TypeScript",
-    "updated_at": "2026-06-30T01:54:33Z"
+    "updated_at": "2026-07-01T01:56:57Z"
   },
   {
     "name": "LibreChat",
     "full_name": "danny-avila/LibreChat",
     "url": "https://github.com/danny-avila/LibreChat",
     "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
-    "stars": 40008,
+    "stars": 40067,
     "language": "TypeScript",
-    "updated_at": "2026-06-30T01:52:31Z"
+    "updated_at": "2026-07-01T01:53:38Z"
   },
   {
-    "name": "OpenHands",
-    "full_name": "OpenHands/OpenHands",
-    "url": "https://github.com/OpenHands/OpenHands",
-    "description": "🙌 OpenHands: AI-Driven Development",
-    "stars": 78721,
+    "name": "gemini-cli",
+    "full_name": "google-gemini/gemini-cli",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+    "stars": 105681,
+    "language": "TypeScript",
+    "updated_at": "2026-07-01T01:49:23Z"
+  },
+  {
+    "name": "langflow",
+    "full_name": "langflow-ai/langflow",
+    "url": "https://github.com/langflow-ai/langflow",
+    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+    "stars": 150266,
     "language": "Python",
-    "updated_at": "2026-06-30T01:49:00Z"
-  },
-  {
-    "name": "ruflo",
-    "full_name": "ruvnet/ruflo",
-    "url": "https://github.com/ruvnet/ruflo",
-    "description": "🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
-    "stars": 62088,
-    "language": "TypeScript",
-    "updated_at": "2026-06-30T01:47:39Z"
+    "updated_at": "2026-07-01T01:41:22Z"
   },
   {
     "name": "ragflow",
     "full_name": "infiniflow/ragflow",
     "url": "https://github.com/infiniflow/ragflow",
     "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-    "stars": 83878,
+    "stars": 83976,
     "language": "Go",
-    "updated_at": "2026-06-30T01:46:46Z"
+    "updated_at": "2026-07-01T01:36:52Z"
   },
   {
-    "name": "ECC",
-    "full_name": "affaan-m/ECC",
-    "url": "https://github.com/affaan-m/ECC",
-    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "stars": 223520,
-    "language": "JavaScript",
-    "updated_at": "2026-06-30T01:46:43Z"
+    "name": "cherry-studio",
+    "full_name": "CherryHQ/cherry-studio",
+    "url": "https://github.com/CherryHQ/cherry-studio",
+    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+    "stars": 48003,
+    "language": "TypeScript",
+    "updated_at": "2026-07-01T01:13:16Z"
+  },
+  {
+    "name": "superpowers",
+    "full_name": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "stars": 242559,
+    "language": "Shell",
+    "updated_at": "2026-07-01T00:48:33Z"
   }
 ]
