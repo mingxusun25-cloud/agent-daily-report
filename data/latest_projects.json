@@ -4,89 +4,89 @@
     "full_name": "elizaOS/eliza",
     "url": "https://github.com/elizaOS/eliza",
     "description": "Open source agentic operating system",
-    "stars": 18671,
+    "stars": 18679,
     "language": "TypeScript",
-    "updated_at": "2026-07-02T02:00:40Z"
+    "updated_at": "2026-07-03T01:42:49Z"
   },
   {
-    "name": "llama_index",
-    "full_name": "run-llama/llama_index",
-    "url": "https://github.com/run-llama/llama_index",
-    "description": "LlamaIndex is the leading document agent and OCR platform",
-    "stars": 50572,
+    "name": "LibreChat",
+    "full_name": "danny-avila/LibreChat",
+    "url": "https://github.com/danny-avila/LibreChat",
+    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+    "stars": 40170,
+    "language": "TypeScript",
+    "updated_at": "2026-07-03T01:41:55Z"
+  },
+  {
+    "name": "hermes-agent",
+    "full_name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 208060,
     "language": "Python",
-    "updated_at": "2026-07-02T01:56:49Z"
-  },
-  {
-    "name": "langflow",
-    "full_name": "langflow-ai/langflow",
-    "url": "https://github.com/langflow-ai/langflow",
-    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 150337,
-    "language": "Python",
-    "updated_at": "2026-07-02T01:55:18Z"
-  },
-  {
-    "name": "ragflow",
-    "full_name": "infiniflow/ragflow",
-    "url": "https://github.com/infiniflow/ragflow",
-    "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-    "stars": 84075,
-    "language": "Go",
-    "updated_at": "2026-07-02T01:46:33Z"
+    "updated_at": "2026-07-03T01:40:59Z"
   },
   {
     "name": "gemini-cli",
     "full_name": "google-gemini/gemini-cli",
     "url": "https://github.com/google-gemini/gemini-cli",
     "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "stars": 105701,
+    "stars": 105718,
     "language": "TypeScript",
-    "updated_at": "2026-07-02T01:44:11Z"
+    "updated_at": "2026-07-03T01:36:42Z"
   },
   {
-    "name": "zeroclaw",
-    "full_name": "zeroclaw-labs/zeroclaw",
-    "url": "https://github.com/zeroclaw-labs/zeroclaw",
-    "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
-    "stars": 32111,
-    "language": "Rust",
-    "updated_at": "2026-07-02T01:39:34Z"
+    "name": "ECC",
+    "full_name": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "stars": 225211,
+    "language": "JavaScript",
+    "updated_at": "2026-07-03T01:27:41Z"
   },
   {
-    "name": "OpenMAIC",
-    "full_name": "THU-MAIC/OpenMAIC",
-    "url": "https://github.com/THU-MAIC/OpenMAIC",
-    "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
-    "stars": 19206,
+    "name": "dify",
+    "full_name": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "description": "Production-ready platform for agentic workflow development.",
+    "stars": 147449,
     "language": "TypeScript",
-    "updated_at": "2026-07-02T01:38:48Z"
-  },
-  {
-    "name": "cherry-studio",
-    "full_name": "CherryHQ/cherry-studio",
-    "url": "https://github.com/CherryHQ/cherry-studio",
-    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-    "stars": 48034,
-    "language": "TypeScript",
-    "updated_at": "2026-07-02T01:34:34Z"
-  },
-  {
-    "name": "headroom",
-    "full_name": "headroomlabs-ai/headroom",
-    "url": "https://github.com/headroomlabs-ai/headroom",
-    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-    "stars": 55265,
-    "language": "Python",
-    "updated_at": "2026-07-02T01:31:39Z"
+    "updated_at": "2026-07-03T01:22:17Z"
   },
   {
     "name": "cline",
     "full_name": "cline/cline",
     "url": "https://github.com/cline/cline",
     "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-    "stars": 64188,
+    "stars": 64229,
     "language": "TypeScript",
-    "updated_at": "2026-07-02T01:22:50Z"
+    "updated_at": "2026-07-03T01:04:42Z"
+  },
+  {
+    "name": "anything-llm",
+    "full_name": "Mintplex-Labs/anything-llm",
+    "url": "https://github.com/Mintplex-Labs/anything-llm",
+    "description": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
+    "stars": 62474,
+    "language": "JavaScript",
+    "updated_at": "2026-07-03T00:53:51Z"
+  },
+  {
+    "name": "cherry-studio",
+    "full_name": "CherryHQ/cherry-studio",
+    "url": "https://github.com/CherryHQ/cherry-studio",
+    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+    "stars": 48078,
+    "language": "TypeScript",
+    "updated_at": "2026-07-03T00:53:35Z"
+  },
+  {
+    "name": "deer-flow",
+    "full_name": "bytedance/deer-flow",
+    "url": "https://github.com/bytedance/deer-flow",
+    "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+    "stars": 75931,
+    "language": "Python",
+    "updated_at": "2026-07-03T00:49:33Z"
   }
 ]

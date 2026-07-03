@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是Agent基础设施层快速成熟，涌现出操作系统级（elizaOS）、工作流编排（Langflow）、RAG引擎（RAGFlow）等平台型项目；二是Agent应用形态向多模态、多平台、多场景扩展，包括终端CLI（gemini-cli）、个人助手（zeroclaw）、多智能体课堂（OpenMAIC）、生产力工作室（cherry-studio）等；三是Agent效率优化成为焦点，如token压缩（headroom）和自主编码助手（cline）。技术栈以TypeScript和Python为主，Rust开始用于高性能基础设施。",
+  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是从单一聊天机器人向多功能生产力平台演进，集成模型切换、代码解释、多模态生成等能力；二是Agent开发框架走向模块化和专业化，支持记忆、工具、技能、子代理等复杂架构；三是本地优先与终端集成成为重要方向，强调数据主权和低延迟交互。项目普遍采用TypeScript或Python，社区活跃度高。",
   "project_summaries": [
     {
       "name": "eliza",
       "full_name": "elizaOS/eliza",
-      "summary": "开源智能体操作系统，提供Agent运行的基础设施层，支持多Agent协同与资源管理。"
+      "summary": "开源代理操作系统，提供底层Agent运行环境，支持模块化扩展和任务编排。"
     },
     {
-      "name": "llama_index",
-      "full_name": "run-llama/llama_index",
-      "summary": "领先的文档Agent与OCR平台，专注于文档理解与检索增强生成（RAG）场景。"
+      "name": "LibreChat",
+      "full_name": "danny-avila/LibreChat",
+      "summary": "增强版ChatGPT克隆，集成Agent、MCP、多模型切换、代码解释器、DALL-E-3等，支持自托管，功能全面。"
     },
     {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "summary": "强大的AI Agent与工作流构建工具，提供可视化编排能力，降低Agent开发门槛。"
-    },
-    {
-      "name": "ragflow",
-      "full_name": "infiniflow/ragflow",
-      "summary": "领先的开源RAG引擎，融合前沿RAG与Agent能力，为LLM构建优质上下文层。"
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "summary": "可成长型Agent，强调与用户共同进化，采用Python实现，具备自适应学习能力。"
     },
     {
       "name": "gemini-cli",
       "full_name": "google-gemini/gemini-cli",
-      "summary": "Google推出的开源终端AI Agent，将Gemini能力直接带入命令行环境。"
+      "summary": "Google官方开源终端Agent，将Gemini能力直接注入命令行，实现自然语言驱动的终端操作。"
     },
     {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "基于Rust构建的快速、小型、全自主AI个人助手基础设施，支持跨平台部署与组件替换。"
+      "name": "ECC",
+      "full_name": "affaan-m/ECC",
+      "summary": "Agent性能优化系统，聚焦技能、本能、记忆、安全，兼容Claude Code、Codex等主流编码Agent。"
     },
     {
-      "name": "OpenMAIC",
-      "full_name": "THU-MAIC/OpenMAIC",
-      "summary": "开源多智能体互动课堂，一键获取沉浸式多智能体学习体验。"
-    },
-    {
-      "name": "cherry-studio",
-      "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，集成智能聊天、自主Agent与300+助手，统一接入前沿LLM。"
-    },
-    {
-      "name": "headroom",
-      "full_name": "headroomlabs-ai/headroom",
-      "summary": "工具输出、日志、文件与RAG分块的token压缩工具，可减少60-95% token而不影响答案质量，支持库、代理、MCP服务器。"
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "summary": "生产级Agent工作流开发平台，支持可视化编排和部署，适合企业级应用。"
     },
     {
       "name": "cline",
       "full_name": "cline/cline",
-      "summary": "自主编码Agent，以SDK、IDE扩展或CLI助手形式提供，支持自动化代码生成与调试。"
+      "summary": "自主编码Agent，提供SDK、IDE扩展和CLI三种形态，支持多场景集成。"
+    },
+    {
+      "name": "anything-llm",
+      "full_name": "Mintplex-Labs/anything-llm",
+      "summary": "本地优先的Agent体验平台，强调数据主权，提供完整的本地化智能助手方案。"
+    },
+    {
+      "name": "cherry-studio",
+      "full_name": "CherryHQ/cherry-studio",
+      "summary": "AI生产力工作室，集成智能聊天、自主Agent和300+预设助手，统一接入前沿大模型。"
+    },
+    {
+      "name": "deer-flow",
+      "full_name": "bytedance/deer-flow",
+      "summary": "字节跳动开源的长周期超级Agent框架，支持研究、编码、创作，通过沙箱、记忆、工具、子代理处理分钟级到小时级任务。"
     }
   ],
   "recommendation": [
     {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "reason": "拥有最高星数（150k+），提供可视化Agent与工作流编排，是当前最受欢迎的Agent构建平台，代表了低代码Agent开发的主流趋势。"
+      "name": "deer-flow",
+      "full_name": "bytedance/deer-flow",
+      "reason": "代表长周期复杂任务Agent的前沿方向，字节跳动背书，架构设计先进，适合研究复杂工作流自动化。"
     },
     {
-      "name": "ragflow",
-      "full_name": "infiniflow/ragflow",
-      "reason": "RAG与Agent深度融合的标杆项目，星数超84k，代表了企业级知识检索与Agent结合的核心方向。"
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "reason": "Google官方出品，将顶级大模型能力与终端深度结合，是终端Agent的标杆项目，实用性和影响力俱佳。"
     },
     {
-      "name": "headroom",
-      "full_name": "headroomlabs-ai/headroom",
-      "reason": "聚焦Agent效率优化，通过token压缩显著降低成本，是Agent规模化落地中的关键基础设施，具有独特价值。"
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "reason": "生产级Agent工作流平台，社区成熟度高，可视化编排降低开发门槛，适合企业快速落地Agent应用。"
     }
   ]
 }
