@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是从单一聊天机器人向多功能生产力平台演进，集成模型切换、代码解释、多模态生成等能力；二是Agent开发框架走向模块化和专业化，支持记忆、工具、技能、子代理等复杂架构；三是本地优先与终端集成成为重要方向，强调数据主权和低延迟交互。项目普遍采用TypeScript或Python，社区活跃度高。",
+  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是从单一对话助手向多智能体协作、长周期任务执行演进，如deer-flow和openai-agents-python；二是基础设施化与平台化，dify和langflow提供生产级工作流编排，eliza定位为智能体操作系统；三是轻量化与跨平台部署，zeroclaw和gemini-cli分别以Rust和CLI形式实现高效、低资源消耗的智能体。此外，hermes-agent和cherry-studio强调个性化成长与多模型集成，cline则聚焦编码场景的自主代理。整体上，TypeScript和Python仍是主流语言，Rust开始崭露头角。",
   "project_summaries": [
     {
       "name": "eliza",
       "full_name": "elizaOS/eliza",
-      "summary": "开源代理操作系统，提供底层Agent运行环境，支持模块化扩展和任务编排。"
-    },
-    {
-      "name": "LibreChat",
-      "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，集成Agent、MCP、多模型切换、代码解释器、DALL-E-3等，支持自托管，功能全面。"
-    },
-    {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "summary": "可成长型Agent，强调与用户共同进化，采用Python实现，具备自适应学习能力。"
-    },
-    {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google官方开源终端Agent，将Gemini能力直接注入命令行，实现自然语言驱动的终端操作。"
-    },
-    {
-      "name": "ECC",
-      "full_name": "affaan-m/ECC",
-      "summary": "Agent性能优化系统，聚焦技能、本能、记忆、安全，兼容Claude Code、Codex等主流编码Agent。"
+      "summary": "开源智能体操作系统，旨在为AI代理提供底层运行环境与系统级支持。"
     },
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "summary": "生产级Agent工作流开发平台，支持可视化编排和部署，适合企业级应用。"
+      "summary": "生产级智能体工作流开发平台，支持可视化编排与部署，适合企业级应用。"
     },
     {
-      "name": "cline",
-      "full_name": "cline/cline",
-      "summary": "自主编码Agent，提供SDK、IDE扩展和CLI三种形态，支持多场景集成。"
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "summary": "基于Rust的快速、小型、全自主AI个人助理基础设施，支持多操作系统与平台，强调可移植性与模块化。"
     },
     {
-      "name": "anything-llm",
-      "full_name": "Mintplex-Labs/anything-llm",
-      "summary": "本地优先的Agent体验平台，强调数据主权，提供完整的本地化智能助手方案。"
-    },
-    {
-      "name": "cherry-studio",
-      "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，集成智能聊天、自主Agent和300+预设助手，统一接入前沿大模型。"
+      "name": "openai-agents-python",
+      "full_name": "openai/openai-agents-python",
+      "summary": "OpenAI官方推出的轻量级多智能体工作流框架，简洁高效，适合快速构建复杂代理协作。"
     },
     {
       "name": "deer-flow",
       "full_name": "bytedance/deer-flow",
-      "summary": "字节跳动开源的长周期超级Agent框架，支持研究、编码、创作，通过沙箱、记忆、工具、子代理处理分钟级到小时级任务。"
+      "summary": "字节跳动开源的长周期超级代理，集成沙箱、记忆、工具、技能、子代理与消息网关，可处理分钟到小时级的复杂任务。"
+    },
+    {
+      "name": "cherry-studio",
+      "full_name": "CherryHQ/cherry-studio",
+      "summary": "AI生产力工作室，集成智能聊天、自主代理与300+助手，统一访问前沿大语言模型。"
+    },
+    {
+      "name": "cline",
+      "full_name": "cline/cline",
+      "summary": "自主编码代理，以SDK、IDE扩展或CLI形式提供，专注于编程场景的自动化。"
+    },
+    {
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "summary": "Google开源终端AI代理，将Gemini模型能力直接引入命令行，实现轻量级交互。"
+    },
+    {
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "summary": "强大的AI代理与工作流构建与部署工具，提供可视化拖拽界面，降低开发门槛。"
+    },
+    {
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "summary": "注重个性化成长的智能体，强调与用户共同进化，具备持续学习能力。"
     }
   ],
   "recommendation": [
     {
       "name": "deer-flow",
       "full_name": "bytedance/deer-flow",
-      "reason": "代表长周期复杂任务Agent的前沿方向，字节跳动背书，架构设计先进，适合研究复杂工作流自动化。"
+      "reason": "代表长周期、多智能体协作的前沿方向，集成沙箱、记忆等复杂机制，适合研究高难度自动化任务。"
+    },
+    {
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "reason": "Rust实现的高性能、跨平台个人助理基础设施，体现轻量化与自主化趋势，具有广泛部署潜力。"
     },
     {
       "name": "gemini-cli",
       "full_name": "google-gemini/gemini-cli",
-      "reason": "Google官方出品，将顶级大模型能力与终端深度结合，是终端Agent的标杆项目，实用性和影响力俱佳。"
-    },
-    {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "reason": "生产级Agent工作流平台，社区成熟度高，可视化编排降低开发门槛，适合企业快速落地Agent应用。"
+      "reason": "Google官方出品，将顶级AI能力融入终端，极简设计，适合开发者和运维人员快速集成智能代理。"
     }
   ]
 }
