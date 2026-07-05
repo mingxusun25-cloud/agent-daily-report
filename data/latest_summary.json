@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现三大趋势：一是从单一对话助手向多智能体协作、长周期任务执行演进，如deer-flow和openai-agents-python；二是基础设施化与平台化，dify和langflow提供生产级工作流编排，eliza定位为智能体操作系统；三是轻量化与跨平台部署，zeroclaw和gemini-cli分别以Rust和CLI形式实现高效、低资源消耗的智能体。此外，hermes-agent和cherry-studio强调个性化成长与多模型集成，cline则聚焦编码场景的自主代理。整体上，TypeScript和Python仍是主流语言，Rust开始崭露头角。",
+  "overall_summary": "当前开源AI Agent领域呈现爆发式增长，项目聚焦于构建可生产部署的智能体工作流平台、开发辅助工具及多模型集成终端。技术栈以TypeScript和Python为主，核心能力包括自主任务规划、多智能体协作、记忆与工具调用、沙箱执行及RAG集成。头部项目如langflow、dify、langchain等已形成成熟生态，而新兴项目如elizaOS、deer-flow、ruflo则探索操作系统级抽象、长周期任务编排及元框架设计。整体趋势从单一对话代理向复合型、可扩展的智能体工程平台演进。",
   "project_summaries": [
     {
       "name": "eliza",
       "full_name": "elizaOS/eliza",
-      "summary": "开源智能体操作系统，旨在为AI代理提供底层运行环境与系统级支持。"
+      "summary": "开源智能体操作系统，提供底层框架以构建和运行自主AI代理，强调模块化与可扩展性。"
     },
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "summary": "生产级智能体工作流开发平台，支持可视化编排与部署，适合企业级应用。"
+      "summary": "生产级智能体工作流开发平台，支持可视化编排、RAG管道、模型管理及企业级部署。"
     },
     {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "基于Rust的快速、小型、全自主AI个人助理基础设施，支持多操作系统与平台，强调可移植性与模块化。"
+      "name": "OpenHands",
+      "full_name": "OpenHands/OpenHands",
+      "summary": "AI驱动的软件开发助手，通过自然语言指令自动完成编码、调试、测试等开发任务。"
     },
     {
-      "name": "openai-agents-python",
-      "full_name": "openai/openai-agents-python",
-      "summary": "OpenAI官方推出的轻量级多智能体工作流框架，简洁高效，适合快速构建复杂代理协作。"
+      "name": "ruflo",
+      "full_name": "ruvnet/ruflo",
+      "summary": "领先的智能体元框架，支持多智能体群组部署、自适应记忆、自学习及多种模型集成（如Claude Code、Codex）。"
     },
     {
       "name": "deer-flow",
       "full_name": "bytedance/deer-flow",
-      "summary": "字节跳动开源的长周期超级代理，集成沙箱、记忆、工具、技能、子代理与消息网关，可处理分钟到小时级的复杂任务。"
+      "summary": "开源长周期超级智能体框架，通过沙箱、记忆、工具、技能及子代理处理分钟至小时级的复杂任务。"
+    },
+    {
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "summary": "Google推出的开源终端AI代理，将Gemini模型能力直接集成到命令行环境。"
+    },
+    {
+      "name": "langchain",
+      "full_name": "langchain-ai/langchain",
+      "summary": "智能体工程平台，提供构建LLM应用的核心组件（链、代理、工具、记忆），支持复杂工作流编排。"
+    },
+    {
+      "name": "LibreChat",
+      "full_name": "danny-avila/LibreChat",
+      "summary": "增强版ChatGPT克隆，集成多模型（DeepSeek、Anthropic、OpenAI等）、MCP、技能、代码解释器及安全多用户认证。"
     },
     {
       "name": "cherry-studio",
       "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，集成智能聊天、自主代理与300+助手，统一访问前沿大语言模型。"
-    },
-    {
-      "name": "cline",
-      "full_name": "cline/cline",
-      "summary": "自主编码代理，以SDK、IDE扩展或CLI形式提供，专注于编程场景的自动化。"
-    },
-    {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google开源终端AI代理，将Gemini模型能力直接引入命令行，实现轻量级交互。"
+      "summary": "AI生产力工作室，提供智能聊天、自主代理及300+预设助手，统一接入前沿LLM。"
     },
     {
       "name": "langflow",
       "full_name": "langflow-ai/langflow",
-      "summary": "强大的AI代理与工作流构建与部署工具，提供可视化拖拽界面，降低开发门槛。"
-    },
-    {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "summary": "注重个性化成长的智能体，强调与用户共同进化，具备持续学习能力。"
+      "summary": "可视化AI代理与工作流构建工具，通过拖拽界面快速搭建和部署智能体应用。"
     }
   ],
   "recommendation": [
     {
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "reason": "以15万+星标位居榜首，提供低代码可视化构建AI工作流的能力，极大降低智能体开发门槛，适合快速原型与生产部署。"
+    },
+    {
       "name": "deer-flow",
       "full_name": "bytedance/deer-flow",
-      "reason": "代表长周期、多智能体协作的前沿方向，集成沙箱、记忆等复杂机制，适合研究高难度自动化任务。"
+      "reason": "字节跳动开源的长周期超级智能体框架，创新性地通过沙箱、记忆、子代理等机制处理分钟至小时级复杂任务，代表Agent从对话向自主执行演进的关键方向。"
     },
     {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "reason": "Rust实现的高性能、跨平台个人助理基础设施，体现轻量化与自主化趋势，具有广泛部署潜力。"
-    },
-    {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "reason": "Google官方出品，将顶级AI能力融入终端，极简设计，适合开发者和运维人员快速集成智能代理。"
+      "name": "ruflo",
+      "full_name": "ruvnet/ruflo",
+      "reason": "作为智能体元框架，支持多智能体群组、自适应记忆与自学习，并原生集成Claude Code等前沿模型，体现了Agent系统向通用化、自进化方向发展的趋势。"
     }
   ]
 }
