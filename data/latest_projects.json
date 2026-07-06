@@ -4,89 +4,89 @@
     "full_name": "elizaOS/eliza",
     "url": "https://github.com/elizaOS/eliza",
     "description": "Open source agentic operating system",
-    "stars": 18694,
+    "stars": 18699,
     "language": "TypeScript",
-    "updated_at": "2026-07-05T01:47:06Z"
-  },
-  {
-    "name": "dify",
-    "full_name": "langgenius/dify",
-    "url": "https://github.com/langgenius/dify",
-    "description": "Production-ready platform for agentic workflow development.",
-    "stars": 147677,
-    "language": "TypeScript",
-    "updated_at": "2026-07-05T01:45:37Z"
-  },
-  {
-    "name": "OpenHands",
-    "full_name": "OpenHands/OpenHands",
-    "url": "https://github.com/OpenHands/OpenHands",
-    "description": "🙌 OpenHands: AI-Driven Development",
-    "stars": 79429,
-    "language": "Python",
-    "updated_at": "2026-07-05T01:42:17Z"
-  },
-  {
-    "name": "ruflo",
-    "full_name": "ruvnet/ruflo",
-    "url": "https://github.com/ruvnet/ruflo",
-    "description": "🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-    "stars": 63018,
-    "language": "TypeScript",
-    "updated_at": "2026-07-05T01:41:54Z"
-  },
-  {
-    "name": "deer-flow",
-    "full_name": "bytedance/deer-flow",
-    "url": "https://github.com/bytedance/deer-flow",
-    "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-    "stars": 76105,
-    "language": "Python",
-    "updated_at": "2026-07-05T01:40:18Z"
-  },
-  {
-    "name": "gemini-cli",
-    "full_name": "google-gemini/gemini-cli",
-    "url": "https://github.com/google-gemini/gemini-cli",
-    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "stars": 105741,
-    "language": "TypeScript",
-    "updated_at": "2026-07-05T01:37:19Z"
-  },
-  {
-    "name": "langchain",
-    "full_name": "langchain-ai/langchain",
-    "url": "https://github.com/langchain-ai/langchain",
-    "description": "The agent engineering platform.",
-    "stars": 140925,
-    "language": "Python",
-    "updated_at": "2026-07-05T01:30:25Z"
-  },
-  {
-    "name": "LibreChat",
-    "full_name": "danny-avila/LibreChat",
-    "url": "https://github.com/danny-avila/LibreChat",
-    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
-    "stars": 40283,
-    "language": "TypeScript",
-    "updated_at": "2026-07-05T01:12:14Z"
+    "updated_at": "2026-07-06T01:54:22Z"
   },
   {
     "name": "cherry-studio",
     "full_name": "CherryHQ/cherry-studio",
     "url": "https://github.com/CherryHQ/cherry-studio",
     "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-    "stars": 48160,
+    "stars": 48187,
     "language": "TypeScript",
-    "updated_at": "2026-07-05T01:06:32Z"
+    "updated_at": "2026-07-06T01:54:19Z"
+  },
+  {
+    "name": "ragflow",
+    "full_name": "infiniflow/ragflow",
+    "url": "https://github.com/infiniflow/ragflow",
+    "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+    "stars": 84347,
+    "language": "Go",
+    "updated_at": "2026-07-06T01:53:57Z"
+  },
+  {
+    "name": "multica",
+    "full_name": "multica-ai/multica",
+    "url": "https://github.com/multica-ai/multica",
+    "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+    "stars": 39135,
+    "language": "Go",
+    "updated_at": "2026-07-06T01:43:03Z"
+  },
+  {
+    "name": "dify",
+    "full_name": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "description": "Production-ready platform for agentic workflow development.",
+    "stars": 147801,
+    "language": "TypeScript",
+    "updated_at": "2026-07-06T01:34:08Z"
+  },
+  {
+    "name": "gemini-cli",
+    "full_name": "google-gemini/gemini-cli",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+    "stars": 105777,
+    "language": "TypeScript",
+    "updated_at": "2026-07-06T01:31:22Z"
+  },
+  {
+    "name": "agents",
+    "full_name": "wshobson/agents",
+    "url": "https://github.com/wshobson/agents",
+    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI",
+    "stars": 37551,
+    "language": "Python",
+    "updated_at": "2026-07-06T01:08:16Z"
   },
   {
     "name": "langflow",
     "full_name": "langflow-ai/langflow",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 151131,
+    "stars": 151203,
     "language": "Python",
-    "updated_at": "2026-07-05T00:50:54Z"
+    "updated_at": "2026-07-06T00:50:58Z"
+  },
+  {
+    "name": "hermes-agent",
+    "full_name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 209694,
+    "language": "Python",
+    "updated_at": "2026-07-06T00:38:38Z"
+  },
+  {
+    "name": "langchain",
+    "full_name": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "description": "The agent engineering platform.",
+    "stars": 141018,
+    "language": "Python",
+    "updated_at": "2026-07-06T00:31:20Z"
   }
 ]
