@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是生产级平台与框架成熟化，如dify和langflow提供完整的Agent工作流开发与部署能力；二是Agent操作系统与协作框架兴起，eliza和crewAI分别从底层OS和角色扮演协作角度推动Agent自主化；三是工具链与效率优化成为热点，headroom通过压缩减少LLM Token消耗，multica和agents则聚焦Agent管理与插件市场。此外，hermes-agent和cherry-studio等个人化、生产力导向的项目也获得高关注，显示Agent正从实验走向实用。",
+  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是从单一对话助手向具备记忆、工具调用、子任务编排能力的长期任务型超级智能体演进；二是平台化与基础设施化，涌现出大量用于构建、部署和管理Agent的低代码平台、SDK及内存层；三是性能优化与轻量化，通过Token压缩、跨平台部署等技术降低成本和门槛。项目覆盖Go、Python、TypeScript、Rust等多种语言，社区活跃度极高。",
   "project_summaries": [
-    {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "summary": "生产级Agent工作流开发平台，支持可视化编排、RAG、插件等，适合快速构建和部署AI应用。"
-    },
-    {
-      "name": "eliza",
-      "full_name": "elizaOS/eliza",
-      "summary": "开源Agent操作系统，提供底层运行时环境，支持Agent的自主运行与资源管理。"
-    },
-    {
-      "name": "headroom",
-      "full_name": "headroomlabs-ai/headroom",
-      "summary": "工具输出、日志、文件及RAG块压缩库，可减少60-95%的Token消耗，同时保持回答质量，支持库、代理和MCP服务器。"
-    },
     {
       "name": "multica",
       "full_name": "multica-ai/multica",
-      "summary": "开源托管Agent平台，将编码Agent转化为团队协作者，支持任务分配、进度追踪和技能组合。"
+      "summary": "开源托管Agent平台，将编码Agent转化为真正的队友，支持任务分配、进度追踪和技能复合，采用Go语言实现。"
     },
     {
-      "name": "agents",
-      "full_name": "wshobson/agents",
-      "summary": "多工具Agent插件市场，兼容Claude Code、Codex CLI、Cursor、OpenCode、GitHub Copilot和Gemini CLI。"
+      "name": "deer-flow",
+      "full_name": "bytedance/deer-flow",
+      "summary": "字节跳动开源的长期任务超级Agent框架，集成沙箱、记忆、工具、技能、子Agent和消息网关，可处理分钟到小时级别的复杂任务。"
     },
     {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "summary": "个人成长型Agent，强调与用户共同进化，具备自适应学习能力。"
+      "name": "cline",
+      "full_name": "cline/cline",
+      "summary": "自主编码Agent，以SDK、IDE扩展或CLI助手形式提供，支持多种集成方式。"
     },
     {
       "name": "cherry-studio",
       "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，集成智能聊天、自主Agent和300+助手，统一访问前沿大模型。"
+      "summary": "AI生产力工作室，集成智能聊天、自主Agent和300+助手，统一接入前沿大语言模型。"
     },
     {
       "name": "langflow",
       "full_name": "langflow-ai/langflow",
-      "summary": "强大的AI Agent和工作流构建与部署工具，提供可视化拖拽式开发体验。"
+      "summary": "强大的AI Agent与工作流构建和部署工具，提供可视化低代码开发体验。"
     },
     {
-      "name": "crewAI",
-      "full_name": "crewAIInc/crewAI",
-      "summary": "角色扮演式多Agent协作框架，通过协同智能让Agent无缝合作处理复杂任务。"
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "summary": "快速、小巧、完全自主的AI个人助理基础设施，支持任意操作系统和平台，采用Rust实现，强调可部署性和可替换性。"
     },
     {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google推出的开源终端AI Agent，将Gemini能力直接带入命令行。"
-    }
-  ],
-  "recommendation": [
-    {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "reason": "生产级平台，星数最高（148k+），生态成熟，适合企业级Agent工作流开发与部署。"
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "summary": "与用户共同成长的智能Agent，强调持续学习和个性化演进。"
     },
     {
       "name": "headroom",
       "full_name": "headroomlabs-ai/headroom",
-      "reason": "创新性Token压缩方案，显著降低LLM使用成本，且支持多种集成方式，实用价值高。"
+      "summary": "Token压缩工具，可减少60-95%的LLM输入Token数而不影响回答质量，支持库、代理和MCP服务器三种使用方式。"
     },
     {
-      "name": "crewAI",
-      "full_name": "crewAIInc/crewAI",
-      "reason": "多Agent协作框架的代表，角色扮演机制独特，适合复杂任务分解与协同，社区活跃。"
+      "name": "mem0",
+      "full_name": "mem0ai/mem0",
+      "summary": "AI Agent的通用记忆层，为Agent提供持久化、可检索的上下文记忆能力。"
+    },
+    {
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "summary": "生产级Agent工作流开发平台，支持可视化编排和快速部署。"
+    }
+  ],
+  "recommendation": [
+    {
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "reason": "拥有最高星数（151k+），作为低代码Agent构建工具，降低了AI工作流开发门槛，生态成熟，适合快速原型和生产部署。"
+    },
+    {
+      "name": "deer-flow",
+      "full_name": "bytedance/deer-flow",
+      "reason": "字节跳动出品，专注于长期任务和复杂工作流，集成沙箱、记忆、子Agent等先进机制，代表了Agent从对话到自主执行的发展方向。"
+    },
+    {
+      "name": "headroom",
+      "full_name": "headroomlabs-ai/headroom",
+      "reason": "解决LLM成本与效率核心痛点，通过Token压缩实现60-95%的Token节省，且不影响回答质量，具有广泛的应用前景。"
     }
   ]
 }

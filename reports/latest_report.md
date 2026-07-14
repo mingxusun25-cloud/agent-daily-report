@@ -1,108 +1,108 @@
 # 今日 GitHub AI Agent 趋势报告
 
-生成时间：2026-07-13 01:25
+生成时间：2026-07-14 01:14
 
 ## 一、今日总体趋势
 
-当前开源AI Agent生态呈现三大趋势：一是生产级平台与框架成熟化，如dify和langflow提供完整的Agent工作流开发与部署能力；二是Agent操作系统与协作框架兴起，eliza和crewAI分别从底层OS和角色扮演协作角度推动Agent自主化；三是工具链与效率优化成为热点，headroom通过压缩减少LLM Token消耗，multica和agents则聚焦Agent管理与插件市场。此外，hermes-agent和cherry-studio等个人化、生产力导向的项目也获得高关注，显示Agent正从实验走向实用。
+当前开源AI Agent生态呈现三大趋势：一是从单一对话助手向具备记忆、工具调用、子任务编排能力的长期任务型超级智能体演进；二是平台化与基础设施化，涌现出大量用于构建、部署和管理Agent的低代码平台、SDK及内存层；三是性能优化与轻量化，通过Token压缩、跨平台部署等技术降低成本和门槛。项目覆盖Go、Python、TypeScript、Rust等多种语言，社区活跃度极高。
 
 ## 二、热门项目列表
 
-### 1. dify
+### 1. multica
 
-- Star：148612
-- 语言：TypeScript
-- 更新时间：2026-07-13T01:24:29Z
-- 地址：https://github.com/langgenius/dify
-- 项目描述：Production-ready platform for agentic workflow development.
-- AI 总结：生产级Agent工作流开发平台，支持可视化编排、RAG、插件等，适合快速构建和部署AI应用。
-
-### 2. eliza
-
-- Star：18732
-- 语言：TypeScript
-- 更新时间：2026-07-13T01:23:22Z
-- 地址：https://github.com/elizaOS/eliza
-- 项目描述：Open source agentic operating system
-- AI 总结：开源Agent操作系统，提供底层运行时环境，支持Agent的自主运行与资源管理。
-
-### 3. headroom
-
-- Star：58746
-- 语言：Python
-- 更新时间：2026-07-13T01:22:16Z
-- 地址：https://github.com/headroomlabs-ai/headroom
-- 项目描述：Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.
-- AI 总结：工具输出、日志、文件及RAG块压缩库，可减少60-95%的Token消耗，同时保持回答质量，支持库、代理和MCP服务器。
-
-### 4. multica
-
-- Star：39958
+- Star：40220
 - 语言：Go
-- 更新时间：2026-07-13T01:15:36Z
+- 更新时间：2026-07-14T01:11:21Z
 - 地址：https://github.com/multica-ai/multica
 - 项目描述：The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
-- AI 总结：开源托管Agent平台，将编码Agent转化为团队协作者，支持任务分配、进度追踪和技能组合。
+- AI 总结：开源托管Agent平台，将编码Agent转化为真正的队友，支持任务分配、进度追踪和技能复合，采用Go语言实现。
 
-### 5. agents
+### 2. deer-flow
 
-- Star：37838
+- Star：76942
 - 语言：Python
-- 更新时间：2026-07-13T01:09:42Z
-- 地址：https://github.com/wshobson/agents
-- 项目描述：Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI
-- AI 总结：多工具Agent插件市场，兼容Claude Code、Codex CLI、Cursor、OpenCode、GitHub Copilot和Gemini CLI。
+- 更新时间：2026-07-14T00:58:06Z
+- 地址：https://github.com/bytedance/deer-flow
+- 项目描述：An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.
+- AI 总结：字节跳动开源的长期任务超级Agent框架，集成沙箱、记忆、工具、技能、子Agent和消息网关，可处理分钟到小时级别的复杂任务。
 
-### 6. hermes-agent
+### 3. cline
 
-- Star：213743
-- 语言：Python
-- 更新时间：2026-07-13T00:57:43Z
-- 地址：https://github.com/NousResearch/hermes-agent
-- 项目描述：The agent that grows with you
-- AI 总结：个人成长型Agent，强调与用户共同进化，具备自适应学习能力。
-
-### 7. cherry-studio
-
-- Star：48477
+- Star：64625
 - 语言：TypeScript
-- 更新时间：2026-07-13T00:51:10Z
+- 更新时间：2026-07-14T00:54:13Z
+- 地址：https://github.com/cline/cline
+- 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
+- AI 总结：自主编码Agent，以SDK、IDE扩展或CLI助手形式提供，支持多种集成方式。
+
+### 4. cherry-studio
+
+- Star：48521
+- 语言：TypeScript
+- 更新时间：2026-07-14T00:47:14Z
 - 地址：https://github.com/CherryHQ/cherry-studio
 - 项目描述：AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
-- AI 总结：AI生产力工作室，集成智能聊天、自主Agent和300+助手，统一访问前沿大模型。
+- AI 总结：AI生产力工作室，集成智能聊天、自主Agent和300+助手，统一接入前沿大语言模型。
 
-### 8. langflow
+### 5. langflow
 
-- Star：151780
+- Star：151830
 - 语言：Python
-- 更新时间：2026-07-13T00:43:38Z
+- 更新时间：2026-07-14T00:44:46Z
 - 地址：https://github.com/langflow-ai/langflow
 - 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
-- AI 总结：强大的AI Agent和工作流构建与部署工具，提供可视化拖拽式开发体验。
+- AI 总结：强大的AI Agent与工作流构建和部署工具，提供可视化低代码开发体验。
 
-### 9. crewAI
+### 6. zeroclaw
 
-- Star：55395
+- Star：32251
+- 语言：Rust
+- 更新时间：2026-07-14T00:42:06Z
+- 地址：https://github.com/zeroclaw-labs/zeroclaw
+- 项目描述：Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀
+- AI 总结：快速、小巧、完全自主的AI个人助理基础设施，支持任意操作系统和平台，采用Rust实现，强调可部署性和可替换性。
+
+### 7. hermes-agent
+
+- Star：214278
 - 语言：Python
-- 更新时间：2026-07-13T00:42:43Z
-- 地址：https://github.com/crewAIInc/crewAI
-- 项目描述：Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
-- AI 总结：角色扮演式多Agent协作框架，通过协同智能让Agent无缝合作处理复杂任务。
+- 更新时间：2026-07-14T00:38:42Z
+- 地址：https://github.com/NousResearch/hermes-agent
+- 项目描述：The agent that grows with you
+- AI 总结：与用户共同成长的智能Agent，强调持续学习和个性化演进。
 
-### 10. gemini-cli
+### 8. headroom
 
-- Star：105939
+- Star：58969
+- 语言：Python
+- 更新时间：2026-07-14T00:33:37Z
+- 地址：https://github.com/headroomlabs-ai/headroom
+- 项目描述：Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.
+- AI 总结：Token压缩工具，可减少60-95%的LLM输入Token数而不影响回答质量，支持库、代理和MCP服务器三种使用方式。
+
+### 9. mem0
+
+- Star：60755
 - 语言：TypeScript
-- 更新时间：2026-07-13T00:36:05Z
-- 地址：https://github.com/google-gemini/gemini-cli
-- 项目描述：An open-source AI agent that brings the power of Gemini directly into your terminal.
-- AI 总结：Google推出的开源终端AI Agent，将Gemini能力直接带入命令行。
+- 更新时间：2026-07-14T00:30:17Z
+- 地址：https://github.com/mem0ai/mem0
+- 项目描述：Universal memory layer for AI Agents
+- AI 总结：AI Agent的通用记忆层，为Agent提供持久化、可检索的上下文记忆能力。
+
+### 10. dify
+
+- Star：148719
+- 语言：TypeScript
+- 更新时间：2026-07-13T23:50:52Z
+- 地址：https://github.com/langgenius/dify
+- 项目描述：Production-ready platform for agentic workflow development.
+- AI 总结：生产级Agent工作流开发平台，支持可视化编排和快速部署。
 
 ## 三、最值得关注的项目
 
-1. dify：生产级平台，星数最高（148k+），生态成熟，适合企业级Agent工作流开发与部署。
-2. headroom：创新性Token压缩方案，显著降低LLM使用成本，且支持多种集成方式，实用价值高。
-3. crewAI：多Agent协作框架的代表，角色扮演机制独特，适合复杂任务分解与协同，社区活跃。
+1. langflow：拥有最高星数（151k+），作为低代码Agent构建工具，降低了AI工作流开发门槛，生态成熟，适合快速原型和生产部署。
+2. deer-flow：字节跳动出品，专注于长期任务和复杂工作流，集成沙箱、记忆、子Agent等先进机制，代表了Agent从对话到自主执行的发展方向。
+3. headroom：解决LLM成本与效率核心痛点，通过Token压缩实现60-95%的Token节省，且不影响回答质量，具有广泛的应用前景。
 
 ## 四、项目说明
 

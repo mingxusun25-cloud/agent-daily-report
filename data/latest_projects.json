@@ -1,92 +1,92 @@
 [
   {
-    "name": "dify",
-    "full_name": "langgenius/dify",
-    "url": "https://github.com/langgenius/dify",
-    "description": "Production-ready platform for agentic workflow development.",
-    "stars": 148612,
-    "language": "TypeScript",
-    "updated_at": "2026-07-13T01:24:29Z"
-  },
-  {
-    "name": "eliza",
-    "full_name": "elizaOS/eliza",
-    "url": "https://github.com/elizaOS/eliza",
-    "description": "Open source agentic operating system",
-    "stars": 18732,
-    "language": "TypeScript",
-    "updated_at": "2026-07-13T01:23:22Z"
-  },
-  {
-    "name": "headroom",
-    "full_name": "headroomlabs-ai/headroom",
-    "url": "https://github.com/headroomlabs-ai/headroom",
-    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-    "stars": 58746,
-    "language": "Python",
-    "updated_at": "2026-07-13T01:22:16Z"
-  },
-  {
     "name": "multica",
     "full_name": "multica-ai/multica",
     "url": "https://github.com/multica-ai/multica",
     "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
-    "stars": 39958,
+    "stars": 40220,
     "language": "Go",
-    "updated_at": "2026-07-13T01:15:36Z"
+    "updated_at": "2026-07-14T01:11:21Z"
   },
   {
-    "name": "agents",
-    "full_name": "wshobson/agents",
-    "url": "https://github.com/wshobson/agents",
-    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI",
-    "stars": 37838,
+    "name": "deer-flow",
+    "full_name": "bytedance/deer-flow",
+    "url": "https://github.com/bytedance/deer-flow",
+    "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+    "stars": 76942,
     "language": "Python",
-    "updated_at": "2026-07-13T01:09:42Z"
+    "updated_at": "2026-07-14T00:58:06Z"
   },
   {
-    "name": "hermes-agent",
-    "full_name": "NousResearch/hermes-agent",
-    "url": "https://github.com/NousResearch/hermes-agent",
-    "description": "The agent that grows with you",
-    "stars": 213743,
-    "language": "Python",
-    "updated_at": "2026-07-13T00:57:43Z"
+    "name": "cline",
+    "full_name": "cline/cline",
+    "url": "https://github.com/cline/cline",
+    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+    "stars": 64625,
+    "language": "TypeScript",
+    "updated_at": "2026-07-14T00:54:13Z"
   },
   {
     "name": "cherry-studio",
     "full_name": "CherryHQ/cherry-studio",
     "url": "https://github.com/CherryHQ/cherry-studio",
     "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-    "stars": 48477,
+    "stars": 48521,
     "language": "TypeScript",
-    "updated_at": "2026-07-13T00:51:10Z"
+    "updated_at": "2026-07-14T00:47:14Z"
   },
   {
     "name": "langflow",
     "full_name": "langflow-ai/langflow",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 151780,
+    "stars": 151830,
     "language": "Python",
-    "updated_at": "2026-07-13T00:43:38Z"
+    "updated_at": "2026-07-14T00:44:46Z"
   },
   {
-    "name": "crewAI",
-    "full_name": "crewAIInc/crewAI",
-    "url": "https://github.com/crewAIInc/crewAI",
-    "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-    "stars": 55395,
-    "language": "Python",
-    "updated_at": "2026-07-13T00:42:43Z"
+    "name": "zeroclaw",
+    "full_name": "zeroclaw-labs/zeroclaw",
+    "url": "https://github.com/zeroclaw-labs/zeroclaw",
+    "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
+    "stars": 32251,
+    "language": "Rust",
+    "updated_at": "2026-07-14T00:42:06Z"
   },
   {
-    "name": "gemini-cli",
-    "full_name": "google-gemini/gemini-cli",
-    "url": "https://github.com/google-gemini/gemini-cli",
-    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "stars": 105939,
+    "name": "hermes-agent",
+    "full_name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 214278,
+    "language": "Python",
+    "updated_at": "2026-07-14T00:38:42Z"
+  },
+  {
+    "name": "headroom",
+    "full_name": "headroomlabs-ai/headroom",
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+    "stars": 58969,
+    "language": "Python",
+    "updated_at": "2026-07-14T00:33:37Z"
+  },
+  {
+    "name": "mem0",
+    "full_name": "mem0ai/mem0",
+    "url": "https://github.com/mem0ai/mem0",
+    "description": "Universal memory layer for AI Agents",
+    "stars": 60755,
     "language": "TypeScript",
-    "updated_at": "2026-07-13T00:36:05Z"
+    "updated_at": "2026-07-14T00:30:17Z"
+  },
+  {
+    "name": "dify",
+    "full_name": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "description": "Production-ready platform for agentic workflow development.",
+    "stars": 148719,
+    "language": "TypeScript",
+    "updated_at": "2026-07-13T23:50:52Z"
   }
 ]
