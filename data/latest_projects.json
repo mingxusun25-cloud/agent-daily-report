@@ -1,92 +1,92 @@
 [
   {
-    "name": "headroom",
-    "full_name": "headroomlabs-ai/headroom",
-    "url": "https://github.com/headroomlabs-ai/headroom",
-    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
-    "stars": 59172,
-    "language": "Python",
-    "updated_at": "2026-07-15T01:09:24Z"
-  },
-  {
     "name": "hermes-agent",
     "full_name": "NousResearch/hermes-agent",
     "url": "https://github.com/NousResearch/hermes-agent",
     "description": "The agent that grows with you",
-    "stars": 214895,
+    "stars": 215473,
     "language": "Python",
-    "updated_at": "2026-07-15T01:06:42Z"
+    "updated_at": "2026-07-16T01:17:26Z"
   },
   {
-    "name": "oh-my-claudecode",
-    "full_name": "Yeachan-Heo/oh-my-claudecode",
-    "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
-    "description": "Teams-first Multi-agent orchestration for Claude Code",
-    "stars": 37759,
+    "name": "dify",
+    "full_name": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "description": "Production-ready platform for agentic workflow development.",
+    "stars": 148968,
     "language": "TypeScript",
-    "updated_at": "2026-07-15T01:00:05Z"
+    "updated_at": "2026-07-16T01:16:29Z"
   },
   {
     "name": "langflow",
     "full_name": "langflow-ai/langflow",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 151879,
+    "stars": 151920,
     "language": "Python",
-    "updated_at": "2026-07-15T00:55:52Z"
+    "updated_at": "2026-07-16T01:16:08Z"
   },
   {
     "name": "deer-flow",
     "full_name": "bytedance/deer-flow",
     "url": "https://github.com/bytedance/deer-flow",
     "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-    "stars": 77044,
+    "stars": 77129,
     "language": "Python",
-    "updated_at": "2026-07-15T00:54:37Z"
+    "updated_at": "2026-07-16T01:12:30Z"
   },
   {
-    "name": "cherry-studio",
-    "full_name": "CherryHQ/cherry-studio",
-    "url": "https://github.com/CherryHQ/cherry-studio",
-    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-    "stars": 48580,
-    "language": "TypeScript",
-    "updated_at": "2026-07-15T00:52:10Z"
+    "name": "multica",
+    "full_name": "multica-ai/multica",
+    "url": "https://github.com/multica-ai/multica",
+    "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+    "stars": 40642,
+    "language": "Go",
+    "updated_at": "2026-07-16T01:07:38Z"
   },
   {
-    "name": "claude-mem",
-    "full_name": "thedotmack/claude-mem",
-    "url": "https://github.com/thedotmack/claude-mem",
-    "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-    "stars": 87265,
-    "language": "JavaScript",
-    "updated_at": "2026-07-15T00:51:56Z"
+    "name": "zeroclaw",
+    "full_name": "zeroclaw-labs/zeroclaw",
+    "url": "https://github.com/zeroclaw-labs/zeroclaw",
+    "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
+    "stars": 32275,
+    "language": "Rust",
+    "updated_at": "2026-07-16T01:04:52Z"
   },
   {
     "name": "cline",
     "full_name": "cline/cline",
     "url": "https://github.com/cline/cline",
     "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-    "stars": 64662,
+    "stars": 64700,
     "language": "TypeScript",
-    "updated_at": "2026-07-15T00:49:09Z"
+    "updated_at": "2026-07-16T00:55:30Z"
   },
   {
-    "name": "openai-agents-python",
-    "full_name": "openai/openai-agents-python",
-    "url": "https://github.com/openai/openai-agents-python",
-    "description": "A lightweight, powerful framework for multi-agent workflows",
-    "stars": 27910,
-    "language": "Python",
-    "updated_at": "2026-07-15T00:23:42Z"
+    "name": "anything-llm",
+    "full_name": "Mintplex-Labs/anything-llm",
+    "url": "https://github.com/Mintplex-Labs/anything-llm",
+    "description": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
+    "stars": 63358,
+    "language": "JavaScript",
+    "updated_at": "2026-07-16T00:48:40Z"
   },
   {
-    "name": "browser-use",
-    "full_name": "browser-use/browser-use",
-    "url": "https://github.com/browser-use/browser-use",
-    "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
-    "stars": 104757,
+    "name": "cherry-studio",
+    "full_name": "CherryHQ/cherry-studio",
+    "url": "https://github.com/CherryHQ/cherry-studio",
+    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+    "stars": 48628,
+    "language": "TypeScript",
+    "updated_at": "2026-07-16T00:47:36Z"
+  },
+  {
+    "name": "OpenHands",
+    "full_name": "OpenHands/OpenHands",
+    "url": "https://github.com/OpenHands/OpenHands",
+    "description": "🙌 OpenHands: AI-Driven Development",
+    "stars": 80906,
     "language": "Python",
-    "updated_at": "2026-07-15T00:20:37Z"
+    "updated_at": "2026-07-16T00:12:11Z"
   }
 ]
