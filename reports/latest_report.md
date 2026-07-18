@@ -1,108 +1,108 @@
 # 今日 GitHub AI Agent 趋势报告
 
-生成时间：2026-07-17 01:23
+生成时间：2026-07-18 01:16
 
 ## 一、今日总体趋势
 
-当前开源AI Agent项目呈现三大趋势：一是多智能体协作与编排成为核心方向，如oh-my-claudecode和openai-agents-python；二是Agent能力向浏览器自动化、软件开发等垂直场景深度渗透，代表项目有browser-use和OpenHands；三是低代码/可视化平台降低开发门槛，langflow和cherry-studio等工具让非技术人员也能构建Agent工作流。整体上，项目以Python和TypeScript为主，社区活跃度极高。
+当前开源AI Agent生态呈现三大趋势：一是从单一对话助手向多智能体协作、长周期任务执行演进，如deer-flow和symphony；二是强调本地优先与隐私保护，如anything-llm和headroom；三是框架与工具链日趋成熟，覆盖开发、部署、优化全流程。项目类型涵盖低代码平台（langflow、dify）、编码代理（cline、symphony）、生产力套件（cherry-studio）及效率优化工具（headroom），技术栈以Python和TypeScript为主。
 
 ## 二、热门项目列表
 
-### 1. oh-my-claudecode
+### 1. langflow
 
-- Star：37825
-- 语言：TypeScript
-- 更新时间：2026-07-17T01:20:26Z
-- 地址：https://github.com/Yeachan-Heo/oh-my-claudecode
-- 项目描述：Teams-first Multi-agent orchestration for Claude Code
-- AI 总结：面向团队的Claude Code多智能体编排框架，强调协作与任务分配。
+- Star：151966
+- 语言：Python
+- 更新时间：2026-07-18T01:13:36Z
+- 地址：https://github.com/langflow-ai/langflow
+- 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
+- AI 总结：低代码AI代理与工作流构建工具，支持可视化编排和快速部署，适合非开发者快速搭建AI应用。
 
 ### 2. cline
 
-- Star：64728
+- Star：64744
 - 语言：TypeScript
-- 更新时间：2026-07-17T01:16:55Z
+- 更新时间：2026-07-18T01:01:49Z
 - 地址：https://github.com/cline/cline
 - 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
-- AI 总结：提供SDK、IDE扩展和CLI三种形态的自主编码Agent，支持多种集成方式。
+- AI 总结：自主编码代理，以SDK、IDE扩展或CLI助手形式运行，可独立完成编程任务，提升开发效率。
 
-### 3. browser-use
+### 3. deer-flow
 
-- Star：105103
+- Star：77297
 - 语言：Python
-- 更新时间：2026-07-17T01:16:46Z
-- 地址：https://github.com/browser-use/browser-use
-- 项目描述：🌐 Make websites accessible for AI agents. Automate tasks online with ease.
-- AI 总结：让AI Agent能够操控浏览器，自动化执行在线任务，如数据采集、表单填写等。
+- 更新时间：2026-07-18T01:00:34Z
+- 地址：https://github.com/bytedance/deer-flow
+- 项目描述：An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.
+- AI 总结：字节跳动开源的长期任务超级代理框架，集成沙箱、记忆、工具、技能和子代理，可处理分钟到小时级的复杂任务。
 
-### 4. hermes-agent
+### 4. cherry-studio
 
-- Star：215992
-- 语言：Python
-- 更新时间：2026-07-17T00:58:07Z
-- 地址：https://github.com/NousResearch/hermes-agent
-- 项目描述：The agent that grows with you
-- AI 总结：强调与用户共同成长的个性化Agent，注重长期学习和适应能力。
-
-### 5. langflow
-
-- Star：151921
-- 语言：Python
-- 更新时间：2026-07-17T00:52:53Z
-- 地址：https://github.com/langflow-ai/langflow
-- 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
-- AI 总结：可视化低代码平台，用于快速构建和部署AI Agent及工作流。
-
-### 6. superpowers
-
-- Star：255982
-- 语言：Shell
-- 更新时间：2026-07-17T00:52:29Z
-- 地址：https://github.com/obra/superpowers
-- 项目描述：An agentic skills framework & software development methodology that works.
-- AI 总结：一套Agent技能框架和软件开发方法论，旨在提升Agent的实用性和可靠性。
-
-### 7. cherry-studio
-
-- Star：48667
+- Star：48699
 - 语言：TypeScript
-- 更新时间：2026-07-17T00:52:06Z
+- 更新时间：2026-07-18T00:57:49Z
 - 地址：https://github.com/CherryHQ/cherry-studio
 - 项目描述：AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
-- AI 总结：AI生产力工作室，集成智能聊天、自主Agent和300+预设助手，统一访问前沿大模型。
+- AI 总结：AI生产力工作室，提供智能聊天、自主代理和300+助手，统一接入前沿大模型，强调多模型协同。
+
+### 5. symphony
+
+- Star：26014
+- 语言：Elixir
+- 更新时间：2026-07-18T00:22:06Z
+- 地址：https://github.com/openai/symphony
+- 项目描述：Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.
+- AI 总结：OpenAI推出的项目工作流管理工具，将任务拆解为隔离的自主执行单元，让团队管理而非监督编码代理。
+
+### 6. hermes-agent
+
+- Star：216465
+- 语言：Python
+- 更新时间：2026-07-18T00:08:58Z
+- 地址：https://github.com/NousResearch/hermes-agent
+- 项目描述：The agent that grows with you
+- AI 总结：可成长型代理框架，强调与用户共同进化，具备持续学习和自适应能力。
+
+### 7. headroom
+
+- Star：59693
+- 语言：Python
+- 更新时间：2026-07-17T23:49:27Z
+- 地址：https://github.com/headroomlabs-ai/headroom
+- 项目描述：Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.
+- AI 总结：令牌压缩工具，可减少编码代理20%、JSON数据60-95%的令牌消耗，支持库、代理和MCP服务器三种形态。
 
 ### 8. openai-agents-python
 
-- Star：27952
+- Star：27978
 - 语言：Python
-- 更新时间：2026-07-17T00:46:59Z
+- 更新时间：2026-07-17T23:48:47Z
 - 地址：https://github.com/openai/openai-agents-python
 - 项目描述：A lightweight, powerful framework for multi-agent workflows
-- AI 总结：OpenAI官方推出的轻量级多Agent工作流框架，简洁高效。
+- AI 总结：OpenAI官方轻量级多代理工作流框架，提供简洁API实现复杂多智能体协作。
 
-### 9. OpenHands
+### 9. anything-llm
 
-- Star：81026
-- 语言：Python
-- 更新时间：2026-07-17T00:25:04Z
-- 地址：https://github.com/OpenHands/OpenHands
-- 项目描述：🙌 OpenHands: AI-Driven Development
-- AI 总结：AI驱动的软件开发平台，旨在通过Agent自动化编码、测试和部署流程。
+- Star：63457
+- 语言：JavaScript
+- 更新时间：2026-07-17T23:39:08Z
+- 地址：https://github.com/Mintplex-Labs/anything-llm
+- 项目描述：Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience 
+- AI 总结：本地优先的全能AI代理平台，支持文档管理、RAG和多种模型，强调数据主权和隐私保护。
 
-### 10. eliza
+### 10. dify
 
-- Star：18753
+- Star：149181
 - 语言：TypeScript
-- 更新时间：2026-07-17T00:19:14Z
-- 地址：https://github.com/elizaOS/eliza
-- 项目描述：Open source agentic operating system
-- AI 总结：开源Agent操作系统，提供底层运行时环境，支持多种Agent应用。
+- 更新时间：2026-07-17T22:59:57Z
+- 地址：https://github.com/langgenius/dify
+- 项目描述：Production-ready platform for agentic workflow development.
+- AI 总结：生产级代理工作流开发平台，提供可视化编排、RAG管道和模型管理，适合企业级AI应用落地。
 
 ## 三、最值得关注的项目
 
-1. browser-use：浏览器自动化是Agent落地最直接的场景之一，该项目star数超10万，社区认可度极高，且Python生态成熟，易于集成。
-2. langflow：低代码可视化构建Agent工作流，大幅降低使用门槛，适合快速原型设计和非技术人员参与，star数超15万。
-3. openai-agents-python：OpenAI官方出品，轻量级多Agent框架，代表了行业标准方向，适合作为学习和生产基础。
+1. deer-flow：代表长期任务代理的前沿方向，集成沙箱、记忆、子代理等完整组件，适合复杂自动化场景，且由字节跳动开源，社区活跃度高。
+2. dify：生产级平台，低代码与高灵活性兼备，支持RAG、工作流编排和模型管理，是企业级AI应用落地的首选框架之一。
+3. headroom：解决LLM成本痛点，通过智能压缩大幅降低令牌消耗，且支持多种集成方式，是提升AI代理经济性的关键工具。
 
 ## 四、项目说明
 
