@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是框架层向轻量化、多智能体协作演进，如OpenAI Agents Python和Langflow；二是应用层聚焦生产力工具与个人助手，如Cherry Studio和Zeroclaw；三是基础设施层关注效率优化与跨平台集成，如Headroom的Token压缩和Agents的插件市场。项目普遍采用Python或TypeScript，Rust开始用于高性能场景。",
+  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是平台化与生产级部署成为主流，如dify、multica等项目聚焦于构建可落地的智能体工作流与团队协作平台；二是多模型、多工具集成能力成为标配，LibreChat、cherry-studio等项目通过聚合数十种LLM和API实现灵活切换；三是垂直领域专业化与终端渗透加速，gemini-cli、pentagi等分别深入命令行交互和网络安全测试场景。技术栈以TypeScript和Python为主，Go语言在特定高性能场景（如渗透测试）崭露头角。",
   "project_summaries": [
     {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "summary": "一个与用户共同成长的智能体项目，强调持续学习和适应性，但描述较为抽象，具体功能需进一步探索。"
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "summary": "生产级智能体工作流开发平台，支持可视化编排与多模型集成，适合企业级AI应用构建。"
     },
     {
-      "name": "openai-agents-python",
-      "full_name": "openai/openai-agents-python",
-      "summary": "OpenAI官方推出的轻量级多智能体工作流框架，专注于简洁性和强大功能，适合快速构建复杂协作场景。"
+      "name": "LibreChat",
+      "full_name": "danny-avila/LibreChat",
+      "summary": "增强版ChatGPT克隆，集成Agent、MCP、Code Interpreter等高级功能，支持数十种AI模型切换与自托管。"
+    },
+    {
+      "name": "eliza",
+      "full_name": "elizaOS/eliza",
+      "summary": "开源智能体操作系统，旨在为AI Agent提供底层运行环境与系统级能力。"
+    },
+    {
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "summary": "Google推出的终端AI Agent，将Gemini模型能力直接注入命令行，实现自然语言驱动的终端操作。"
     },
     {
       "name": "cherry-studio",
       "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，集成智能聊天、自主智能体和300+助手，统一访问前沿大语言模型，注重用户体验和多功能性。"
+      "summary": "AI生产力工作室，集成智能聊天、自主Agent与300+助手模板，统一访问前沿大模型。"
     },
     {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "summary": "强大的AI智能体和工作流构建与部署工具，提供可视化界面，降低开发门槛，适合快速原型设计。"
-    },
-    {
-      "name": "awesome-llm-apps",
-      "full_name": "Shubhamsaboo/awesome-llm-apps",
-      "summary": "100+可运行的AI智能体与RAG应用集合，支持克隆、定制和部署，是学习和实践LLM应用的资源库。"
-    },
-    {
-      "name": "headroom",
-      "full_name": "headroomlabs-ai/headroom",
-      "summary": "专注于压缩工具输出、日志、文件和RAG块，减少LLM Token消耗（编码智能体减少20%，JSON减少60-95%），提供库、代理和MCP服务器。"
-    },
-    {
-      "name": "ruflo",
-      "full_name": "ruvnet/ruflo",
-      "summary": "领先的智能体元框架，支持多玩家群体部署、自主工作流协调和对话式AI，集成自适应记忆、自学习、RAG及多种模型。"
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "summary": "强调持续进化的个人AI Agent，采用Python实现，注重与用户共同成长的能力。"
     },
     {
       "name": "agents",
       "full_name": "wshobson/agents",
-      "summary": "多框架智能体插件市场，兼容Claude Code、Codex CLI、Cursor、OpenCode、GitHub Copilot和Gemini CLI，促进跨平台扩展。"
+      "summary": "多工具智能体插件市场，为Claude Code、Cursor、GitHub Copilot等主流编码助手提供统一插件生态。"
     },
     {
-      "name": "langchain",
-      "full_name": "langchain-ai/langchain",
-      "summary": "智能体工程平台，提供全面的工具链用于构建、测试和部署AI智能体，是业界广泛采用的框架。"
+      "name": "multica",
+      "full_name": "multica-ai/multica",
+      "summary": "开源托管Agent平台，将编码Agent转化为团队协作者，支持任务分配、进度追踪与技能组合。"
     },
     {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "快速、小巧、完全自主的AI个人助手基础设施，支持任何操作系统和平台，用Rust实现高性能和可移植性。"
+      "name": "openai-agents-python",
+      "full_name": "openai/openai-agents-python",
+      "summary": "OpenAI官方轻量级多Agent工作流框架，提供简洁API构建复杂协作场景。"
+    },
+    {
+      "name": "pentagi",
+      "full_name": "vxcontrol/pentagi",
+      "summary": "全自主AI Agent系统，专为复杂渗透测试任务设计，实现自动化安全评估。"
     }
   ],
   "recommendation": [
     {
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "reason": "14.9万星标彰显其生产级平台地位，可视化工作流与多模型集成能力使其成为企业级AI Agent落地的首选框架。"
+    },
+    {
+      "name": "gemini-cli",
+      "full_name": "google-gemini/gemini-cli",
+      "reason": "10.6万星标反映终端AI Agent的巨大需求，Google官方支持与命令行深度整合开辟了人机交互新范式。"
+    },
+    {
       "name": "openai-agents-python",
       "full_name": "openai/openai-agents-python",
-      "reason": "由OpenAI官方维护，轻量且强大，代表多智能体工作流的主流方向，适合生产级应用。"
-    },
-    {
-      "name": "headroom",
-      "full_name": "headroomlabs-ai/headroom",
-      "reason": "解决LLM Token成本痛点，压缩效率显著，且提供多种集成方式，是提升Agent经济性的关键基础设施。"
-    },
-    {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "reason": "用Rust实现高性能自主个人助手，跨平台部署能力强，代表Agent向轻量、高效、全自主方向发展的趋势。"
+      "reason": "OpenAI官方出品，轻量级多Agent框架设计简洁高效，是理解并实践前沿多智能体协作模式的最佳起点。"
     }
   ]
 }
