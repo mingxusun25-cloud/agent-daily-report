@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是平台化与生产级部署成为主流，如dify、multica等项目聚焦于构建可落地的智能体工作流与团队协作平台；二是多模型、多工具集成能力成为标配，LibreChat、cherry-studio等项目通过聚合数十种LLM和API实现灵活切换；三是垂直领域专业化与终端渗透加速，gemini-cli、pentagi等分别深入命令行交互和网络安全测试场景。技术栈以TypeScript和Python为主，Go语言在特定高性能场景（如渗透测试）崭露头角。",
+  "overall_summary": "当前开源AI Agent项目呈现三大趋势：一是向多模型、多工具集成平台发展，如LibreChat和dify支持数十种AI模型和API；二是Agent操作系统化，如elizaOS和hermes-agent提出“代理操作系统”概念；三是向轻量化、跨平台、全栈化演进，如zeroclaw用Rust实现高性能个人助手，cline提供SDK/IDE/CLI多种形态。项目语言以TypeScript和Python为主，Rust开始崭露头角。",
   "project_summaries": [
-    {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "summary": "生产级智能体工作流开发平台，支持可视化编排与多模型集成，适合企业级AI应用构建。"
-    },
     {
       "name": "LibreChat",
       "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，集成Agent、MCP、Code Interpreter等高级功能，支持数十种AI模型切换与自托管。"
+      "summary": "增强版ChatGPT克隆，集成Agents、MCP、Skills、Code Interpreter、LangChain等，支持DeepSeek、Anthropic、AWS、OpenAI等数十种模型和API，具备多用户认证、预设、消息搜索等企业级功能，开源可自托管。"
     },
     {
       "name": "eliza",
       "full_name": "elizaOS/eliza",
-      "summary": "开源智能体操作系统，旨在为AI Agent提供底层运行环境与系统级能力。"
+      "summary": "开源代理操作系统，旨在为AI Agent提供底层运行环境，支持多Agent协作与资源管理，采用TypeScript开发。"
     },
     {
       "name": "gemini-cli",
       "full_name": "google-gemini/gemini-cli",
-      "summary": "Google推出的终端AI Agent，将Gemini模型能力直接注入命令行，实现自然语言驱动的终端操作。"
+      "summary": "Google官方开源AI Agent，将Gemini模型能力直接带入终端，支持命令行交互与自动化任务，星数超10万。"
     },
     {
-      "name": "cherry-studio",
-      "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，集成智能聊天、自主Agent与300+助手模板，统一访问前沿大模型。"
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "summary": "构建Agent工作流和RAG管道的协作平台，支持丰富AI模型和工具，可部署在云、VPC或自托管，从原型到生产无需重建。"
+    },
+    {
+      "name": "awesome-llm-apps",
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "summary": "100+可运行的AI Agent和RAG应用集合，提供克隆、定制和部署的完整方案，Python实现，适合学习和快速原型开发。"
+    },
+    {
+      "name": "oh-my-claudecode",
+      "full_name": "Yeachan-Heo/oh-my-claudecode",
+      "summary": "面向团队的Claude Code多Agent编排工具，强调团队协作和Agent间协调，TypeScript开发。"
     },
     {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
-      "summary": "强调持续进化的个人AI Agent，采用Python实现，注重与用户共同成长的能力。"
+      "summary": "自称“与你一起成长的代理”，Python实现，星数超21万，强调Agent的持续学习和自适应能力。"
     },
     {
-      "name": "agents",
-      "full_name": "wshobson/agents",
-      "summary": "多工具智能体插件市场，为Claude Code、Cursor、GitHub Copilot等主流编码助手提供统一插件生态。"
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "summary": "快速、小巧、完全自主的AI个人助手基础设施，用Rust编写，支持任何操作系统和平台，可随处部署、随意替换组件。"
     },
     {
-      "name": "multica",
-      "full_name": "multica-ai/multica",
-      "summary": "开源托管Agent平台，将编码Agent转化为团队协作者，支持任务分配、进度追踪与技能组合。"
+      "name": "cline",
+      "full_name": "cline/cline",
+      "summary": "自主编码Agent，提供SDK、IDE扩展和CLI助手三种形态，TypeScript实现，星数超6.4万。"
     },
     {
-      "name": "openai-agents-python",
-      "full_name": "openai/openai-agents-python",
-      "summary": "OpenAI官方轻量级多Agent工作流框架，提供简洁API构建复杂协作场景。"
-    },
-    {
-      "name": "pentagi",
-      "full_name": "vxcontrol/pentagi",
-      "summary": "全自主AI Agent系统，专为复杂渗透测试任务设计，实现自动化安全评估。"
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "summary": "构建和部署AI Agent及工作流的强大工具，Python实现，星数超15万，提供可视化拖拽式开发体验。"
     }
   ],
   "recommendation": [
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "reason": "14.9万星标彰显其生产级平台地位，可视化工作流与多模型集成能力使其成为企业级AI Agent落地的首选框架。"
+      "reason": "综合评分最高（星数14.9万），提供从原型到生产的完整Agent工作流平台，支持多种部署方式，是企业级Agent应用的首选。"
     },
     {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "reason": "10.6万星标反映终端AI Agent的巨大需求，Google官方支持与命令行深度整合开辟了人机交互新范式。"
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "reason": "星数超21万，代表Agent持续学习和自适应的发展方向，是研究下一代智能Agent的重要参考。"
     },
     {
-      "name": "openai-agents-python",
-      "full_name": "openai/openai-agents-python",
-      "reason": "OpenAI官方出品，轻量级多Agent框架设计简洁高效，是理解并实践前沿多智能体协作模式的最佳起点。"
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "reason": "采用Rust实现高性能、跨平台个人助手，体现Agent轻量化、全栈化趋势，技术架构创新性强。"
     }
   ]
 }
