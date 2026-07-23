@@ -1,108 +1,108 @@
 # 今日 GitHub AI Agent 趋势报告
 
-生成时间：2026-07-22 01:20
+生成时间：2026-07-23 01:27
 
 ## 一、今日总体趋势
 
-当前开源AI Agent项目呈现三大趋势：一是终端与IDE深度集成，如gemini-cli和cline将AI能力嵌入开发者日常工具；二是低代码/可视化平台兴起，dify和langflow降低Agent构建门槛，支持RAG和多模型编排；三是多智能体协作与专业化分工成为主流，openai-agents-python和agency-agents分别从框架和实战角度推动Agent系统化。项目普遍支持主流LLM（如Gemini、GPT、Claude），并强调可扩展性、自托管和社区生态。
+当前开源AI Agent项目呈现三大趋势：一是向全栈化、平台化发展，如dify和langflow提供从原型到生产的完整工作流；二是向终端渗透，gemini-cli和cline将Agent能力嵌入命令行和IDE；三是强调自主性与基础设施，elizaOS和zeroclaw追求轻量、跨平台的自主Agent，而deer-flow和ECC则聚焦长周期任务与性能优化。TypeScript和Python是主流语言，Rust开始用于高性能基础设施。
 
 ## 二、热门项目列表
 
-### 1. gemini-cli
+### 1. eliza
 
-- Star：106113
+- Star：18793
 - 语言：TypeScript
-- 更新时间：2026-07-22T01:19:32Z
-- 地址：https://github.com/google-gemini/gemini-cli
-- 项目描述：An open-source AI agent that brings the power of Gemini directly into your terminal.
-- AI 总结：Google官方推出的终端AI Agent，将Gemini模型能力直接集成到命令行，支持自然语言交互和自动化任务，适合开发者快速在终端中调用AI。
-
-### 2. hermes-agent
-
-- Star：218413
-- 语言：Python
-- 更新时间：2026-07-22T01:18:45Z
-- 地址：https://github.com/NousResearch/hermes-agent
-- 项目描述：The agent that grows with you
-- AI 总结：一个强调成长性的智能体框架，基于Python构建，旨在通过持续学习和交互提升Agent能力，适合需要自适应和长期优化的场景。
-
-### 3. dify
-
-- Star：149673
-- 语言：TypeScript
-- 更新时间：2026-07-22T01:14:43Z
-- 地址：https://github.com/langgenius/dify
-- 项目描述：Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
-- AI 总结：企业级AI应用开发平台，支持构建Agent工作流、RAG管道，集成丰富模型和工具，提供云端、VPC或自托管部署，实现从原型到生产的无缝过渡。
-
-### 4. LibreChat
-
-- Star：41083
-- 语言：TypeScript
-- 更新时间：2026-07-22T01:14:13Z
-- 地址：https://github.com/danny-avila/LibreChat
-- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active
-- AI 总结：增强版ChatGPT克隆，支持多模型切换（DeepSeek、Anthropic、AWS、OpenAI等）、Agent、MCP、Code Interpreter、多用户认证等，功能全面且开源可自托管。
-
-### 5. langflow
-
-- Star：152178
-- 语言：Python
-- 更新时间：2026-07-22T01:12:02Z
-- 地址：https://github.com/langflow-ai/langflow
-- 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
-- AI 总结：可视化AI Agent和工作流构建工具，通过拖拽式界面降低开发门槛，支持快速搭建和部署AI驱动的自动化流程。
-
-### 6. cline
-
-- Star：64906
-- 语言：TypeScript
-- 更新时间：2026-07-22T01:11:57Z
-- 地址：https://github.com/cline/cline
-- 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
-- AI 总结：自主编码Agent，可作为SDK、IDE扩展或CLI助手使用，专注于代码生成、调试和自动化，提升开发者效率。
-
-### 7. agency-agents
-
-- Star：135412
-- 语言：Shell
-- 更新时间：2026-07-22T01:10:35Z
-- 地址：https://github.com/msitarzewski/agency-agents
-- 项目描述：A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
-- AI 总结：一站式AI代理系统，包含多种专业化Agent（如前端、社区运营、创意注入等），每个Agent具有独立人格和流程，适合构建复杂多角色协作场景。
-
-### 8. eliza
-
-- Star：18789
-- 语言：TypeScript
-- 更新时间：2026-07-22T01:07:39Z
+- 更新时间：2026-07-23T01:26:09Z
 - 地址：https://github.com/elizaOS/eliza
 - 项目描述：Open source agentic operating system
-- AI 总结：开源Agent操作系统，提供底层框架支持Agent的创建、管理和调度，强调模块化和可扩展性，适合构建大规模Agent生态。
+- AI 总结：开源Agent操作系统，提供底层框架以构建自主Agent，强调模块化与可扩展性。
 
-### 9. cherry-studio
+### 2. gemini-cli
 
-- Star：48847
+- Star：106130
 - 语言：TypeScript
-- 更新时间：2026-07-22T01:05:36Z
+- 更新时间：2026-07-23T01:23:37Z
+- 地址：https://github.com/google-gemini/gemini-cli
+- 项目描述：An open-source AI agent that brings the power of Gemini directly into your terminal.
+- AI 总结：Google推出的终端AI Agent，将Gemini模型能力直接集成到命令行，支持交互式任务。
+
+### 3. hermes-agent
+
+- Star：218982
+- 语言：Python
+- 更新时间：2026-07-23T01:21:05Z
+- 地址：https://github.com/NousResearch/hermes-agent
+- 项目描述：The agent that grows with you
+- AI 总结：注重成长性的Agent，支持持续学习和适应，面向个性化AI助手场景。
+
+### 4. dify
+
+- Star：149825
+- 语言：TypeScript
+- 更新时间：2026-07-23T01:17:35Z
+- 地址：https://github.com/langgenius/dify
+- 项目描述：Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
+- AI 总结：企业级Agentic工作流平台，集成RAG管道、多模型支持和工具生态，支持云和自托管部署。
+
+### 5. cline
+
+- Star：64940
+- 语言：TypeScript
+- 更新时间：2026-07-23T01:15:23Z
+- 地址：https://github.com/cline/cline
+- 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
+- AI 总结：自主编码Agent，以SDK、IDE插件和CLI形式提供，专注于代码生成与自动化。
+
+### 6. zeroclaw
+
+- Star：32358
+- 语言：Rust
+- 更新时间：2026-07-23T01:08:05Z
+- 地址：https://github.com/zeroclaw-labs/zeroclaw
+- 项目描述：Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀
+- AI 总结：用Rust构建的轻量、跨平台AI个人助手基础设施，强调快速、小巧和完全自主。
+
+### 7. cherry-studio
+
+- Star：48873
+- 语言：TypeScript
+- 更新时间：2026-07-23T00:59:38Z
 - 地址：https://github.com/CherryHQ/cherry-studio
 - 项目描述：AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
-- AI 总结：AI生产力工作室，集成智能聊天、自主Agent和300+助手，统一接入前沿LLM，提供一站式AI工作环境。
+- AI 总结：AI生产力工作室，提供智能聊天、自主Agent和300+助手，统一访问前沿大模型。
 
-### 10. openai-agents-python
+### 8. langflow
 
-- Star：28068
+- Star：152228
 - 语言：Python
-- 更新时间：2026-07-22T01:05:25Z
-- 地址：https://github.com/openai/openai-agents-python
-- 项目描述：A lightweight, powerful framework for multi-agent workflows
-- AI 总结：OpenAI官方推出的轻量级多Agent工作流框架，支持复杂任务分解和Agent间协作，设计简洁高效，适合快速构建多智能体应用。
+- 更新时间：2026-07-23T00:59:17Z
+- 地址：https://github.com/langflow-ai/langflow
+- 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
+- AI 总结：可视化AI Agent和流程构建工具，降低开发门槛，支持快速部署。
+
+### 9. deer-flow
+
+- Star：77622
+- 语言：Python
+- 更新时间：2026-07-23T00:51:15Z
+- 地址：https://github.com/bytedance/deer-flow
+- 项目描述：An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.
+- AI 总结：字节跳动开源的长期任务SuperAgent，集成沙箱、记忆、工具、技能和子Agent，可处理分钟到小时级任务。
+
+### 10. ECC
+
+- Star：232236
+- 语言：JavaScript
+- 更新时间：2026-07-23T00:44:37Z
+- 地址：https://github.com/affaan-m/ECC
+- 项目描述：The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+- AI 总结：Agent性能优化系统，提供技能、本能、记忆、安全等模块，兼容Claude Code、Codex等主流编码Agent。
 
 ## 三、最值得关注的项目
 
-1. dify：作为企业级Agent工作流平台，dify在RAG、模型集成和部署灵活性上表现突出，适合从原型到生产的全流程开发，社区活跃且文档完善。
-2. openai-agents-python：OpenAI官方出品，轻量且强大，代表了多Agent协作的标准化方向，适合快速上手和深度集成，是未来Agent框架的重要参考。
-3. agency-agents：以实战为导向，提供多种专业化Agent模板，展示了Agent在真实业务场景中的分工与协作，对构建复杂多角色系统有直接借鉴价值。
+1. dify：代表Agent平台化趋势，提供从原型到生产的完整工作流，社区活跃且部署灵活，是企业级应用的首选。
+2. deer-flow：聚焦长周期复杂任务，集成多种Agent组件，展示了Agent在科研、编程等场景的深度应用潜力。
+3. zeroclaw：用Rust实现的高性能轻量Agent基础设施，跨平台、全自主，代表了Agent向边缘和嵌入式发展的方向。
 
 ## 四、项目说明
 
