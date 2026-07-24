@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent项目呈现三大趋势：一是向全栈化、平台化发展，如dify和langflow提供从原型到生产的完整工作流；二是向终端渗透，gemini-cli和cline将Agent能力嵌入命令行和IDE；三是强调自主性与基础设施，elizaOS和zeroclaw追求轻量、跨平台的自主Agent，而deer-flow和ECC则聚焦长周期任务与性能优化。TypeScript和Python是主流语言，Rust开始用于高性能基础设施。",
+  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是从单一对话向多智能体协作与长周期任务演进，如deer-flow、openai-agents-python；二是Agent开发正从框架走向基础设施化，如zeroclaw提供跨平台部署、ECC优化性能；三是Agent能力从编码扩展到全栈生产力，如cherry-studio集成300+助手、dify和langflow提供可视化工作流。Rust和Python成为主流语言，TypeScript在IDE插件领域占据优势。",
   "project_summaries": [
     {
-      "name": "eliza",
-      "full_name": "elizaOS/eliza",
-      "summary": "开源Agent操作系统，提供底层框架以构建自主Agent，强调模块化与可扩展性。"
-    },
-    {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google推出的终端AI Agent，将Gemini模型能力直接集成到命令行，支持交互式任务。"
-    },
-    {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "summary": "注重成长性的Agent，支持持续学习和适应，面向个性化AI助手场景。"
-    },
-    {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "summary": "企业级Agentic工作流平台，集成RAG管道、多模型支持和工具生态，支持云和自托管部署。"
+      "name": "cherry-studio",
+      "full_name": "CherryHQ/cherry-studio",
+      "summary": "AI生产力工作室，支持智能对话、自主Agent和300+预置助手，统一接入前沿大模型，适合个人与团队提升工作效率。"
     },
     {
       "name": "cline",
       "full_name": "cline/cline",
-      "summary": "自主编码Agent，以SDK、IDE插件和CLI形式提供，专注于代码生成与自动化。"
+      "summary": "自主编码Agent，以SDK、IDE扩展或CLI助手形式运行，专注于为开发者提供自动化编码能力。"
+    },
+    {
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "summary": "成长型Agent框架，强调与用户共同进化，具备持续学习和适应能力。"
+    },
+    {
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "summary": "可视化AI工作流平台，支持构建Agentic工作流、RAG管道，集成丰富模型与工具，可部署于云、VPC或自托管。"
     },
     {
       "name": "zeroclaw",
       "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "用Rust构建的轻量、跨平台AI个人助手基础设施，强调快速、小巧和完全自主。"
+      "summary": "快速、小巧、全自主的AI个人助手基础设施，支持任意操作系统和平台，用Rust实现高性能与可移植性。"
     },
     {
-      "name": "cherry-studio",
-      "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，提供智能聊天、自主Agent和300+助手，统一访问前沿大模型。"
-    },
-    {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "summary": "可视化AI Agent和流程构建工具，降低开发门槛，支持快速部署。"
+      "name": "openai-agents-python",
+      "full_name": "openai/openai-agents-python",
+      "summary": "OpenAI官方推出的轻量级多Agent工作流框架，专注于简化多Agent协作任务的开发。"
     },
     {
       "name": "deer-flow",
       "full_name": "bytedance/deer-flow",
-      "summary": "字节跳动开源的长期任务SuperAgent，集成沙箱、记忆、工具、技能和子Agent，可处理分钟到小时级任务。"
+      "summary": "字节跳动开源的长期任务SuperAgent框架，通过沙箱、记忆、工具、技能、子Agent和消息网关处理分钟到小时级的复杂任务。"
     },
     {
       "name": "ECC",
       "full_name": "affaan-m/ECC",
-      "summary": "Agent性能优化系统，提供技能、本能、记忆、安全等模块，兼容Claude Code、Codex等主流编码Agent。"
+      "summary": "Agent性能优化系统，提供技能、本能、记忆、安全及研究优先的开发方法，兼容Claude Code、Codex、Cursor等主流Agent工具。"
+    },
+    {
+      "name": "superpowers",
+      "full_name": "obra/superpowers",
+      "summary": "一套有效的Agent技能框架与软件开发方法论，旨在提升Agent在软件工程中的实际应用能力。"
+    },
+    {
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "summary": "强大的AI Agent与工作流构建工具，提供可视化界面，降低Agent开发门槛，支持快速部署。"
     }
   ],
   "recommendation": [
     {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "reason": "代表Agent平台化趋势，提供从原型到生产的完整工作流，社区活跃且部署灵活，是企业级应用的首选。"
-    },
-    {
       "name": "deer-flow",
       "full_name": "bytedance/deer-flow",
-      "reason": "聚焦长周期复杂任务，集成多种Agent组件，展示了Agent在科研、编程等场景的深度应用潜力。"
+      "reason": "代表长期任务Agent的前沿方向，字节跳动背书，架构完整（沙箱、记忆、子Agent），适合研究复杂任务分解与执行。"
     },
     {
       "name": "zeroclaw",
       "full_name": "zeroclaw-labs/zeroclaw",
-      "reason": "用Rust实现的高性能轻量Agent基础设施，跨平台、全自主，代表了Agent向边缘和嵌入式发展的方向。"
+      "reason": "用Rust实现的高性能跨平台Agent基础设施，强调自主性与可移植性，是Agent从框架走向基础设施的典型代表。"
+    },
+    {
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "reason": "成熟的可视化Agent工作流平台，社区活跃（15万星），支持RAG与多模型集成，适合企业快速落地AI应用。"
     }
   ]
 }
