@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是从单一对话向多智能体协作与长周期任务演进，如deer-flow、openai-agents-python；二是Agent开发正从框架走向基础设施化，如zeroclaw提供跨平台部署、ECC优化性能；三是Agent能力从编码扩展到全栈生产力，如cherry-studio集成300+助手、dify和langflow提供可视化工作流。Rust和Python成为主流语言，TypeScript在IDE插件领域占据优势。",
+  "overall_summary": "今日共发现 10 个近期更新的 AI Agent 相关项目。项目主要涉及 Go, JavaScript, Python, TypeScript 等技术栈，按 Star 和更新时间综合排序。",
   "project_summaries": [
-    {
-      "name": "cherry-studio",
-      "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，支持智能对话、自主Agent和300+预置助手，统一接入前沿大模型，适合个人与团队提升工作效率。"
-    },
     {
       "name": "cline",
       "full_name": "cline/cline",
-      "summary": "自主编码Agent，以SDK、IDE扩展或CLI助手形式运行，专注于为开发者提供自动化编码能力。"
-    },
-    {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "summary": "成长型Agent框架，强调与用户共同进化，具备持续学习和适应能力。"
-    },
-    {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "summary": "可视化AI工作流平台，支持构建Agentic工作流、RAG管道，集成丰富模型与工具，可部署于云、VPC或自托管。"
-    },
-    {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "快速、小巧、全自主的AI个人助手基础设施，支持任意操作系统和平台，用Rust实现高性能与可移植性。"
+      "summary": "cline 近期保持更新，主要使用 TypeScript，当前 Star 数为 65023。项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant."
     },
     {
       "name": "openai-agents-python",
       "full_name": "openai/openai-agents-python",
-      "summary": "OpenAI官方推出的轻量级多Agent工作流框架，专注于简化多Agent协作任务的开发。"
+      "summary": "openai-agents-python 近期保持更新，主要使用 Python，当前 Star 数为 28153。项目描述：A lightweight, powerful framework for multi-agent workflows"
     },
     {
-      "name": "deer-flow",
-      "full_name": "bytedance/deer-flow",
-      "summary": "字节跳动开源的长期任务SuperAgent框架，通过沙箱、记忆、工具、技能、子Agent和消息网关处理分钟到小时级的复杂任务。"
+      "name": "anything-llm",
+      "full_name": "Mintplex-Labs/anything-llm",
+      "summary": "anything-llm 近期保持更新，主要使用 JavaScript，当前 Star 数为 63800。项目描述：Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience "
+    },
+    {
+      "name": "LibreChat",
+      "full_name": "danny-avila/LibreChat",
+      "summary": "LibreChat 近期保持更新，主要使用 TypeScript，当前 Star 数为 41247。项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active"
+    },
+    {
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "summary": "hermes-agent 近期保持更新，主要使用 Python，当前 Star 数为 220029。项目描述：The agent that grows with you"
     },
     {
       "name": "ECC",
       "full_name": "affaan-m/ECC",
-      "summary": "Agent性能优化系统，提供技能、本能、记忆、安全及研究优先的开发方法，兼容Claude Code、Codex、Cursor等主流Agent工具。"
-    },
-    {
-      "name": "superpowers",
-      "full_name": "obra/superpowers",
-      "summary": "一套有效的Agent技能框架与软件开发方法论，旨在提升Agent在软件工程中的实际应用能力。"
+      "summary": "ECC 近期保持更新，主要使用 JavaScript，当前 Star 数为 232919。项目描述：The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
     },
     {
       "name": "langflow",
       "full_name": "langflow-ai/langflow",
-      "summary": "强大的AI Agent与工作流构建工具，提供可视化界面，降低Agent开发门槛，支持快速部署。"
-    }
-  ],
-  "recommendation": [
-    {
-      "name": "deer-flow",
-      "full_name": "bytedance/deer-flow",
-      "reason": "代表长期任务Agent的前沿方向，字节跳动背书，架构完整（沙箱、记忆、子Agent），适合研究复杂任务分解与执行。"
-    },
-    {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "reason": "用Rust实现的高性能跨平台Agent基础设施，强调自主性与可移植性，是Agent从框架走向基础设施的典型代表。"
+      "summary": "langflow 近期保持更新，主要使用 Python，当前 Star 数为 152345。项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
     },
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "reason": "成熟的可视化Agent工作流平台，社区活跃（15万星），支持RAG与多模型集成，适合企业快速落地AI应用。"
+      "summary": "dify 近期保持更新，主要使用 TypeScript，当前 Star 数为 150144。项目描述：Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack."
+    },
+    {
+      "name": "cherry-studio",
+      "full_name": "CherryHQ/cherry-studio",
+      "summary": "cherry-studio 近期保持更新，主要使用 TypeScript，当前 Star 数为 48954。项目描述：AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs"
+    },
+    {
+      "name": "pentagi",
+      "full_name": "vxcontrol/pentagi",
+      "summary": "pentagi 近期保持更新，主要使用 Go，当前 Star 数为 21210。项目描述：Fully autonomous AI Agents system capable of performing complex penetration testing tasks"
+    }
+  ],
+  "recommendation": [
+    {
+      "name": "ECC",
+      "full_name": "affaan-m/ECC",
+      "reason": "Star 数较高（232919）且近期有更新，值得优先关注其 Agent 设计和实现方式。"
+    },
+    {
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "reason": "Star 数较高（220029）且近期有更新，值得优先关注其 Agent 设计和实现方式。"
+    },
+    {
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "reason": "Star 数较高（152345）且近期有更新，值得优先关注其 Agent 设计和实现方式。"
     }
   ]
 }
