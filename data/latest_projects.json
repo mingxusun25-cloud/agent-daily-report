@@ -1,92 +1,92 @@
 [
   {
-    "name": "JavaGuide",
-    "full_name": "Snailclimb/JavaGuide",
-    "url": "https://github.com/Snailclimb/JavaGuide",
-    "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
-    "stars": 157314,
-    "language": "JavaScript",
-    "updated_at": "2026-07-27T01:45:33Z"
-  },
-  {
-    "name": "cline",
-    "full_name": "cline/cline",
-    "url": "https://github.com/cline/cline",
-    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-    "stars": 65085,
-    "language": "TypeScript",
-    "updated_at": "2026-07-27T01:44:35Z"
-  },
-  {
-    "name": "dify",
-    "full_name": "langgenius/dify",
-    "url": "https://github.com/langgenius/dify",
-    "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
-    "stars": 150333,
-    "language": "TypeScript",
-    "updated_at": "2026-07-27T01:43:09Z"
+    "name": "hermes-agent",
+    "full_name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 221427,
+    "language": "Python",
+    "updated_at": "2026-07-28T01:18:26Z"
   },
   {
     "name": "cherry-studio",
     "full_name": "CherryHQ/cherry-studio",
     "url": "https://github.com/CherryHQ/cherry-studio",
     "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-    "stars": 49021,
+    "stars": 49052,
     "language": "TypeScript",
-    "updated_at": "2026-07-27T01:37:07Z"
+    "updated_at": "2026-07-28T01:16:53Z"
   },
   {
-    "name": "hermes-agent",
-    "full_name": "NousResearch/hermes-agent",
-    "url": "https://github.com/NousResearch/hermes-agent",
-    "description": "The agent that grows with you",
-    "stars": 220950,
-    "language": "Python",
-    "updated_at": "2026-07-27T01:36:23Z"
-  },
-  {
-    "name": "gemini-cli",
-    "full_name": "google-gemini/gemini-cli",
-    "url": "https://github.com/google-gemini/gemini-cli",
-    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "stars": 106204,
+    "name": "cline",
+    "full_name": "cline/cline",
+    "url": "https://github.com/cline/cline",
+    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+    "stars": 65111,
     "language": "TypeScript",
-    "updated_at": "2026-07-27T01:32:29Z"
+    "updated_at": "2026-07-28T01:14:40Z"
   },
   {
     "name": "eliza",
     "full_name": "elizaOS/eliza",
     "url": "https://github.com/elizaOS/eliza",
     "description": "Open source agentic operating system",
-    "stars": 18813,
+    "stars": 18820,
     "language": "TypeScript",
-    "updated_at": "2026-07-27T01:29:44Z"
+    "updated_at": "2026-07-28T01:13:30Z"
   },
   {
-    "name": "langchain",
-    "full_name": "langchain-ai/langchain",
-    "url": "https://github.com/langchain-ai/langchain",
-    "description": "The agent engineering platform.",
-    "stars": 142632,
-    "language": "Python",
-    "updated_at": "2026-07-27T01:24:03Z"
+    "name": "dify",
+    "full_name": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+    "stars": 150460,
+    "language": "TypeScript",
+    "updated_at": "2026-07-28T01:09:42Z"
   },
   {
-    "name": "openai-agents-python",
-    "full_name": "openai/openai-agents-python",
-    "url": "https://github.com/openai/openai-agents-python",
-    "description": "A lightweight, powerful framework for multi-agent workflows",
-    "stars": 28188,
+    "name": "anything-llm",
+    "full_name": "Mintplex-Labs/anything-llm",
+    "url": "https://github.com/Mintplex-Labs/anything-llm",
+    "description": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
+    "stars": 63982,
+    "language": "JavaScript",
+    "updated_at": "2026-07-28T01:04:00Z"
+  },
+  {
+    "name": "headroom",
+    "full_name": "headroomlabs-ai/headroom",
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+    "stars": 62797,
     "language": "Python",
-    "updated_at": "2026-07-27T00:56:08Z"
+    "updated_at": "2026-07-28T00:58:35Z"
   },
   {
     "name": "langflow",
     "full_name": "langflow-ai/langflow",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 152449,
+    "stars": 152506,
     "language": "Python",
-    "updated_at": "2026-07-27T00:45:31Z"
+    "updated_at": "2026-07-28T00:52:32Z"
+  },
+  {
+    "name": "LibreChat",
+    "full_name": "danny-avila/LibreChat",
+    "url": "https://github.com/danny-avila/LibreChat",
+    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+    "stars": 41355,
+    "language": "TypeScript",
+    "updated_at": "2026-07-28T00:50:13Z"
+  },
+  {
+    "name": "OpenHands",
+    "full_name": "OpenHands/OpenHands",
+    "url": "https://github.com/OpenHands/OpenHands",
+    "description": "🙌 OpenHands: AI-Driven Development",
+    "stars": 82329,
+    "language": "TypeScript",
+    "updated_at": "2026-07-28T00:34:19Z"
   }
 ]
