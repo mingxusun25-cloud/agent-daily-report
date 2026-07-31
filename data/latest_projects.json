@@ -1,92 +1,92 @@
 [
   {
-    "name": "hermes-agent",
-    "full_name": "NousResearch/hermes-agent",
-    "url": "https://github.com/NousResearch/hermes-agent",
-    "description": "The agent that grows with you",
-    "stars": 222349,
-    "language": "Python",
-    "updated_at": "2026-07-30T01:13:12Z"
-  },
-  {
     "name": "dify",
     "full_name": "langgenius/dify",
     "url": "https://github.com/langgenius/dify",
     "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
-    "stars": 150712,
+    "stars": 150842,
     "language": "TypeScript",
-    "updated_at": "2026-07-30T01:12:42Z"
-  },
-  {
-    "name": "zeroclaw",
-    "full_name": "zeroclaw-labs/zeroclaw",
-    "url": "https://github.com/zeroclaw-labs/zeroclaw",
-    "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
-    "stars": 32438,
-    "language": "Rust",
-    "updated_at": "2026-07-30T01:12:19Z"
-  },
-  {
-    "name": "anything-llm",
-    "full_name": "Mintplex-Labs/anything-llm",
-    "url": "https://github.com/Mintplex-Labs/anything-llm",
-    "description": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
-    "stars": 64081,
-    "language": "JavaScript",
-    "updated_at": "2026-07-30T01:10:25Z"
-  },
-  {
-    "name": "gemini-cli",
-    "full_name": "google-gemini/gemini-cli",
-    "url": "https://github.com/google-gemini/gemini-cli",
-    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "stars": 106240,
-    "language": "TypeScript",
-    "updated_at": "2026-07-30T01:09:45Z"
-  },
-  {
-    "name": "LibreChat",
-    "full_name": "danny-avila/LibreChat",
-    "url": "https://github.com/danny-avila/LibreChat",
-    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
-    "stars": 41425,
-    "language": "TypeScript",
-    "updated_at": "2026-07-30T01:08:24Z"
-  },
-  {
-    "name": "cherry-studio",
-    "full_name": "CherryHQ/cherry-studio",
-    "url": "https://github.com/CherryHQ/cherry-studio",
-    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-    "stars": 49129,
-    "language": "TypeScript",
-    "updated_at": "2026-07-30T01:04:39Z"
-  },
-  {
-    "name": "nanobot",
-    "full_name": "HKUDS/nanobot",
-    "url": "https://github.com/HKUDS/nanobot",
-    "description": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps",
-    "stars": 46386,
-    "language": "Python",
-    "updated_at": "2026-07-30T01:02:40Z"
+    "updated_at": "2026-07-31T01:24:10Z"
   },
   {
     "name": "cline",
     "full_name": "cline/cline",
     "url": "https://github.com/cline/cline",
     "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-    "stars": 65215,
+    "stars": 65276,
     "language": "TypeScript",
-    "updated_at": "2026-07-30T00:54:50Z"
+    "updated_at": "2026-07-31T01:24:01Z"
   },
   {
-    "name": "OpenHands",
-    "full_name": "OpenHands/OpenHands",
-    "url": "https://github.com/OpenHands/OpenHands",
-    "description": "🙌 OpenHands: AI-Driven Development",
-    "stars": 82537,
+    "name": "eliza",
+    "full_name": "elizaOS/eliza",
+    "url": "https://github.com/elizaOS/eliza",
+    "description": "Open source agentic operating system",
+    "stars": 18849,
     "language": "TypeScript",
-    "updated_at": "2026-07-30T00:45:23Z"
+    "updated_at": "2026-07-31T01:20:18Z"
+  },
+  {
+    "name": "awesome-llm-apps",
+    "full_name": "Shubhamsaboo/awesome-llm-apps",
+    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+    "stars": 129068,
+    "language": "Python",
+    "updated_at": "2026-07-31T01:19:04Z"
+  },
+  {
+    "name": "openai-agents-python",
+    "full_name": "openai/openai-agents-python",
+    "url": "https://github.com/openai/openai-agents-python",
+    "description": "A lightweight, powerful framework for multi-agent workflows",
+    "stars": 28302,
+    "language": "Python",
+    "updated_at": "2026-07-31T01:14:55Z"
+  },
+  {
+    "name": "cherry-studio",
+    "full_name": "CherryHQ/cherry-studio",
+    "url": "https://github.com/CherryHQ/cherry-studio",
+    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+    "stars": 49171,
+    "language": "TypeScript",
+    "updated_at": "2026-07-31T01:14:24Z"
+  },
+  {
+    "name": "hermes-agent",
+    "full_name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 222894,
+    "language": "Python",
+    "updated_at": "2026-07-31T01:03:39Z"
+  },
+  {
+    "name": "oh-my-claudecode",
+    "full_name": "Yeachan-Heo/oh-my-claudecode",
+    "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+    "description": "Teams-first Multi-agent orchestration for Claude Code",
+    "stars": 38197,
+    "language": "TypeScript",
+    "updated_at": "2026-07-31T01:02:54Z"
+  },
+  {
+    "name": "gemini-cli",
+    "full_name": "google-gemini/gemini-cli",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+    "stars": 106264,
+    "language": "TypeScript",
+    "updated_at": "2026-07-31T00:58:56Z"
+  },
+  {
+    "name": "crewAI",
+    "full_name": "crewAIInc/crewAI",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+    "stars": 56400,
+    "language": "Python",
+    "updated_at": "2026-07-31T00:47:08Z"
   }
 ]
