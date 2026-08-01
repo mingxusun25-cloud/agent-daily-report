@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent生态呈现三大趋势：一是多智能体协作框架成熟，如CrewAI、OpenAI Agents Python等支持角色扮演与任务编排；二是Agent能力向开发工具链渗透，Cline、Gemini CLI等成为IDE/终端原生助手；三是平台化与低门槛化并行，Dify、Cherry Studio等提供可视化工作流与模型集成，而Awesome LLM Apps等资源库大幅降低应用构建门槛。项目以TypeScript和Python为主，聚焦生产级部署与多模态交互。",
+  "overall_summary": "该列表展示了当前开源 AI Agent 生态的多元化趋势，覆盖了从底层基础设施（如记忆层、输出压缩）到上层应用（如编码助手、个人助理、工作流平台）的完整技术栈。项目普遍强调自主性、长时任务处理、多智能体协作和跨平台部署，同时注重效率优化（如 token 压缩）和易用性（如 SDK、IDE 集成）。语言上以 Python 和 TypeScript 为主，也出现了 Rust 等高性能语言。整体来看，AI Agent 正从单一对话向复杂任务执行、个性化记忆和生态化集成演进。",
   "project_summaries": [
     {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "summary": "企业级AI应用开发平台，支持Agent工作流、RAG管道与多模型集成，提供云端、VPC或自托管部署，实现从原型到生产的无缝迁移。"
+      "name": "headroom",
+      "full_name": "headroomlabs-ai/headroom",
+      "summary": "专注于减少 LLM 上下文 token 消耗的优化工具，可压缩工具输出、日志、文件和 RAG 分块，对编码代理可减少 20% token，对 JSON 可减少 60-95% token，同时保持答案质量。提供库、代理和 MCP 服务器三种使用方式。"
     },
     {
       "name": "cline",
       "full_name": "cline/cline",
-      "summary": "自主编码Agent，以SDK、IDE扩展或CLI助手形式运行，专注于提升开发者编程效率与自动化水平。"
+      "summary": "自主编码代理，支持作为 SDK、IDE 扩展或 CLI 助手使用，旨在帮助开发者自动完成编码任务，提升开发效率。"
     },
     {
-      "name": "eliza",
-      "full_name": "elizaOS/eliza",
-      "summary": "开源Agent操作系统，旨在为自主智能体提供底层运行环境与系统级支持。"
+      "name": "mem0",
+      "full_name": "mem0ai/mem0",
+      "summary": "为 AI Agent 提供通用记忆层，使代理能够跨会话记住用户偏好、历史交互和上下文，增强个性化与连续性。"
     },
     {
-      "name": "awesome-llm-apps",
-      "full_name": "Shubhamsaboo/awesome-llm-apps",
-      "summary": "汇集100+免费开源的AI Agent、Agent技能与RAG应用，是快速构建LLM应用的资源宝库。"
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "summary": "用 Rust 编写的快速、小巧且完全自主的 AI 个人助理基础设施，支持任何操作系统和平台，可随处部署、灵活替换组件，强调轻量和高性能。"
+    },
+    {
+      "name": "deer-flow",
+      "full_name": "bytedance/deer-flow",
+      "summary": "字节跳动开源的长时程超级代理框架，通过沙箱、记忆、工具、技能、子代理和消息网关，能够处理从几分钟到几小时的任务，涵盖研究、编码和创作等复杂场景。"
     },
     {
       "name": "openai-agents-python",
       "full_name": "openai/openai-agents-python",
-      "summary": "OpenAI官方推出的轻量级多Agent工作流框架，强调简洁性与强大编排能力。"
+      "summary": "OpenAI 官方推出的轻量级多智能体工作流框架，提供简洁的 API 和强大的功能，便于开发者构建和编排多代理协作。"
     },
     {
       "name": "cherry-studio",
       "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，集成智能对话、自主Agent与300+助手，统一接入前沿大语言模型。"
+      "summary": "AI 生产力工作室，集成了智能聊天、自主代理和 300+ 助手，统一访问前沿 LLM，旨在提升用户的工作效率和创造力。"
     },
     {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "summary": "具备成长性的Agent框架，强调与用户共同进化的自适应能力。"
+      "name": "OpenHands",
+      "full_name": "OpenHands/OpenHands",
+      "summary": "AI 驱动的开发平台，通过自主代理协助软件开发生命周期，支持代码编写、调试、测试等任务，是热门的 AI 开发助手。"
     },
     {
-      "name": "oh-my-claudecode",
-      "full_name": "Yeachan-Heo/oh-my-claudecode",
-      "summary": "面向Claude Code的团队级多Agent编排工具，支持协作式任务分配与执行。"
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "summary": "强大的可视化工具，用于构建和部署 AI 代理及工作流，提供拖拽式界面，降低开发门槛，支持复杂流程编排。"
     },
     {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google开源终端AI Agent，将Gemini模型能力直接注入命令行，实现自然语言交互式开发。"
-    },
-    {
-      "name": "crewAI",
-      "full_name": "crewAIInc/crewAI",
-      "summary": "角色扮演式多Agent协作框架，通过协同智能让Agent无缝分工处理复杂任务。"
+      "name": "LibreChat",
+      "full_name": "danny-avila/LibreChat",
+      "summary": "增强版 ChatGPT 克隆，支持代理、MCP、技能、多种 AI 模型（如 DeepSeek、Anthropic、OpenAI 等）、代码解释器、OpenAPI 操作、多用户认证等丰富功能，可自托管，社区活跃。"
     }
   ],
   "recommendation": [
     {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "reason": "以15万+星标成为最受关注的Agent平台，提供从工作流编排到生产部署的全链路能力，是企业级AI应用落地的标杆项目。"
+      "name": "deer-flow",
+      "full_name": "bytedance/deer-flow",
+      "reason": "作为字节跳动开源的长时程超级代理框架，它代表了当前 Agent 在复杂任务处理上的前沿方向，集成了沙箱、记忆、子代理等关键组件，具有很高的研究与应用价值。"
     },
     {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "reason": "Google官方出品，将前沿Gemini模型与终端深度结合，代表AI Agent向开发者工具链渗透的典型方向，星标超10万。"
+      "name": "mem0",
+      "full_name": "mem0ai/mem0",
+      "reason": "记忆层是 Agent 实现个性化和长期交互的核心，mem0 作为通用解决方案，拥有高关注度，对推动 Agent 生态成熟至关重要。"
     },
     {
-      "name": "crewAI",
-      "full_name": "crewAIInc/crewAI",
-      "reason": "多Agent协作框架的领跑者，角色扮演与任务编排设计理念先进，5.6万星标验证了其在复杂任务场景中的实用价值。"
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "reason": "以可视化方式构建 Agent 工作流，极大降低了开发门槛，且拥有极高的星标数，是 Agent 应用落地和普及的重要工具。"
     }
   ]
 }
