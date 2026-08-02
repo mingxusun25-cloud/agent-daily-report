@@ -1,72 +1,72 @@
 {
-  "overall_summary": "该列表展示了当前开源 AI Agent 生态的多元化趋势，覆盖了从底层基础设施（如记忆层、输出压缩）到上层应用（如编码助手、个人助理、工作流平台）的完整技术栈。项目普遍强调自主性、长时任务处理、多智能体协作和跨平台部署，同时注重效率优化（如 token 压缩）和易用性（如 SDK、IDE 集成）。语言上以 Python 和 TypeScript 为主，也出现了 Rust 等高性能语言。整体来看，AI Agent 正从单一对话向复杂任务执行、个性化记忆和生态化集成演进。",
+  "overall_summary": "当前开源AI Agent生态呈现多元化与平台化趋势，覆盖从个人助手、编码代理到企业级工作流编排的广泛场景。项目普遍强调多模型支持、自主任务执行、长期记忆与工具集成，且技术栈以Python和TypeScript为主。头部项目如hermes-agent、langflow和OpenHands获得极高关注，反映出市场对可扩展、易用且功能强大的Agent框架的强烈需求。同时，开源社区正推动Agent从单一对话向复杂任务自动化（如代码生成、研究分析）演进，并注重与现有开发工具链的融合。",
   "project_summaries": [
     {
-      "name": "headroom",
-      "full_name": "headroomlabs-ai/headroom",
-      "summary": "专注于减少 LLM 上下文 token 消耗的优化工具，可压缩工具输出、日志、文件和 RAG 分块，对编码代理可减少 20% token，对 JSON 可减少 60-95% token，同时保持答案质量。提供库、代理和 MCP 服务器三种使用方式。"
-    },
-    {
-      "name": "cline",
-      "full_name": "cline/cline",
-      "summary": "自主编码代理，支持作为 SDK、IDE 扩展或 CLI 助手使用，旨在帮助开发者自动完成编码任务，提升开发效率。"
-    },
-    {
-      "name": "mem0",
-      "full_name": "mem0ai/mem0",
-      "summary": "为 AI Agent 提供通用记忆层，使代理能够跨会话记住用户偏好、历史交互和上下文，增强个性化与连续性。"
-    },
-    {
-      "name": "zeroclaw",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "summary": "用 Rust 编写的快速、小巧且完全自主的 AI 个人助理基础设施，支持任何操作系统和平台，可随处部署、灵活替换组件，强调轻量和高性能。"
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "summary": "一个强调'与用户共同成长'的Agent项目，可能侧重于个性化学习和长期适配，拥有超高星标数，表明其社区影响力巨大。"
     },
     {
       "name": "deer-flow",
       "full_name": "bytedance/deer-flow",
-      "summary": "字节跳动开源的长时程超级代理框架，通过沙箱、记忆、工具、技能、子代理和消息网关，能够处理从几分钟到几小时的任务，涵盖研究、编码和创作等复杂场景。"
-    },
-    {
-      "name": "openai-agents-python",
-      "full_name": "openai/openai-agents-python",
-      "summary": "OpenAI 官方推出的轻量级多智能体工作流框架，提供简洁的 API 和强大的功能，便于开发者构建和编排多代理协作。"
-    },
-    {
-      "name": "cherry-studio",
-      "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI 生产力工作室，集成了智能聊天、自主代理和 300+ 助手，统一访问前沿 LLM，旨在提升用户的工作效率和创造力。"
-    },
-    {
-      "name": "OpenHands",
-      "full_name": "OpenHands/OpenHands",
-      "summary": "AI 驱动的开发平台，通过自主代理协助软件开发生命周期，支持代码编写、调试、测试等任务，是热门的 AI 开发助手。"
-    },
-    {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "summary": "强大的可视化工具，用于构建和部署 AI 代理及工作流，提供拖拽式界面，降低开发门槛，支持复杂流程编排。"
+      "summary": "字节跳动开源的长时程SuperAgent框架，支持研究、编码和创作，集成沙盒、记忆、工具、技能、子代理和消息网关，可处理分钟到小时级别的复杂任务。"
     },
     {
       "name": "LibreChat",
       "full_name": "danny-avila/LibreChat",
-      "summary": "增强版 ChatGPT 克隆，支持代理、MCP、技能、多种 AI 模型（如 DeepSeek、Anthropic、OpenAI 等）、代码解释器、OpenAPI 操作、多用户认证等丰富功能，可自托管，社区活跃。"
-    }
-  ],
-  "recommendation": [
-    {
-      "name": "deer-flow",
-      "full_name": "bytedance/deer-flow",
-      "reason": "作为字节跳动开源的长时程超级代理框架，它代表了当前 Agent 在复杂任务处理上的前沿方向，集成了沙箱、记忆、子代理等关键组件，具有很高的研究与应用价值。"
+      "summary": "增强版ChatGPT克隆，支持Agent、MCP、技能、多模型切换（如DeepSeek、Anthropic、OpenAI等），具备代码解释器、OpenAPI操作、安全多用户认证等功能，适合自托管。"
     },
     {
-      "name": "mem0",
-      "full_name": "mem0ai/mem0",
-      "reason": "记忆层是 Agent 实现个性化和长期交互的核心，mem0 作为通用解决方案，拥有高关注度，对推动 Agent 生态成熟至关重要。"
+      "name": "cline",
+      "full_name": "cline/cline",
+      "summary": "自主编码Agent，提供SDK、IDE扩展和CLI助手多种形态，旨在提升开发效率，实现自动化编程。"
+    },
+    {
+      "name": "cherry-studio",
+      "full_name": "CherryHQ/cherry-studio",
+      "summary": "AI生产力工作室，集成智能聊天、自主Agent和300+助手，统一访问前沿LLM，强调多模型聚合与高效工作流。"
+    },
+    {
+      "name": "openai-agents-python",
+      "full_name": "openai/openai-agents-python",
+      "summary": "OpenAI官方推出的轻量级多Agent工作流框架，强调简洁与强大，适合构建复杂多Agent协作系统。"
     },
     {
       "name": "langflow",
       "full_name": "langflow-ai/langflow",
-      "reason": "以可视化方式构建 Agent 工作流，极大降低了开发门槛，且拥有极高的星标数，是 Agent 应用落地和普及的重要工具。"
+      "summary": "可视化工具，用于构建和部署AI Agent与工作流，降低开发门槛，支持拖拽式编排，拥有庞大社区和星标数。"
+    },
+    {
+      "name": "OpenHands",
+      "full_name": "OpenHands/OpenHands",
+      "summary": "AI驱动开发平台，聚焦于自动化软件开发流程，可能涵盖代码生成、调试和测试等环节，星标数高，活跃度强。"
+    },
+    {
+      "name": "awesome-llm-apps",
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "summary": "收录100+开源AI Agent、技能和RAG应用，是学习与参考的资源库，覆盖多种场景，适合开发者快速上手。"
+    },
+    {
+      "name": "eliza",
+      "full_name": "elizaOS/eliza",
+      "summary": "开源Agent操作系统，旨在提供类似操作系统的环境来运行和管理Agent，可能支持多Agent协同与资源调度。"
+    }
+  ],
+  "recommendation": [
+    {
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "reason": "拥有最高星标数（223k），表明其社区认可度极高，且'与用户共同成长'的理念可能代表Agent个性化与长期学习的前沿方向，值得关注其技术实现与生态。"
+    },
+    {
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "reason": "作为可视化Agent构建工具，星标数达152k，其低代码/无代码特性可能推动Agent开发民主化，是平台化趋势的代表，适合企业级应用与快速原型设计。"
+    },
+    {
+      "name": "deer-flow",
+      "full_name": "bytedance/deer-flow",
+      "summary": "字节跳动出品，专注于长时程复杂任务处理，集成多种高级特性（沙盒、记忆、子代理等），代表Agent从简单对话向自主工作流演进的关键技术，具有研究与应用双重价值。"
     }
   ]
 }
