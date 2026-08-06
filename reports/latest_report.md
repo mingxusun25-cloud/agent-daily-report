@@ -1,108 +1,108 @@
 # 今日 GitHub AI Agent 趋势报告
 
-生成时间：2026-08-05 01:20
+生成时间：2026-08-06 01:17
 
 ## 一、今日总体趋势
 
-当前开源AI Agent生态呈现多元化发展态势，覆盖从底层框架、开发工具到应用平台的完整链条。核心趋势包括：1）多智能体协作与长时任务处理成为主流，如OpenHands、deer-flow等；2）强调效率优化与成本控制，如headroom通过token压缩提升性能；3）从单一编程助手向全栈开发平台演进，如cline、multica；4）浏览器自动化与网页交互成为重要方向，如browser-use；5）开源社区活跃，项目普遍获得高星标，反映开发者对自主AI工具的高度需求。
+当前开源AI Agent生态呈现多元化发展态势，覆盖从底层开发框架（如openai-agents-python、crewAI）到可视化工作流平台（如dify、langflow），再到终端用户产品（如LibreChat、cherry-studio）的完整技术栈。项目普遍强调多智能体协作、模型无关性、可扩展性和生产环境部署能力。同时，新兴项目如superpowers和hermes-agent聚焦于Agent技能框架与成长性，而headroom则关注成本优化（token压缩），反映出行业对效率与实用性的追求。整体趋势是Agent从概念验证走向工程化、产品化，并逐步融入企业级应用。
 
 ## 二、热门项目列表
 
-### 1. langflow
+### 1. cline
 
-- Star：152842
-- 语言：Python
-- 更新时间：2026-08-05T01:18:49Z
-- 地址：https://github.com/langflow-ai/langflow
-- 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
-- AI 总结：可视化低代码平台，用于构建和部署AI代理与工作流，强调易用性和快速原型设计，适合非深度技术用户。
-
-### 2. openai-agents-python
-
-- Star：28383
-- 语言：Python
-- 更新时间：2026-08-05T01:18:30Z
-- 地址：https://github.com/openai/openai-agents-python
-- 项目描述：A lightweight, powerful framework for multi-agent workflows
-- AI 总结：OpenAI官方推出的轻量级多代理工作流框架，提供简洁API，支持复杂任务分解与协作，是构建生产级多代理系统的可靠选择。
-
-### 3. OpenHands
-
-- Star：83117
+- Star：65710
 - 语言：TypeScript
-- 更新时间：2026-08-05T01:18:06Z
-- 地址：https://github.com/OpenHands/OpenHands
-- 项目描述：🙌 OpenHands: AI-Driven Development
-- AI 总结：AI驱动的软件开发平台，通过自主代理执行编码、调试和测试等任务，旨在成为“AI软件工程师”，支持与IDE集成。
-
-### 4. headroom
-
-- Star：64779
-- 语言：Python
-- 更新时间：2026-08-05T01:10:13Z
-- 地址：https://github.com/headroomlabs-ai/headroom
-- 项目描述：Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.
-- AI 总结：专注于优化LLM输入效率的工具，通过压缩工具输出、日志和RAG块减少token消耗，显著降低编码代理和JSON处理的成本，同时保持答案质量。
-
-### 5. LibreChat
-
-- Star：41666
-- 语言：TypeScript
-- 更新时间：2026-08-05T01:09:13Z
-- 地址：https://github.com/danny-avila/LibreChat
-- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active
-- AI 总结：增强版ChatGPT克隆，集成多种AI模型（如OpenAI、Anthropic、Gemini等），支持代理、MCP、技能、代码解释器等功能，提供安全的多用户认证，适合自托管。
-
-### 6. multica
-
-- Star：43933
-- 语言：Go
-- 更新时间：2026-08-05T01:04:55Z
-- 地址：https://github.com/multica-ai/multica
-- 项目描述：The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
-- AI 总结：开源托管代理平台，将编码代理转化为“团队成员”，支持任务分配、进度跟踪和技能积累，用Go语言实现，强调团队协作与自动化。
-
-### 7. cline
-
-- Star：65641
-- 语言：TypeScript
-- 更新时间：2026-08-05T00:59:00Z
+- 更新时间：2026-08-06T01:12:37Z
 - 地址：https://github.com/cline/cline
 - 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
-- AI 总结：自主编码代理，提供SDK、IDE扩展和CLI三种形态，可无缝集成到开发环境，自动化完成编码任务，提升开发效率。
+- AI 总结：一个自主编码Agent，提供SDK、IDE扩展和CLI助手多种形态，支持在开发环境中直接执行任务，强调自动化与集成性。
 
-### 8. deer-flow
+### 2. LibreChat
 
-- Star：79286
-- 语言：Python
-- 更新时间：2026-08-05T00:56:18Z
-- 地址：https://github.com/bytedance/deer-flow
-- 项目描述：An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.
-- AI 总结：字节跳动开源的长期任务SuperAgent框架，结合沙箱、记忆、工具、技能和子代理，可处理从分钟级到小时级的复杂任务，适用于研究和开发场景。
-
-### 9. cherry-studio
-
-- Star：49410
+- Star：41704
 - 语言：TypeScript
-- 更新时间：2026-08-05T00:53:42Z
+- 更新时间：2026-08-06T01:11:25Z
+- 地址：https://github.com/danny-avila/LibreChat
+- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active
+- AI 总结：增强版ChatGPT克隆，集成Agents、MCP、Skills、多模型支持（如DeepSeek、Anthropic、OpenAI等），提供代码解释器、消息搜索、OpenAPI Actions等功能，支持多用户认证与自托管，是一个功能全面的AI聊天与Agent平台。
+
+### 3. dify
+
+- Star：151463
+- 语言：TypeScript
+- 更新时间：2026-08-06T01:08:55Z
+- 地址：https://github.com/langgenius/dify
+- 项目描述：Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
+- AI 总结：一个协作式工作空间，用于构建Agentic工作流和RAG管道，支持丰富的AI模型与工具，可部署于云、VPC或自托管，帮助团队从原型快速过渡到生产。
+
+### 4. openai-agents-python
+
+- Star：28410
+- 语言：Python
+- 更新时间：2026-08-06T01:07:59Z
+- 地址：https://github.com/openai/openai-agents-python
+- 项目描述：A lightweight, powerful framework for multi-agent workflows
+- AI 总结：OpenAI官方推出的轻量级多Agent工作流框架，专注于简洁与强大，适合构建复杂的多智能体协作系统。
+
+### 5. superpowers
+
+- Star：267320
+- 语言：Shell
+- 更新时间：2026-08-06T00:59:33Z
+- 地址：https://github.com/obra/superpowers
+- 项目描述：An agentic skills framework & software development methodology that works.
+- AI 总结：一个Agent技能框架与软件开发方法论，强调实用性和可操作性，旨在提升Agent在真实开发任务中的效能。
+
+### 6. cherry-studio
+
+- Star：49679
+- 语言：TypeScript
+- 更新时间：2026-08-06T00:57:10Z
 - 地址：https://github.com/CherryHQ/cherry-studio
 - 项目描述：AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
-- AI 总结：AI生产力工作室，提供智能聊天、自主代理和300+助手，统一访问前沿LLM，支持多模型切换，适合个人和团队提高工作效率。
+- AI 总结：AI生产力工作室，提供智能聊天、自主Agent和300+助手，统一访问前沿LLM，面向终端用户提升工作效率。
 
-### 10. browser-use
+### 7. langflow
 
-- Star：107881
+- Star：152864
 - 语言：Python
-- 更新时间：2026-08-05T00:49:19Z
-- 地址：https://github.com/browser-use/browser-use
-- 项目描述：🌐 Make websites accessible for AI agents. Automate tasks online with ease.
-- AI 总结：让AI代理能够操作浏览器的工具，实现网页自动化任务，如数据抓取、表单填写等，是连接AI与Web交互的关键桥梁。
+- 更新时间：2026-08-06T00:48:01Z
+- 地址：https://github.com/langflow-ai/langflow
+- 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
+- AI 总结：可视化工具，用于构建和部署AI驱动的Agent与工作流，降低开发门槛，支持快速原型设计。
+
+### 8. headroom
+
+- Star：65049
+- 语言：Python
+- 更新时间：2026-08-06T00:36:13Z
+- 地址：https://github.com/headroomlabs-ai/headroom
+- 项目描述：Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.
+- AI 总结：专注于压缩工具输出、日志、文件和RAG块，在送入LLM前减少token消耗（编码Agent减少20%，JSON减少60-95%），同时保持答案质量，提供库、代理和MCP服务器形式。
+
+### 9. hermes-agent
+
+- Star：226077
+- 语言：Python
+- 更新时间：2026-08-06T00:26:31Z
+- 地址：https://github.com/NousResearch/hermes-agent
+- 项目描述：The agent that grows with you
+- AI 总结：一个强调成长性的Agent框架，设计理念是“与你一起成长”，可能支持持续学习和自适应能力。
+
+### 10. crewAI
+
+- Star：56660
+- 语言：Python
+- 更新时间：2026-08-06T00:02:49Z
+- 地址：https://github.com/crewAIInc/crewAI
+- 项目描述：Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
+- AI 总结：编排角色扮演、自主AI Agent的框架，通过协作智能让多个Agent无缝合作，解决复杂任务。
 
 ## 三、最值得关注的项目
 
-1. OpenHands：作为AI驱动开发平台的代表，拥有极高关注度（83k+星），展示了自主编程代理的成熟度，对软件工程领域影响深远。
-2. browser-use：浏览器自动化是AI代理落地的重要场景，该项目以107k+星成为该领域标杆，为智能体与互联网交互提供基础设施。
-3. headroom：针对LLM成本与效率的痛点提供创新解决方案，token压缩技术可大幅降低使用成本，对大规模部署AI代理具有实际价值。
+1. dify：拥有超15万星标，是构建Agentic工作流和RAG管道的领先平台，支持多模型、多部署方式，从原型到生产无缝衔接，是企业级AI应用落地的首选。
+2. superpowers：星标数高达26.7万，提出Agent技能框架与软件开发方法论，强调实用性和方法论创新，可能引领Agent开发范式变革。
+3. openai-agents-python：由OpenAI官方维护，轻量级但功能强大的多Agent框架，代表行业标准方向，对开发者具有重要参考价值。
 
 ## 四、项目说明
 

@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent生态呈现多元化发展态势，覆盖从底层框架、开发工具到应用平台的完整链条。核心趋势包括：1）多智能体协作与长时任务处理成为主流，如OpenHands、deer-flow等；2）强调效率优化与成本控制，如headroom通过token压缩提升性能；3）从单一编程助手向全栈开发平台演进，如cline、multica；4）浏览器自动化与网页交互成为重要方向，如browser-use；5）开源社区活跃，项目普遍获得高星标，反映开发者对自主AI工具的高度需求。",
+  "overall_summary": "当前开源AI Agent生态呈现多元化发展态势，覆盖从底层开发框架（如openai-agents-python、crewAI）到可视化工作流平台（如dify、langflow），再到终端用户产品（如LibreChat、cherry-studio）的完整技术栈。项目普遍强调多智能体协作、模型无关性、可扩展性和生产环境部署能力。同时，新兴项目如superpowers和hermes-agent聚焦于Agent技能框架与成长性，而headroom则关注成本优化（token压缩），反映出行业对效率与实用性的追求。整体趋势是Agent从概念验证走向工程化、产品化，并逐步融入企业级应用。",
   "project_summaries": [
     {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "summary": "可视化低代码平台，用于构建和部署AI代理与工作流，强调易用性和快速原型设计，适合非深度技术用户。"
-    },
-    {
-      "name": "openai-agents-python",
-      "full_name": "openai/openai-agents-python",
-      "summary": "OpenAI官方推出的轻量级多代理工作流框架，提供简洁API，支持复杂任务分解与协作，是构建生产级多代理系统的可靠选择。"
-    },
-    {
-      "name": "OpenHands",
-      "full_name": "OpenHands/OpenHands",
-      "summary": "AI驱动的软件开发平台，通过自主代理执行编码、调试和测试等任务，旨在成为“AI软件工程师”，支持与IDE集成。"
-    },
-    {
-      "name": "headroom",
-      "full_name": "headroomlabs-ai/headroom",
-      "summary": "专注于优化LLM输入效率的工具，通过压缩工具输出、日志和RAG块减少token消耗，显著降低编码代理和JSON处理的成本，同时保持答案质量。"
+      "name": "cline",
+      "full_name": "cline/cline",
+      "summary": "一个自主编码Agent，提供SDK、IDE扩展和CLI助手多种形态，支持在开发环境中直接执行任务，强调自动化与集成性。"
     },
     {
       "name": "LibreChat",
       "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，集成多种AI模型（如OpenAI、Anthropic、Gemini等），支持代理、MCP、技能、代码解释器等功能，提供安全的多用户认证，适合自托管。"
+      "summary": "增强版ChatGPT克隆，集成Agents、MCP、Skills、多模型支持（如DeepSeek、Anthropic、OpenAI等），提供代码解释器、消息搜索、OpenAPI Actions等功能，支持多用户认证与自托管，是一个功能全面的AI聊天与Agent平台。"
     },
     {
-      "name": "multica",
-      "full_name": "multica-ai/multica",
-      "summary": "开源托管代理平台，将编码代理转化为“团队成员”，支持任务分配、进度跟踪和技能积累，用Go语言实现，强调团队协作与自动化。"
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "summary": "一个协作式工作空间，用于构建Agentic工作流和RAG管道，支持丰富的AI模型与工具，可部署于云、VPC或自托管，帮助团队从原型快速过渡到生产。"
     },
     {
-      "name": "cline",
-      "full_name": "cline/cline",
-      "summary": "自主编码代理，提供SDK、IDE扩展和CLI三种形态，可无缝集成到开发环境，自动化完成编码任务，提升开发效率。"
+      "name": "openai-agents-python",
+      "full_name": "openai/openai-agents-python",
+      "summary": "OpenAI官方推出的轻量级多Agent工作流框架，专注于简洁与强大，适合构建复杂的多智能体协作系统。"
     },
     {
-      "name": "deer-flow",
-      "full_name": "bytedance/deer-flow",
-      "summary": "字节跳动开源的长期任务SuperAgent框架，结合沙箱、记忆、工具、技能和子代理，可处理从分钟级到小时级的复杂任务，适用于研究和开发场景。"
+      "name": "superpowers",
+      "full_name": "obra/superpowers",
+      "summary": "一个Agent技能框架与软件开发方法论，强调实用性和可操作性，旨在提升Agent在真实开发任务中的效能。"
     },
     {
       "name": "cherry-studio",
       "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，提供智能聊天、自主代理和300+助手，统一访问前沿LLM，支持多模型切换，适合个人和团队提高工作效率。"
+      "summary": "AI生产力工作室，提供智能聊天、自主Agent和300+助手，统一访问前沿LLM，面向终端用户提升工作效率。"
     },
     {
-      "name": "browser-use",
-      "full_name": "browser-use/browser-use",
-      "summary": "让AI代理能够操作浏览器的工具，实现网页自动化任务，如数据抓取、表单填写等，是连接AI与Web交互的关键桥梁。"
-    }
-  ],
-  "recommendation": [
-    {
-      "name": "OpenHands",
-      "full_name": "OpenHands/OpenHands",
-      "reason": "作为AI驱动开发平台的代表，拥有极高关注度（83k+星），展示了自主编程代理的成熟度，对软件工程领域影响深远。"
-    },
-    {
-      "name": "browser-use",
-      "full_name": "browser-use/browser-use",
-      "reason": "浏览器自动化是AI代理落地的重要场景，该项目以107k+星成为该领域标杆，为智能体与互联网交互提供基础设施。"
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "summary": "可视化工具，用于构建和部署AI驱动的Agent与工作流，降低开发门槛，支持快速原型设计。"
     },
     {
       "name": "headroom",
       "full_name": "headroomlabs-ai/headroom",
-      "reason": "针对LLM成本与效率的痛点提供创新解决方案，token压缩技术可大幅降低使用成本，对大规模部署AI代理具有实际价值。"
+      "summary": "专注于压缩工具输出、日志、文件和RAG块，在送入LLM前减少token消耗（编码Agent减少20%，JSON减少60-95%），同时保持答案质量，提供库、代理和MCP服务器形式。"
+    },
+    {
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "summary": "一个强调成长性的Agent框架，设计理念是“与你一起成长”，可能支持持续学习和自适应能力。"
+    },
+    {
+      "name": "crewAI",
+      "full_name": "crewAIInc/crewAI",
+      "summary": "编排角色扮演、自主AI Agent的框架，通过协作智能让多个Agent无缝合作，解决复杂任务。"
+    }
+  ],
+  "recommendation": [
+    {
+      "name": "dify",
+      "full_name": "langgenius/dify",
+      "reason": "拥有超15万星标，是构建Agentic工作流和RAG管道的领先平台，支持多模型、多部署方式，从原型到生产无缝衔接，是企业级AI应用落地的首选。"
+    },
+    {
+      "name": "superpowers",
+      "full_name": "obra/superpowers",
+      "reason": "星标数高达26.7万，提出Agent技能框架与软件开发方法论，强调实用性和方法论创新，可能引领Agent开发范式变革。"
+    },
+    {
+      "name": "openai-agents-python",
+      "full_name": "openai/openai-agents-python",
+      "reason": "由OpenAI官方维护，轻量级但功能强大的多Agent框架，代表行业标准方向，对开发者具有重要参考价值。"
     }
   ]
 }
