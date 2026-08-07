@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent生态呈现多元化发展态势，覆盖从底层开发框架（如openai-agents-python、crewAI）到可视化工作流平台（如dify、langflow），再到终端用户产品（如LibreChat、cherry-studio）的完整技术栈。项目普遍强调多智能体协作、模型无关性、可扩展性和生产环境部署能力。同时，新兴项目如superpowers和hermes-agent聚焦于Agent技能框架与成长性，而headroom则关注成本优化（token压缩），反映出行业对效率与实用性的追求。整体趋势是Agent从概念验证走向工程化、产品化，并逐步融入企业级应用。",
+  "overall_summary": "当前开源AI Agent生态呈现多元化与平台化趋势，覆盖从开发框架、RAG引擎、编码助手到个人助理与生产力工具的全栈能力。技术栈以TypeScript、Python、Go、Rust为主，强调可扩展性、自托管与多模型支持。高星项目如dify、langflow、hermes-agent等凸显了工作流编排、Agent协作与上下文增强的核心价值，同时出现面向特定场景（如编码、个人助理、任务分配）的轻量级与专业化Agent，反映出从通用平台向垂直领域渗透的演进方向。",
   "project_summaries": [
-    {
-      "name": "cline",
-      "full_name": "cline/cline",
-      "summary": "一个自主编码Agent，提供SDK、IDE扩展和CLI助手多种形态，支持在开发环境中直接执行任务，强调自动化与集成性。"
-    },
-    {
-      "name": "LibreChat",
-      "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，集成Agents、MCP、Skills、多模型支持（如DeepSeek、Anthropic、OpenAI等），提供代码解释器、消息搜索、OpenAPI Actions等功能，支持多用户认证与自托管，是一个功能全面的AI聊天与Agent平台。"
-    },
     {
       "name": "dify",
       "full_name": "langgenius/dify",
-      "summary": "一个协作式工作空间，用于构建Agentic工作流和RAG管道，支持丰富的AI模型与工具，可部署于云、VPC或自托管，帮助团队从原型快速过渡到生产。"
+      "summary": "TypeScript构建的协作式Agentic工作流与RAG管道平台，支持丰富AI模型与工具，可部署于云、VPC或自托管，强调从原型到生产的无缝迁移。"
     },
     {
-      "name": "openai-agents-python",
-      "full_name": "openai/openai-agents-python",
-      "summary": "OpenAI官方推出的轻量级多Agent工作流框架，专注于简洁与强大，适合构建复杂的多智能体协作系统。"
+      "name": "cline",
+      "full_name": "cline/cline",
+      "summary": "TypeScript实现的自主编码Agent，以SDK、IDE扩展或CLI形式提供，聚焦于自动化编程任务。"
     },
     {
-      "name": "superpowers",
-      "full_name": "obra/superpowers",
-      "summary": "一个Agent技能框架与软件开发方法论，强调实用性和可操作性，旨在提升Agent在真实开发任务中的效能。"
-    },
-    {
-      "name": "cherry-studio",
-      "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，提供智能聊天、自主Agent和300+助手，统一访问前沿LLM，面向终端用户提升工作效率。"
-    },
-    {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "summary": "可视化工具，用于构建和部署AI驱动的Agent与工作流，降低开发门槛，支持快速原型设计。"
-    },
-    {
-      "name": "headroom",
-      "full_name": "headroomlabs-ai/headroom",
-      "summary": "专注于压缩工具输出、日志、文件和RAG块，在送入LLM前减少token消耗（编码Agent减少20%，JSON减少60-95%），同时保持答案质量，提供库、代理和MCP服务器形式。"
+      "name": "ragflow",
+      "full_name": "infiniflow/ragflow",
+      "summary": "Go语言开发的开源RAG引擎，融合前沿检索增强生成与Agent能力，为LLM提供高质量上下文层。"
     },
     {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
-      "summary": "一个强调成长性的Agent框架，设计理念是“与你一起成长”，可能支持持续学习和自适应能力。"
+      "summary": "Python编写的可成长型Agent，强调与用户共同进化，星标数极高，体现社区对自适应Agent的强烈需求。"
     },
     {
-      "name": "crewAI",
-      "full_name": "crewAIInc/crewAI",
-      "summary": "编排角色扮演、自主AI Agent的框架，通过协作智能让多个Agent无缝合作，解决复杂任务。"
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "summary": "Rust实现的全自主AI个人助理基础设施，强调快速、小巧、跨平台，支持任意OS与部署环境，组件可替换。"
+    },
+    {
+      "name": "langchain",
+      "full_name": "langchain-ai/langchain",
+      "summary": "Python生态的Agent工程平台，提供构建Agent应用的完整工具链，是行业事实标准之一。"
+    },
+    {
+      "name": "cherry-studio",
+      "full_name": "CherryHQ/cherry-studio",
+      "summary": "TypeScript打造的AI生产力工作室，集成智能聊天、自主Agent与300+助手，统一访问前沿LLM。"
+    },
+    {
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "summary": "Python编写的可视化Agent与工作流构建部署工具，降低AI应用开发门槛，星标数高。"
+    },
+    {
+      "name": "multica",
+      "full_name": "multica-ai/multica",
+      "summary": "Go实现的开源自托管任务分配系统，可将issue指派给Claude Code、Codex、Cursor等17种编码Agent，实现多Agent协作。"
+    },
+    {
+      "name": "LibreChat",
+      "full_name": "danny-avila/LibreChat",
+      "summary": "TypeScript构建的增强版ChatGPT克隆，支持Agent、MCP、Skills、多模型切换、代码解释器等丰富功能，适合自托管。"
     }
   ],
   "recommendation": [
     {
-      "name": "dify",
-      "full_name": "langgenius/dify",
-      "reason": "拥有超15万星标，是构建Agentic工作流和RAG管道的领先平台，支持多模型、多部署方式，从原型到生产无缝衔接，是企业级AI应用落地的首选。"
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "reason": "星标数最高（226k），代表社区对自适应、可成长Agent的强烈兴趣，是未来Agent个性化与长期演进的重要方向。"
     },
     {
-      "name": "superpowers",
-      "full_name": "obra/superpowers",
-      "reason": "星标数高达26.7万，提出Agent技能框架与软件开发方法论，强调实用性和方法论创新，可能引领Agent开发范式变革。"
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "reason": "可视化低代码构建Agent与工作流，大幅降低开发门槛，星标数高（152k），是平台化趋势的典型代表，适合快速原型与生产部署。"
     },
     {
-      "name": "openai-agents-python",
-      "full_name": "openai/openai-agents-python",
-      "reason": "由OpenAI官方维护，轻量级但功能强大的多Agent框架，代表行业标准方向，对开发者具有重要参考价值。"
+      "name": "multica",
+      "full_name": "multica-ai/multica",
+      "reason": "创新性地将多编码Agent作为团队成员进行任务分配，自托管且开源，体现了Agent协作与自动化运维的前沿实践，具有高实用价值。"
     }
   ]
 }
