@@ -1,108 +1,108 @@
 # 今日 GitHub AI Agent 趋势报告
 
-生成时间：2026-08-08 00:42
+生成时间：2026-08-09 00:44
 
 ## 一、今日总体趋势
 
-当前开源AI Agent生态呈现多元化与工具化并进的趋势。一方面，以hermes-agent、superpowers、ECC为代表的高星项目聚焦于Agent的自我进化、技能框架与性能优化，强调Agent的成长性与开发方法论；另一方面，crewAI、openai-agents-python、langflow等框架致力于多Agent协作与可视化工作流编排，降低复杂任务的开发门槛。同时，LibreChat、cherry-studio等应用型项目提供了一站式AI生产力平台，集成多种模型与工具，满足自托管与日常使用需求。nanobot则代表了轻量化、自托管的个人Agent框架方向。整体来看，项目普遍支持MCP、工具调用、记忆机制，并注重开发者体验与生态集成，预示着AI Agent正从单一对话向复杂任务自动化与协作智能演进。
+当前开源AI Agent领域呈现多元化发展态势，覆盖从底层框架（如OpenAI Agents、CrewAI）到全栈应用（如LibreChat、Cherry Studio）的完整生态。技术栈以Python和TypeScript为主，同时出现Rust等高性能语言实现（如zeroclaw）。项目普遍强调多智能体协作、模型无关性、可扩展性和易部署性，并深度集成MCP、工具调用、代码解释等能力。社区活跃度高，头部项目星标数均超2万，反映出开发者对自主Agent、AI编程助手和生产力工具的强烈需求。
 
 ## 二、热门项目列表
 
-### 1. LibreChat
+### 1. openai-agents-python
 
-- Star：41776
-- 语言：TypeScript
-- 更新时间：2026-08-08T00:40:37Z
-- 地址：https://github.com/danny-avila/LibreChat
-- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active
-- AI 总结：增强版ChatGPT克隆，支持Agent、MCP、技能、多模型切换（OpenAI、Anthropic、AWS等）、代码解释器、OpenAPI Actions、多用户认证与预设，开源可自托管，功能全面。
-
-### 2. cherry-studio
-
-- Star：50019
-- 语言：TypeScript
-- 更新时间：2026-08-08T00:40:30Z
-- 地址：https://github.com/CherryHQ/cherry-studio
-- 项目描述：AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
-- AI 总结：AI生产力工作室，提供智能聊天、自主Agent和300+助手，统一访问前沿LLM，强调多模型集成与高效工作流。
-
-### 3. hermes-agent
-
-- Star：227090
+- Star：28495
 - 语言：Python
-- 更新时间：2026-08-08T00:40:17Z
-- 地址：https://github.com/NousResearch/hermes-agent
-- 项目描述：The agent that grows with you
-- AI 总结：标榜“与你共同成长的Agent”，Python实现，星标极高，可能强调自适应学习与长期记忆，但描述简洁，具体特性需进一步探索。
-
-### 4. nanobot
-
-- Star：46749
-- 语言：Python
-- 更新时间：2026-08-08T00:38:09Z
-- 地址：https://github.com/HKUDS/nanobot
-- 项目描述：Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps
-- AI 总结：超轻量级、开源、自托管的个人AI Agent框架，基于Python，提供WebUI、工具、记忆、MCP、多Agent工作流、自动化与聊天应用，适合轻量部署。
-
-### 5. superpowers
-
-- Star：268743
-- 语言：Shell
-- 更新时间：2026-08-08T00:37:17Z
-- 地址：https://github.com/obra/superpowers
-- 项目描述：An agentic skills framework & software development methodology that works.
-- AI 总结：Agent技能框架与软件开发方法论，强调“有效”，可能提供一套系统化的技能定义与开发流程，Shell实现，星标极高。
-
-### 6. crewAI
-
-- Star：56757
-- 语言：Python
-- 更新时间：2026-08-08T00:31:58Z
-- 地址：https://github.com/crewAIInc/crewAI
-- 项目描述：Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
-- AI 总结：编排角色扮演、自主AI Agent的框架，通过协作智能让Agent无缝合作处理复杂任务，Python实现，社区活跃。
-
-### 7. cline
-
-- Star：65836
-- 语言：TypeScript
-- 更新时间：2026-08-08T00:31:47Z
-- 地址：https://github.com/cline/cline
-- 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
-- AI 总结：自主编码Agent，支持SDK、IDE扩展和CLI助手，TypeScript实现，聚焦开发场景的自动化。
-
-### 8. openai-agents-python
-
-- Star：28476
-- 语言：Python
-- 更新时间：2026-08-08T00:27:10Z
+- 更新时间：2026-08-09T00:43:09Z
 - 地址：https://github.com/openai/openai-agents-python
 - 项目描述：A lightweight, powerful framework for multi-agent workflows
-- AI 总结：OpenAI官方轻量级多Agent工作流框架，Python实现，强调简单与强大，适合快速构建多Agent应用。
+- AI 总结：OpenAI官方推出的轻量级多智能体工作流框架，提供简洁的API和强大的编排能力，适合快速构建基于大模型的Agent应用。
 
-### 9. langflow
+### 2. hermes-agent
 
-- Star：152931
+- Star：227532
 - 语言：Python
-- 更新时间：2026-08-08T00:23:44Z
+- 更新时间：2026-08-09T00:42:37Z
+- 地址：https://github.com/NousResearch/hermes-agent
+- 项目描述：The agent that grows with you
+- AI 总结：由Nous Research开发的个性化Agent框架，强调与用户共同成长，支持持续学习和自适应行为，星标数高达22.7万，社区关注度极高。
+
+### 3. LibreChat
+
+- Star：41803
+- 语言：TypeScript
+- 更新时间：2026-08-09T00:37:47Z
+- 地址：https://github.com/danny-avila/LibreChat
+- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active
+- AI 总结：增强版ChatGPT克隆，集成Agent、MCP、Skills、多模型切换（OpenAI、Anthropic、Gemini等）、代码解释器、OpenAPI Actions等丰富功能，支持自托管和多用户认证，是功能全面的AI聊天与Agent平台。
+
+### 4. cherry-studio
+
+- Star：50098
+- 语言：TypeScript
+- 更新时间：2026-08-09T00:31:26Z
+- 地址：https://github.com/CherryHQ/cherry-studio
+- 项目描述：AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
+- AI 总结：AI生产力工作室，提供智能聊天、自主Agent和300+预设助手，统一接入前沿LLM，强调高效工作流和模型灵活性。
+
+### 5. langflow
+
+- Star：152962
+- 语言：Python
+- 更新时间：2026-08-09T00:24:34Z
 - 地址：https://github.com/langflow-ai/langflow
 - 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
-- AI 总结：可视化工具，用于构建和部署AI Agent与工作流，Python实现，星标高，提供拖拽式开发体验，降低门槛。
+- AI 总结：可视化低代码平台，用于构建和部署AI Agent及工作流，拖拽式界面降低开发门槛，支持复杂流程编排，星标数超15万。
 
-### 10. ECC
+### 6. cline
 
-- Star：238580
-- 语言：JavaScript
-- 更新时间：2026-08-08T00:11:29Z
-- 地址：https://github.com/affaan-m/ECC
-- 项目描述：The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
-- AI 总结：Agent性能优化系统，提供技能、本能、记忆、安全与研究优先的开发支持，兼容Claude Code、Codex等主流工具，JavaScript实现。
+- Star：65894
+- 语言：TypeScript
+- 更新时间：2026-08-09T00:11:54Z
+- 地址：https://github.com/cline/cline
+- 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
+- AI 总结：自主编码Agent，以SDK、IDE插件和CLI形式提供，可自动完成代码生成、重构和任务执行，深度集成开发环境。
+
+### 7. pi
+
+- Star：85619
+- 语言：TypeScript
+- 更新时间：2026-08-09T00:11:09Z
+- 地址：https://github.com/earendil-works/pi
+- 项目描述：AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI
+- AI 总结：AI Agent工具包，统一LLM API、Agent循环、TUI和编码Agent CLI，为开发者提供模块化、可组合的Agent构建组件。
+
+### 8. zeroclaw
+
+- Star：32538
+- 语言：Rust
+- 更新时间：2026-08-08T23:36:32Z
+- 地址：https://github.com/zeroclaw-labs/zeroclaw
+- 项目描述：Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀
+- AI 总结：基于Rust的快速、小巧、全自主AI个人助理基础设施，支持任意OS和平台，强调可移植性和组件可替换性，性能优先。
+
+### 9. crewAI
+
+- Star：56811
+- 语言：Python
+- 更新时间：2026-08-08T23:30:19Z
+- 地址：https://github.com/crewAIInc/crewAI
+- 项目描述：Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
+- AI 总结：角色扮演式多智能体协作框架，通过定义不同角色和任务，使Agent协同解决复杂问题，强调集体智能和任务分解。
+
+### 10. OpenHands
+
+- Star：83488
+- 语言：TypeScript
+- 更新时间：2026-08-08T22:05:24Z
+- 地址：https://github.com/OpenHands/OpenHands
+- 项目描述：🙌 OpenHands: AI-Driven Development
+- AI 总结：AI驱动开发平台，旨在通过自主Agent辅助软件开发生命周期，支持代码编写、调试和部署，星标数超8.3万。
 
 ## 三、最值得关注的项目
 
-1. hermes-agent：星标最高（227k），代表Agent自我进化与成长性方向，可能引领下一代自适应Agent技术，值得深入研究。
-2. superpowers：星标极高（268k），提出Agent技能框架与开发方法论，对Agent工程实践有指导意义，可能成为行业标准。
-3. langflow：可视化构建Agent工作流，星标超150k，大幅降低开发门槛，是Agent普及化的重要工具，生态成熟。
+1. hermes-agent：星标数最高（22.7万），代表个性化Agent的发展方向，强调与用户共同成长，具有巨大的社区影响力和潜在应用前景。
+2. langflow：可视化低代码构建Agent工作流，大幅降低开发门槛，星标数超15万，是连接非专业开发者与AI Agent的重要桥梁，生态成熟。
+3. OpenHands：聚焦AI驱动软件开发，直接解决开发者痛点，星标数超8.3万，且持续迭代，是AI编程助手领域的标杆项目。
 
 ## 四、项目说明
 
