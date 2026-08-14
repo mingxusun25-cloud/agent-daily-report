@@ -1,108 +1,108 @@
 # 今日 GitHub AI Agent 趋势报告
 
-生成时间：2026-08-13 00:55
+生成时间：2026-08-14 00:54
 
 ## 一、今日总体趋势
 
-当前开源AI Agent生态呈现多元化发展态势，覆盖从底层框架到上层应用的完整技术栈。核心趋势包括：1）多智能体协作与编排成为主流，如crewAI、openai-agents-python等；2）跨平台、轻量化、自主性成为重要方向，如zeroclaw强调快速、小巧、全自主；3）开发者工具链日益完善，如cline提供SDK/IDE/CLI多种形态，langflow提供可视化构建；4）个人化与成长型Agent兴起，如hermes-agent强调'与你共同成长'；5）生态整合加深，如LibreChat集成多种模型与协议。语言上Python和TypeScript主导，Rust开始崭露头角。整体呈现从单一模型调用向复杂工作流、从技术验证向工程化落地的演进。
+当前开源AI Agent生态呈现多元化发展态势，涵盖从底层框架（如LangChain、OpenAI Agents）到应用层（如Cherry Studio、LibreChat）的完整技术栈。项目普遍强调多智能体协作、上下文管理、工具集成与跨平台兼容性，同时注重降低开发门槛与提升运行效率。TypeScript与Python为主流语言，头部项目（如Langflow、hermes-agent）获得极高社区关注，反映出市场对可视化开发、自主进化型Agent及生产级部署方案的强烈需求。
 
 ## 二、热门项目列表
 
 ### 1. eliza
 
-- Star：19024
+- Star：19041
 - 语言：TypeScript
-- 更新时间：2026-08-13T00:54:34Z
+- 更新时间：2026-08-14T00:54:07Z
 - 地址：https://github.com/elizaOS/eliza
 - 项目描述：Open source agentic operating system
-- AI 总结：开源智能体操作系统，旨在为AI Agent提供底层运行环境，强调系统级抽象与资源管理，适合构建复杂自主Agent应用。
+- AI 总结：开源智能体操作系统，旨在为AI Agent提供底层运行环境与系统级支持，强调模块化与可扩展性，适合构建复杂自主代理系统。
 
-### 2. zeroclaw
+### 2. openai-agents-python
 
-- Star：32564
-- 语言：Rust
-- 更新时间：2026-08-13T00:54:05Z
-- 地址：https://github.com/zeroclaw-labs/zeroclaw
-- 项目描述：Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀
-- AI 总结：基于Rust的快速、小巧、全自主AI个人助理基础设施，支持任意操作系统和平台，强调可部署性和组件可替换性，性能优先。
-
-### 3. crewAI
-
-- Star：57000
+- Star：28622
 - 语言：Python
-- 更新时间：2026-08-13T00:53:56Z
-- 地址：https://github.com/crewAIInc/crewAI
-- 项目描述：Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
-- AI 总结：Python框架，通过角色扮演和协作智能编排多个自主AI Agent，使其协同处理复杂任务，是当前最流行的多Agent编排框架之一。
-
-### 4. hermes-agent
-
-- Star：229576
-- 语言：Python
-- 更新时间：2026-08-13T00:53:14Z
-- 地址：https://github.com/NousResearch/hermes-agent
-- 项目描述：The agent that grows with you
-- AI 总结：强调'与你共同成长'的Agent，具备自适应学习能力，能够根据用户交互持续优化行为，星标数极高，代表个人化Agent趋势。
-
-### 5. cline
-
-- Star：66079
-- 语言：TypeScript
-- 更新时间：2026-08-13T00:52:51Z
-- 地址：https://github.com/cline/cline
-- 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
-- AI 总结：自主编码Agent，以SDK、IDE扩展和CLI助手多种形态提供，深度集成开发环境，提升开发效率，是AI辅助编程的重要工具。
-
-### 6. langflow
-
-- Star：153119
-- 语言：Python
-- 更新时间：2026-08-13T00:50:31Z
-- 地址：https://github.com/langflow-ai/langflow
-- 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
-- AI 总结：可视化平台，用于构建和部署AI Agent及工作流，降低开发门槛，支持拖拽式编排，适合快速原型和低代码场景。
-
-### 7. oh-my-claudecode
-
-- Star：38531
-- 语言：TypeScript
-- 更新时间：2026-08-13T00:50:24Z
-- 地址：https://github.com/Yeachan-Heo/oh-my-claudecode
-- 项目描述：Teams-first Multi-agent orchestration for Claude Code
-- AI 总结：面向团队的Claude Code多Agent编排工具，专注于团队协作场景，提供多Agent协同工作流，提升团队AI应用效率。
-
-### 8. langchain
-
-- Star：144097
-- 语言：Python
-- 更新时间：2026-08-13T00:43:10Z
-- 地址：https://github.com/langchain-ai/langchain
-- 项目描述：The agent engineering platform.
-- AI 总结：Agent工程化平台，提供全面的工具链和抽象，支持构建、测试、部署Agent，是AI应用开发的基石框架，生态庞大。
-
-### 9. openai-agents-python
-
-- Star：28586
-- 语言：Python
-- 更新时间：2026-08-13T00:41:00Z
+- 更新时间：2026-08-14T00:53:30Z
 - 地址：https://github.com/openai/openai-agents-python
 - 项目描述：A lightweight, powerful framework for multi-agent workflows
-- AI 总结：OpenAI官方推出的轻量级多Agent工作流框架，简洁高效，与OpenAI生态深度集成，适合快速构建多Agent应用。
+- AI 总结：OpenAI官方推出的轻量级多智能体工作流框架，提供简洁API与强大编排能力，支持快速构建和部署多Agent协作应用。
 
-### 10. LibreChat
+### 3. headroom
 
-- Star：41966
+- Star：66232
+- 语言：Python
+- 更新时间：2026-08-14T00:52:52Z
+- 地址：https://github.com/headroomlabs-ai/headroom
+- 项目描述：Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.
+- AI 总结：专注于压缩工具输出、日志、文件及RAG块，减少LLM token消耗（编码任务节省20%，JSON节省60-95%），同时保持答案质量，提供库、代理和MCP服务器三种形态。
+
+### 4. langflow
+
+- Star：153199
+- 语言：Python
+- 更新时间：2026-08-14T00:51:45Z
+- 地址：https://github.com/langflow-ai/langflow
+- 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
+- AI 总结：可视化AI Agent与工作流构建工具，通过拖拽式界面简化开发流程，支持快速原型设计与生产部署，拥有庞大社区与丰富组件库。
+
+### 5. claude-mem
+
+- Star：90653
+- 语言：JavaScript
+- 更新时间：2026-08-14T00:50:45Z
+- 地址：https://github.com/thedotmack/claude-mem
+- 项目描述：Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
+- AI 总结：为所有Agent提供跨会话持久上下文，自动捕获会话内容并压缩，在后续会话中注入相关记忆，兼容Claude Code、Codex、Gemini等多种工具。
+
+### 6. cherry-studio
+
+- Star：50427
 - 语言：TypeScript
-- 更新时间：2026-08-13T00:40:02Z
+- 更新时间：2026-08-14T00:47:38Z
+- 地址：https://github.com/CherryHQ/cherry-studio
+- 项目描述：AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
+- AI 总结：AI生产力工作室，集成智能聊天、自主Agent与300+助手，统一访问前沿大模型，提供高效的多任务处理与个性化工作流。
+
+### 7. cline
+
+- Star：66144
+- 语言：TypeScript
+- 更新时间：2026-08-14T00:46:08Z
+- 地址：https://github.com/cline/cline
+- 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
+- AI 总结：自主编码Agent，支持SDK、IDE扩展和CLI三种形态，可自动完成代码编写、调试与重构，提升开发效率。
+
+### 8. hermes-agent
+
+- Star：230134
+- 语言：Python
+- 更新时间：2026-08-14T00:28:41Z
+- 地址：https://github.com/NousResearch/hermes-agent
+- 项目描述：The agent that grows with you
+- AI 总结：强调'随你成长'的Agent框架，具备自适应学习与进化能力，可根据用户行为持续优化，适合长期个性化任务。
+
+### 9. LibreChat
+
+- Star：41996
+- 语言：TypeScript
+- 更新时间：2026-08-14T00:27:11Z
 - 地址：https://github.com/danny-avila/LibreChat
 - 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active
-- AI 总结：增强版ChatGPT克隆，集成Agent、MCP、Skills、多种模型提供商（OpenAI、Anthropic等），支持多用户认证和自托管，功能全面。
+- AI 总结：增强版ChatGPT克隆，支持Agent、MCP、技能、多模型切换（OpenAI、Anthropic、AWS等）、代码解释器、安全多用户认证，可自托管，功能全面。
+
+### 10. langchain
+
+- Star：144187
+- 语言：Python
+- 更新时间：2026-08-14T00:18:10Z
+- 地址：https://github.com/langchain-ai/langchain
+- 项目描述：The agent engineering platform.
+- AI 总结：Agent工程化平台，提供从原型到生产的完整工具链，支持复杂工作流编排、模型集成与外部工具调用，是构建企业级Agent应用的基础框架。
 
 ## 三、最值得关注的项目
 
-1. hermes-agent：星标数最高（22.9万），代表个人化、成长型Agent的极致趋势，其'与你共同成长'理念可能引领下一代Agent交互范式，值得深入研究。
-2. langflow：可视化低代码构建Agent工作流，大幅降低使用门槛，星标数15.3万，是工程化落地和普及的关键工具，适合快速原型和团队协作。
-3. zeroclaw：采用Rust实现，强调快速、小巧、全自主，跨平台部署，代表了性能优先和轻量化方向，在边缘设备和资源受限场景有巨大潜力，且星标数增长迅速。
+1. hermes-agent：拥有最高星标（230k+），代表社区对自适应、成长型Agent的强烈兴趣，其'随你成长'理念可能引领下一代个性化AI发展方向。
+2. langflow：153k星标表明其作为可视化Agent构建工具的广泛认可，低代码特性大幅降低开发门槛，适合快速落地AI工作流，生态成熟。
+3. headroom：解决LLM成本与效率痛点，通过token压缩实现显著成本节约（JSON场景最高95%），且不影响答案质量，对生产环境具有直接价值，潜力巨大。
 
 ## 四、项目说明
 

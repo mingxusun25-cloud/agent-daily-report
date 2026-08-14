@@ -4,89 +4,89 @@
     "full_name": "elizaOS/eliza",
     "url": "https://github.com/elizaOS/eliza",
     "description": "Open source agentic operating system",
-    "stars": 19024,
+    "stars": 19041,
     "language": "TypeScript",
-    "updated_at": "2026-08-13T00:54:34Z"
-  },
-  {
-    "name": "zeroclaw",
-    "full_name": "zeroclaw-labs/zeroclaw",
-    "url": "https://github.com/zeroclaw-labs/zeroclaw",
-    "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
-    "stars": 32564,
-    "language": "Rust",
-    "updated_at": "2026-08-13T00:54:05Z"
-  },
-  {
-    "name": "crewAI",
-    "full_name": "crewAIInc/crewAI",
-    "url": "https://github.com/crewAIInc/crewAI",
-    "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-    "stars": 57000,
-    "language": "Python",
-    "updated_at": "2026-08-13T00:53:56Z"
-  },
-  {
-    "name": "hermes-agent",
-    "full_name": "NousResearch/hermes-agent",
-    "url": "https://github.com/NousResearch/hermes-agent",
-    "description": "The agent that grows with you",
-    "stars": 229576,
-    "language": "Python",
-    "updated_at": "2026-08-13T00:53:14Z"
-  },
-  {
-    "name": "cline",
-    "full_name": "cline/cline",
-    "url": "https://github.com/cline/cline",
-    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-    "stars": 66079,
-    "language": "TypeScript",
-    "updated_at": "2026-08-13T00:52:51Z"
-  },
-  {
-    "name": "langflow",
-    "full_name": "langflow-ai/langflow",
-    "url": "https://github.com/langflow-ai/langflow",
-    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 153119,
-    "language": "Python",
-    "updated_at": "2026-08-13T00:50:31Z"
-  },
-  {
-    "name": "oh-my-claudecode",
-    "full_name": "Yeachan-Heo/oh-my-claudecode",
-    "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
-    "description": "Teams-first Multi-agent orchestration for Claude Code",
-    "stars": 38531,
-    "language": "TypeScript",
-    "updated_at": "2026-08-13T00:50:24Z"
-  },
-  {
-    "name": "langchain",
-    "full_name": "langchain-ai/langchain",
-    "url": "https://github.com/langchain-ai/langchain",
-    "description": "The agent engineering platform.",
-    "stars": 144097,
-    "language": "Python",
-    "updated_at": "2026-08-13T00:43:10Z"
+    "updated_at": "2026-08-14T00:54:07Z"
   },
   {
     "name": "openai-agents-python",
     "full_name": "openai/openai-agents-python",
     "url": "https://github.com/openai/openai-agents-python",
     "description": "A lightweight, powerful framework for multi-agent workflows",
-    "stars": 28586,
+    "stars": 28622,
     "language": "Python",
-    "updated_at": "2026-08-13T00:41:00Z"
+    "updated_at": "2026-08-14T00:53:30Z"
+  },
+  {
+    "name": "headroom",
+    "full_name": "headroomlabs-ai/headroom",
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+    "stars": 66232,
+    "language": "Python",
+    "updated_at": "2026-08-14T00:52:52Z"
+  },
+  {
+    "name": "langflow",
+    "full_name": "langflow-ai/langflow",
+    "url": "https://github.com/langflow-ai/langflow",
+    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+    "stars": 153199,
+    "language": "Python",
+    "updated_at": "2026-08-14T00:51:45Z"
+  },
+  {
+    "name": "claude-mem",
+    "full_name": "thedotmack/claude-mem",
+    "url": "https://github.com/thedotmack/claude-mem",
+    "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+    "stars": 90653,
+    "language": "JavaScript",
+    "updated_at": "2026-08-14T00:50:45Z"
+  },
+  {
+    "name": "cherry-studio",
+    "full_name": "CherryHQ/cherry-studio",
+    "url": "https://github.com/CherryHQ/cherry-studio",
+    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+    "stars": 50427,
+    "language": "TypeScript",
+    "updated_at": "2026-08-14T00:47:38Z"
+  },
+  {
+    "name": "cline",
+    "full_name": "cline/cline",
+    "url": "https://github.com/cline/cline",
+    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+    "stars": 66144,
+    "language": "TypeScript",
+    "updated_at": "2026-08-14T00:46:08Z"
+  },
+  {
+    "name": "hermes-agent",
+    "full_name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 230134,
+    "language": "Python",
+    "updated_at": "2026-08-14T00:28:41Z"
   },
   {
     "name": "LibreChat",
     "full_name": "danny-avila/LibreChat",
     "url": "https://github.com/danny-avila/LibreChat",
     "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
-    "stars": 41966,
+    "stars": 41996,
     "language": "TypeScript",
-    "updated_at": "2026-08-13T00:40:02Z"
+    "updated_at": "2026-08-14T00:27:11Z"
+  },
+  {
+    "name": "langchain",
+    "full_name": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "description": "The agent engineering platform.",
+    "stars": 144187,
+    "language": "Python",
+    "updated_at": "2026-08-14T00:18:10Z"
   }
 ]
