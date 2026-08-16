@@ -1,92 +1,92 @@
 [
   {
-    "name": "hermes-agent",
-    "full_name": "NousResearch/hermes-agent",
-    "url": "https://github.com/NousResearch/hermes-agent",
-    "description": "The agent that grows with you",
-    "stars": 230641,
-    "language": "Python",
-    "updated_at": "2026-08-15T00:29:17Z"
-  },
-  {
     "name": "eliza",
     "full_name": "elizaOS/eliza",
     "url": "https://github.com/elizaOS/eliza",
     "description": "Open source agentic operating system",
-    "stars": 19053,
+    "stars": 19064,
     "language": "TypeScript",
-    "updated_at": "2026-08-15T00:29:16Z"
-  },
-  {
-    "name": "OpenHands",
-    "full_name": "OpenHands/OpenHands",
-    "url": "https://github.com/OpenHands/OpenHands",
-    "description": "🙌 OpenHands: AI-Driven Development",
-    "stars": 84060,
-    "language": "TypeScript",
-    "updated_at": "2026-08-15T00:28:50Z"
-  },
-  {
-    "name": "openai-agents-python",
-    "full_name": "openai/openai-agents-python",
-    "url": "https://github.com/openai/openai-agents-python",
-    "description": "A lightweight, powerful framework for multi-agent workflows",
-    "stars": 28645,
-    "language": "Python",
-    "updated_at": "2026-08-15T00:28:31Z"
+    "updated_at": "2026-08-16T00:29:23Z"
   },
   {
     "name": "cherry-studio",
     "full_name": "CherryHQ/cherry-studio",
     "url": "https://github.com/CherryHQ/cherry-studio",
     "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-    "stars": 50478,
+    "stars": 50519,
     "language": "TypeScript",
-    "updated_at": "2026-08-15T00:23:50Z"
+    "updated_at": "2026-08-16T00:25:23Z"
   },
   {
-    "name": "LibreChat",
-    "full_name": "danny-avila/LibreChat",
-    "url": "https://github.com/danny-avila/LibreChat",
-    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
-    "stars": 42039,
-    "language": "TypeScript",
-    "updated_at": "2026-08-14T23:52:37Z"
+    "name": "hermes-agent",
+    "full_name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 231079,
+    "language": "Python",
+    "updated_at": "2026-08-16T00:24:20Z"
   },
   {
-    "name": "gemini-cli",
-    "full_name": "google-gemini/gemini-cli",
-    "url": "https://github.com/google-gemini/gemini-cli",
-    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-    "stars": 106522,
+    "name": "oh-my-claudecode",
+    "full_name": "Yeachan-Heo/oh-my-claudecode",
+    "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+    "description": "Teams-first Multi-agent orchestration for Claude Code",
+    "stars": 38576,
     "language": "TypeScript",
-    "updated_at": "2026-08-14T23:51:12Z"
+    "updated_at": "2026-08-16T00:22:57Z"
   },
   {
-    "name": "ruflo",
-    "full_name": "ruvnet/ruflo",
-    "url": "https://github.com/ruvnet/ruflo",
-    "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-    "stars": 67868,
-    "language": "TypeScript",
-    "updated_at": "2026-08-14T23:30:57Z"
+    "name": "langflow",
+    "full_name": "langflow-ai/langflow",
+    "url": "https://github.com/langflow-ai/langflow",
+    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+    "stars": 153278,
+    "language": "Python",
+    "updated_at": "2026-08-16T00:19:04Z"
+  },
+  {
+    "name": "openai-agents-python",
+    "full_name": "openai/openai-agents-python",
+    "url": "https://github.com/openai/openai-agents-python",
+    "description": "A lightweight, powerful framework for multi-agent workflows",
+    "stars": 28662,
+    "language": "Python",
+    "updated_at": "2026-08-16T00:07:37Z"
   },
   {
     "name": "pi",
     "full_name": "earendil-works/pi",
     "url": "https://github.com/earendil-works/pi",
     "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-    "stars": 90432,
+    "stars": 90915,
     "language": "TypeScript",
-    "updated_at": "2026-08-14T22:14:51Z"
+    "updated_at": "2026-08-15T23:55:59Z"
   },
   {
-    "name": "cline",
-    "full_name": "cline/cline",
-    "url": "https://github.com/cline/cline",
-    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-    "stars": 66204,
+    "name": "LibreChat",
+    "full_name": "danny-avila/LibreChat",
+    "url": "https://github.com/danny-avila/LibreChat",
+    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+    "stars": 42065,
     "language": "TypeScript",
-    "updated_at": "2026-08-14T22:12:40Z"
+    "updated_at": "2026-08-15T23:25:32Z"
+  },
+  {
+    "name": "ruflo",
+    "full_name": "ruvnet/ruflo",
+    "url": "https://github.com/ruvnet/ruflo",
+    "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+    "stars": 67937,
+    "language": "TypeScript",
+    "updated_at": "2026-08-15T23:18:25Z"
+  },
+  {
+    "name": "zeroclaw",
+    "full_name": "zeroclaw-labs/zeroclaw",
+    "url": "https://github.com/zeroclaw-labs/zeroclaw",
+    "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
+    "stars": 32592,
+    "language": "Rust",
+    "updated_at": "2026-08-15T23:17:51Z"
   }
 ]

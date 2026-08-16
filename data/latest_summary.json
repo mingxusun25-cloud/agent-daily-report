@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent项目呈现多元化发展态势，覆盖从底层框架到终端应用的全栈生态。技术栈以TypeScript和Python为主，强调多智能体协作、自主工作流、模型无关性及开发者体验。项目活跃度高，部分项目（如hermes-agent）星标数异常突出，反映出社区对智能体操作系统和通用型Agent的强烈兴趣。整体趋势指向Agent从单一对话向复杂任务编排、环境交互和生产力工具融合演进。",
+  "overall_summary": "当前开源AI Agent生态呈现多元化与平台化趋势，覆盖从个人助手、多智能体编排到企业级工作流构建的完整谱系。技术栈以TypeScript和Python为主，Rust开始崭露头角。项目普遍强调易用性、可扩展性和多模型集成，并涌现出如hermes-agent、langflow等明星项目，反映出社区对高效、灵活、可自托管的AI解决方案的强烈需求。",
   "project_summaries": [
-    {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "summary": "由NousResearch推出的智能体项目，定位为'与你共同成长的Agent'，强调自适应和持续学习能力。星标数极高（23万+），表明其理念或早期版本获得了广泛关注，可能涉及个性化记忆和进化式交互。"
-    },
     {
       "name": "eliza",
       "full_name": "elizaOS/eliza",
-      "summary": "elizaOS团队打造的开源智能体操作系统，旨在为Agent提供底层运行环境，支持多Agent管理和资源调度。TypeScript实现，适合构建复杂Agent应用，是Agent基础设施方向的重要尝试。"
-    },
-    {
-      "name": "OpenHands",
-      "full_name": "OpenHands/OpenHands",
-      "summary": "AI驱动的开发助手，聚焦于自动化编码任务，如代码生成、调试和重构。TypeScript编写，星标8.4万，是AI辅助软件开发领域的明星项目，强调与IDE和CLI的深度集成。"
-    },
-    {
-      "name": "openai-agents-python",
-      "full_name": "openai/openai-agents-python",
-      "summary": "OpenAI官方推出的轻量级多智能体工作流框架，Python实现。提供简洁的API来编排多个Agent协作，是构建企业级Agent应用的基础工具，适合快速原型和规模化部署。"
+      "summary": "开源智能体操作系统，旨在提供类似操作系统的环境来运行和管理AI代理，强调模块化和可扩展性，适合构建复杂的自主代理系统。"
     },
     {
       "name": "cherry-studio",
       "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，集成智能聊天、自主Agent和300+预置助手，统一访问前沿LLM。TypeScript构建，面向终端用户，强调开箱即用和多功能集成，是Agent应用层的代表。"
+      "summary": "AI生产力工作室，集成了智能聊天、自主代理和300+助手，统一访问前沿LLM，提供一站式AI工作环境，提升用户生产力。"
     },
     {
-      "name": "LibreChat",
-      "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，支持Agent、MCP、Skills、多模型切换（如DeepSeek、Anthropic、OpenAI等），并具备代码解释器、消息搜索、多用户认证等特性。开源可自托管，是社区驱动的全能型聊天与Agent平台。"
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "summary": "号称'与你一起成长的代理'，由Nous Research开发，采用Python构建，强调代理的适应性和持续学习能力，可能具备个性化演进特性。"
     },
     {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google推出的开源AI Agent，将Gemini能力带入终端。支持命令行交互、代码执行和文件操作，星标10.6万，是终端Agent工具的代表，强调开发者的高效工作流。"
+      "name": "oh-my-claudecode",
+      "full_name": "Yeachan-Heo/oh-my-claudecode",
+      "summary": "面向团队的Claude Code多代理编排工具，专注于团队协作场景，通过多代理协同工作提升代码生成与维护效率。"
     },
     {
-      "name": "ruflo",
-      "full_name": "ruvnet/ruflo",
-      "summary": "原生的Agent元框架，支持部署多智能体群、协调自主工作流，并集成自适应记忆、自学习智能和RAG。兼容Claude Code、Codex、Hermes等多种Agent，是构建复杂Agent生态的底层工具。"
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "summary": "强大的AI代理与工作流构建部署工具，提供可视化界面，支持拖拽式编排，降低AI应用开发门槛，适合快速原型和复杂流程设计。"
+    },
+    {
+      "name": "openai-agents-python",
+      "full_name": "openai/openai-agents-python",
+      "summary": "OpenAI官方推出的轻量级多代理工作流框架，设计简洁、功能强大，为开发者提供标准化的多代理协作能力，是构建复杂AI应用的基础设施。"
     },
     {
       "name": "pi",
       "full_name": "earendil-works/pi",
-      "summary": "AI Agent工具包，提供统一LLM API、Agent循环、TUI和编码Agent CLI。TypeScript实现，星标9万，旨在简化Agent开发，适合构建交互式终端应用和自动化任务。"
+      "summary": "AI代理工具包，提供统一LLM API、代理循环、TUI和编码代理CLI，集成多种功能，适合开发者在终端环境中高效构建和交互AI代理。"
     },
     {
-      "name": "cline",
-      "full_name": "cline/cline",
-      "summary": "自主编码Agent，可作为SDK、IDE扩展或CLI助手使用。TypeScript编写，星标6.6万，专注于代码生成和编辑，支持多文件操作，是AI辅助编程领域的重要玩家。"
+      "name": "LibreChat",
+      "full_name": "danny-avila/LibreChat",
+      "summary": "增强版ChatGPT克隆，支持代理、MCP、技能、多种AI模型（如DeepSeek、Anthropic、OpenAI等），具备丰富的功能如代码解释器、消息搜索、多用户认证，可自托管，是功能全面的开源聊天平台。"
+    },
+    {
+      "name": "ruflo",
+      "full_name": "ruvnet/ruflo",
+      "summary": "原生的代理元框架，支持部署多智能体群、协调自主工作流，具备自适应记忆、自学习智能、RAG集成，并原生集成Claude Code、Codex、Hermes等，适合构建复杂对话系统。"
+    },
+    {
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "summary": "快速、小巧、完全自主的AI个人助理基础设施，支持任何操作系统和平台，可部署在任何地方，组件可替换，采用Rust编写，强调性能和可移植性。"
     }
   ],
   "recommendation": [
     {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
-      "reason": "星标数远超其他项目（23万+），代表社区对自适应、成长型Agent的强烈期待。其理念可能引领下一代Agent范式，值得密切关注其技术实现和生态发展。"
+      "reason": "拥有超23万星标，是当前最受关注的AI代理项目，其'与用户共同成长'的理念和持续学习能力可能代表未来个人化代理的发展方向。"
+    },
+    {
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "reason": "以可视化方式构建和部署AI代理与工作流，极大降低了开发门槛，15万+星标验证了其市场认可度，是快速实现AI应用落地的关键工具。"
     },
     {
       "name": "openai-agents-python",
       "full_name": "openai/openai-agents-python",
-      "reason": "由OpenAI官方维护，是构建多Agent工作流的标准框架。轻量且强大，背靠OpenAI的模型生态，是开发企业级Agent应用的首选基础工具，具有战略意义。"
-    },
-    {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "reason": "Google官方推出的终端Agent，将前沿Gemini模型与命令行工作流结合，星标10.6万。它代表了Agent在开发者工具中的落地趋势，且背靠Google资源，未来潜力巨大。"
+      "reason": "由OpenAI官方维护，提供轻量级多代理框架，是构建标准化、可扩展多代理系统的基石，对行业生态具有重要影响。"
     }
   ]
 }
