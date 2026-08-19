@@ -1,72 +1,74 @@
 {
-  "overall_summary": "当前开源AI Agent领域呈现爆发式增长，项目覆盖从底层框架（LangChain、Langflow）到终端应用（Cline、Gemini CLI）再到垂直场景（Browser-use、CrewAI）的全栈生态。技术栈以Python和TypeScript为主，强调多模型支持、自主决策、工具调用与工作流编排。高星项目（如hermes-agent 23万星、langflow 15万星）表明开发者对可扩展、可视化、易集成的Agent平台需求强烈。趋势上，Agent正从单一对话向操作系统化（eliza）、开发自动化（OpenHands）和浏览器交互（browser-use）演进，同时注重安全、多用户和企业级部署。",
+  "overall_summary": "当前开源AI Agent生态呈现多元化与平台化趋势，覆盖从底层框架（LangChain、OpenAI Agents）到开发工具（Cline、Langflow）、操作系统（Eliza、Zeroclaw）、记忆层（Claude-Mem）及垂直应用（LibreChat、Hermes）的完整技术栈。项目普遍强调自主性、多智能体协作、跨平台部署与持久记忆，语言以Python和TypeScript为主，Rust开始崭露头角。",
   "project_summaries": [
     {
-      "name": "langchain",
-      "full_name": "langchain-ai/langchain",
-      "summary": "作为Agent工程化平台，LangChain提供模块化组件和链式编排，支持多种LLM、工具和记忆管理，是构建复杂Agent应用的基础框架，拥有庞大社区和生态。"
+      "name": "prime-agent",
+      "full_name": "PrimeIntellect-ai/prime-agent",
+      "summary": "面向编码工作流和长时自主任务的自我改进RLM（强化学习模型）代理，强调持续学习和任务自动化。"
+    },
+    {
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "summary": "定位为“与你共同成长的代理”，强调个性化与适应性，基于Python实现，拥有超高星标数，社区关注度极高。"
     },
     {
       "name": "eliza",
       "full_name": "elizaOS/eliza",
-      "summary": "开源Agent操作系统，旨在提供类似操作系统的环境来运行和管理多个AI代理，强调自主性和可扩展性，适合构建多Agent协作系统。"
-    },
-    {
-      "name": "crewAI",
-      "full_name": "crewAIInc/crewAI",
-      "summary": "专注于角色扮演和自主Agent编排的框架，通过协作智能让多个Agent无缝合作处理复杂任务，简化了多Agent工作流的定义和执行。"
+      "summary": "开源代理操作系统，提供类似操作系统的抽象层，支持多种代理应用，TypeScript实现，生态活跃。"
     },
     {
       "name": "LibreChat",
       "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，集成Agent、MCP、技能、多模型（OpenAI、Anthropic等）和丰富功能（代码解释器、消息搜索、多用户认证），支持自托管，是功能全面的AI聊天平台。"
-    },
-    {
-      "name": "browser-use",
-      "full_name": "browser-use/browser-use",
-      "summary": "使网站对AI代理可访问，自动化在线任务，通过浏览器交互实现网页操作、数据提取和流程自动化，是连接AI与Web的关键工具。"
+      "summary": "增强版ChatGPT克隆，集成Agents、MCP、Skills、多模型支持（OpenAI、Anthropic、AWS等），提供丰富功能如代码解释器、消息搜索、多用户认证，适合自托管。"
     },
     {
       "name": "cline",
       "full_name": "cline/cline",
-      "summary": "自主编码Agent，提供SDK、IDE扩展和CLI三种形态，辅助开发者编写、调试和重构代码，提升开发效率。"
-    },
-    {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "summary": "标榜“与你共同成长的Agent”，强调个性化学习和持续进化，可能具备记忆和自适应能力，面向长期陪伴和深度定制场景。"
-    },
-    {
-      "name": "OpenHands",
-      "full_name": "OpenHands/OpenHands",
-      "summary": "AI驱动的开发平台，通过自然语言指令自动完成软件开发任务，涵盖代码生成、测试和部署，是AI辅助开发的代表性项目。"
-    },
-    {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google推出的开源终端AI代理，将Gemini模型能力带入命令行，支持自然语言交互、命令执行和任务自动化，为开发者提供便捷的终端助手。"
+      "summary": "自主编码代理，以SDK、IDE扩展或CLI形式提供，支持多种开发环境，TypeScript实现，星标高，是开发者工具链中的热门选择。"
     },
     {
       "name": "langflow",
       "full_name": "langflow-ai/langflow",
-      "summary": "可视化工具，用于构建和部署AI代理及工作流，通过拖拽式界面降低开发门槛，支持快速原型设计和生产部署。"
+      "summary": "可视化构建AI代理和工作流的强大工具，Python实现，星标超15万，降低开发门槛，适合快速原型设计。"
+    },
+    {
+      "name": "langchain",
+      "full_name": "langchain-ai/langchain",
+      "summary": "代理工程平台，提供构建代理应用的完整框架，Python实现，是AI Agent生态的基石项目之一。"
+    },
+    {
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "summary": "快速、小巧、完全自主的AI个人助理基础设施，支持任何OS和平台，Rust实现，强调可移植性和模块化。"
+    },
+    {
+      "name": "claude-mem",
+      "full_name": "thedotmack/claude-mem",
+      "summary": "为所有代理提供跨会话持久上下文，捕获代理会话行为，AI压缩并注入相关上下文，兼容Claude Code、OpenClaw、Codex等，解决记忆丢失问题。"
+    },
+    {
+      "name": "openai-agents-python",
+      "full_name": "openai/openai-agents-python",
+      "summary": "OpenAI官方轻量级多代理工作流框架，Python实现，强调简洁和强大，适合构建多代理系统。"
     }
   ],
   "recommendation": [
     {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "reason": "拥有15万+星，可视化低代码平台极大降低了Agent开发门槛，适合快速迭代和企业级部署，是连接非技术人员与AI Agent的桥梁。"
-    },
-    {
-      "name": "browser-use",
-      "full_name": "browser-use/browser-use",
-      "reason": "10万+星，聚焦AI与Web交互，解决Agent实际应用中的关键瓶颈（网页操作），是自动化在线任务的核心工具，应用前景广阔。"
-    },
-    {
       "name": "hermes-agent",
       "full_name": "NousResearch/hermes-agent",
-      "reason": "23万+星，最高关注度，强调Agent的成长性和个性化，可能引领下一代自适应Agent发展方向，值得深入研究。"
+      "reason": "拥有23万+星标，社区热度极高，代表个性化代理的发展方向，可能引领下一代交互范式。"
+    },
+    {
+      "name": "langchain",
+      "full_name": "langchain-ai/langchain",
+      "summary": "作为代理工程平台，是构建复杂Agent应用的基础设施，生态成熟，影响深远。",
+      "reason": "作为代理工程平台，是构建复杂Agent应用的基础设施，生态成熟，影响深远。"
+    },
+    {
+      "name": "claude-mem",
+      "full_name": "thedotmack/claude-mem",
+      "summary": "解决代理持久记忆这一核心痛点，跨平台兼容，是提升代理自主性和连续性的关键组件。",
+      "reason": "解决代理持久记忆这一核心痛点，跨平台兼容，是提升代理自主性和连续性的关键组件。"
     }
   ]
 }
