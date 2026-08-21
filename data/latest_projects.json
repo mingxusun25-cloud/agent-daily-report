@@ -1,92 +1,92 @@
 [
   {
+    "name": "eliza",
+    "full_name": "elizaOS/eliza",
+    "url": "https://github.com/elizaOS/eliza",
+    "description": "Open source agentic operating system",
+    "stars": 19108,
+    "language": "TypeScript",
+    "updated_at": "2026-08-21T00:33:21Z"
+  },
+  {
+    "name": "headroom",
+    "full_name": "headroomlabs-ai/headroom",
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+    "stars": 67018,
+    "language": "Python",
+    "updated_at": "2026-08-21T00:33:01Z"
+  },
+  {
     "name": "cline",
     "full_name": "cline/cline",
     "url": "https://github.com/cline/cline",
     "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-    "stars": 66499,
+    "stars": 66555,
     "language": "TypeScript",
-    "updated_at": "2026-08-20T00:29:55Z"
+    "updated_at": "2026-08-21T00:31:27Z"
   },
   {
     "name": "hermes-agent",
     "full_name": "NousResearch/hermes-agent",
     "url": "https://github.com/NousResearch/hermes-agent",
     "description": "The agent that grows with you",
-    "stars": 233053,
+    "stars": 233546,
     "language": "Python",
-    "updated_at": "2026-08-20T00:28:38Z"
-  },
-  {
-    "name": "crewAI",
-    "full_name": "crewAIInc/crewAI",
-    "url": "https://github.com/crewAIInc/crewAI",
-    "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-    "stars": 57338,
-    "language": "Python",
-    "updated_at": "2026-08-20T00:27:21Z"
-  },
-  {
-    "name": "LibreChat",
-    "full_name": "danny-avila/LibreChat",
-    "url": "https://github.com/danny-avila/LibreChat",
-    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
-    "stars": 42248,
-    "language": "TypeScript",
-    "updated_at": "2026-08-20T00:23:51Z"
-  },
-  {
-    "name": "anything-llm",
-    "full_name": "Mintplex-Labs/anything-llm",
-    "url": "https://github.com/Mintplex-Labs/anything-llm",
-    "description": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
-    "stars": 64930,
-    "language": "JavaScript",
-    "updated_at": "2026-08-20T00:23:42Z"
-  },
-  {
-    "name": "zeroclaw",
-    "full_name": "zeroclaw-labs/zeroclaw",
-    "url": "https://github.com/zeroclaw-labs/zeroclaw",
-    "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀",
-    "stars": 32619,
-    "language": "Rust",
-    "updated_at": "2026-08-20T00:23:22Z"
+    "updated_at": "2026-08-21T00:23:14Z"
   },
   {
     "name": "cherry-studio",
     "full_name": "CherryHQ/cherry-studio",
     "url": "https://github.com/CherryHQ/cherry-studio",
     "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-    "stars": 50789,
+    "stars": 50843,
     "language": "TypeScript",
-    "updated_at": "2026-08-20T00:20:08Z"
-  },
-  {
-    "name": "eliza",
-    "full_name": "elizaOS/eliza",
-    "url": "https://github.com/elizaOS/eliza",
-    "description": "Open source agentic operating system",
-    "stars": 19097,
-    "language": "TypeScript",
-    "updated_at": "2026-08-20T00:19:56Z"
+    "updated_at": "2026-08-21T00:20:22Z"
   },
   {
     "name": "langflow",
     "full_name": "langflow-ai/langflow",
     "url": "https://github.com/langflow-ai/langflow",
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-    "stars": 153483,
+    "stars": 153513,
     "language": "Python",
-    "updated_at": "2026-08-20T00:18:45Z"
+    "updated_at": "2026-08-21T00:19:02Z"
   },
   {
-    "name": "OpenHands",
-    "full_name": "OpenHands/OpenHands",
-    "url": "https://github.com/OpenHands/OpenHands",
-    "description": "🙌 OpenHands: AI-Driven Development",
-    "stars": 84509,
+    "name": "browser-use",
+    "full_name": "browser-use/browser-use",
+    "url": "https://github.com/browser-use/browser-use",
+    "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+    "stars": 109887,
+    "language": "Python",
+    "updated_at": "2026-08-21T00:00:12Z"
+  },
+  {
+    "name": "LibreChat",
+    "full_name": "danny-avila/LibreChat",
+    "url": "https://github.com/danny-avila/LibreChat",
+    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+    "stars": 42285,
     "language": "TypeScript",
-    "updated_at": "2026-08-20T00:15:58Z"
+    "updated_at": "2026-08-20T23:57:00Z"
+  },
+  {
+    "name": "gemini-cli",
+    "full_name": "google-gemini/gemini-cli",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+    "stars": 106595,
+    "language": "TypeScript",
+    "updated_at": "2026-08-20T23:46:17Z"
+  },
+  {
+    "name": "crewAI",
+    "full_name": "crewAIInc/crewAI",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+    "stars": 57395,
+    "language": "Python",
+    "updated_at": "2026-08-20T23:41:30Z"
   }
 ]

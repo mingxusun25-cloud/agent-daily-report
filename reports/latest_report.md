@@ -1,108 +1,108 @@
 # 今日 GitHub AI Agent 趋势报告
 
-生成时间：2026-08-20 00:30
+生成时间：2026-08-21 00:33
 
 ## 一、今日总体趋势
 
-该列表展示了当前开源 AI Agent 领域的多元化生态，覆盖了从开发工具、个人助手到企业级框架的多个层面。项目普遍强调自主性、多模型集成和本地化部署，技术栈以 Python 和 TypeScript 为主，同时出现了 Rust 等新兴语言。整体趋势是向更智能、更自主、更易集成的方向发展，且社区活跃度极高。
+当前开源AI Agent生态呈现多元化发展态势，覆盖操作系统级框架、开发工具、浏览器自动化、低代码平台及终端助手等方向。项目普遍采用TypeScript或Python，强调自主性、协作性与可扩展性。技术趋势聚焦于降低LLM使用成本（如token压缩）、提升Agent交互能力（如浏览器操作）、以及提供一体化开发体验（如SDK/IDE/CLI）。高星项目（如hermes-agent、langflow）表明社区对通用型、可视化Agent构建平台的强烈需求。
 
 ## 二、热门项目列表
 
-### 1. cline
+### 1. eliza
 
-- Star：66499
+- Star：19108
 - 语言：TypeScript
-- 更新时间：2026-08-20T00:29:55Z
-- 地址：https://github.com/cline/cline
-- 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
-- AI 总结：一个自主编码代理，以 SDK、IDE 扩展或 CLI 助手的形式提供，旨在帮助开发者自动完成编码任务，提升开发效率。
-
-### 2. hermes-agent
-
-- Star：233053
-- 语言：Python
-- 更新时间：2026-08-20T00:28:38Z
-- 地址：https://github.com/NousResearch/hermes-agent
-- 项目描述：The agent that grows with you
-- AI 总结：一个强调与用户共同成长的 AI 代理，由 NousResearch 开发，采用 Python 编写，旨在提供个性化、可扩展的智能助手体验。
-
-### 3. crewAI
-
-- Star：57338
-- 语言：Python
-- 更新时间：2026-08-20T00:27:21Z
-- 地址：https://github.com/crewAIInc/crewAI
-- 项目描述：Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
-- AI 总结：一个用于编排角色扮演、自主 AI 代理的框架，通过促进协作智能，使多个代理能够无缝协作，处理复杂任务。
-
-### 4. LibreChat
-
-- Star：42248
-- 语言：TypeScript
-- 更新时间：2026-08-20T00:23:51Z
-- 地址：https://github.com/danny-avila/LibreChat
-- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active
-- AI 总结：增强版 ChatGPT 克隆，集成了代理、MCP、技能、多种 AI 模型（如 DeepSeek、OpenAI、Gemini 等），支持自托管，功能丰富，包括消息搜索、代码解释器等。
-
-### 5. anything-llm
-
-- Star：64930
-- 语言：JavaScript
-- 更新时间：2026-08-20T00:23:42Z
-- 地址：https://github.com/Mintplex-Labs/anything-llm
-- 项目描述：Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience 
-- AI 总结：一个本地优先的 AI 代理体验平台，提供构建强大 AI 应用所需的一切，强调数据所有权和本地化部署。
-
-### 6. zeroclaw
-
-- Star：32619
-- 语言：Rust
-- 更新时间：2026-08-20T00:23:22Z
-- 地址：https://github.com/zeroclaw-labs/zeroclaw
-- 项目描述：Fast, small, and fully autonomous AI personal assistant infrastructure, any OS, any platform — deploy anywhere, swap anything 🦀
-- AI 总结：一个快速、小巧且完全自主的 AI 个人助理基础设施，支持任何操作系统和平台，可部署在任何地方，并允许灵活替换组件，采用 Rust 编写。
-
-### 7. cherry-studio
-
-- Star：50789
-- 语言：TypeScript
-- 更新时间：2026-08-20T00:20:08Z
-- 地址：https://github.com/CherryHQ/cherry-studio
-- 项目描述：AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
-- AI 总结：一个 AI 生产力工作室，提供智能聊天、自主代理和 300+ 助手，统一访问前沿 LLM，旨在提升用户的工作效率。
-
-### 8. eliza
-
-- Star：19097
-- 语言：TypeScript
-- 更新时间：2026-08-20T00:19:56Z
+- 更新时间：2026-08-21T00:33:21Z
 - 地址：https://github.com/elizaOS/eliza
 - 项目描述：Open source agentic operating system
-- AI 总结：一个开源的代理操作系统，由 elizaOS 开发，旨在为 AI 代理提供一个基础运行环境，支持构建复杂的代理应用。
+- AI 总结：开源智能体操作系统，旨在为AI代理提供底层运行环境，支持复杂任务编排与资源管理，采用TypeScript构建。
 
-### 9. langflow
+### 2. headroom
 
-- Star：153483
+- Star：67018
 - 语言：Python
-- 更新时间：2026-08-20T00:18:45Z
+- 更新时间：2026-08-21T00:33:01Z
+- 地址：https://github.com/headroomlabs-ai/headroom
+- 项目描述：Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.
+- AI 总结：专注于压缩工具输出、日志、文件及RAG块，可减少20%编码代理token、60-95% JSON token，同时保持答案质量。提供库、代理和MCP服务器三种使用方式。
+
+### 3. cline
+
+- Star：66555
+- 语言：TypeScript
+- 更新时间：2026-08-21T00:31:27Z
+- 地址：https://github.com/cline/cline
+- 项目描述：Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
+- AI 总结：自主编码代理，支持SDK、IDE扩展和CLI三种形态，帮助开发者自动化编码任务，提升开发效率。
+
+### 4. hermes-agent
+
+- Star：233546
+- 语言：Python
+- 更新时间：2026-08-21T00:23:14Z
+- 地址：https://github.com/NousResearch/hermes-agent
+- 项目描述：The agent that grows with you
+- AI 总结：强调'随你成长'的智能体，具备高度可定制性和学习能力，旨在适应不同用户需求，星标数极高。
+
+### 5. cherry-studio
+
+- Star：50843
+- 语言：TypeScript
+- 更新时间：2026-08-21T00:20:22Z
+- 地址：https://github.com/CherryHQ/cherry-studio
+- 项目描述：AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs
+- AI 总结：AI生产力工作室，集成智能聊天、自主代理和300+助手，统一访问前沿LLM，提供一站式工作流。
+
+### 6. langflow
+
+- Star：153513
+- 语言：Python
+- 更新时间：2026-08-21T00:19:02Z
 - 地址：https://github.com/langflow-ai/langflow
 - 项目描述：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
-- AI 总结：一个用于构建和部署 AI 代理及工作流的强大工具，提供可视化界面，简化开发过程，拥有极高的社区关注度。
+- AI 总结：低代码平台，用于构建和部署AI代理及工作流，可视化拖拽界面降低开发门槛，支持复杂流程编排。
 
-### 10. OpenHands
+### 7. browser-use
 
-- Star：84509
+- Star：109887
+- 语言：Python
+- 更新时间：2026-08-21T00:00:12Z
+- 地址：https://github.com/browser-use/browser-use
+- 项目描述：🌐 Make websites accessible for AI agents. Automate tasks online with ease.
+- AI 总结：让网站对AI代理可访问，自动化在线任务，通过浏览器操作扩展Agent能力，实现网页交互自动化。
+
+### 8. LibreChat
+
+- Star：42285
 - 语言：TypeScript
-- 更新时间：2026-08-20T00:15:58Z
-- 地址：https://github.com/OpenHands/OpenHands
-- 项目描述：🙌 OpenHands: AI-Driven Development
-- AI 总结：一个 AI 驱动的开发平台，旨在通过 AI 辅助完成软件开发任务，提升开发效率和自动化水平。
+- 更新时间：2026-08-20T23:57:00Z
+- 地址：https://github.com/danny-avila/LibreChat
+- 项目描述：Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active
+- AI 总结：增强版ChatGPT克隆，支持多模型切换、代理、MCP、技能、代码解释器等，提供安全多用户认证，适合自托管。
+
+### 9. gemini-cli
+
+- Star：106595
+- 语言：TypeScript
+- 更新时间：2026-08-20T23:46:17Z
+- 地址：https://github.com/google-gemini/gemini-cli
+- 项目描述：An open-source AI agent that brings the power of Gemini directly into your terminal.
+- AI 总结：Google开源终端AI代理，将Gemini能力带入命令行，支持自然语言交互与任务自动化。
+
+### 10. crewAI
+
+- Star：57395
+- 语言：Python
+- 更新时间：2026-08-20T23:41:30Z
+- 地址：https://github.com/crewAIInc/crewAI
+- 项目描述：Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
+- AI 总结：角色扮演自主AI代理编排框架，通过协作智能让多个代理协同处理复杂任务，强调团队合作。
 
 ## 三、最值得关注的项目
 
-1. hermes-agent：拥有最高的星标数（233k），表明其社区认可度极高，且“与用户共同成长”的理念具有前瞻性，可能引领个性化 AI 代理的发展方向。
-2. langflow：星标数达 153k，且专注于可视化构建 AI 代理和工作流，降低了开发门槛，是推动 AI 代理普及的关键工具，具有广泛的应用前景。
-3. OpenHands：作为 AI 驱动开发的代表，星标数 84k，聚焦于软件开发自动化，直接切中开发者痛点，有望成为未来开发流程的核心组件。
+1. hermes-agent：星标数最高（23.3万），代表社区对自适应、成长型Agent的强烈兴趣，可能引领下一代个性化AI代理范式。
+2. langflow：低代码可视化构建Agent，降低使用门槛，星标15.3万，是主流工作流平台，适合企业级快速部署。
+3. headroom：解决LLM成本痛点，通过token压缩显著节省资源，星标6.7万且增长迅速，实用性强，可集成到现有Agent流程。
 
 ## 四、项目说明
 
