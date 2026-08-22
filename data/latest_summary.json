@@ -1,72 +1,72 @@
 {
-  "overall_summary": "当前开源AI Agent生态呈现多元化发展态势，覆盖操作系统级框架、开发工具、浏览器自动化、低代码平台及终端助手等方向。项目普遍采用TypeScript或Python，强调自主性、协作性与可扩展性。技术趋势聚焦于降低LLM使用成本（如token压缩）、提升Agent交互能力（如浏览器操作）、以及提供一体化开发体验（如SDK/IDE/CLI）。高星项目（如hermes-agent、langflow）表明社区对通用型、可视化Agent构建平台的强烈需求。",
+  "overall_summary": "当前开源AI Agent生态呈现多元化与平台化趋势，覆盖从底层操作系统、开发框架到终端应用的全栈层级。技术栈以TypeScript和Python为主，同时出现Rust等高性能语言实现。项目普遍强调多模型支持、自主工作流、跨会话记忆与可扩展性，反映出从单一聊天机器人向通用智能体基础设施演进的行业方向。",
   "project_summaries": [
     {
       "name": "eliza",
       "full_name": "elizaOS/eliza",
-      "summary": "开源智能体操作系统，旨在为AI代理提供底层运行环境，支持复杂任务编排与资源管理，采用TypeScript构建。"
-    },
-    {
-      "name": "headroom",
-      "full_name": "headroomlabs-ai/headroom",
-      "summary": "专注于压缩工具输出、日志、文件及RAG块，可减少20%编码代理token、60-95% JSON token，同时保持答案质量。提供库、代理和MCP服务器三种使用方式。"
-    },
-    {
-      "name": "cline",
-      "full_name": "cline/cline",
-      "summary": "自主编码代理，支持SDK、IDE扩展和CLI三种形态，帮助开发者自动化编码任务，提升开发效率。"
-    },
-    {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "summary": "强调'随你成长'的智能体，具备高度可定制性和学习能力，旨在适应不同用户需求，星标数极高。"
+      "summary": "定位为开源智能体操作系统，提供Agent运行的基础环境与核心服务，强调系统级抽象与资源管理，适合构建复杂自主代理应用。"
     },
     {
       "name": "cherry-studio",
       "full_name": "CherryHQ/cherry-studio",
-      "summary": "AI生产力工作室，集成智能聊天、自主代理和300+助手，统一访问前沿LLM，提供一站式工作流。"
-    },
-    {
-      "name": "langflow",
-      "full_name": "langflow-ai/langflow",
-      "summary": "低代码平台，用于构建和部署AI代理及工作流，可视化拖拽界面降低开发门槛，支持复杂流程编排。"
-    },
-    {
-      "name": "browser-use",
-      "full_name": "browser-use/browser-use",
-      "summary": "让网站对AI代理可访问，自动化在线任务，通过浏览器操作扩展Agent能力，实现网页交互自动化。"
+      "summary": "AI生产力工作室，集成智能聊天、自主代理及300+助手，统一接入前沿LLM，主打高效多任务处理与用户友好界面。"
     },
     {
       "name": "LibreChat",
       "full_name": "danny-avila/LibreChat",
-      "summary": "增强版ChatGPT克隆，支持多模型切换、代理、MCP、技能、代码解释器等，提供安全多用户认证，适合自托管。"
-    },
-    {
-      "name": "gemini-cli",
-      "full_name": "google-gemini/gemini-cli",
-      "summary": "Google开源终端AI代理，将Gemini能力带入命令行，支持自然语言交互与任务自动化。"
-    },
-    {
-      "name": "crewAI",
-      "full_name": "crewAIInc/crewAI",
-      "summary": "角色扮演自主AI代理编排框架，通过协作智能让多个代理协同处理复杂任务，强调团队合作。"
-    }
-  ],
-  "recommendation": [
-    {
-      "name": "hermes-agent",
-      "full_name": "NousResearch/hermes-agent",
-      "reason": "星标数最高（23.3万），代表社区对自适应、成长型Agent的强烈兴趣，可能引领下一代个性化AI代理范式。"
+      "summary": "增强版ChatGPT克隆，支持Agent、MCP、Skills及多种主流模型（OpenAI、Anthropic、Gemini等），提供安全多用户认证、消息搜索与代码解释器，适合自托管部署。"
     },
     {
       "name": "langflow",
       "full_name": "langflow-ai/langflow",
-      "reason": "低代码可视化构建Agent，降低使用门槛，星标15.3万，是主流工作流平台，适合企业级快速部署。"
+      "summary": "可视化工具，用于构建和部署AI代理及工作流，通过拖拽式界面降低开发门槛，支持复杂流程编排与快速原型设计。"
     },
     {
-      "name": "headroom",
-      "full_name": "headroomlabs-ai/headroom",
-      "reason": "解决LLM成本痛点，通过token压缩显著节省资源，星标6.7万且增长迅速，实用性强，可集成到现有Agent流程。"
+      "name": "hermes-agent",
+      "full_name": "NousResearch/hermes-agent",
+      "summary": "强调'随你成长'的智能代理，注重个性化与长期适应性，基于Python实现，可能聚焦于持续学习与用户行为建模。"
+    },
+    {
+      "name": "cline",
+      "full_name": "cline/cline",
+      "summary": "自主编码代理，提供SDK、IDE扩展及CLI三种形态，深度集成开发环境，旨在自动化代码生成、重构与调试任务。"
+    },
+    {
+      "name": "claude-mem",
+      "full_name": "thedotmack/claude-mem",
+      "summary": "跨会话持久记忆工具，捕获代理会话内容并用AI压缩，在后续会话中注入相关上下文，兼容Claude Code、Codex、Gemini等主流代理，解决上下文丢失问题。"
+    },
+    {
+      "name": "openai-agents-python",
+      "full_name": "openai/openai-agents-python",
+      "summary": "OpenAI官方推出的轻量级多代理工作流框架，强调简洁与强大，提供标准化的代理协作机制，适合快速构建生产级多智能体系统。"
+    },
+    {
+      "name": "zeroclaw",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "summary": "基于Rust的高性能自主AI个人助理基础设施，支持任意OS与平台，强调快速、小巧与完全自主，可灵活部署与组件替换。"
+    },
+    {
+      "name": "pi",
+      "full_name": "earendil-works/pi",
+      "summary": "综合AI代理工具包，包含统一LLM API、代理循环、TUI及编码代理CLI，为开发者提供一体化工具链，提升开发与运维效率。"
+    }
+  ],
+  "recommendation": [
+    {
+      "name": "langflow",
+      "full_name": "langflow-ai/langflow",
+      "reason": "拥有最高星标（153k+），可视化工作流构建方式极大降低AI代理开发门槛，是连接非技术人员与复杂代理系统的关键桥梁，生态成熟度高。"
+    },
+    {
+      "name": "claude-mem",
+      "full_name": "thedotmack/claude-mem",
+      "reason": "解决Agent领域核心痛点——跨会话记忆，且兼容多种主流代理工具，具有广泛适用性，是提升代理长期效能的必备组件，增长潜力巨大。"
+    },
+    {
+      "name": "openai-agents-python",
+      "full_name": "openai/openai-agents-python",
+      "reason": "由OpenAI官方维护，代表行业标准方向，轻量级设计适合快速集成，多代理工作流框架是未来复杂AI应用的基础，具有战略价值。"
     }
   ]
 }
